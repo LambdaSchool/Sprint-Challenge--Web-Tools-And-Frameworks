@@ -8253,6 +8253,9 @@ body .container {
   max-width: 880px;
   width: 100%;
 }
+body .container header {
+  background: #f4f4f4;
+}
 body .container header .row {
   width: 100%;
   text-align: center;
@@ -8266,7 +8269,30 @@ body .container header .row .col-sm-12 h1 {
 body .container header nav .row .col-sm-12 a {
   text-decoration: none;
   color: #22283B;
+  margin-left: 40px;
 }
-body .carousel .carousel-inner .carousel-item img {
-  width: 33%;
+body .main .row .col-sm-12 h3 {
+  color: #22283B;
+}
+body .main .row .col-sm-4 img {
+  width: 100%;
+}
+body .main .row .col-sm-8 button {
+  background-color: #22283B;
+}
+body .main .row .col-sm-4 ul {
+  list-style-type: none;
+}
+body .main .row .col-sm-4 ul li {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+body .main .row .col-sm-4 button {
+  margin-left: 100px;
+}
+body footer {
+  background: #e0e0e0;
+}
+body footer .row .col-sm-12 p {
+  text-align: center;
 }
