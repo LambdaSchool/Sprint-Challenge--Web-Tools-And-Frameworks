@@ -8249,10 +8249,13 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-nav .nav-link {
+.nav-container {
+  background-color: #f4f4f4;
+}
+.nav-container nav .nav-link {
   color: #22283B;
 }
-nav .nav-link:hover {
+.nav-container nav .nav-link:hover {
   color: #98a3c4;
 }
 form button {
