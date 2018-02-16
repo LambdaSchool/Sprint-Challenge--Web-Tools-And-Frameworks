@@ -1,24 +1,24 @@
 # Assessing Your Web Tools and Frameworks Learning
 
-* The objective of this challenge is test your knowledge on all of the topics surrounding web tools and frameworks you learned this week.
+<!-- * The objective of this challenge is test your knowledge on all of the topics surrounding web tools and frameworks you learned this week.
 * Answers to your written questions will be recorded in _Answers.md_
 * This is to be worked on alone but you can use outside resources. You can _reference_ any old code you may have and the training kit content, however, please refrain from copying and pasting any of your answers. Try and understand the question and put your responses in your own words. Be as thorough as possible when explaining something.
 
-* **Just a friendly Reminder** Don't fret or get anxious about this, this is a no-pressure assessment that is only going to help guide you here in the near future. This is NOT a pass/fail situation.
+* **Just a friendly Reminder** Don't fret or get anxious about this, this is a no-pressure assessment that is only going to help guide you here in the near future. This is NOT a pass/fail situation. -->
 
-## Start by forking and cloning this repository.
+<!-- ## Start by forking and cloning this repository.
 * Fork / Clone this project into a directory on your machine.
-* `cd` into the root directory of your local copy.
-
+* `cd` into the root directory of your local copy. -->
+<!-- 
 ## Questions - Self Study - You can exercise your Google-Fu for this and any other _Sprint Challenge_ in the future. Remember to record your answers in _Answers.md_
 
 1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
 2. What is the npm command to globally install LESS?
 3. What is the most useful mixin you have used this week?
 4. What are the names of the 5 breakpoints used in bootstrap?
-5. What is the utility class name that turns an element into a flexbox?
+5. What is the utility class name that turns an element into a flexbox? -->
 
-## Lets get started on the project
+<!-- ## Lets get started on the project
 For this sprint challenge you will be building a web page from scratch for a space magazine called SpaceWalker.  
 
 * SpaceWalker has provided you a desktop design file that they would like their site to look similar to.  **They are not asking for pixel perfection!**
@@ -35,7 +35,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 3. ```mixins.less```
 4. ```layout.less```
 
-* After you have your ```index.less``` imports set up, run ```less-watch-compiler less css index.less``` to get your styles going.
+* After you have your ```index.less``` imports set up, run ```less-watch-compiler less css index.less``` to get your styles going. -->
 * Notice the ```variables.less``` file has the color scheme ready to go for you.  Use these variables to match the design provided to you.
 * You will notice the ```mixins.less``` file has several mixins ready to be used.  Find ways to use at least 2 of these mixins after you have laid out the site.
 
@@ -49,7 +49,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 * Use the spacing utilities to match the layout design. 
 * Use any flexbox utilities you may need to match the design.
 
-## Task 4: Components
+<!-- ## Task 4: Components
 * Implement the carousel at the top of the content.  Make sure to include all 4 images.
 * Pick one more component of your choice to implement in the project:
   - Collapse
@@ -57,7 +57,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
   - Modals
   - Tooltips
   - Scrollspy
-  - Navbar
+  - Navbar -->
 
 * Once you're done with all four tasks, push your commits to your fork and submit a Pull-Request
 
