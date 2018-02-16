@@ -8248,6 +8248,9 @@ body {
 .sticky-top a {
   color: #22283B;
 }
+.container {
+  max-width: 900px;
+}
 h1,
 h2,
 h3,
