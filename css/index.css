@@ -8249,7 +8249,19 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+nav .nav-link {
+  color: #22283B;
+}
+nav .nav-link:hover {
+  color: #98a3c4;
+}
 form button {
   background: #22283B;
   color: white;
+}
+.footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
 }

@@ -7,6 +7,16 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
+nav {
+    .nav-link {
+        color: @secondary-color;
+
+    &:hover {
+        color: lighten(@secondary-color, 50%);
+    }
+    }
+}
+
 
 form {
     button {
@@ -14,3 +24,11 @@ form {
         color: white;
     }
 }
+
+
+.footer {
+    color: @secondary-color;
+    background: @main-color;
+    padding: 20px 0;
+    text-align: center;
+  }
