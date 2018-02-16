@@ -8256,11 +8256,14 @@ h5 {
 nav a {
   color: #22283B;
 }
+.carousel-container img {
+  width: 100%;
+}
 .main-body {
   background: #f4f4f4;
 }
 .main-body img {
-  max-width: 350px;
+  max-width: 370px;
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
