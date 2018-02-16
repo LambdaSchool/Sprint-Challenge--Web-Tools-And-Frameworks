@@ -1,1 +1,79 @@
 // Make your imports here!
+@import "bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+@import "layout.less";
+body{font-size:62.5%;}
+table{
+	font-size:1rem;
+	@media(max-width:400px){
+		font-size:.8rem;	
+		
+	}
+}
+.spaceWalk{
+	img{
+		width:25%;
+		margin-left:5%;
+		height:250px;
+
+		display:inline;
+		@media(min-width:0px){
+			display:none;
+		}
+		
+
+		@media(min-width:600px){
+			display:block;
+			width:80%;
+			margin-left:5%;
+			height:80px;
+		}
+
+		@media(min-width:990px){
+			width:50%;
+			margin-left:5%;
+			height:150px;
+		}
+	}
+}
+.card-header{
+	button{
+		font-size:1rem;
+
+		@media(max-width:980px){
+			font-size:.7rem;
+		}
+		@media(max-width:800px){
+			font-size:.5rem;
+		}
+		@media(max-width:700px){
+			font-size:.6rem;
+		}
+	}
+}
+.liftOff{
+	img{
+		width:25%;
+		margin-left:5%;
+		height:250px;
+
+		display:inline;
+		
+		@media(max-width:1200px){
+			width:25%;
+			margin-left:5%;
+			height:150px;
+		}
+		@media(max-width:800px){
+			width:25%;
+			margin-left:5%;
+			height:150px;
+		}
+		@media(max-width:400px){
+			width:25%;
+			margin-left:5%;
+			height:100px;
+		}
+	}
+}
