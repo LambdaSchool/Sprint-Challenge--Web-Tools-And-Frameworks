@@ -5,23 +5,45 @@
 
 .container-fluid {
     background: @accent-color;
-    width: 100%;
+    border-bottom: 2px solid darken(@accent-color, 15%);
+}
 
-}
-.logo-heading {
-    background: @accent-color;
-    margin: 10px 0;
-}
 nav {
-    background: @accent-color;
-    margin-top: 0;
-    border-bottom: 1px solid darken(@accent-color, 30%);
     a {
         color: @secondary-color;
+    }
+    .dropdown-menu {
+        background: @accent-color;
+        .dropdown-item:hover {
+            background: @accent-color;
+        }
+        
+    }
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.img-fluid {
+    &:hover {
+        opacity: 0.5;
+        .skew(10deg, 10deg);
+        .box-shadow(5px 5px 5px 5px);
     }
 }
 
 .space-walk {
     border-top: 1px solid @accent-color;
     border-bottom: 1px solid @accent-color;
+}
+
+ .btn-info {
+    background-color: @secondary-color;
+    border-color: black;
+}
+
+.footer {
+    background: @main-color;
 }

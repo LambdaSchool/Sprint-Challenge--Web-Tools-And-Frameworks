@@ -8251,21 +8251,39 @@ h5 {
 }
 .container-fluid {
   background: #e0e0e0;
-  width: 100%;
-}
-.logo-heading {
-  background: #e0e0e0;
-  margin: 10px 0;
-}
-nav {
-  background: #e0e0e0;
-  margin-top: 0;
-  border-bottom: 1px solid #939393;
+  border-bottom: 2px solid #bababa;
 }
 nav a {
   color: #22283B;
 }
+nav .dropdown-menu {
+  background: #e0e0e0;
+}
+nav .dropdown-menu .dropdown-item:hover {
+  background: #e0e0e0;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+}
+.img-fluid:hover {
+  opacity: 0.5;
+  -webkit-transform: skew(10deg, 10deg);
+  -moz-transform: skew(10deg, 10deg);
+  -ms-transform: skew(10deg, 10deg);
+  -o-transform: skew(10deg, 10deg);
+  -webkit-box-shadow: 5px 5px 5px 5px;
+  -moz-box-shadow: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 5px 5px;
+}
 .space-walk {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
+}
+.btn-info {
+  background-color: #22283B;
+  border-color: black;
+}
+.footer {
+  background: #f4f4f4;
 }
