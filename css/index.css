@@ -8253,3 +8253,8 @@ h5 {
   text-decoration: none;
   color: black;
 }
+.space-walk {
+  -webkit-box-shadow: 10px 10px 5px gray;
+  -moz-box-shadow: 10px 10px 5px gray;
+  box-shadow: 10px 10px 5px gray;
+}
