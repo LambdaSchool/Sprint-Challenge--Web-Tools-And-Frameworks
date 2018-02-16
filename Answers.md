@@ -6,6 +6,6 @@
 
 3. I don't believe I've utilized mixins that much to declare a "most useful mixin," however I do remember being surprised by the ```.skew``` mixin in Preprocessing-II, when I first was introduced to mixins.
 
-4. 5 Bootstrap Breakpoints: xs, sm, md, lg
+4. 5 Bootstrap Breakpoints: xs, sm, md, lg, xl
 
 5. The ```display``` utility class can apply flexbox attributes.
