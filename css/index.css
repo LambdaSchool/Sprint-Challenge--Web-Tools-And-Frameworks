@@ -8255,3 +8255,10 @@ body {
 .container {
   max-width: 800px;
 }
+.footer {
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+}
+.navbar {
+  background: #f4f4f4;
+}
