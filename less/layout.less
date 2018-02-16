@@ -1,3 +1,18 @@
+   
+/*.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+}*/
+
+
 html, body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -5,4 +20,44 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+
+
+/*.container-fluid {
+    background-color:white;
+    border-bottom: 2px dashed silver; 
+     .container {
+    width: 880px;
+    margin: auto;
+    @media @Tab {
+        width: 95%;
+        
+    }
+        @media @iPh {
+            width: 80%;
+        }
+  }
+}
+    */
+
+.logo-heading {
+    padding: 20px 0 ;
+
+}
+
+.nav {
+    a {
+        color: silver;
+    }
+}
+
+.container {
+    max-width: 800px;
+}
+
+.footer {
+    color: black;
+    background: blanchedalmond;
+    padding: 20px 0;
 }
