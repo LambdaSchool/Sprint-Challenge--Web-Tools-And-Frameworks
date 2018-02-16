@@ -6,12 +6,24 @@ html, body {
     background-color: @accent-color;
     border-bottom: 2px solid silver;
 }
+.nav {
+    ul {
+      .opacity(0.75)
+      a {
+          color: @secondary-color;
+
+          &:hover {
+              text-decoration: underline;
+          }
+       }
+    }
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
 .btn-info {
-    color: #fff;
+    color @main-color;
     background-color: @secondary-color;
 }
 .footer {
