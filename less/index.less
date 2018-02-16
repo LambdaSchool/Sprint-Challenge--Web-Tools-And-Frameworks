@@ -10,9 +10,12 @@ body {
         width: 100%;
 
         header {
+            background: @main-color;
+
             .row {
                 width: 100%;
                 text-align: center;
+
 
                 .col-sm-12 {
                     width: 100%;
@@ -35,6 +38,7 @@ body {
                         a {
                             text-decoration: none;
                             color: @secondary-color;
+                            margin-left: 40px;
                         }
 
                         a:link {
@@ -43,31 +47,175 @@ body {
                 }
             }
         }
-        }
-        .carousel {
+    }
 
-            .carousel-inner {
+    .carousel {
 
-                .carousel-item {
+        .carousel-inner {
 
-                    img {
-                        width: 33%;
-                    }
-                }
-            }
-        }
-    
+            .carousel-item {
 
-        .main {
-
-            .row {
-
-                .col-sm-12 {
-
-                    h3 {
-                       // color: @secondary-color;
-                    }
+                img {
                 }
             }
         }
     }
+
+
+    .main {
+
+        .row {
+
+            .col-sm-12 {
+
+                h3 {
+                    color: @secondary-color;
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-12 {
+
+                p {
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-4 {
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-12 {
+
+                h3 {
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-12 {
+
+                p {
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-12 {
+
+                table {
+
+                    thead {
+
+                        tr {
+
+                            th {
+                            }
+                        }
+                    }
+
+                    tbody {
+
+                        tr {
+
+                            td {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-6 {
+
+                h3 {
+                }
+
+                p {
+                }
+            }
+
+            .col-sm-6 {
+
+                img {
+                }
+            }
+        }
+
+        .row {
+
+            .col-sm-8 {
+
+                h3 {
+                }
+
+                form {
+
+                    .form-group {
+
+                        label {
+                        }
+
+                        .form-control {
+                        }
+
+                        .form-check {
+                        }
+                    }
+                }
+
+                button {
+                    background-color: @secondary-color;
+                }
+            }
+
+            .col-sm-4 {
+
+                h2 {
+                }
+
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        border: 1px solid @accent-color;
+                        padding: 10px;
+                    }
+                }
+                button {
+
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+
+    footer {
+        background: @accent-color;
+        ;
+
+        .row {
+
+            .col-sm-12 {
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
