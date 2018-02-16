@@ -1,1 +1,81 @@
 // Make your imports here!
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.container {
+    max-width: 1000px;
+    border: 2px solid red;
+}
+
+header {
+    background: @accent-color;
+}
+
+.nav-header {
+    background: @accent-color;
+}
+.nav-link {
+    color: @secondary-color;
+    font-weight: bolder;
+
+    @media @max422 {
+        font-size: 90%;
+    }
+}
+
+.carousel {
+    border: 2px solid pink;
+    width: 720px;
+}
+
+.carousel-row {
+    border: 2px solid blue;
+}
+
+.carousel-col {
+    border: 2px solid green;
+}
+
+.top-content-row {
+    border: 2px solid orange;
+}
+
+.top-content-col {
+    max-width: 720px;
+    border: 2px solid cadetblue
+}
+
+.ctn-img-row {
+    border: 2px solid cyan;
+}
+
+.ctn-img-col {
+    max-width: 240px;
+    border: 2px solid teal;
+}
+
+.btn-content-row {
+    border: 2px solid orange;
+}
+
+.btn-content-col {
+    max-width: 720px;
+    border: 2px solid cadetblue
+}
+
+.footer-row {
+    border: 2px solid goldenrod;
+}
+
+.footer-col {
+    border: 2px solid lime;
+    background: @accent-color;
+    height: 80px;
+    max-width: 800px;
+}
+
+footer {
+    padding-top: 15px;
+}
