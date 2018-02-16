@@ -8249,14 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  max-width: 800px;
-}
-header {
-  background: #e0e0e0;
-}
-.nav-header {
-  background: #e0e0e0;
+.container-fluid {
+  background-color: #f4f4f4;
+  border-bottom: 2px double #e0e0e0;
 }
 .nav-link {
   color: #22283B;
@@ -8267,6 +8262,15 @@ header {
     font-size: 85%;
   }
 }
+.container {
+  max-width: 800px;
+}
+.footer-col {
+  background: #f4f4f4;
+  color: #22283B;
+  border: 1px double #e0e0e0;
+  height: 80px;
+}
 .ctn-img-col img {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -8275,9 +8279,10 @@ header {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.footer-col {
-  background: #e0e0e0;
-  height: 80px;
+.last-img-col img {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 footer {
   padding-top: 15px;
