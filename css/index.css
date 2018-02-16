@@ -8264,6 +8264,7 @@ nav a {
 }
 .main-body img {
   max-width: 370px;
+  width: 100%;
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
