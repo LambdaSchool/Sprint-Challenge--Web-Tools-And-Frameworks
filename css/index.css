@@ -8256,3 +8256,7 @@ nav a {
   color: #22283B;
   text-decoration: underline;
 }
+.footer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
