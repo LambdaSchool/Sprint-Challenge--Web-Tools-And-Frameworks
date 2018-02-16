@@ -8259,8 +8259,17 @@ nav a {
 .main-body {
   background: #f4f4f4;
 }
-.main-body .photorow .col-4 img {
+.main-body img {
   max-width: 350px;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .main-body button {
   background: #22283B;
