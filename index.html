@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>SpaceWalkers</title>
 
@@ -15,31 +16,30 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
 
-    <h1>SpaceWalkers</h1>
-
-      <header>
-          <nav>
-              <ul>
-                  <li>
-                      <a href="#">Home</a>
-                  </li>
-                  <li>
-                      <a href="#">About Us</a>
-                  </li>
-                  <li>
-                      <a href="#">Blog</a>
-                  </li>
-                  <li>
-                      <a href="#">Contact</a>
-                  </li>
-                  <li>
-                      <a href="#">Sign In</a>
-                  </li>
-              </ul>
-          </nav>
-      </header>
+      <div class="page header">
+         <h1>SpaceWalkers</h1>
+         <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Sign In</a>
+                    </li>
+                </ul>
+            </nav>
+      </div>
 
       <img class="firstpic" src="./img/slider-1.jpg" alt="Earth Picture">
 
@@ -49,9 +49,9 @@
               <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
           </div>
 
-          <img class="secondpic" src="./img/blast.jpg" alt="Launch Picture">
-          <img class="thirdpic" src="./img/sky.jpg" alt="Sky Picture">
-          <img class="fourthpic" src="./img/launch.jpg" alt="Launch Picture 2">
+          <img src="./img/blast.jpg" alt="Launch Picture" class="rounded" width="304" height="236">
+          <img class="rounded" src="./img/sky.jpg" alt="Sky Picture" width="304" height="236">
+          <img class="rounded" src="./img/launch.jpg" alt="Launch Picture 2" width="304" height="236">
      </section>
 
      <section class="moreinfo">
@@ -63,7 +63,7 @@
          </div>
      </section>
 
-     <table style="width:100%">
+     <table class="table table-striped">
          <tr>
              <th>Planet</th>
              <th>Distance</th>
@@ -98,7 +98,7 @@
                     It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
          </div>
 
-         <img class="fifthpic" src="./img/space-walk.jpg" alt="Launch Picture 2">
+         <img class="rounded" src="./img/space-walk.jpg" alt="Launch Picture 2" width="304" height="236">
      </section>
 
      <section class="contactform">
@@ -111,6 +111,8 @@
              <p>I would like to receive promotional emails</p>
              <p>Please don’t send me emails</p>
          </div>
+
+         <button type="button" class="btn btn-dark">Ready For Launch</button>
      </section>
 
      <section class="equip">
