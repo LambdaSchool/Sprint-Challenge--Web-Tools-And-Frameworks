@@ -16,7 +16,7 @@
 
 <body>
   <div class="container">
-    <header>
+    <header class="fixed-top">
     <div class="row">
       <div class="col-sm-12">
         <h1>SpaceWalkers</h1>
@@ -34,7 +34,7 @@
         </div>
     </nav>
     </header>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
@@ -64,12 +64,12 @@
                 <h3>Lift Off</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-2">
             <div class="col-sm-12">
                 <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-sm-4">
                 <img src="img/blast.jpg" alt="liftoff" />
             </div>
@@ -85,13 +85,13 @@
                 <h3>Can We Visit Planets?</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-sm-12">
                 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
                 <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-sm-12">
                 <table class="table table-striped">
                     <thead>
@@ -125,7 +125,7 @@
                 </table>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-sm-6">
                 <h3>Let's Go For A Walk</h3>
                 <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
@@ -135,7 +135,7 @@
                 <img src="img/space-walk.jpg" alt="spacewalk" />
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-sm-8">
                 <h3>Ready To Go?</h3>
                 <form>
@@ -171,7 +171,8 @@
                 <button type="submit" class="btn btn-primary">Ready For Launch</button>
             </div>
             <div class="col-sm-4">
-                <h2>Space Stuff</h2>
+                <h3 class="ml-5">Space Stuff</h3>
+                <div id="spaceStuff">
                 <ul>
                     <li>Space Helmet</li>
                     <li>Rocket Boosters</li>
@@ -180,6 +181,8 @@
                     <li>Heat resistent plating</li>
                     <li>Space Suit</li>
                 </ul>
+                </div>
+                <button data-toggle="collapse" data-target="#spaceStuff">Click Me!</button>
             </div>
         </div>
     </div>
