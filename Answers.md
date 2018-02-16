@@ -1,0 +1,9 @@
+1) Preprocessing is the idea where you can make something that is hard to use easier and more intuitive. This more intuitive idea is like a dialect in a language. It's like Old English, nobody speaks it, but that's where the basis of our language came from. We have CSS is like Old English, nobody wants to speak it anymore, but you must know the main ideas behind the language such as verbs, subject, and sentence structure. In CSS you must know the main ideas such as positioning (verbs) and selectors (subject) and the rule is the agreement. A CSS rule is a complete sentence because it follows subject verb agreement. However, because CSS is hard to use due to rewriting the same class/id/element and writing more selectors to have more specificity. Specificity is really important when it comes to actually being able to change styles. If it's not specific enough it won't change the style, or if someone used a really specific selector somewhere higher in the specificity chain it will still hold precedence over the selectors that were declared lower in the document. A preprocessor helps you by having a much easier, thought out, pattern to follow. It allows you to think about where the element is in relation to the page and not worry about which selectors to use. It allows you to focus on the styles you want to change and not be interrupted by your thoughts.
+
+2) The npm command to install LESS is "npm install -g less"
+
+3) The most useful mixin I used was a mixin I created to reset styles of an element
+
+4) The 5 breakpoints in bootstrap are: XS, SM, MD, LG, XL
+
+5) The utility class that turns an element into a flexbox is "d-flex"
