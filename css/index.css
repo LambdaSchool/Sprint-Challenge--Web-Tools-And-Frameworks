@@ -8259,9 +8259,9 @@ footer {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
 }
-.submitBtn {
+.btn {
   background-color: #22283B;
 }
-.submitBtn:hover {
+.btn:hover {
   background-color: black;
 }
