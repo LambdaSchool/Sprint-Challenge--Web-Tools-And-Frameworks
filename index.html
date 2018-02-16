@@ -17,29 +17,36 @@
 <body>
   <div class="container">
 
+    <div class="no-gutters custom-nav-bar py-2">
+      <div class="row justify-content-center">
+        <div class="col-sm-4">
+          <h1>SpaceWalkers</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-6">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="row justify-content-center">
-      <div class="col-sm-12">
-        <h1>SpaceWalkers</h1>
-      </div>
-      <div class="col-sm-12">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Sign In</a>
-          </li>
-        </ul>
-      </div>
       <div class="col-sm-12">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -68,7 +75,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row my-5">
       <div class="col-sm-12">
         <h2>Lift Off</h2>
       </div>
@@ -78,13 +85,13 @@
         </p>
       </div>
       <div class="col-sm-4">
-        <img class="img-fluid" src="img/blast.jpg" alt="Space shuttle blasting off against the sky" />
+        <img class="img-fluid rounded" src="img/blast.jpg" alt="Space shuttle blasting off against the sky" />
       </div>
       <div class="col-sm-4">
-        <img class="img-fluid" src="img/sky.jpg" alt="Sky with line trajectory of space shuttle" />
+        <img class="img-fluid rounded" src="img/sky.jpg" alt="Sky with line trajectory of space shuttle" />
       </div>
       <div class="col-sm-4">
-        <img class="img-fluid" src="img/launch.jpg" alt="Space shuttle blasting off from launch pad"/>
+        <img class="img-fluid rounded" src="img/launch.jpg" alt="Space shuttle blasting off from launch pad"/>
       </div>
     </div>
 
@@ -98,18 +105,11 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row my-5">
       <div class="col-sm-12">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody class="table-striped">
+        <table class="table table-striped">
+          <tbody>
+            <tr></tr> <!--Striping fix -->
             <tr>
               <td scope="row">Planet</td>
               <td>Distance</td>
@@ -139,40 +139,50 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row my-5 py-5 borders-custom">
       <div class="col-sm-5">
         <h2>Let's Go For A Walk</h2>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
         <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       </div>
       <div class="col-sm-5">
-        <img class="img-fluid" src="img/space-walk.jpg" alt="Astronaut floating in space with Earth behind them" />
+        <img class="img-fluid rounded" src="img/space-walk.jpg" alt="Astronaut floating in space with Earth behind them" />
       </div>
     </div>
 
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-sm-8">
         <h3>Ready To Go?</h3>
         <form>
-          <label for="name">Name</label>
-          <input id="name" type="text" class="form-control" placeholder="Name">
-          <label for="phone">Phone</label>
-          <input id="phone" type="phone" class="form-control" placeholder="Phone">
-          <label for="email">Email</label>
-          <input id="email" type="email" class="form-control" placeholder="Email">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              I would like to recieve promotional emails
-            </label>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" placeholder="Name">
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-            <label class="form-check-label" for="exampleRadios2">
-              Please don't send me emails
-            </label>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" type="phone" class="form-control" placeholder="Phone">
           </div>
-          <button type="submit" class="btn btn-info">Ready For Launch</button>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                I would like to recieve promotional emails
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Please don't send me emails
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-custom">Ready For Launch</button>
+          </div>
         </form>
       </div>
       <div class="col-sm-4">
@@ -188,9 +198,9 @@
       </div>
     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-sm-12">
-        <h5>Copyright SpaceWalkers 2018</h5>
+    <div class="row justify-content-center pt-2 pb-3 custom-footer">
+      <div class="col-sm-4">
+        <p>Copyright SpaceWalkers 2018</p>
       </div>
     </div>
   </div>
