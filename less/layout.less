@@ -2,7 +2,51 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+// BOX-SHADOW MIXIN
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+    .box-shadow(5px 5px 5px @accent-color);
+
+    &:hover {
+        .box-shadow(0 0);
+    }
+}
+
+body{
+    padding-top: 117px;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.footer {
+    background: @main-color;
+    border: 1px solid @accent-color;
+}
+// SKEW MIXIN
+.navbar {
+    background: @main-color;
+    .navbar-brand h1{
+        .skew(150deg, 0deg);
+    }
+}
+
+form button.btn{
+    background: @secondary-color;
+    color: white;
+}
+#headingOne h5, #headingTwo h5, #headingThree h5{
+    background: none;
+    .box-shadow(none);    
+
+    button {
+    background:none;
+
+    a{
+        display: block;
+        width: 100%;
+    }
+}
 }
