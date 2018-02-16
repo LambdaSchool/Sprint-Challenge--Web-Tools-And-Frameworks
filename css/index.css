@@ -8284,18 +8284,21 @@ form button.btn {
   background: #22283B;
   color: white;
 }
-#headingOne,
-#headingTwo,
+#headingOne h5,
+#headingTwo h5,
 #headingThree h5 {
   background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
-#headingOne button,
-#headingTwo button,
+#headingOne h5 button,
+#headingTwo h5 button,
 #headingThree h5 button {
   background: none;
 }
-#headingOne button a,
-#headingTwo button a,
+#headingOne h5 button a,
+#headingTwo h5 button a,
 #headingThree h5 button a {
   display: block;
   width: 100%;
