@@ -1,1 +1,27 @@
 // Make your imports here!
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px solid @accent-color;
+  }
+  .logo-heading {
+    padding: 20px 0 10px;
+  }
+  .nav a {
+    color: @secondary-color;
+  }
+  .container {
+    max-width: 800px;
+  }
+  .footer {
+    color: @secondary-color;
+    background: @main-color;
+    padding: 20px 0;
+  }
+  .btn{
+      background-color: @secondary-color;
+  }
