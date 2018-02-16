@@ -6,7 +6,7 @@
 
 * **Just a friendly Reminder** Don't fret or get anxious about this, this is a no-pressure assessment that is only going to help guide you here in the near future. This is NOT a pass/fail situation.
 
-## Start by forking and cloning this repository.
+## Start by forking and cloning this repository 
 * Fork / Clone this project into a directory on your machine.
 * `cd` into the root directory of your local copy.
 
