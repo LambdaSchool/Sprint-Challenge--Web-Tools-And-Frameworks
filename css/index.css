@@ -8249,3 +8249,8 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navbar {
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
