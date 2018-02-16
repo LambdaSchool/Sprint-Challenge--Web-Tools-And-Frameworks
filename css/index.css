@@ -8267,6 +8267,14 @@ header {
     font-size: 85%;
   }
 }
+.ctn-img-col img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .footer-col {
   background: #e0e0e0;
   height: 80px;
