@@ -8254,7 +8254,13 @@ h5 {
   color: black;
 }
 .space-walk {
-  -webkit-box-shadow: 10px 10px 5px gray;
-  -moz-box-shadow: 10px 10px 5px gray;
-  box-shadow: 10px 10px 5px gray;
+  -webkit-box-shadow: 10px 10px 10px gray;
+  -moz-box-shadow: 10px 10px 10px gray;
+  box-shadow: 10px 10px 10px gray;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
