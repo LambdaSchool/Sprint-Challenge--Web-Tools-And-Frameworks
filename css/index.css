@@ -8253,10 +8253,20 @@ body .container {
   max-width: 880px;
   width: 100%;
 }
-body .container .row {
+body .container header .row {
   width: 100%;
   text-align: center;
 }
-body .container .row col-sm-12 {
+body .container header .row .col-sm-12 {
   width: 100%;
+}
+body .container header .row .col-sm-12 h1 {
+  color: #22283B;
+}
+body .container header nav .row .col-sm-12 a {
+  text-decoration: none;
+  color: #22283B;
+}
+body .carousel .carousel-inner .carousel-item img {
+  width: 33%;
 }
