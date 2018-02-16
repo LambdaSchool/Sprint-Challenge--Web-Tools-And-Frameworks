@@ -97,15 +97,15 @@
 
     <div class="row">
         <div class="col-sm-4">
-          <img src="img/blast.jpg" class="img-fluid rounded">
+          <img src="img/blast.jpg" class="img-fluid rounded" data-toggle="tooltip" data-placement="top"title="This is an img to disply tooltip feauture using bootstrap.">
         </div>
 
         <div class="col-sm-4">
-            <img src="img/sky.jpg" class="img-fluid rounded">
+            <img src="img/sky.jpg" class="img-fluid rounded" data-toggle="tooltip" data-placement="top"title="This is an img to disply tooltip feauture using bootstrap.">
         </div>
 
         <div class="col-sm-4">
-              <img src="img/launch.jpg" class="img-fluid rounded">
+              <img src="img/launch.jpg" class="img-fluid rounded" data-toggle="tooltip" data-placement="top"title="This is an img to disply tooltip feauture using bootstrap.">
         </div>  
     </div>
 
@@ -156,7 +156,6 @@
             </table>
       </div>
     </div>
-    <hr>
     
     <div class="row mt-4 justify-content-center letsWalk py-5">
       <div class="col-sm-5">
@@ -169,12 +168,65 @@
       <div class="col-sm-5">
         <img src="img/space-walk.jpg" class="img-fluid rounded">
       </div>
+    </div>
 
+    <div class="row mt-5">
+      <div class="col-sm-8">
+        <h2 class="mb-3">Ready To Go?</h2>
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+              </div>
+              <div class="form-group">
+                  <label for="exampleInputPassword1">Phone</label>
+                  <input type="Phone" class="form-control" id="exampleInputPassword1" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I would like to tecieve promotional emails</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary mt-3 bg-btn">Ready for launch</button>
+            </form>
+      </div>
+
+      <div class="col-sm-4 px-4">
+        <h2 class="mb-3">Space Stuff</h2>
+          <table class="table table-bordered">
+              <tbody>
+                <tr><td>Space Helmet</td></tr>
+                <tr><td>Rocket Boosters</td></tr>
+                <tr><td>Shuttle</td></tr>
+                <tr><td>Training for Launch</td></tr>
+                <tr><td>Heat resistant plating</td></tr>
+                <tr><td>Space Suit</td></tr>
+              </tbody>
+            </table>
+
+      </div>
     </div>
 
 
 
   </div> <!--End of main content -->
+
+  <div class="container pt-3 pb-4 mt-5 rounded footer">
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-center">
+        <p>Copyright SpaceWalkers 2018</p>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -185,5 +237,10 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
+  <script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+</script>
 </body>
 </html>

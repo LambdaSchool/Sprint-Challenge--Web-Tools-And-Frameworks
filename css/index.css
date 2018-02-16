@@ -8250,9 +8250,15 @@ h5 {
   color: #22283B;
 }
 .header {
-  background-color: lightgray;
+  background-color: #f4f4f4;
 }
 .container .letsWalk {
-  border-top: 1px gray solid;
-  border-bottom: 1px gray solid;
+  border-top: 1px #e0e0e0 solid;
+  border-bottom: 1px #e0e0e0 solid;
+}
+.footer {
+  background-color: #f4f4f4;
+}
+form .bg-btn {
+  background-color: #22283B;
 }
