@@ -10,4 +10,8 @@
    I really liked the .box-shadow() mixin from the Preprocessing-II assignment. I still have a lot more to
    learn about mixins.
 
-4. 
+4. What are the names of the 5 breakpoints used in bootstrap?
+   The 5 breakpoints in bootstrap are min-width (mobile first): extra small, small, medium, large, and 
+   extra large. `.col-, .col-sm-, .col-md-, .col-lg-, .col-xl-`
+
+   
