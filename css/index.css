@@ -8255,6 +8255,9 @@ h5 {
 .container .header {
   background: #e0e0e0;
 }
+.container .header .nav a {
+  color: black;
+}
 .btn-secondary {
   background: #22283B;
 }

@@ -18,13 +18,13 @@
   <div class="container">
     <div class="row flex-wrap justify-content-center sticky-top header">
       <h1 class="col-12 text-center">SpaceWalkers</h1>
-      <div class="nav col-8 justify-content-between">
-        <a class="nav-link" col-3>Home</a>
-        <a class="nav-link" col-3>About Us</a>
-        <a class="nav-link" col-3>Blog</a>
-        <a class="nav-link" col-3>Contact</a>
-        <a class="nav-link" col-3>Sign In</a>
-      </div>
+      <nav class="nav col-8 justify-content-between">
+        <a class="nav-link active" col-3 href="#">Home</a>
+        <a class="nav-link" col-3 href="#">About Us</a>
+        <a class="nav-link" col-3 href="#">Blog</a>
+        <a class="nav-link" col-3 href="#">Contact</a>
+        <a class="nav-link" col-3 href="#">Sign In</a>
+      </nav>
     </div>
     <!--  Carousel  -->
     <div class="row justify-content-center">
@@ -139,7 +139,25 @@
             <li class="list-group-item">Heat resistant plating</li>
           </ul>
       </div>
-      <button type="button" class="btn btn-secondary">Ready For Launch</button>
+      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#doThisModal">Ready For Launch</button>
+      <div class="modal fade" id="doThisModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ad Astra!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                You're on your way now, buddy!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cool</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div> <!--row-->
     <footer class="row mt-5 align-content-center justify-content-center">
       <a>Copyright Spacewalkers 2018</a>
