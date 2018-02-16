@@ -20,8 +20,8 @@
     <div class="row">
       <header class="col-12 pt-2">
           <h1 class="border text-center">SpaceWalkers</h1>
-      </header><!-- Site Title -->
-    </div>
+      </header><!-- title column -->
+    </div><!--title row -->
 
     <div class="row justify-content-center border nav-header">
         <nav class="d-flex">
@@ -30,8 +30,8 @@
           <a class="nav-link border" href="#">Blog</a>
           <a class="nav-link border" href="#">Contact</a>
           <a class="nav-link border" href="#">Sign In</a>
-        </nav>
-    </div>
+        </nav><!-- nav -->
+    </div><!--nav row -->
 
     <div class="row carousel-row">
       <div class="col carousel-col d-flex justify-content-center">
@@ -62,14 +62,14 @@
         </div><!-- carousel-col -->
     </div><!-- carousel-row -->
 
-    <div class="row top-content-row justify-content-center pt-5">
+    <div class="row top-content-row justify-content-center pt-2 pt-sm-3 pt-md-4 pt-lg-5">
       <div class="col top-content-col">
         <h2>Lift Off</h2>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
       </div>
     </div>
 
-    <div class="row ctn-img-row justify-content-center pt-2">
+    <div class="row ctn-img-row justify-content-md-center pt-1 pt-md-2 pt-lg-3">
       <div class="col ctn-img-col">
         <img src="img/blast.jpg" class="img-fluid rounded">
       </div>
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div class="row btn-content-row justify-content-center pt-5">
+    <div class="row btn-content-row justify-content-center pt-2 pt-sm-3 pt-md-4 pt-lg-5">
         <div class="col btn-content-col">
           <h2>Can We Visit Planets?</h2>
           <p>Never in all their history have men been able truly to conveive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
@@ -89,35 +89,35 @@
         </div>
       </div>
 
-    <div class="row table-row pt-5">
+    <div class="row table-row justify-content-center pt-2 pt-sm-3 pt-md-4 pt-lg-5">
       <div class="col table-col">
           <table class="table table-striped">
               <thead>
                 <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Last</th>
-                  <th scope="col">Handle</th>
+                  <th scope="col">Planet</th>
+                  <th scope="col">Distance</th>
+                  <th scope="col">Survivability</th>
+                  <th scope="col">How Long To Travel</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
+                  <td scope="row">Mars</td>
+                  <td>54.6 million km</td>
+                  <td>Maybe</td>
+                  <td>300 Days</td>
                 </tr>
                 <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
+                  <td scope="row">Jupiter</td>
+                  <td>588 million km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 Years)</td>
                 </tr>
                 <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
+                  <td scope="row">Saturn</td>
+                  <td>588 million km</td>
+                  <td>No</td>
+                  <td>Depends on Oribt (3-6 Years)</td>
                 </tr>
               </tbody>
             </table>
@@ -125,52 +125,60 @@
     </div><!-- table row -->
 
     <hr>
-    <div class="row last-content-row justify-content-center pt-5">
-        <div class="col-6 last-content-col">
+    <div class="row last-content-row justify-content-center pt-2 pt-sm-3 pt-md-4 pt-lg-5">
+        <div class="col last-content-col">
           <h2>Let's Go For A Walk</h2>
-          <p>Never in all their history have men been able truly to conveive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
-          <p>At which there is no center because every point, or none, is center -- an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+          <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+          <p>It suddently struck me that that tine pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
         </div>
 
-        <div class="col-6 last-img-col">
+        <div class="col last-img-col">
             <img src="img/space-walk.jpg" class="img-fluid rounded">
         </div>
-      </div>
+    </div>
     <hr>
 
-    <div class="row form-row pt-4">
-      <div class="col-7 form-col">
+    <div class="row form-row justify-content-center pt-4">
+      <div class="col-7 form-col pr-5">
           <form>
               <div class="form-group">
                 <h4>Ready to Go?</h4>
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <label for="inputUserName">Name</label>
+                <input type="text" class="form-control" id="inputUserName" placeholder="Name">
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="inputUserPhone">Phone</label>
+                <input type="tel" class="form-control" id="inputUserPhone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                  <label for="inputUserEmail">Email</label>
+                  <input type="email" class="form-control" id="inputUserEmail" placeholder="Enter">
+                </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="yesEmailMe">
+                <label class="form-check-label" for="yesEmailMe">I would like to receive promotional emails</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+                  <input type="checkbox" class="form-check-input" id="noEmailMe">
+                  <label class="form-check-label" for="noEmailMe">Please don't send me emails</label>
+                </div>
+              <button type="submit" class="btn btn-dark mt-2">Ready For Launch</button>
             </form>
       </div>
       <div class="col-5 list-group-col">
         <h4>Space Stuff</h4>
           <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
+              <li class="list-group-item">Space Helmet</li>
+              <li class="list-group-item">Rocket Boosters</li>
+              <li class="list-group-item">Shuttle</li>
+              <li class="list-group-item">Training for Launch</li>
+              <li class="list-group-item">Heat Resistant Plating</li>
+              <li class="list-group-item">Space Suit</li>
             </ul>
       </div>
     </div>
 
-    <div class="row footer-row no-gutter justify-content-center pt-4">
+    <div class="row footer-row justify-content-center pt-5">
         <div class="col footer-col">
           <footer class="text-center">Copyright SpaceWalkers 2018</footer>
         </div><!-- footer-col -->

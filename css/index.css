@@ -8263,9 +8263,9 @@ header {
   color: #22283B;
   font-weight: bolder;
 }
-@media (max-width: 422px) {
+@media (max-width: 439px) {
   .nav-link {
-    font-size: 90%;
+    font-size: 83%;
   }
 }
 .carousel {
@@ -8298,6 +8298,35 @@ header {
 .btn-content-col {
   max-width: 720px;
   border: 2px solid cadetblue;
+}
+.table-col {
+  max-width: 720px;
+  border: 2px solid fuchsia;
+}
+.last-content-row {
+  border: 2px solid orange;
+}
+.last-content-col {
+  border: 2px solid cadetblue;
+  max-width: 360px;
+}
+.last-img-col {
+  border: 2px solid cadetblue;
+  max-width: 360px;
+}
+hr {
+  max-width: 650px;
+}
+.form-row {
+  border: 2px solid lightsalmon;
+}
+.form-col {
+  border: 2px solid lightseagreen;
+  max-width: 420px;
+}
+.list-group-col {
+  border: 2px solid lightseagreen;
+  max-width: 300px;
 }
 .footer-row {
   border: 2px solid goldenrod;
