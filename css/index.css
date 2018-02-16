@@ -8284,3 +8284,6 @@ form button.btn {
   background: #22283B;
   color: white;
 }
+.card button .btn {
+  background: #22283B;
+}
