@@ -8267,3 +8267,6 @@ nav a {
 .btn {
   background-color: black;
 }
+.btn:hover {
+  background-color: #22283B;
+}
