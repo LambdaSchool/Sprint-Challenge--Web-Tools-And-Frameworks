@@ -8249,3 +8249,8 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.blastoff {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
