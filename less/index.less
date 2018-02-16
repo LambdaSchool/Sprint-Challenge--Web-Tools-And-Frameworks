@@ -3,3 +3,26 @@
 @import 'mixins';
 @import 'layout';
 
+.container {
+    // background: @main-color;
+    max-width: 800px;
+    width: 100%;
+
+}
+.logo-heading {
+    background: @accent-color;
+    margin: 10px 0;
+}
+nav {
+    background: @accent-color;
+    margin-top: 0;
+    border-bottom: 1px solid darken(@accent-color, 30%);
+    a {
+        color: @secondary-color;
+    }
+}
+
+.space-walk {
+    border-top: 1px solid @accent-color;
+    border-bottom: 1px solid @accent-color;
+}
