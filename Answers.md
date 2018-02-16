@@ -3,5 +3,5 @@
 2. npm install -g less
 
 3. I like the mixins that allow easy color changes. Opacity was very useful for creating transparent background behind text that is over an image. 
-4. xs, sm, md, lg, xl
+4. xs [col], sm, md, lg, xl
 5. d-flex
