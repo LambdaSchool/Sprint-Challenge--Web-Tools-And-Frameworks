@@ -8249,3 +8249,21 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.header {
+  max-width: 100%;
+  background: #f1f1f1;
+  border-bottom: silver;
+}
+.header .nav a {
+  color: black;
+}
+.space-walk {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 80px 0;
+}
+.footer {
+  background: #f1f1f1;
+  border: 1px solid lightgray;
+  padding: 20px 0;
+}
