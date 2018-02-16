@@ -8256,18 +8256,13 @@ h5 {
 nav a {
   color: #22283B;
 }
-.container .body {
+.main-body {
   background: #f4f4f4;
 }
-.container .body .row .mt-5 img .photorow {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+.main-body .photorow .col-4 img {
+  max-width: 350px;
 }
-.container .body button {
+.main-body button {
   background: #22283B;
 }
 .footer {
