@@ -8274,6 +8274,12 @@ body {
 .navbar {
   background: #f4f4f4;
 }
+.navbar .navbar-brand h1 {
+  -webkit-transform: skew(150deg, 0deg);
+  -moz-transform: skew(150deg, 0deg);
+  -ms-transform: skew(150deg, 0deg);
+  -o-transform: skew(150deg, 0deg);
+}
 form button.btn {
   background: #22283B;
   color: white;
