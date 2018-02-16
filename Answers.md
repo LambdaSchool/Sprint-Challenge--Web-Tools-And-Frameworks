@@ -14,4 +14,7 @@
    The 5 breakpoints in bootstrap are min-width (mobile first): extra small, small, medium, large, and 
    extra large. `.col-, .col-sm-, .col-md-, .col-lg-, .col-xl-`
 
+5. What is the utility class name that turns an element into a flexbox?
+   `.d-flex` and other variants.
+
    
