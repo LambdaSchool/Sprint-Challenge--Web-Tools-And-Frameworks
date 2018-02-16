@@ -8249,3 +8249,7 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.nav a {
+  text-decoration: none;
+  color: black;
+}
