@@ -8255,3 +8255,6 @@ h5 {
 .container .navcon nav a {
   color: #22283B;
 }
+.container .navcon .copyright {
+  background-color: #e0e0e0;
+}
