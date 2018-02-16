@@ -32,16 +32,17 @@
     </div>
       <div class="container">
         <div class="row justify-content-center mr-2">
+          <div class="col-sm-12">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
+                  <img class="d-block w-100 rounded" src="img/slider-1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
+                  <img class="d-block w-100 rounded" src="img/slider-2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+                  <img class="d-block w-100 rounded" src="img/slider-3.jpg" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -52,7 +53,8 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div> <!-- Carousel HTML ends -->
+            </div>
+          </div>   <!-- Carousel HTML ends -->
         </div>
         <div class="row mt-5">
           <div class="col-sm-12">
@@ -64,13 +66,13 @@
         </div>
         <div class="row mb-5">
           <div class="col-sm-4">
-              <img src="img/blast.jpg" class="img-fluid" alt="Responsive image">
+              <img src="img/blast.jpg" class="img-fluid rounded" alt="Responsive image">
           </div>
           <div class="col-sm-4">
-            <img src="img/sky.jpg" class="img-fluid" alt="Responsive image">
+            <img src="img/sky.jpg" class="img-fluid rounded" alt="Responsive image">
           </div>  
             <div class="col-sm-4">
-              <img src="img/launch.jpg" class="img-fluid" alt="Responsive image">
+              <img src="img/launch.jpg" class="img-fluid rounded" alt="Responsive image">
           </div>
         </div>
           <div class="row mt-5 mb-5">
@@ -116,18 +118,18 @@
               </table>
             </div>
           </div>
-          <div class="row mb-5">
-              <div class="col-sm-6 pl-4">
+          <div class="row mb-3 p-5 border-bottom border-top">
+              <div class="col-sm-6">
                 <h2 class="walk">Let's Go For A Walk</h2>
                 <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely  round.</p>
                 <p>It suddenly struck me that that tiny pea, pretty and blue, was Earth. I put up my thumb and shut one eye, my thumb bottled out planet Earth.</p>         
               </div>  
                 <div class="col-sm-6">
-                    <img class="rounded" src="img/space-walk.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Responsive image">
                 </div>   
           </div>
           <div class="row justify-content-between mt-5">
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <h1 class="go">Ready To Go?</h1>
                 <form>
                 <div class="form-group">
@@ -142,25 +144,57 @@
                   <label for="Email">Email</label>
                   <input id="Email" type="Email" class="form-control" placeholder="Email">
                 </div>
-                <div class="form-group">
-                  <div class="form-check">
+                  <div class="form-check mt-4">
                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                     <label class="form-check-label" for="exampleRadios1">
                       I would like to recieve promotional emails
                     </label>
                   </div>
-                </div>
-                <div class="form-group">
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                     <label class="form-check-label" for="exampleRadios2">
                      please don't end me emails
                     </label>
-                  </div>
                  </div>
-                 <button> Ready for launch </button>
+                 <button type="button" class="btn btn-info mt-4 text-center ready" data-toggle="modal" data-target="#exampleModal">Ready For Launch</button> 
+                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Modal -->
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Choose your Planet</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label" for="exampleRadios1">
+                                  Mars
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                  <label class="form-check-label" for="exampleRadios2">
+                                   Jupiter
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                      Saturn
+                                    </label>
+                                  </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Blast Off</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- Modal HTML Ends -->
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4 mb-5">
                 <h4>Space Stuff</h4>
                 <ul class="list-group">
                   <li class="list-group-item">Space Helmet</li>
