@@ -9,18 +9,65 @@ body {
         max-width: 880px;
         width: 100%;
 
-        .row {
-            width: 100%;
-            text-align: center;
-
-            col-sm-12 {
+        header {
+            .row {
                 width: 100%;
-                
+                text-align: center;
 
-                h1 {
-                   
+                .col-sm-12 {
+                    width: 100%;
+
+
+                    h1 {
+                        color: @secondary-color;
+                    }
+                }
+            }
+
+            nav {
+
+                .row {
+
+
+                    .col-sm-12 {
+
+
+                        a {
+                            text-decoration: none;
+                            color: @secondary-color;
+                        }
+
+                        a:link {
+                        }
+                    }
+                }
+            }
+        }
+        }
+        .carousel {
+
+            .carousel-inner {
+
+                .carousel-item {
+
+                    img {
+                        width: 33%;
+                    }
+                }
+            }
+        }
+    
+
+        .main {
+
+            .row {
+
+                .col-sm-12 {
+
+                    h3 {
+                       // color: @secondary-color;
+                    }
                 }
             }
         }
     }
-}
