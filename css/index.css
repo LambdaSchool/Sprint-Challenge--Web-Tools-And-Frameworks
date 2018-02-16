@@ -8249,3 +8249,21 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  max-width: 880px;
+  width: 100%;
+}
+.container-fluid {
+  max-width: 100%;
+  background-color: #e0e0e0;
+  border-bottom: 2px solid black;
+}
+nav a {
+  color: black;
+}
+.footer {
+  background: #e0e0e0;
+}
+.btn {
+  background-color: black;
+}
