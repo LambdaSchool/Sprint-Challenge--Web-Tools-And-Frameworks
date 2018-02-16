@@ -1,1 +1,51 @@
 // Make your imports here!
+
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+body{
+    background: @main-color;
+}
+
+
+.navbar{
+    background: @accent-color;
+}
+
+.liftPara{
+    p{
+    
+    font-size: @para-font-size;
+    }
+}
+
+.visitPara{
+    p{
+        font-size: @para-font-size;
+    }
+}
+
+.space{
+    border-top: solid 1px @accent-color;
+    border-bottom: solid 1px @accent-color;
+    margin-top: 4.5rem;
+}
+
+.launch-button{
+    background: @secondary-color;
+    border-color: @accent-color;
+    color: @main-color;
+
+    &:hover{
+        background: @main-color;
+        border-color: @accent-color;
+        color: @secondary-color;
+    }
+}
+
+.footer{
+    background: @accent-color;
+    padding-left: 45%;
+}
