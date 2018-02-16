@@ -7,6 +7,7 @@
    `less-watch-compiler less css index.less`
 
 3. What is the most useful mixin you have used this week?
-   I still barely understand mixins, I've only used the mandatory ones from Bootstrap-I.
+   I really liked the .box-shadow() mixin from the Preprocessing-II assignment. I still have a lot more to
+   learn about mixins.
 
-   
+4. 
