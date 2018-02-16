@@ -8272,3 +8272,6 @@ nav a {
   padding: 20px 0;
   border-radius: 5px 5px 0px 0px;
 }
+.sticky-top {
+  background: #f4f4f4;
+}
