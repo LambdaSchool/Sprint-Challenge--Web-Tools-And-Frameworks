@@ -1,6 +1,6 @@
 1. How would you teach the basic ideas behind preprocessing to a friend? Please don't copy and paste an answer here, use your own thoughts.
 Preprocessing allows an added level of abstraction when preparing CSS code. A compiler (such as LESS) then
-compiles the highler level language back to vanilla CSS.
+converts the highler level language back to vanilla CSS.
 
 2. What is the npm command to globally install LESS?
 npm install -g less
