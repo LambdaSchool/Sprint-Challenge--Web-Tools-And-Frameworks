@@ -8258,6 +8258,14 @@ h5 {
   background-color: #e0e0e0;
   border-bottom: 2px solid black;
 }
+img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 nav a {
   color: black;
 }
@@ -8266,6 +8274,9 @@ nav a {
 }
 .btn {
   background-color: black;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 .btn:hover {
   background-color: #22283B;
