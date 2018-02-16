@@ -8249,10 +8249,27 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  color: #22283B;
+}
 .custom {
-  background: lightgrey;
+  background: #e0e0e0;
 }
 .nav a {
+  display: flex;
   font-size: 16px;
-  color: Black;
+  color: #22283B;
+  justify-content: center;
+}
+.space {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
 }
