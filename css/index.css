@@ -1,0 +1,30 @@
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #22283B;
+}
+.container {
+  max-width: 880px;
+}
+.container-fluid {
+  background: #f4f4f4;
+}
+.footer {
+  background: #f4f4f4;
+}
+.Launch {
+  background: black;
+}
+.table-color {
+  background: #f4f4f4;
+}
+a {
+  color: black;
+}
