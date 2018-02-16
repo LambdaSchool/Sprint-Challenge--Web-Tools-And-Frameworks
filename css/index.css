@@ -8241,6 +8241,10 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+.container-fluid {
+  background-color: #e0e0e0;
+  border-bottom: 2px solid silver;
+}
 h1,
 h2,
 h3,
@@ -8248,4 +8252,13 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.btn-info {
+  color: #fff;
+  background-color: #22283B;
+}
+.footer {
+  color: black;
+  background: #e0e0e0;
+  padding: 20px 0;
 }
