@@ -16,17 +16,18 @@
 
 <body>
   <div class="container-fluid sticky-top">
-    <div class="jumbotron row">
+    <div class="row">
       <div class="col-sm-12">
-          <h1 class="justify-content-center">SpaceWalkers</h1>
-          <div class="container">
-            <nav class="nav navbar justify-content-center navbar-expand-lg" >
-                <a class="m-3" href="#">Home</a>
-                <a class="m-3" href="#">About Us</a>
-                <a class="m-3" href="#">Blog</a>
-                <a class="m-3" href="#">Contact</a>
-                <a class="m-3" href="#">Sign In</a>
-            </nav>
+          <nav class="navbar navbar-light bg-light d-flex flex-column">
+            <h1>SpaceWalkers</h1>
+            <div class="row d-flex align-items-between">
+            <a class="pr-5" href="#">Home</a>
+            <a class="pr-5" href="#">About Us</a>
+            <a class="pr-5" href="#">Blog</a>
+            <a class="pr-5" href="#">Contact</a>
+            <a class="pr-5" href="#">Sign In</a>
+          </div>
+          </nav>
           </div>
           </div>
         </div>
@@ -64,14 +65,14 @@
           marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragiel, so
           delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
       
-      <div class="row">
+      <div class="container">
         <div class="row">
-          <img src="img/blast.jpg">
-          <img src="img/launch.jpg">
-          <img src="img/sky.jpg">
+          <img class="col-sm-4" src="img/blast.jpg class=">
+          <img class="col-sm-4" src="img/sky.jpg">
+          <img class="col-sm-4" src="img/launch.jpg">
         </div>
-        </div>
-      </div>
+        
+      
         <h2>Can We Visit Planets?</h2>
         <p>Never in all their history have men been able to truly conceive of the world as one: A single sphere, a 
           globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
@@ -109,16 +110,26 @@
             </tr>
           </tbody>
         </table>
-      <div class="row">
+      </div>
+      </div>
+      <div class="row mt-5 p-5 border-bottom border-top">
+      <div class="col-sm-6">
         <h2>Let's Go For A Walk</h2>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
 
-          <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
         </p>
-        <img src="img/space-walk.jpg">
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
+        </p>
+        </div>
+        <div class="col-sm-6">
+        <img src="img/space-walk.jpg" class="rounded">
       </div>
-      <div class="container">
-        <h2>Ready To Go?</h2>
+        
+        
+      </div>
+      <div class="container border-top">
+        <h2 class="mt"-3>Ready To Go?</h2>
+        <div class="d-flex flex-row">
       <form class="col-md-5">
           <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
@@ -143,7 +154,6 @@
             </div>
           <button type="submit" class="btn btn-primary">Ready For Launch</button>
         </form>
-
         <h2>Space Stuff</h2>
         <ul class="list-group col-sm-3">
           <li class="list-group-item">Space Helmet</li>
@@ -154,6 +164,9 @@
           <li class="list-group-item">Space Suit</li>
         </ul>
       </div>
+      </div>
+    
+  </div>
     <foooter>
       <h3 class="jumbotron">Copyright SpaceWalkers 2018</h3>
     </foooter>
