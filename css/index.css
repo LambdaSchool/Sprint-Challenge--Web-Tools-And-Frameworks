@@ -8249,3 +8249,26 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+nav a {
+  font-weight: bold;
+  color: #22283B;
+}
+.custom-image {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.btn {
+  background-color: #22283B;
+  color: #f4f4f4;
+}
+.footer {
+  text-align: center;
+  color: #f4f4f4;
+  background: grey;
+  padding: 20px 0;
+  border-radius: 5px 5px 0px 0px;
+}
