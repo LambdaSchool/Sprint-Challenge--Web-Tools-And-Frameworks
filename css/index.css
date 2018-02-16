@@ -8274,9 +8274,9 @@ table {
 @media (min-width: 600px) {
   .spaceWalk img {
     display: block;
-    width: 60%;
+    width: 80%;
     margin-left: 5%;
-    height: 150px;
+    height: 80px;
   }
 }
 @media (min-width: 990px) {
@@ -8284,6 +8284,24 @@ table {
     width: 50%;
     margin-left: 5%;
     height: 150px;
+  }
+}
+.card-header button {
+  font-size: 1rem;
+}
+@media (max-width: 980px) {
+  .card-header button {
+    font-size: .7rem;
+  }
+}
+@media (max-width: 800px) {
+  .card-header button {
+    font-size: .5rem;
+  }
+}
+@media (max-width: 700px) {
+  .card-header button {
+    font-size: .6rem;
   }
 }
 .liftOff img {
