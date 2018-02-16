@@ -8284,6 +8284,19 @@ form button.btn {
   background: #22283B;
   color: white;
 }
-.card button .btn {
-  background: #22283B;
+#headingOne,
+#headingTwo,
+#headingThree h5 {
+  background: none;
+}
+#headingOne button,
+#headingTwo button,
+#headingThree h5 button {
+  background: none;
+}
+#headingOne button a,
+#headingTwo button a,
+#headingThree h5 button a {
+  display: block;
+  width: 100%;
 }
