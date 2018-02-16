@@ -8250,7 +8250,6 @@ h5 {
   color: #22283B;
 }
 .test {
-  border: 2px solid sandybrown;
   max-width: 900px;
 }
 .title-head {
@@ -8258,5 +8257,8 @@ h5 {
   font-family: 'Russo One', sans-serif;
 }
 nav {
+  border-bottom: 2px solid lightgray;
+}
+.my-border {
   border-bottom: 2px solid lightgray;
 }
