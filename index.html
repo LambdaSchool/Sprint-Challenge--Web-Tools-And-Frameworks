@@ -181,7 +181,7 @@
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
-            
+
           </div>
           <div class="form-group">
             <div class="form-check">
@@ -197,7 +197,7 @@
               </label>
             </div>
           </div>
-          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#infoSubmitConfirmed" >Ready for Launch</button>
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#infoSubmitConfirmed">Ready for Launch</button>
 
           <!-- MODAL LINKED TO Ready for Launch -->
 
@@ -225,15 +225,15 @@
       </div>
 
       <div class="col-5">
-          <h5>Space Stuff</h5>
-          <ul class="list-group">
-            <li class="list-group-item" data-toggle="tooltip" data-placement="top" title data-origional-title="Safety Firstl!">Space Helmet</li>
-            <li class="list-group-item">Rocket Boosters</li>
-            <li class="list-group-item">Shuttle</li>
-            <li class="list-group-item">Traning For Launch</li>
-            <li class="list-group-item">Heat resistant plating</li>
-            <li class="list-group-item">Space Suit</li>
-          </ul>
+        <h5>Space Stuff</h5>
+        <ul class="list-group">
+          <li class="list-group-item" data-toggle="tooltip" data-placement="left" title="Safety Firstl!">Space Helmet</li>
+          <li class="list-group-item" data-toggle="tooltip" data-placement="left" title="For Mobility!">Rocket Boosters</li>
+          <li class="list-group-item" data-toggle="tooltip" data-placement="left" title="Transportation!">Shuttle</li>
+          <li class="list-group-item" data-toggle="tooltip" data-placement="left" title="Knoweldge!">Traning For Launch</li>
+          <li class="list-group-item" data-toggle="tooltip" data-placement="left" title="Stay Cool!">Heat resistant plating</li>
+          <li class="list-group-item" data-toggle="tooltip" data-placement="left" title="Cool Uniforms!">Space Suit</li>
+        </ul>
       </div>
     </div>
 
@@ -245,7 +245,7 @@
 
       </div>
 
-  </footer>
+    </footer>
 
 
 
@@ -260,6 +260,11 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </body>
 
 </html>
