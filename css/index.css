@@ -8250,5 +8250,15 @@ h5 {
   color: #22283B;
 }
 .firstCont {
-  border: 1px solid black;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.centerImg {
+  width: 100%;
+  -webkit-border-radius: 4deg;
+  -moz-border-radius: 4deg;
+  border-radius: 4deg;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }

@@ -42,8 +42,8 @@ For this sprint challenge you will be building a web page from scratch for a spa
 
 ## Task 2: Layout
 * Use the grid system to layout the content and images given to you by SpaceWalker. **You can wait to implement the carousel in Task 4: Components**
-* Try to mimic the layout of the desktop design. **Do not waste time going for pixel perfect layouts in this challenge!**
-* When you have the general layout complete, move on to utilities for fine tuning the spacing.
+<!-- * Try to mimic the layout of the desktop design. **Do not waste time going for pixel perfect layouts in this challenge!**
+* When you have the general layout complete, move on to utilities for fine tuning the spacing. -->
 
 ## Task 3: Utilities
 * Use the spacing utilities to match the layout design. 
