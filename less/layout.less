@@ -16,12 +16,28 @@ h1, h2, h3, h4, h5 {
   border-bottom: 2px solid @accent-color;
 }
 
+.img {
+  .border-radius(10px);
+}
+
 .nav {
     a {
       color: black;
+
+      &:hover {
+          text-decoration: underline;
+      }
     }
 }
 
-.logo-heading {
-  text-align: center;
+.footer {
+  color: @secondary-color;
+  background: @main-color;
+  padding: 20px 0;
+  border: 1px double @accent-color;
+}
+
+.btn-custom {
+  background-color: @secondary-color;
+  color: @main-color;
 }

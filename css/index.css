@@ -8256,9 +8256,27 @@ h5 {
   background-color: #f4f4f4;
   border-bottom: 2px solid #e0e0e0;
 }
+.img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .nav a {
   color: black;
 }
-.logo-heading {
-  text-align: center;
+.nav a:hover {
+  text-decoration: underline;
+}
+.footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+}
+.btn-custom {
+  background-color: #22283B;
+  color: #f4f4f4;
 }
