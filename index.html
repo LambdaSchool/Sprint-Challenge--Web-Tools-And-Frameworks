@@ -16,10 +16,9 @@
 
 <body>
   <div class="container-fluid sticky-top">
-    <div class="container">
-      <div class="header">
+    <div class="header">
         <div class="row">
-          <div class="col-sm-12 d-flex justify-content-center mt-2">
+          <div class="col-12 d-flex justify-content-center mt-2">
             <h1 class="logo-heading">SpaceWalkers</h1>
           </div>
           <div class="col-12 d-flex justify-content-center">
@@ -33,6 +32,8 @@
           </div>
         </div>
       </div>
+  </div> <!-- container-fluid -->
+    <div class="container">
       <div id="carouselExampleControls" class="carousel slide mb-5" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -44,6 +45,9 @@
             <div class="carousel-item">
               <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
             </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider-4.jpg" alt="Third slide">
+              </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,12 +124,20 @@
                   <p>
                       It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
                   </p>
+                  <div class="dropdown show">
+                      <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Let's Go!
+                      </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="https://youtu.be/n_3v-_p3ESo">Learn How To Moonwalk!</a>
+                      </div>
+                    </div>
               </div>
               <div class="col-4">
                   <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Space Walk!">
               </div>
           </div>
-        <div class="d-flex flex-row mt-3 mb-5">
+        <div class="ready-to-go d-flex flex-row mt-3 mb-5">
           <div class="col-sm-9 mr-4">
             <form>
                 <h3>Ready To Go?</h3>
@@ -152,7 +164,7 @@
                 <button type="submit" class="btn btn-dark mt-2">Ready For Launch</button>
             </form>
           </div>
-          <div class="col-sm-6 ml-5">
+          <div class="col-sm-6 ml-3">
             <h4>Space Stuff</h4>
               <ul class="list-group">
                 <li class="list-group-item">Space Helmet</li>
@@ -166,13 +178,14 @@
         </div>
       </div>
       
-     </div> <!-- container -->
+     
      <div class="row footer">
         <div class="col-sm-12 d-flex justify-content-center align-content-center">
         <p class="text-center">Copyright SpaceWalkers 2018</p>
         </div>
     </div>
-  </div> <!-- container-fluid -->
+  </div> <!-- container -->
+  
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

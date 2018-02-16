@@ -8250,20 +8250,45 @@ h5 {
   color: #22283B;
 }
 .header {
-  max-width: 100%;
-  background: #f1f1f1;
-  border-bottom: silver;
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
 }
 .header .nav a {
   color: black;
 }
-.space-walk {
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+.container {
+  max-width: 1000px;
+}
+.container .space-walk {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   padding: 80px 0;
 }
-.footer {
-  background: #f1f1f1;
-  border: 1px solid lightgray;
+.container .space-walk .btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+.container .ready-to-go .btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+.container .footer {
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
   padding: 20px 0;
+  width: 100%;
 }
