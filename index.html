@@ -78,13 +78,13 @@
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
       </div>
       <div class="col-sm-4 mt-3">
-        <img src="img/blast.jpg" class="img-fluid" alt="Blast off">
+        <img src="img/blast.jpg" class="img-fluid rounded" alt="Blast off">
       </div>
       <div class="col-sm-4 mt-3">
-        <img src="img/sky.jpg" class="img-fluid" alt="Sky image">
+        <img src="img/sky.jpg" class="img-fluid rounded" alt="Sky image">
       </div>   
       <div class="col-sm-4 mt-3">
-          <img src="img/launch.jpg" class="img-fluid" alt="We have launch">
+          <img src="img/launch.jpg" class="img-fluid rounded" alt="We have launch">
       </div>
       <div class="col-12 mt-4">
           <h2>Can We Visit Planets?</h2>
@@ -125,7 +125,7 @@
           <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.<br><br>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
         </div>
         <div class="col-sm-6 mt-4">
-            <img src="img/space-walk.jpg" class="img-fluid" alt="Space walk">
+            <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Space walk">
         </div>
       </div>
       <div class="row flex-wrap-reverse">  
@@ -137,8 +137,8 @@
                 <input id="name" type="text" class="form-control mb-1" placeholder="Name">
                 <label for="phone" class="mt-1">Phone</label>
                 <input id="phone" type="phone" class="form-control mt-1 mb-1" placeholder="Phone">
-                  <label for="exampleInputEmail1" class="mt-1">Email address</label>
-                  <input type="email" class="form-control mt-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="email" class="mt-1">Email</label>
+                  <input type="email" class="form-control mt-1" id="email" aria-describedby="emailHelp" placeholder="Email">
               </div>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="emailSubscribe">
@@ -151,7 +151,7 @@
               <button type="submit" class="btn btn-dark mt-2">Ready For Launch</button>
             </form>
         </div>
-        <div class="col-sm-4 mt-4">
+        <!--<div class="col-sm-4 mt-4">
           <h2>Space Stuff</h2>
           <ul class="list-group">
               <li class="list-group-item">Space helmet</li>
@@ -161,7 +161,27 @@
               <li class="list-group-item">Heat resistant plating</li>
               <li class="list-group-item">Spacesuit</li>
             </ul>
-        </div>
+        </div> -->
+        <div class="col-sm-4 mt-4"> <!--Dropdown test-->
+          <small id="spaceStuffHelp" class="form-text text-muted">Click below to see what you need for your own space adventure!</small>
+            <p>
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Space Stuff
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+              <div class="list-group">
+                <ul class="list-group">
+                    <li class="list-group-item">Space helmet</li>
+                    <li class="list-group-item">Rocket boosters</li>
+                    <li class="list-group-item">Shuttle</li>
+                    <li class="list-group-item">Training for launch</li>
+                    <li class="list-group-item">Heat resistant plating</li>
+                    <li class="list-group-item">Spacesuit</li>
+                  </ul>
+              </div>
+          </div><!--End test-->
+        </div>  
     </div>
     <div class="mt-5">
       <p>Copyright SpaceWalkers 2018</p>
