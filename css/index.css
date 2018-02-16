@@ -8254,3 +8254,10 @@ h5 {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+nav a {
+  color: #22283B;
+}
+.btn {
+  background-color: #22283B;
+  border-color: #22283B;
+}
