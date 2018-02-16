@@ -8249,8 +8249,8 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  max-width: 800px;
+.container-fluid {
+  background: #e0e0e0;
   width: 100%;
 }
 .logo-heading {
