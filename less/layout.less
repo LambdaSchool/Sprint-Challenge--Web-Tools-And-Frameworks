@@ -6,3 +6,42 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+    background-color: @accent-color;
+    border-bottom: 2px solid silver;    
+}
+
+.nav {
+    a {
+        color: black;
+    }
+}
+.container {
+    max-width: 880px;
+
+    .search button {
+        border: 1px solid black;
+        color: black;
+
+        &:hover {
+            background-color: @secondary-color;
+            color: @main-color;
+
+        }
+    }
+
+    .custom-box {
+        padding: 50px 75px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+
+    .custom-box-2 {
+        background-color: @accent-color;
+        border-top:1px solid grey;
+        border-right: 1px solid grey;
+        border-left: 1px solid grey; 
+    }
+}
+
