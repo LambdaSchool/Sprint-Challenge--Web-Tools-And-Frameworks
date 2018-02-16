@@ -8255,6 +8255,16 @@ body {
 .navbar {
   background: #e0e0e0;
 }
+.navbar-nav .nav-item .sign-in-btn {
+  background: #e0e0e0;
+  border-color: #e0e0e0;
+  color: #22283B;
+  font-weight: 700;
+}
+.modal-content .btn-primary {
+  background: #22283B;
+  border-color: #22283B;
+}
 .liftPara p {
   font-size: 1.25rem;
 }
