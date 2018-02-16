@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.myClass {
+  padding: 0;
+}
 .header {
   background: #f4f4f4;
   border: 1px solid #e0e0e0;
