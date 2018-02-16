@@ -8249,3 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+body {
+  padding-top: 117px;
+}
+.container {
+  max-width: 800px;
+}
