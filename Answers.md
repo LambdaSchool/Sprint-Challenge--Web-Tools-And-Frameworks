@@ -3,4 +3,10 @@
   Preprocessing in this case refers to writing a more reader-friendly version of our CSS file in the form of
   a .less file and then compiling that file back into a true CSS file.
 
-  
+2. What is the npm command to globally install LESS?
+   `less-watch-compiler less css index.less`
+
+3. What is the most useful mixin you have used this week?
+   I still barely understand mixins, I've only used the mandatory ones from Bootstrap-I.
+
+   
