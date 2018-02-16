@@ -8241,6 +8241,13 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+.sticky-top {
+  background: #f4f4f4;
+  border-bottom: 2px solid silver;
+}
+.sticky-top a {
+  color: #22283B;
+}
 h1,
 h2,
 h3,
