@@ -8249,3 +8249,19 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.nav a {
+  color: black;
+}
+footer {
+  background: #e0e0e0;
+}
+.walkRow {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.submitBtn {
+  background-color: #22283B;
+}
+.submitBtn:hover {
+  background-color: black;
+}
