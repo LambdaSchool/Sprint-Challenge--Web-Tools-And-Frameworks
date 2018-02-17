@@ -8281,3 +8281,7 @@ body img {
 .container .row img {
   border-radius: 2%;
 }
+.container button {
+  background-color: black;
+  border: none;
+}
