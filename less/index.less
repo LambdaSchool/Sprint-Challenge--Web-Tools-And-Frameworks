@@ -1,1 +1,39 @@
 // Make your imports here!
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.container-fluid {
+    background: @accent-color;
+    border-bottom: 1px solid gray;   
+}
+
+nav {
+    a {
+        color: @secondary-color;
+    }
+}
+.carousel-container {
+    img {
+        width: 100%
+    }
+}
+.main-body {
+    background: @main-color;
+    
+    img {
+        max-width: 370px;
+        width: 100%;
+        .opacity;
+        .border-radius;
+    }
+        
+    button {
+        background: @secondary-color;
+    }
+}
+
+.footer {
+    background: @accent-color;
+}
