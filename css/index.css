@@ -8250,13 +8250,12 @@ h5 {
   color: #22283B;
 }
 a {
-  color: black;
+  color: #0f0f0f;
 }
 .img1 {
   display: block;
   max-width: 230px;
   max-height: 150px;
-  margin-left: 4px;
   width: auto;
   height: auto;
 }
@@ -8273,4 +8272,40 @@ a {
   max-height: 150px;
   width: auto;
   height: auto;
+}
+.astronaut {
+  width: 195px;
+  height: 195px;
+}
+.launch-button {
+  -webkit-box-shadow: 7px 5px 5px black;
+  -moz-box-shadow: 7px 5px 5px black;
+  box-shadow: 7px 5px 5px black;
+}
+.navGrab {
+  background: white;
+}
+.rocketBlast {
+  -webkit-border-radius: 3% 5px;
+  -moz-border-radius: 3% 5px;
+  border-radius: 3% 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.SkyTrail {
+  -webkit-border-radius: 3% 5px;
+  -moz-border-radius: 3% 5px;
+  border-radius: 3% 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.rocketlaunch {
+  -webkit-border-radius: 3% 5px;
+  -moz-border-radius: 3% 5px;
+  border-radius: 3% 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
