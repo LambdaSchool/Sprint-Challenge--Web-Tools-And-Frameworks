@@ -6,3 +6,38 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px double @accent-color;
+}
+
+.logo-heading {
+    padding-top: 10px;
+    margin: 0;
+}
+
+.nav {
+    a {
+        color: @secondary-color;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.container {
+    max-width: 800px;
+}
+
+.footer {
+    color: @secondary-color;
+    background: @main-color;
+    padding: 20 px 0;
+    border: 1px double @accent-color;
+}
+
+.btn-custom {
+    background-color: @secondary-color;
+    color: @main-color;
+}
