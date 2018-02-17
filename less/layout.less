@@ -6,3 +6,39 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px double @accent-color;
+}
+
+.nav-link {
+    color: @secondary-color;
+    font-weight: bolder;
+
+    @media @max439 {
+        font-size: 85%;
+    }
+}
+.container {
+    max-width: 800px;
+}
+
+.footer-col {
+    background: @main-color;
+    color: @secondary-color;
+    border: 1px double @accent-color;
+    height: 80px;
+}
+
+.ctn-img-col img {
+    .border-radius;//mixin usage 01
+}
+
+.last-img-col img {
+    .opacity;//mixin usage 02
+}
+
+footer {
+    padding-top: 15px;
+}
