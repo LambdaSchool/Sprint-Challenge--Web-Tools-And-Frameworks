@@ -15,25 +15,30 @@
 </head>
 
 <body>
-  <div class="container border-red">
-
-    <div class="row border ">
+<!-- added container fluid -->
+<div class = "container-fluid sticky-top">
+    <div class="row">
       <div class="col-sm-12 d-flex justify-content-center">
         <h1>SpaceWalkers</h1>
       </div>
     </div>
-    
-    <div class="row border d-flex justify-content-center">
-      <nav class="nav col-sm-6 col-lg-6 d-flex justify-content-around">
-          <a href='#'>Home</a>
-          <a href='#'>About Us</a>
-          <a href='#'>Blog</a>
-          <a href='#'>Contact</a>
-          <a href='#'>Sign In</a>
-      </nav>  
-    </div>
-    
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+          <nav class="nav col-sm-6 col-lg-6 d-flex justify-content-around">
+              <a href='#'>Home</a>
+              <a href='#'>About Us</a>
+              <a href='#'>Blog</a>
+              <a href='#'>Contact</a>
+              <a href='#'>Sign In</a>
+          </nav>  
+        </div>
+  </div>
+  </div><!--end of new container fluid sticky top-->
 
+
+  <!-- GOTTA have new container here-->
+    
+<div class='container w-50'>
     <div class="row border ">
         <div class="carousel col-sm-12 d-flex justify-content-center">
           <!--BEGINNING OF CAROUSEL-->
@@ -68,22 +73,24 @@
     <div class="row border">
         <div class="col-sm-12 d-flex-column justify-content-start">
           <h3>Lift Off</h3>
-          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
-
-              
+          <p>As we got further and further away, it [the Earth] diminished in size. 
+            Finally it shrank to the size of a marble, the most beautiful you can
+             imagine. That beautiful, warm, living object looked so fragile, 
+             so delicate, that if you touched it with a finger it would fall 
+             apart. Seeing this has to change a man.
             </p>
         </div>
       </div>
       <div class="picture row border">
           <div class="col-sm-12 d-flex justify-content-left">
             <div class='col-sm-4'>
-              <img src='img/blast.jpg' class='img-fluid mr-0'>
+              <img src='img/blast.jpg' class='img-fluid rounded'>
             </div>
             <div class='col-sm-4'>
-                <img src='img/sky.jpg'class='img-fluid'>
+                <img src='img/sky.jpg'class='img-fluid rounded'>
               </div>
               <div class='col-sm-4'>
-                  <img src='img/launch.jpg'class='img-fluid'>
+                  <img src='img/launch.jpg'class='img-fluid rounded'>
                 </div>
           </div>
         </div>
@@ -134,7 +141,7 @@
 
         
         <div class="row border d-flex-row justify-content-center">
-            <div class="col-sm-4 d-flex-column justify-content-center">
+            <div class="col-sm-6 d-flex-column justify-content-center">
                   <h3>Let's Go For A Walk</h3>
                   <p>
                   The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
@@ -142,16 +149,80 @@
                   It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
               </p>
             </div>
-            <div class="col-sm-6 d-flex justify-content-center">
-              <img src='img/space-walk.jpg' class='img-fluid' >  
+            <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-content-center">
+              <img src='img/space-walk.jpg' class='img-fluid mw-100 rounded' >  
             </div>
 
           </div>
 
+          <!-- FORMS DIV-->
+          <div class='form row'>
+            <div class='col-sm-8'>
+              <p><h3>Ready to Go?</h3></p>
+              <p>
+                <form>
+                  <div class='form-group'>
+                    <label for 'name'>Name</label>
+                    <input type='text' class='form-control' id='name' placeholder='Name'>
+                  </div>
+                  <div class='form-group'>
+                      <label for 'phone'>Phone</label>
+                      <input type = 'text' class='form-control' id='phone' placeholder='Phone'>
+                  </div>
+
+                      <div class='form-group'>
+                      <label for 'email'>Email</label>
+                      <input type='email' class='form-control' id='email' placeholder='Email'>
+                  </div>  
+                  
+                  <div class='form-group'>
+                    <div class="checkbox">
+                    <label><input type='checkbox' class='mr-1'>I would like to receive promotional emails</label>
+                  </div>
+                  </div>
+                  <div class='form-group'>
+                    <div class='checkbox'>
+                    <input type='checkbox' class='mr-1'><label>Please don't send me any emails</label>
+                    </div>
+                  </div>
+                 
+                  <div class='row'>
+                    <div class='col-sm-12'>
+                        
+                    </div>
+
+                  </div>
+
+
+
+
+                </form>
+              </p>
+
+
+            </div>
+            <div class='col-sm-4'>
+                <p><h3>Space Stuff</h3></p>
+                <p>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href='#'>Space Helmet</a></li>
+                        <li class="list-group-item">Rocket Boosters</li>
+                        <li class="list-group-item">Shuttle</li>
+                        <li class="list-group-item">Training for Launch</li>
+                        <li class="list-group-item">Heat resistant plating</li>
+                        <li class='list-group-item'>Space Suit</li>
+                      </ul>
+
+                </p>
+            </div><!--space stuff end-->
+
+
+          </div><!-- end of form div>
+
+
           
 
-
-
+        
   </div> <!--end of container div-->
 
   <script src="js/jquery-3.3.1.min.js"></script>
