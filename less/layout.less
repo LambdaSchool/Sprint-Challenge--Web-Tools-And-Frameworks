@@ -1,3 +1,7 @@
+@main-color: #f4f4f4;
+@secondary-color: #22283B;
+@accent-color: #e0e0e0;
+
 html, body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -5,4 +9,16 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.container {
+    .navcon {
+       background-color: @accent-color;
+    nav a {
+        color: @secondary-color;
+    }
+    .copyright {
+        background: @accent-color; 
+    }
+}
 }
