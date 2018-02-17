@@ -8251,6 +8251,10 @@ body {
 .container {
   max-width: 900px;
 }
+.container button {
+  background: #22283B;
+  color: #f4f4f4;
+}
 h1,
 h2,
 h3,
