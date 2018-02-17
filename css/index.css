@@ -8286,25 +8286,33 @@ a {
   background: white;
 }
 .rocketBlast {
-  -webkit-border-radius: 3% 5px;
-  -moz-border-radius: 3% 5px;
-  border-radius: 3% 5px;
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  border-radius: 4%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 .SkyTrail {
-  -webkit-border-radius: 3% 5px;
-  -moz-border-radius: 3% 5px;
-  border-radius: 3% 5px;
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  border-radius: 4%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 .rocketlaunch {
-  -webkit-border-radius: 3% 5px;
-  -moz-border-radius: 3% 5px;
-  border-radius: 3% 5px;
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  border-radius: 4%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.astronaut {
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  border-radius: 4%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
