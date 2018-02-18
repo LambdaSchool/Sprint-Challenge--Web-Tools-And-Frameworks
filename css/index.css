@@ -8255,6 +8255,9 @@ body {
   background: #22283B;
   color: #f4f4f4;
 }
+.container .footer {
+  background: #f4f4f4;
+}
 h1,
 h2,
 h3,
