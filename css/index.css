@@ -8260,3 +8260,16 @@ h5 {
 .container {
   max-width: 800px;
 }
+.container #bottom-content {
+  border-top: 3px solid #e0e0e0;
+  border-bottom: 3px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+.container button {
+  background-color: black;
+}
+.footer {
+  color: black;
+  background: #e0e0e0;
+  padding: 20px 0;
+}
