@@ -3,3 +3,30 @@
 @import 'variables';
 @import 'mixins';
 @import 'layout';
+
+.page-header {
+    background: @main-color;
+    border-bottom: 2px solid @accent-color;
+}
+.nav-link {
+    color: @secondary-color;
+}
+.img-fluid {
+    .border-radius();
+}
+.carousel, .image-row {
+    margin-bottom: 40px;
+}
+hr {
+    margin: 40px 0;
+}
+
+footer {
+    .copyright {
+        margin-top:20px;
+        .border-radius();
+        background: @main-color;
+        border: 1px solid @accent-color;
+        padding: 20px 0;
+    }
+}
