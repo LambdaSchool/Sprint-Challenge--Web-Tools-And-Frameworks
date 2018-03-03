@@ -15,13 +15,124 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12">
-        Good Luck!
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <span class="navbar-brand mb-0 h1">SpaceWalkers</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
+
+<div class="container">
+  <!-- carosel goes here -->
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+  <!-- lift off paragraph -->
+  <div class="row flex-column">
+    <div class="col-12">
+      <h1>Lift Off</h1>
+    </div>
+    <div class="col-12 mt-1">
+      <p class="lead">As we got further and further away, it [the Earth] diminished in size. Finally it shrank
+        to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile,
+        so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
+      </p>
+    </div>
+  </div>
+  <!-- three images -->
+  <div class="row images">
+    <div class="col-4">
+      <img src="img/blast.jpg" class="img-fluid">
+    </div>
+    <div class="col-4">
+      <img src="img/sky.jpg" class="img-fluid"> 
+    </div>
+    <div class="col-4">
+      <img src="img/launch.jpg" class="img-fluid">      
+    </div>  
+  </div>
+   <!-- visit planets paragraph -->
+   <div class="row flex-column">
+      <div class="col-12 mt-5">
+        <h1>Can We Visit Planets?</h1>
+      </div>
+      <div class="col-12 mt-1">
+        <p class="lead">Never in all their history have men been able to conceive of the world as one;
+          a single sphere, a globe, having the qualities of a globe, a round earth in which 
+          all the directions eventually meet.
+        </p>
+      </div>
+      <div class="col-12 mt-1">
+        <p class="lead">
+          which there is no center because every point, or none, is center -- an equal earth which all
+          men occupy as equals. The airman's earth, if free men make it.
+        </p>
+      </div>
+    </div>
+
+    <!-- list group -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mars</th>
+                <td>54.6 million km</td>
+                <td>Maybe</td>
+                <td>300 days</td>
+            </tr>
+            <tr>
+              <th scope="row">Jupiter</th>
+                <td>588 million km</td>
+                <td>No</td>
+                <td>Depends on Orbit (3-6) years</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturn</th>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends on Orbit (3-6) years</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div> <!-- end of container -->
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
