@@ -8251,7 +8251,12 @@ h5 {
 }
 .container-fluid {
   background-color: #e0e0e0;
+  border-bottom-style: ridge;
+  border-bottom-width: 3px;
 }
 .nav a {
   color: black;
+}
+.container {
+  max-width: 800px;
 }
