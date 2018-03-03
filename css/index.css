@@ -8252,13 +8252,20 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.navbar {
+.container-fluid {
   background: #f4f4f4;
   width: 100%;
+  -webkit-box-shadow: 10px 3px 5px grey;
+  -moz-box-shadow: 10px 3px 5px grey;
+  box-shadow: 10px 3px 5px grey;
 }
-.navbar a {
+.container-fluid a {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+#border {
+  border-bottom: 0.5px solid#d3d3d3;
+  border-top: 0.5px solid#d3d3d3;
 }
 .row img {
   -webkit-border-radius: 5px;
@@ -8267,6 +8274,9 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+a h3 {
+  color: white;
 }
 #footer {
   background: #f4f4f4;
