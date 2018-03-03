@@ -1,6 +1,6 @@
 # Assessing Your Web Tools and Frameworks Learning
 
-* The objective of this challenge is test your knowledge on all of the topics surrounding web tools and frameworks you learned this week.
+* tThe objective of this challenge is test your knowledge on all of the topics surrounding web tools and frameworks you learned this week.
 * Answers to your written questions will be recorded in _Answers.md_
 * This is to be worked on alone but you can use outside resources. You can _reference_ any old code you may have and the training kit content, however, please refrain from copying and pasting any of your answers. Try and understand the question and put your responses in your own words. Be as thorough as possible when explaining something.
 
