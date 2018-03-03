@@ -8249,3 +8249,24 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.imgClass {
+  height: auto;
+  max-width: 30%;
+}
+.imgRow {
+  width: 100%;
+}
+.container {
+  width: 1000px;
+}
+.copy {
+  height: 200px;
+  width: 100%;
+  background: grey;
+}
+button {
+  background: #22283B;
+}
+.slide {
+  width: 100%;
+}
