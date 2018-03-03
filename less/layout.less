@@ -6,3 +6,62 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+a {
+    color: @secondary-color;
+    &:hover {
+	text-decoration: none;
+	color: @accent-color;
+    }
+}
+
+.btn-primary {
+    background: @secondary-color;
+    border-color: @secondary-color;
+}
+
+.spacer { margin: 50px; }
+
+.headline {
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    border-bottom: 2px solid @accent-color;
+    ul {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 0 10px;
+	display: flex;
+	justify-content: space-between;
+	li {
+	    list-style: none;
+	}
+    }
+}
+
+.images-wrapper {
+    img {
+	.border-radius;
+    }
+}
+
+.lets-go-for-a-walk {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid @accent-color;
+    border-bottom: 1px solid @accent-color;
+}
+
+.form-wrapper {
+    margin-bottom: 65px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px 0 40px;
+    border: 1px solid @accent-color;
+    .border-radius;
+}
