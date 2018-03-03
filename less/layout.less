@@ -1,4 +1,5 @@
 @import 'variables'; //varaibles.less
+@import 'mixins'; // mixins.less
 
 html, body {
     font-family: 'Ubuntu', sans-serif;
@@ -36,6 +37,17 @@ h1, h2, h3, h4, h5 {
 
     button {
         background-color: @main-color2;
+    }
+}
+
+// img modifications 
+
+img {
+    .border-radius(10px);
+    .box-shadow(20px -16px @secondary-color);
+
+    &:hover {
+        .opacity(0.8);
     }
 }
 
