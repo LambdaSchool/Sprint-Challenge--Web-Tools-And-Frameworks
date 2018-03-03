@@ -6,3 +6,37 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+header{
+    background: @accent-color;
+    
+    .logo-heading{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        
+        a{
+            text-decoration: none;
+            color: @secondary-color;
+                &:hover {
+                    text-decoration: underline;
+                    color: black;
+                    .opacity(.5);
+                }
+            }
+    }
+}
+
+.container button {
+    &:hover {
+        .border-radius(20px);
+        .skew(160deg, 0deg);
+        .box-shadow(12px 12px 12px black);
+    }
+}
+        
+
+footer{
+    background: @accent-color;
+}
+
