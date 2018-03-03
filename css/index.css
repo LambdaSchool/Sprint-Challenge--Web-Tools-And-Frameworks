@@ -8240,6 +8240,9 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -8248,4 +8251,24 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.navbar {
+  background: #f4f4f4;
+  width: 100%;
+}
+.navbar a {
+  font-family: 'Russo One', sans-serif;
+  color: #22283B;
+}
+.row img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#footer {
+  background: #f4f4f4;
+  height: 50px;
 }
