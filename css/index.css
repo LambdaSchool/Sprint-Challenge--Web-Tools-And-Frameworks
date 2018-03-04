@@ -8249,3 +8249,16 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.containerNav {
+  background: #efefef;
+  max-width: 1000px;
+}
+.containerMain {
+  max-width: 800px;
+}
+.images {
+  width: 800px;
+}
+.rowFooter {
+  background: #efefef;
+}
