@@ -1,3 +1,6 @@
+@import 'variables'; //varaibles.less
+@import 'mixins'; // mixins.less
+
 html, body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -6,3 +9,55 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+// top-content
+
+.container-fluid {
+        background-color: @accent-color;
+        border-bottom-style: ridge;
+        border-bottom-width: 3px;
+}
+
+.nav {
+    a {
+        color: @main-color2;
+    }
+}
+
+// main-container-content
+
+.container {
+    max-width: 800px;
+
+    #bottom-content {
+        border-top: 3px solid @accent-color;
+        border-bottom: 3px solid @accent-color;
+        margin-bottom: 30px;
+    }
+
+    button {
+        background-color: @main-color2;
+    }
+}
+
+// img modifications 
+
+img {
+    .border-radius(10px);
+    .box-shadow(20px -16px @secondary-color);
+
+    &:hover {
+        .opacity(0.8);
+    }
+}
+
+
+// footer-content
+
+.footer {
+    color: @main-color2;
+    background: @accent-color;
+    padding: 20px 0;
+}
+
+

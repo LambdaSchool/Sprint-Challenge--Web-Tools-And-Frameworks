@@ -1,0 +1,52 @@
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #22283B;
+}
+.container-fluid {
+  background-color: #e0e0e0;
+  border-bottom-style: ridge;
+  border-bottom-width: 3px;
+}
+.nav a {
+  color: black;
+}
+.container {
+  max-width: 800px;
+}
+.container #bottom-content {
+  border-top: 3px solid #e0e0e0;
+  border-bottom: 3px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+.container button {
+  background-color: black;
+}
+img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 20px -16px #22283B;
+  -moz-box-shadow: 20px -16px #22283B;
+  box-shadow: 20px -16px #22283B;
+}
+img:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.footer {
+  color: black;
+  background: #e0e0e0;
+  padding: 20px 0;
+}
