@@ -6,3 +6,52 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.jumbotron {
+    padding: 5px 0 5px 0;
+    .box-shadow(3px 3px 3px @accent-color);
+    .container {
+        .row {
+            .col-12 {
+                .mt-3 {
+                    margin-left: 380px;
+                }
+                nav {
+                    a {
+                        color: @secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.row {
+    .col-4 {
+        .card {
+            img {
+                .border-radius;
+            }
+        }
+    }
+}
+
+.row {
+    .col-6 {
+        border-top: 1px solid @accent-color;
+        border-bottom: 1px solid @accent-color;
+        padding: 50px;
+        img {
+            .border-radius;
+        }
+    }
+}
+
+.row {
+    .col-9 {
+        .btn {
+            background-color: @secondary-color;
+            border: 1px solid @secondary-color;
+        }
+    }
+}
