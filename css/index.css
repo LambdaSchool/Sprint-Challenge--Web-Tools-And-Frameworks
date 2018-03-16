@@ -8265,3 +8265,9 @@ nav a {
 img {
   width: 100%;
 }
+.list-group-item,
+label,
+input {
+  font-size: 16px;
+  font-family: Ubuntu;
+}
