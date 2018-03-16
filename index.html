@@ -27,6 +27,7 @@
         <a href="#">Sign In</a>
       </div>
     </div><!-- header row -->
+
   </div><!-- container fluid -->
   <div class="container">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -53,6 +54,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- carousel -->
+
     <div class="row lift-off-text">
       <div class="col-12 mt-5">
         <h3>Lift Off</h3>
@@ -65,6 +67,7 @@
           to change a man.</p>
       </div>
     </div><!-- lift off text row -->
+
     <div class="row flex-images">
       <div class="d-flex justify-content-between">
         <img class="col-4 img-fluid" src="./img/blast.jpg">
@@ -72,6 +75,7 @@
         <img class="col-4 img-fluid" src="./img/launch.jpg">
       </div>
     </div><!-- flex images row -->
+
     <div class="row can-we-text">
       <div class="col-12 my-5">
         <h3>Can We Visit Planets</h3>
@@ -84,6 +88,7 @@
           The airman's earth, if free men make it.</p>
       </div>
     </div><!-- can we text row -->
+
     <div class="row">
       <table class="table table-striped">
         <thead>
@@ -115,6 +120,7 @@
           </tr>
         </tbody>
       </table><!-- table -->
+
     </div><!-- row -->
     <div class="row go-walk border-top border-bottom my-5 px-4 py-5">
       <div class="col-6">
@@ -130,6 +136,7 @@
         <img class="img-fluid" src="./img/space-walk.jpg">
       </div>
     </div><!-- go walk row -->
+
     <div class="row d-flex">
       <div class="col-7 ready-form">
         <h3>Ready To Go?</h3>
@@ -169,10 +176,12 @@
                 </label>
               </div>
             </div><!-- form group -->
-            <button type="submit" class="btn btn-info my-2 mb-5">Ready For Launch</button>
+            <!-- button activates modal -->
+            <button type="submit" class="btn btn-info my-2 mb-5" data-toggle="modal" data-target="#exampleModal">Ready For Launch</button>
           </div>
         </form><!-- form -->
       </div>
+
       <div class="col-5 space-stuff">
         <h4>Space Stuff</h4>
         <ul class="list-group">
@@ -183,13 +192,33 @@
           <li class="list-group-item">Heat resistant plating</li>
           <li class="list-group-item">Space Suit</li>
         </ul>
-      </div>
+      </div><!-- space stuff -->
     </div><!-- row -->
+
     <div class="row footer">
       <div class="col-sm-12 text-center p-4">
         Copyright SpaceWalker 2018
       </div>
     </div><!-- footer -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLabel">Woot Woot!</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Look who's going to space!</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- modal -->
   </div><!-- container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
