@@ -8276,6 +8276,13 @@ img {
   background-clip: padding-box;
   width: 95%;
 }
-.lets-walk .walk {
-  width: 60%;
+.lets-walk #walk {
+  width: 80%;
+}
+.launchz {
+  background-color: #22283B !important;
+  border: 1px #22283B solid !important;
+}
+.footer {
+  background-color: #e0e0e0;
 }
