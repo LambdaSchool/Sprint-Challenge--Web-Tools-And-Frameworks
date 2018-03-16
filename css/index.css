@@ -8250,6 +8250,9 @@ h5 {
   color: #22283B;
 }
 img {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
