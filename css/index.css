@@ -8253,8 +8253,38 @@ h5 {
   background-color: #e0e0e0;
   border-bottom: 3px solid lightgray;
 }
+@media (max-width: 576px) {
+  .container-fluid {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+}
 .container {
   max-width: 800px;
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0;
+  }
+}
+@media (max-width: 576px) {
+  .container .nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .container .nav .nav-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gray;
+  }
+  .container .nav .nav-link:hover {
+    background-color: lightgray;
+    color: white;
+  }
 }
 .registration-btn {
   background-color: #22283B;
