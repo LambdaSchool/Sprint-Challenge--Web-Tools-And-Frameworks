@@ -8264,3 +8264,8 @@ h5 {
   background-color: #22283B;
   margin-top: 2%;
 }
+.containerBottom {
+  background-color: #f4f4f4;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
