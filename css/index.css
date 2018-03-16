@@ -8256,3 +8256,8 @@ h5 {
 .mid-section img {
   zoom: 50%;
 }
+.footer {
+  background: lightgrey;
+  padding: 20px 0;
+  text-align: center;
+}
