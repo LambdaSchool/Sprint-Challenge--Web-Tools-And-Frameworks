@@ -8262,7 +8262,8 @@ nav a {
 .margin-fix {
   margin: 0px 160px;
 }
-img {
+img,
+table {
   width: 100%;
 }
 .list-group-item,
