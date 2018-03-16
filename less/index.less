@@ -1,1 +1,65 @@
 // Make your imports here!
+@import 'bootstrap';
+@import 'layout';
+@import 'mixins';
+@import 'variables';
+
+.header{
+  background-color: @accent-color;
+  border-bottom: 1px solid lightgray;
+  h1{
+    justify-content: center;
+  }
+  nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+    a{
+      padding: 1rem;
+      color: black
+    }
+  }
+}
+.main-content{
+  width: 80%;
+}
+.table-container{
+  width: 100%;
+}
+.CTA-container{
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  div{
+    h4{
+      text-align: center;
+    }
+    p{
+      margin-left: 3rem;
+    }
+  }
+}
+.img{
+  .border-radius;
+  opacity: 0.5;
+  &:hover{
+    .opacity(1);
+  }
+}
+.form-container{
+  button{
+    color: white;
+    background: black;
+    &:hover{
+      background: rgb(170, 57, 57);
+    }
+  }
+}
+.footer{
+  height: 50px;
+  text-align: center;
+  background: @accent-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
