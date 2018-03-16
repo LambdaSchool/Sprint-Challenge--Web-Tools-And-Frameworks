@@ -4,6 +4,10 @@
 @import "mixins";
 @import "layout";
 
+.container{
+    font-weight: 500;
+    font-size: 18px;
+}
 .btn{
     color: black;
 }
@@ -15,6 +19,16 @@
     a{
         color: black;
     }
+}
+.blastImg {
+    .skew(5deg, 5deg);
+}
+.launchImg {
+    .opacity(.5);
+}
+.letsGoWalk {
+    border-top: 1px solid @accent-color;
+    border-bottom: 1px solid @accent-color;
 }
 button .readyForLaunch{
     background-color: black;

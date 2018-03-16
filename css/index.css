@@ -8249,6 +8249,10 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  font-weight: 500;
+  font-size: 18px;
+}
 .btn {
   color: black;
 }
@@ -8258,6 +8262,21 @@ h5 {
 }
 .nav a {
   color: black;
+}
+.blastImg {
+  -webkit-transform: skew(5deg, 5deg);
+  -moz-transform: skew(5deg, 5deg);
+  -ms-transform: skew(5deg, 5deg);
+  -o-transform: skew(5deg, 5deg);
+}
+.launchImg {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.letsGoWalk {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 button .readyForLaunch {
   background-color: black;
