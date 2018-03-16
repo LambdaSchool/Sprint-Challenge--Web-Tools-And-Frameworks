@@ -8249,3 +8249,40 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  background-color: #f4f4f4;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+}
+.container-fluid nav {
+  width: 55%;
+}
+.container-fluid nav a {
+  color: #22283B;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+}
+.container .spaceWalk {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.container button {
+  background-color: #22283B;
+  border: none;
+}
+.container .footer {
+  background-color: #f4f4f4;
+  border: 2px solid #e0e0e0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+hr {
+  border: 1px solid #e0e0e0;
+}
