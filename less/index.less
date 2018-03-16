@@ -1,1 +1,48 @@
 // Make your imports here!
+
+@import "bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+@import "layout.less";
+
+.container-fluid {
+	border-bottom: 1px solid gray;
+}
+
+#Navigation, footer {
+	background-color: @accent-color;
+}
+
+
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color: black;
+		}
+	}
+}
+
+body {
+	position: relative;
+}
+
+img.content {	
+	.border-radius;
+
+	@media (max-width: 995px) {
+		margin-bottom: 20px;
+	}
+}
+
+form {
+	@media(max-width:768px) {
+		margin-bottom: 20px;
+	}
+}
+
+footer {
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	.border-radius;
+}
