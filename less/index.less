@@ -1,1 +1,71 @@
 // Make your imports here!
+
+@import "bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+@import "layout.less";
+
+.container {
+    width: 90%;
+    margin:0;
+    padding:0;
+    border: 1px solid red;
+}
+
+header {
+    max-width: 100%;
+    background-color: rgb(236, 236, 236);
+    h1 {
+        display: flex;
+        justify-content: center;
+        .nav {
+            text-decoration: none;
+            border: 1px solid blue;
+           .nav-link {
+                color: black;
+                border: 1px solid blue;
+            }
+            
+        }
+    }
+}
+
+
+.carousel {
+    max-width: 100%;
+}
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 0px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+
+    .img-fluid {
+        width: 100%;
+        max-width: 200px;
+        margin: auto;
+    }
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-top:50px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+.footer {
+    display:flex;
+    margin: auto;
+    color: black;
+    background: rgb(221, 220, 220);
+    padding: 20px 0;
+    width: 80%;
+}
