@@ -1,8 +1,81 @@
 html, body {
+    max-width: 100%;
     font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+a {
+    color: @tertiary-color;
+    
+}
+
+.img1 {
+    display: block;
+    max-width:230px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+} 
+
+
+.img2 {
+    display: block;
+    max-width:230px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.img3 {
+    display: block;
+    max-width:230px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+      // Use of LESS requirement -->
+.astronaut {
+    width:195px;
+    height: 195px;
+}
+
+.launch-button {
+    .box-shadow(7px 5px 5px black);         // Mixin requirement //
+}
+
+
+
+.navGrab {
+	background:white;
+}
+
+.rocketBlast {
+    .border-radius(4%);
+}
+
+.SkyTrail {
+    .border-radius(4%);         // Second mixin requirement //
+}
+
+.rocketlaunch {
+    .border-radius(4%);
+}
+
+.astronaut {
+    .border-radius(4%);
+}
+
+.footer {
+    max-width: 100%;
+    margin-left: 330px;
+}
+
+
+
