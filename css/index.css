@@ -8256,6 +8256,6 @@ h5 {
   color: #22283B;
   font-size: 1.2rem;
 }
-img {
-  max-width: 280px;
+.myImageClass img {
+  max-width: 300px;
 }
