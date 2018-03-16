@@ -8253,6 +8253,11 @@ h5 {
   width: 80%;
   max-width: 100%;
 }
+.spacewalker {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
 .walk-container {
   max-width: 30%;
 }
@@ -8261,4 +8266,12 @@ h5 {
 }
 .accent-color {
   background-color: #e0e0e0;
+}
+.border-round {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
