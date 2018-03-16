@@ -8,7 +8,12 @@ A: npm install -g less
 A: .box-shadow and creating my own custom .button and adding to a namespace
 
 4. What are the names of the 5 breakpoints used in bootstrap?
-A: xs, sm, md, lg, xl
+A:
+xs  Extra small <576px	
+sm  Small ≥576px	
+md  Medium ≥768px	
+lg  Large ≥992px	
+xl  Extra large ≥1200px
 
 5. What is the utility class name that turns an element into a flexbox?
 A: flex
