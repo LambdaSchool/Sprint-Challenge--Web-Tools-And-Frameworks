@@ -8269,3 +8269,7 @@ h5 {
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.collapseButton {
+  color: white;
+  background-color: #22283B;
+}
