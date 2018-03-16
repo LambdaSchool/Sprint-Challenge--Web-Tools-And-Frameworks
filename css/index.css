@@ -8292,7 +8292,7 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .img:hover {
   -webkit-opacity: 1;
