@@ -49,7 +49,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 * Use the spacing utilities to match the layout design. 
 * Use any flexbox utilities you may need to match the design.
 
-## Task 4: Components
+## Task 4: Components //done
 * Implement the carousel at the top of the content.  Make sure to include all 4 images.
 * Pick one more component of your choice to implement in the project:
   - Collapse

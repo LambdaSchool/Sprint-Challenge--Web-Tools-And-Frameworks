@@ -8264,6 +8264,18 @@ h5 {
   margin: 0.5% 2%;
   color: #22283B;
   text-decoration: none;
+  -webkit-opacity: 0.3;
+  -moz-opacity: 0.3;
+  opacity: 0.3;
+}
+.nav a:hover {
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
 }
 .content-top img {
   width: 100%;
