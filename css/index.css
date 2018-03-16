@@ -8249,6 +8249,16 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  max-width: 1200px;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.container {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto !important;
+}
 .nav-link {
   color: #22283B;
 }
