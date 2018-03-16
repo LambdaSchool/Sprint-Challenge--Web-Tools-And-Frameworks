@@ -8252,3 +8252,11 @@ h5 {
 a {
   color: #22283B;
 }
+.btn-primary {
+  background-color: #22283B;
+}
+.footer {
+  color: #22283B;
+  background: #e0e0e0;
+  padding: 20px 0;
+}
