@@ -8276,3 +8276,14 @@ hr {
   background-color: none;
   border: none;
 }
+.bxshadow img {
+  -webkit-box-shadow: 2px 2px 6px;
+  -moz-box-shadow: 2px 2px 6px;
+  box-shadow: 2px 2px 6px;
+}
+.bxshadow img:hover {
+  -webkit-transform: skew(0deg, 1deg);
+  -moz-transform: skew(0deg, 1deg);
+  -ms-transform: skew(0deg, 1deg);
+  -o-transform: skew(0deg, 1deg);
+}
