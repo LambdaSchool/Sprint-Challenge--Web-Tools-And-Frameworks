@@ -6,3 +6,44 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid{
+  max-width: 1200px;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto !important;
+}
+
+.nav-link {
+  color: @secondary-color;
+}
+
+
+.img-fluid {
+  .border-radius(10px);
+}
+
+
+.walk {
+  .border-radius(10px);
+  &:hover {
+    .opacity();
+  }
+}
+
+.btn {
+  background-color: @secondary-color !important;
+  color: white;
+}
+
+
+.footer {
+  background-color: @main-color !important;
+  height: 80px !important;
+  padding-top: 20px !important;
+}
