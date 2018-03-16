@@ -8251,7 +8251,15 @@ h5 {
 }
 .container-fluid {
   background-color: #e0e0e0;
+  border-bottom: 3px solid lightgray;
 }
 .container {
-  max-width: 900px;
+  max-width: 800px;
+}
+.registration-btn {
+  background-color: #22283B;
+}
+.footer {
+  background-color: #f4f4f4;
+  height: 70px;
 }
