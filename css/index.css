@@ -8240,6 +8240,7 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: #f4f4f4;
 }
 h1,
 h2,
@@ -8251,7 +8252,7 @@ h5 {
 }
 .header {
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #e0e0e0;
 }
 .header a {
   color: black;
@@ -8260,4 +8261,13 @@ h5 {
 }
 .flex-images img {
   height: 180px;
+}
+.go-walk img {
+  height: 100%;
+}
+.ready-form button {
+  background-color: #22283B;
+}
+.footer {
+  background-color: #e0e0e0;
 }
