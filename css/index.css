@@ -8249,3 +8249,44 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.img1 {
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.img2 {
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.img3 {
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.img4 {
+  -webkit-box-shadow: 11px 7px 7px teal;
+  -moz-box-shadow: 11px 7px 7px teal;
+  box-shadow: 11px 7px 7px teal;
+}
+.nav {
+  color: #22283B;
+}
+.header {
+  background-color: #e0e0e0;
+}
+.btn-dark {
+  background-color: #22283B;
+}
+.footer {
+  background-color: #f4f4f4;
+}
