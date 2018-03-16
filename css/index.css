@@ -8255,6 +8255,9 @@ h5 {
   -moz-box-shadow: 3px 3px 3px #e0e0e0;
   box-shadow: 3px 3px 3px #e0e0e0;
 }
+.jumbotron .container .row .col-12 nav a {
+  color: #22283B;
+}
 .row .col-4 .card img {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
