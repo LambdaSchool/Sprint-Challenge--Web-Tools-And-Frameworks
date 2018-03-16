@@ -8249,9 +8249,6 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  border: 1px solid black;
-}
 .row1 {
   background-color: #e0e0e0 !important;
 }
@@ -8269,6 +8266,7 @@ h5 {
   justify-content: space-between;
   padding-left: 20rem !important;
   padding-right: 20rem !important;
+  padding-bottom: 1rem;
 }
 .row2 a {
   color: black;
@@ -8309,6 +8307,7 @@ h5 {
 }
 .row12 .btn {
   background-color: #22283B !important;
+  border-color: black;
 }
 .row13 footer {
   background-color: #e0e0e0 !important;
@@ -8317,4 +8316,5 @@ h5 {
   align-items: center;
   height: 5rem;
   margin: 2rem 0;
+  border-radius: 5px;
 }

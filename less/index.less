@@ -4,16 +4,10 @@
 @import "variables";
 @import "mixins";
 @import "layout";
-// @main-color: dark grey header 
-// @secondary-color: #22283B; blue button
-// @accent-color: light grey footer
-@x: 1px solid black;
 
-//@string
-//@radius: 5px;
 
 .container {
-    border: @x;
+   
 }
 
 //              Row 1  
@@ -37,6 +31,7 @@
         justify-content: space-between;
         padding-left: 20rem !important;
         padding-right: 20rem !important;
+        padding-bottom: 1rem;
     }
     
     a {
@@ -100,6 +95,7 @@
     }
     .btn {
         background-color: @secondary-color !important;
+        border-color: black;
     }
 }
 
@@ -112,11 +108,12 @@
         align-items: center;
         height: 5rem;
         margin: 2rem 0;
-        
+        border-radius: 5px;      
     }
+  
 }
 
-// Notes:
+// Things to change if enough time:
 //row 3 carrousel longer
 //row 8 make the table rows background color different
 //row 10 make the image align with the header in row 9
