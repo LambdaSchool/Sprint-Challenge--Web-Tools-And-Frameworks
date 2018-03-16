@@ -8258,6 +8258,12 @@ h5 {
 }
 .registration-btn {
   background-color: #22283B;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  -webkit-box-shadow: 10px 10px 10px gray;
+  -moz-box-shadow: 10px 10px 10px gray;
+  box-shadow: 10px 10px 10px gray;
 }
 .footer {
   background-color: #f4f4f4;
