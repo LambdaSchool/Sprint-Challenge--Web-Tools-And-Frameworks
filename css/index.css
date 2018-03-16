@@ -8253,6 +8253,7 @@ h5 {
   color: #22283B;
 }
 .big-container {
+  background: #f4f4f4;
   margin: 0 auto;
 }
 .container {
@@ -8267,7 +8268,7 @@ h5 {
   color: #22283B;
 }
 .main-container {
-  border: 1px solid black;
+  border: 2px solid lightgrey;
   padding: 0 13% 0 10%;
 }
 .main-container .mid-img {
