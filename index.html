@@ -40,6 +40,15 @@
     </div>
   </div>
 </div> <!-- JavaScript Component: Carousel -->
+<div class="container d-flex justify-content-center">
+  <div="row">
+<button class="colbtn" type="button" data-toggle="collapse" data-target="#carouselcollapse" aria-expanded="false" aria-controls="collapseExample">
+  Space
+  </button> <!--collpase button for carousel-->
+  </div>
+</div>
+<!--Carousel Wrapper-->
+<div class="collapse" id="carouselcollapse"> <!--collapse identification-->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -64,11 +73,12 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
   <div class="row">
     <div class="col-sm-12">
       <h2>Lift Off</h2>
       <p>
-          As we got further and further away, it [the Earth] diminished in size. Finally it shraknk to the size of a marble, the most beautiful you can imagine.
+          As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine.
           The beautiful, warm, living objec tlooked so fragile, so delicate, that if you touched it witha finger it would fall apart. Seeing this has to change a man.   
       </p>
     </div>
@@ -89,13 +99,13 @@
         <h2>Can We Visit Planets?</h2>
         <p>
          Never in all their history have men been able to truly to conceive of the world 
-         as one:a  single sphere a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
+         as one:a single sphere a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
          
          which there is no center because every point, or none, is center- an equal earth which all men occupy as equals. The airman's earth, if free men make it. 
         </p>
       </div>
       <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-12"> <!--table with sizingr-->
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -126,26 +136,27 @@
                 </tr>
               </tbody>
             </table>
-            <div class="row">
+            <div class="row d-flex justify-content-center"> <!--changed placement to incorporate dropdown and keep appearance-->
                 <div class="col-sm-4">
                   <h2>Let's Go For A Walk</h2>
                   <p>
-                    The Earth was small, light blue, nd so touchingly alone, our home that must be defended like a holy relic. 
+                    The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. 
                     The Earth was absolutely round.
                     
                     It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, 
                     and my thumb blotted out the planet Earth. 
                   </p>
                 </div>
+                </div>
                 <div class="row">
-                    <div class="col-sm-6 d-flex justify-content-end pr-4">
+                    <div class="col-sm-6 d-flex justify-content-end pr-4"> <!--so it is centered -->
                         <img src="img/space-walk.jpg" class="img-fluid" alt="Space Man">
                     </div>
                     <div class="dropdown pl-4"> <!-- JavaScript Component: DropDown -->
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Gravity On Planets
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <!--went with gravities on menu -->
           <a class="dropdown-item" href="#">Mars 3.711 m/s^2</a>
           <a class="dropdown-item" href="#">Earth 9.807 m/s^2</a>
           <a class="dropdown-item" href="#">Jupiter 24.79 m/s^2</a>
@@ -153,7 +164,7 @@
         </div>
             </div>
             </div>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center"> 
                 <div class="col-sm-6 ml-10 pl-10 mt-3">
                   <form>
                     <label for="name">Name</label>
@@ -182,7 +193,7 @@
                     <h4>Space Stuff</h4>
                     <ul class="list-group">
                       <li class="list-group-item">Space Helmet</li>
-                      <li class="list-group-item">Rocket Boostesr</li>
+                      <li class="list-group-item">Rocket Boosters</li>
                       <li class="list-group-item">Shuttle</li>
                       <li class="list-group-item">Training For Launch</li>
                       <li class="list-group-item">Heat Resisitant Plating</li>
@@ -191,12 +202,14 @@
                   </div>
                     </div>
                   </div>
+                  <div class="container mt-3 d-flex justify-content-center"> <!--footer-->
                     <div class="row">
-                        <div class="col-sm-12 d-flex justify-content-center">
-                          Copyright SpaceWalkers 2018
-                        </div>
+                      <div class="col-sm-12">
+                        SpaceWalkers Copyright 2018
                       </div>
                     </div>
+                  </div>
+                
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>

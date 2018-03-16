@@ -6,3 +6,18 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+h1{  //opacity to see through headings 
+    .opacity(.6);
+}
+h1:hover {   //added the mixin to a hover on the h1 element 
+    .rotate(65deg)
+}
+h2, h2, h4, h5{
+    .opacity(.72);
+}
+table {
+    .box-shadow(10px 5px #5d72ba) //creates shadow upon table
+}
+img:hover {
+    .skew(10deg, 30deg) //skews images when hovered over
+}
