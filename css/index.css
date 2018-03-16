@@ -8259,6 +8259,9 @@ footer {
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+body {
+  position: relative;
+}
 img.content {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

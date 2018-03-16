@@ -15,9 +15,9 @@
   <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".nav" data-offset="50">
   
-  <div class="container-fluid">
+  <div class="container-fluid sticky-top">
 	<div class="row pt-3 border-bottom" id="Navigation"> <!-- navbar -->
 		<div class="col-sm-12">
 			<h1 class="text-center">SpaceWalkers</h1>
@@ -25,20 +25,20 @@
 			  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button> -->
-			  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-			    <div class="navbar-nav">
-			      <a class="nav-item nav-link mx-1" href="#Navigation">Home <!-- <span class="sr-only">(current)</span> --></a>
-			      <a class="nav-item nav-link mx-1" href="#">About Us</a>
-			      <a class="nav-item nav-link mx-1" href="#">Blog</a>
-			      <a class="nav-item nav-link mx-1" href="#">Contact</a>
-			      <a class="nav-item nav-link mx-1" href="#">Sign In</a>
-			    </div>
+			  <div class="nav collapse navbar-collapse d-flex justify-content-center">
+			    <ul class="navbar-nav">
+			      <li><a class="nav-item nav-link mx-1" href="#Home">Home</a></li>
+			      <li><a class="nav-item nav-link mx-1" href="#About">About Us</a></li>
+			      <li><a class="nav-item nav-link mx-1" href="#Blog">Blog</a></li>
+			      <li><a class="nav-item nav-link mx-1" href="#Contact">Contact</a></li>
+			      <li><a class="nav-item nav-link mx-1" href="#Sign In">Sign In</a></li>
+			    </ul>
 			  </div>
 			</nav>
 		</div> <!-- navbar -->
 	</div>
   </div> 
-  <div class="container">
+  <div class="container" id="Home">
     <div class="row px-5"> <!-- carousel -->
     	<div class="col-sm-12"> 
     		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -68,7 +68,7 @@
     	</div>
     </div> <!-- carousel -->
 
-    <div class="row main-content mt-5 px-5"> <!-- lift off -->
+    <div class="row main-content mt-5 px-5" id="About"> <!-- lift off -->
     	<div class="col-sm-12">
     		<h2>Lift Off</h2>
     		<p>
@@ -89,7 +89,7 @@
     	</div>
     </div>
 
-    <div class="row mt-5 px-5"> <!-- visit planets -->
+    <div class="row mt-5 px-5" id="Blog"> <!-- visit planets -->
     	<div class="col-sm-12">
     		<h2>Can We Visit Planets?</h2>
     		<p>
@@ -148,7 +148,28 @@
     	</div>
     </div> <!-- go for a walk -->
 
-    <div class= "row mt-5 px-5"> <!-- contact form -->
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Sign Up Confirmation</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        Thank you for signing up!
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+    <div class= "row mt-5 px-5" id="Contact"> <!-- contact form -->
     	<div class="col-sm-8">
     		<h3>Ready To Go?</h3>
     		<form>
@@ -176,11 +197,12 @@
 			    	Please don’t send me emails
 			    </label>
 			  </div>
-			  <button type="submit" class="btn btn-primary mt-2">Ready For Launch</button>
+			  <!-- Button Modal Trigger -->
+			  <button type="submit" class="btn btn-primary mt-2" data-toggle="modal" data-target="#exampleModal">Ready For Launch</button>
 			</form>
     	</div> <!-- contact form -->
 
-    	<div class="col-sm-4"> <!-- list group -->
+    	<div class="col-sm-4" id="Sign"> <!-- list group -->
     		<h3>Space Stuff</h3>
     		<ul class="list-group">
 			  <li class="list-group-item">Space Helmet</li>
