@@ -6,3 +6,39 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container {
+    max-width: 800px;
+}
+
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px @accent-color;
+    width: 100%;
+}
+
+nav {
+	a {
+	color: @secondary-color;
+	}
+}
+
+.img-fluid {
+	.border-radius (@radius: 5px);
+}
+
+button {
+	background-color: @secondary-color !important;
+	border-color: @secondary-color !important;
+}
+
+.footer {
+    color: @secondary-color;
+    background: @main-color;
+    padding: 20px 0;
+    .border-radius (@radius: 5px);
+
+    &:hover {
+    	.opacity (@opacity: 0);
+    }
+}
