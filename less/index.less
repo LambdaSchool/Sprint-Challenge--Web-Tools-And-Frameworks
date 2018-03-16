@@ -5,18 +5,12 @@
 @import "mixins.less";
 @import "layout.less";
 
-.container {
-	border: 1px solid red;
+.container-fluid {
+	border-bottom: 1px solid gray;
 }
 
 #Navigation, footer {
 	background-color: @accent-color;
-}
-
-nav {
-	a {
-	//border: 1px solid blue;
-	}
 }
 
 
@@ -29,5 +23,12 @@ nav {
 }
 
 img.content {	
+	.border-radius;
+}
+
+footer {
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
 	.border-radius;
 }

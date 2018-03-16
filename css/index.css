@@ -8249,8 +8249,8 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  border: 1px solid red;
+.container-fluid {
+  border-bottom: 1px solid gray;
 }
 #Navigation,
 footer {
@@ -8260,6 +8260,17 @@ footer {
   color: black;
 }
 img.content {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+footer {
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
