@@ -8256,3 +8256,15 @@ h5 {
   color: #22283B;
   font-family: 'Russo One';
 }
+.container img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .footer {
+  background: #e0e0e0;
+  font-family: 'Russo One';
+}
