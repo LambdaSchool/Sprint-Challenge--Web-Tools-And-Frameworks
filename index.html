@@ -17,16 +17,17 @@
 <body>
   <div class="container-fluid sticky-top">
     <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <h1 class="logo-heading">SpaceWalkers</h1>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <h1 class="logo-heading ">SpaceWalkers</h1>
         </div>
         <div class="col-sm-12">
-          <nav class="nav">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#">Disabled</a>
+          <nav class="nav justify-content-center">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Sign In</a>
           </nav>
         </div>
       </div>
@@ -60,7 +61,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-sm-12">
             <h2>Lift Off</h2>
             <p>
@@ -71,13 +72,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12">
-            <img src="img/blast.jpg" class="img-fluid rounded" alt="Fluid Blast">
-            <img src="img/sky.jpg" class="img-fluid rounded" alt="Fluid Sky">
-            <img src="img/launch.jpg" class="img-fluid rounded" alt="Fluid Launch">          
+        <div class="col-sm-4">
+            <img src="img/blast.jpg" class="img-fluid rounded" alt="Blast">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/sky.jpg" class="img-fluid rounded" alt="Sky">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/launch.jpg" class="img-fluid rounded" alt="Launch">          
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-sm-12">
             <h3>Can We Visit Planets?</h3>
             <p>
@@ -88,7 +93,7 @@
             </p>          
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
           <div class="col-sm-12">
               <table class="table table-striped">
                   <thead>
@@ -101,34 +106,29 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">1</th>
-                      <td>Mars</td>
-                      <td>Jupiter</td>
-                      <td>Saturn</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
+                      <th scope="row">Mars</th>
                       <td>54.6 million km</td>
-                      <td>588 million km</td>
-                      <td>1.2 billion km</td>
+                      <td>Maybe</td>
+                      <td>300 Days</td>
                     </tr>
                     <tr>
-                      <th scope="row">3</th>
+                      <th scope="row">Jupiter</th>
+                      <td>588 million km</td>
+                      <td>No</td>
+                      <td>Depends On Orbit (3-6 Years)</td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Saturn</th>
                       <td>Maybe</td>
                       <td>No</td>
-                      <td>No</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>300 Days</td>
-                      <td>Depends On Orbit (3-6 Years)</td>
-                      <td>Depends On Orbit (3-6 Years)</td>
+                      <td>1.2 billion km</td>
                     </tr>
                   </tbody>
-                </table>          
+              </table>          
           </div>
-        </div>
-        <div class="row">
+      </div>
+      <div class="row justify-content-center mt-5 mb-5">
             <div class="col-sm-4">
                 <h3>Let's Go For A Walk</h3>
                 <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended
@@ -138,14 +138,12 @@
                   I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Fluid Spacewalk">          
-            </div>
-        </div>
-        <div class="row">
             <div class="col-sm-6">
+              <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Fluid Spacewalk">          
+          </div>
+      </div>
+      <div class="row justify-content-center">
+            <div class="col-sm-9">
               <h3>Ready To Go?</h3>
                 <form>
                     <div class="form-group">
@@ -168,12 +166,10 @@
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
                     </div>
-                    <button type="submit" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="JOIN US!">Ready For Launch</button>
+                    <button type="submit" class="btn btn-primary mt-2" data-toggle="tooltip" data-placement="bottom" title="JOIN US!">Ready For Launch</button>
                   </form>          
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-3">
               <h4>Space Stuff</h4>
               <ul class="list-group">
                   <li class="list-group-item">Space Helmet</li>
@@ -184,11 +180,11 @@
                   <li class="list-group-item">Space Suit</li>
               </ul>                              
             </div>
-        </div>
-        <div class="row footer mt-4">
-            <div class="col-sm-12">
-              Copyright SpaceWalkers 2018
-        </div>
+      </div>
+      <div class="row footer justify-content-center mt-5">
+        <div class="col-sm-4">
+          Copyright SpaceWalkers 2018
+      </div>
     </div>
   </div>
 
