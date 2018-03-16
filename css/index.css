@@ -8252,15 +8252,41 @@ h5 {
 .container-fluid {
   max-width: 800px;
 }
+.anchor a {
+  display: flex;
+  justify-content: end;
+}
 .navbar {
   padding: 0;
+}
+.img-fluid {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 a {
   color: #22283B;
   text-decoration: none;
 }
+.spacewalk {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .btnfooter {
   background-color: #22283B;
+  -webkit-box-shadow: 0 0 20px #22283B;
+  -moz-box-shadow: 0 0 20px #22283B;
+  box-shadow: 0 0 20px #22283B;
 }
 .footer {
   background: #e0e0e0;
