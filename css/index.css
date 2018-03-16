@@ -8239,7 +8239,11 @@ a.text-dark:hover {
 /*# sourceMappingURL=bootstrap.min.css.map */
 html,
 body {
+  max-width: 100%;
   font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
 }
 h1,
 h2,
@@ -8316,4 +8320,8 @@ a {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.footer {
+  max-width: 100%;
+  margin-left: 330px;
 }
