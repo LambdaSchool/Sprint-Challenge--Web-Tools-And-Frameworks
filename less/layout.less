@@ -1,8 +1,80 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
+    color: @secondary-color;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px solid @accent-color;    
+}
+
+.title {
+    margin: 20px 0;
+}
+.nav {
+    width: 100%;
+    a { 
+        margin: 0.5% 2%;
+        color: @secondary-color;
+        text-decoration: none;
+        
+        .opacity (0.3);
+        
+        &:hover {
+            .rotate (-4deg);
+            .opacity (1);
+        }
+    }
+
+}
+
+.content-top {
+
+    img {
+        width:100%;
+        .border-radius ();
+    }
+}
+
+.content-bottom {
+    padding: 70px 0;
+    border-top: 2px solid @accent-color;
+    border-bottom: 2px solid @accent-color;
+
+    img {
+        width: 100%;
+        .border-radius ();
+    }
+
+    .btn-dark{
+        background: @secondary-color;
+    }
+}
+
+.signup-sheet {
+    .btn-dark {
+        background: @secondary-color;
+    }
+
+    .card {
+        .btn {
+            color: #22283B;
+            text-decoration-line: none;
+            
+            &:hover {
+                text-decoration-line: none;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 40px 0;
+    background-color: @main-color;
 }

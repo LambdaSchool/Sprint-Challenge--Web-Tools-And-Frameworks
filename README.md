@@ -28,7 +28,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 ## Prerequisites
 * You must have LESS and less watch compiler installed to get this project running correctly.
 
-## Task 1: Preprocessing
+## Task 1: Preprocessing //done
 * You will notice that there are several ```.less``` files in the LESS folder.  You will need to import the files into the ```index.less``` for this project to work correctly. The order in which they must be imported is:
 1. ```bootstrap.less```
 2. ```variables.less```
@@ -40,16 +40,16 @@ For this sprint challenge you will be building a web page from scratch for a spa
 * You will notice the ```mixins.less``` file has several mixins ready to be used.  Find ways to use at least 2 of these mixins after you have laid out the site.
 
 
-## Task 2: Layout
+## Task 2: Layout //done
 * Use the grid system to layout the content and images given to you by SpaceWalker. **You can wait to implement the carousel in Task 4: Components**
 * Try to mimic the layout of the desktop design. **Do not waste time going for pixel perfect layouts in this challenge!**
 * When you have the general layout complete, move on to utilities for fine tuning the spacing.
 
-## Task 3: Utilities
+## Task 3: Utilities //done
 * Use the spacing utilities to match the layout design. 
 * Use any flexbox utilities you may need to match the design.
 
-## Task 4: Components
+## Task 4: Components //done
 * Implement the carousel at the top of the content.  Make sure to include all 4 images.
 * Pick one more component of your choice to implement in the project:
   - Collapse
