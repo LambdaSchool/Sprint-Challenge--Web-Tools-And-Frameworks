@@ -8249,3 +8249,13 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+nav a {
+  font-family: 'Russo One', sans-serif;
+  color: #22283B;
+  text-decoration: none;
+  margin: 10px;
+}
+.header-row {
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #22283B;
+}
