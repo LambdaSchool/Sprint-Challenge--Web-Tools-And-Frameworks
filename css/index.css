@@ -8255,10 +8255,10 @@ h1 {
   opacity: 0.6;
 }
 h1:hover {
-  -webkit-transform: rotate(65deg);
-  -moz-transform: rotate(65deg);
-  -ms-transform: rotate(65deg);
-  -o-transform: rotate(65deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 h2,
 h2,
