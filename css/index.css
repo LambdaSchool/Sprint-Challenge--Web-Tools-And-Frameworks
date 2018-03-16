@@ -8270,6 +8270,16 @@ img.content {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+@media (max-width: 995px) {
+  img.content {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    margin-bottom: 20px;
+  }
+}
 footer {
   border-top: 2px solid gray;
   border-left: 2px solid gray;
