@@ -8249,3 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+
+.nav a:hover{
+
+  box-shadow: 5px 5px 5px rgb(187, 187, 187);
+  border-radius: 10px;
+}
