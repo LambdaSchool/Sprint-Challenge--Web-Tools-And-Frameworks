@@ -8252,6 +8252,6 @@ h5 {
 .container-fluid {
   background-color: #e0e0e0;
 }
-.container-fluid .container {
+.container {
   max-width: 800px;
 }
