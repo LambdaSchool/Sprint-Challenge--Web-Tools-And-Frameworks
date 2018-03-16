@@ -8280,3 +8280,41 @@ h5 {
   display: flex;
   justify-content: center;
 }
+.row6 img {
+  width: 30% !important;
+  margin: 0 .5rem;
+}
+.row9 {
+  border-top: 1px solid grey;
+  margin-top: 5rem;
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+.row10 {
+  padding: 1rem 0;
+  border-bottom: 1px solid grey;
+}
+.row10 img {
+  margin-bottom: 5rem;
+}
+.row10 p {
+  display: flex;
+  padding-left: 7rem;
+}
+.row11 {
+  margin-top: 5rem;
+}
+.row12 .form-check {
+  margin-bottom: 1rem;
+}
+.row12 .btn {
+  background-color: #22283B !important;
+}
+.row13 footer {
+  background-color: #e0e0e0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin: 2rem 0;
+}
