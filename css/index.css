@@ -8264,9 +8264,6 @@ h5 {
   max-width: 800px;
 }
 @media (max-width: 576px) {
-  .container {
-    padding: 0;
-  }
 }
 @media (max-width: 576px) {
   .container .nav {
@@ -8282,8 +8279,8 @@ h5 {
     border-top: 1px solid gray;
   }
   .container .nav .nav-link:hover {
-    background-color: lightgray;
-    color: white;
+    background-color: gray;
+    color: white !important;
   }
 }
 .registration-btn {
