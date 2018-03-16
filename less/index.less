@@ -1,1 +1,29 @@
 // Make your imports here!
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.btn{
+    color: black;
+}
+.header{
+    background-color: @main-color;
+    border-bottom: 2px solid @accent-color;
+}
+.nav{
+    a{
+        color: black;
+    }
+}
+button .readyForLaunch{
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding-top: 20px;
+    background-color: @main-color;
+    border: 2px solid @accent-color;
+    height: 80px;
+    border-bottom: 0;
+}
