@@ -8257,3 +8257,20 @@ h5 {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+.row .col-6 {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 50px;
+}
+.row .col-6 img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.row .col-9 .btn {
+  background-color: #22283B;
+  border: 1px solid #22283B;
+}
