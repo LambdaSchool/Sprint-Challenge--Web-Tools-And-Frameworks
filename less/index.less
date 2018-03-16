@@ -1,1 +1,122 @@
 // Make your imports here!
+
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+
+.container {
+   
+}
+
+//              Row 1  
+.row1 {
+    background-color: @accent-color !important; 
+    
+    .header {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+//              Row 2
+.row2 {
+    display: flex;
+    justify-content: center;
+    background-color: @accent-color !important;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20rem !important;
+        padding-right: 20rem !important;
+        padding-bottom: 1rem;
+    }
+    
+    a {
+        color: black;
+    } 
+}
+//              Row 3 
+.row3 {
+    margin-bottom: 2rem;
+
+    .carrousel {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+//              Row 4
+
+//              Row 5
+
+//              Row 6
+.row6 {
+    img {
+        width: 30% !important;
+        margin: 0 .5rem;
+    }
+}
+//              Row 7
+
+//              Row 8
+//              Row 9
+.row9 {
+    border-top: 1px solid grey;
+    margin-top: 5rem;
+    padding-left: 7rem;
+    padding-top: 3rem;
+}
+//              Row 10
+.row10 {
+    padding: 1rem 0;
+    
+    border-bottom: 1px solid grey;
+    img {
+        margin-bottom: 5rem;
+    }
+    p {
+        display: flex;
+        padding-left: 7rem
+    }
+}
+
+//              Row 11
+.row11 {
+        margin-top: 5rem;
+}
+
+//              Row 12
+.row12 {
+    .form-check {
+        margin-bottom: 1rem;
+    }
+    .btn {
+        background-color: @secondary-color !important;
+        border-color: black;
+    }
+}
+
+//              Row 13
+.row13 {
+    footer {
+        background-color: @accent-color !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        margin: 2rem 0;
+        border-radius: 5px;      
+    }
+  
+}
+
+// Things to change if enough time:
+//row 3 carrousel longer
+//row 8 make the table rows background color different
+//row 10 make the image align with the header in row 9
+// make the borders of row 9 and 10 slightly indented
+
+
