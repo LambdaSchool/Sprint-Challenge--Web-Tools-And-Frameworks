@@ -8279,3 +8279,10 @@ img:hover {
   -ms-transform: skew(10deg, 30deg);
   -o-transform: skew(10deg, 30deg);
 }
+.btn {
+  background: #20b592;
+}
+button {
+  background: #20b592;
+  color: white;
+}
