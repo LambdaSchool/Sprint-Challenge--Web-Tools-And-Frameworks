@@ -8259,3 +8259,9 @@ nav a {
   background-color: #e0e0e0;
   border-bottom: 1px solid #22283B;
 }
+.margin-fix {
+  margin: 0px 160px;
+}
+img {
+  width: 100%;
+}
