@@ -8252,8 +8252,11 @@ h5 {
 .container {
   max-width: 800px;
 }
-header {
-  color: #22283B;
+.container-fluid {
+  background-color: #22283B;
+}
+.container-fluid div h1 {
+  color: white;
 }
 .btn {
   color: #22283B;
