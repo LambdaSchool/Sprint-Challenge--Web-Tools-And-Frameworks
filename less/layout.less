@@ -1,8 +1,48 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: @main-color;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.header {
+  text-align: center;
+  background-color: @accent-color;
+
+  a{
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+}
+
+.flex-images {
+  img {
+    height: 180px;
+
+    .border-radius(25px);
+  }
+}
+
+.go-walk {
+  img {
+    height: 100%;
+
+    .border-radius(50%);
+    .box-shadow(10px 10px 10px black);
+    .rotate(-25deg);
+  }
+}
+
+.ready-form {
+  button {
+    background-color: @secondary-color;
+  }
+}
+
+.footer {
+  background-color: @accent-color;
 }
