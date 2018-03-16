@@ -8241,6 +8241,9 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+.container {
+  padding: 0 10% 0;
+}
 .container-fluid {
   background-color: #f4f4f4;
   -webkit-opacity: 0.9;
