@@ -36,20 +36,20 @@ For this sprint challenge you will be building a web page from scratch for a spa
 4. ```layout.less```
 
 * After you have your ```index.less``` imports set up, run ```less-watch-compiler less css index.less``` to get your styles going.   Done
-* Notice the ```variables.less``` file has the color scheme ready to go for you.  Use these variables to match the design provided to you.  <<<< DO THIS
-* You will notice the ```mixins.less``` file has several mixins ready to be used.  Find ways to use at least 2 of these mixins after you have laid out the site. <<<<< DO THIS
+* Notice the ```variables.less``` file has the color scheme ready to go for you.  Use these variables to match the design provided to you.  Done
+* You will notice the ```mixins.less``` file has several mixins ready to be used.  Find ways to use at least 2 of these mixins after you have laid out the site. DONE
 
 
-## Task 2: Layout
+## Task 2: Layout Done
 * Use the grid system to layout the content and images given to you by SpaceWalker. **You can wait to implement the carousel in Task 4: Components** Done
 * Try to mimic the layout of the desktop design. **Do not waste time going for pixel perfect layouts in this challenge!** Done
 * When you have the general layout complete, move on to utilities for fine tuning the spacing. Done
 
-## Task 3: Utilities
+## Task 3: Utilities Done
 * Use the spacing utilities to match the layout design. Done
 * Use any flexbox utilities you may need to match the design. Done
 
-## Task 4: Components
+## Task 4: Components Done
 * Implement the carousel at the top of the content.  Make sure to include all 4 images. Done
 * Pick one more component of your choice to implement in the project: DONE
   - Collapse DONE
@@ -59,7 +59,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
   - Scrollspy
   - Navbar
 
-* Once you're done with all four tasks, push your commits to your fork and submit a Pull-Request
+* Once you're done with all four tasks, push your commits to your fork and submit a Pull-Request Done
 
 **Stretch Tasks**
 * Use the utility spacer classes to make the design look great on phones, tablets, and desktops.

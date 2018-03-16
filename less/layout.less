@@ -13,21 +13,29 @@ h5 {
 }
 .container {
   .row-container {
-    background-color: @accent-color;
+    background-color: @main-color;
     .border-radius(5px);
+
+    //first mixin
+    .opacity ();
   }
   .nav-a {
     color: @secondary-color;
     font-weight: bold;
   }
+  .row-text {
+    border-top: 1px solid @main-color;
+    border-bottom: 1px solid @main-color;
+  }
   .custom-btn {
     background: @secondary-color;
-    .opacity (50);
   }
 
   .custom-footer {
-    background: @accent-color;
+    background: @main-color;
     height: 70px;
+
+    //second mixin
     .border-radius(50px);
   }
 } //container

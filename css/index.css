@@ -8250,26 +8250,30 @@ h5 {
   color: #22283B;
 }
 .container .row-container {
-  background-color: #e0e0e0;
+  background-color: #f4f4f4;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 .container .nav-a {
   color: #22283B;
   font-weight: bold;
 }
+.container .row-text {
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+}
 .container .custom-btn {
   background: #22283B;
-  -webkit-opacity: 50;
-  -moz-opacity: 50;
-  opacity: 50;
 }
 .container .custom-footer {
-  background: #e0e0e0;
+  background: #f4f4f4;
   height: 70px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
