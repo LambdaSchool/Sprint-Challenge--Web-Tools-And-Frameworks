@@ -8241,6 +8241,9 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+.container-fluid {
+  background-color: #f4f4f4;
+}
 h1,
 h2,
 h3,
@@ -8248,4 +8251,10 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+a {
+  color: #22283B;
+}
+.footer {
+  background-color: #e0e0e0;
 }
