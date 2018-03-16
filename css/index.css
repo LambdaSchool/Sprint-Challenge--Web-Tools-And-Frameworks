@@ -8253,8 +8253,9 @@ h5 {
   background-color: #e0e0e0;
 }
 .st .space-font {
-  font-style: bold;
+  font-family: 'Russo One', sans-serif;
   font-size: 40px;
+  color: #22283B;
 }
 .st .nav a:link {
   color: #22283B;
@@ -8273,5 +8274,5 @@ img {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  width: 90%;
+  width: 95%;
 }
