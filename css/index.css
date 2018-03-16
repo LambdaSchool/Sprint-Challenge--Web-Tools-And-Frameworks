@@ -8243,6 +8243,9 @@ body {
 }
 .container-fluid {
   background-color: #f4f4f4;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
 }
 h1,
 h2,
@@ -8254,6 +8257,12 @@ h5 {
 }
 a {
   color: #22283B;
+}
+.img-walk {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 .btn {
   background-color: grey;
