@@ -8252,3 +8252,9 @@ h5 {
 .nav .nav-link {
   color: #22283B;
 }
+.nav .btn {
+  color: #22283B;
+}
+.table {
+  border-radius: 2px;
+}
