@@ -8,7 +8,23 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
-.container {
+
+
+body {
+	max-width: 800px;
 	width: 100%;
-	max-width: 1000px;
+	margin: auto;
+}
+
+#navbar {
+	nav {
+		ul > li > a {
+			color: black;
+
+			&:hover {
+				background: black;
+				color: white;
+			}
+		}
+	}
 }

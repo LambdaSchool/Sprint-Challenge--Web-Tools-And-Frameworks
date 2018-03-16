@@ -16,10 +16,12 @@
 
 <body>
   <!-- NAVIGATION -->
-  <div>
-    <nav class="d-flex-column justify-content-center align-items-center">
-      <h1 class="navbar-brand">Space Walkers</h1>
-      <ul class="nav nav-pills">
+  <div id="navbar" class="container-fluid">
+    <nav class="navbar-light bg-light d-flex-column justify-content-center align-items-center">
+      <div class="d-flex justify-content-center">
+        <h1 class="mt-2 mb-0">Space Walkers</h1>
+      </div>
+      <ul class="nav d-flex justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
@@ -41,7 +43,7 @@
 
   <div class="container">
     <!-- carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-ride="carousel">
 
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,7 +79,7 @@
     </div>
 
     <!-- LIFT OFF -->
-    <div class="row">
+    <div class="row mt-5">
       <div class="col">
         <h2>Lift Off</h2>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
@@ -85,29 +87,29 @@
     </div>
 
     <!-- image pane -->
-    <div class="row d-flex justify-content-space-around">
-      <div class="col-3">
-        <img src="img/blast.jpg">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top rounded" src="img/blast.jpg" alt="Card image cap">
       </div>
-      <div class="col-3">
-        <img src="img/sky.jpg">
+      <div class="card">
+        <img class="card-img-top rounded" src="img/sky.jpg" alt="Card image cap">
       </div>
-      <div class="col-3">
-        <img src="img/launch.jpg">
+      <div class="card">
+        <img class="card-img-top rounded" src="img/launch.jpg" alt="Card image cap">
       </div>
     </div>
 
     <!-- can we visit planets -->
-    <div class="row">
+    <div class="row mt-5">
       <div class="col">
-        <h2>Can We Visit Planets?</h2>
+        <h3>Can We Visit Planets?</h3>
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
         <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
       </div>
     </div>
 
     <!-- table -->
-    <div class="row">
+    <div id="table" class="row px-2 mt-5">
       <div class="col">
         <table class="table table-striped">
           <thead>
@@ -143,29 +145,90 @@
     </div>
 
     <!-- lets go for a walk -->
-    <div class="row">
-      <div class="col-6">
-        <h2>Let's Go For A Walk</h2>
-        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p> 
-        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+    <div id="space-walk" class="row mt-5 pt-5 pb-5 border-top border-bottom border-dark">
+      <div class="col-6 d-flex-column pl-5 pt-1">
+        <h3 class="pl-3">Let's Go For A Walk</h3>
+        <p class="pl-3">The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p> 
+        <p class="pl-3">It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       </div>
-      <img class="col-6" src="img/space-walk.jpg">
+      <div class="card col-6" style="border: 0px">
+        <img class="card-img" src="img/space-walk.jpg" alt="Card image">
+      </div>
     </div>
 
     <!-- ready to go? FORM -->
-    <div class="row">
-      <div class="col-8">
-        
+    <div class="row mx-auto mt-4 pt-1 mb-5">
+      <div class="col-8 pl-0">
+        <h3>Ready To Go?</h3>
+        <form>
+          <!-- name -->
+          <div class="form-row">
+            <div class="form-group col-12">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+          </div>
+            <!-- phone -->
+          <div class="form-row">
+            <div class="form-group col-12">
+              <label>Phone</label>
+              <input type="phone" class="form-control" placeholder="Phone">
+            </div>
+          </div>
+          <!-- email -->
+          <div class="form-row">
+            <div class="form-group col-12">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <!-- radios -->
+          <div class="form-group d-flex-column">
+            <div class="form-check form-check">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">I would like to receive promotional emails</label>
+            </div>
+            <div class="form-check form-check">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">Please don't send me emails</label>
+            </div>
+          </div>
+          <!-- submit button -->
+          <div>
+            <button type="submit" class="btn btn-dark">Ready For Launch</button>
+          </div>
+        </form>
       </div>
 
+      <!-- drop down -->
       <div class="col-4">
-        
+        <h4>Space Stuff</h4>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Heat resistant plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
       </div>
-    </div>
+      <!-- commented out dropdown for pizel perfect -->
+      <!-- <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Space Stuff</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Space Helmet</a>
+          <a class="dropdown-item" href="#">Rocket Boosters</a>
+          <a class="dropdown-item" href="#">Shuttle</a>
+          <a class="dropdown-item" href="#">Training for Launch</a>
+          <a class="dropdown-item" href="#">Heat resistant plating</a>
+          <a class="dropdown-item" href="#">Space Suit</a>
+        </div>
+      </div> -->
+    </div> <!-- FORM -->
 
     <!-- copy right -->
-    <div class="row footer">
-      <div class="col-12">
+    <div class="row footer d-flex justify-content-center">
+      <div class="m-4 pt-2">
         Copyright SpaceWalkers 2018
       </div>
     </div>

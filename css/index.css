@@ -8249,7 +8249,15 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
+body {
+  max-width: 800px;
   width: 100%;
-  max-width: 1000px;
+  margin: auto;
+}
+#navbar nav ul > li > a {
+  color: black;
+}
+#navbar nav ul > li > a:hover {
+  background: black;
+  color: white;
 }
