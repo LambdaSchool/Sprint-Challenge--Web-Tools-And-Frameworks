@@ -28,16 +28,16 @@ For this sprint challenge you will be building a web page from scratch for a spa
 ## Prerequisites
 * You must have LESS and less watch compiler installed to get this project running correctly.
 
-## Task 1: Preprocessing
+## Task 1: Preprocessing Done
 * You will notice that there are several ```.less``` files in the LESS folder.  You will need to import the files into the ```index.less``` for this project to work correctly. The order in which they must be imported is:
 1. ```bootstrap.less```
 2. ```variables.less```
 3. ```mixins.less```
 4. ```layout.less```
 
-* After you have your ```index.less``` imports set up, run ```less-watch-compiler less css index.less``` to get your styles going.
-* Notice the ```variables.less``` file has the color scheme ready to go for you.  Use these variables to match the design provided to you.
-* You will notice the ```mixins.less``` file has several mixins ready to be used.  Find ways to use at least 2 of these mixins after you have laid out the site.
+* After you have your ```index.less``` imports set up, run ```less-watch-compiler less css index.less``` to get your styles going.   Done
+* Notice the ```variables.less``` file has the color scheme ready to go for you.  Use these variables to match the design provided to you.  <<<< DO THIS
+* You will notice the ```mixins.less``` file has several mixins ready to be used.  Find ways to use at least 2 of these mixins after you have laid out the site. <<<<< DO THIS
 
 
 ## Task 2: Layout
@@ -46,7 +46,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 * When you have the general layout complete, move on to utilities for fine tuning the spacing.
 
 ## Task 3: Utilities
-* Use the spacing utilities to match the layout design. 
+* Use the spacing utilities to match the layout design.
 * Use any flexbox utilities you may need to match the design.
 
 ## Task 4: Components
