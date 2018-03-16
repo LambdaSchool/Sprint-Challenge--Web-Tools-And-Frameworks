@@ -8256,3 +8256,9 @@ h5 {
 .walk-container {
   max-width: 30%;
 }
+.main-color {
+  background-color: #f4f4f4;
+}
+.accent-color {
+  background-color: #e0e0e0;
+}
