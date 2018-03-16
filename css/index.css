@@ -8283,6 +8283,10 @@ h5 {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+.btn {
+  background-color: #22283B !important;
+  color: white;
+}
 .footer {
   background-color: #f4f4f4 !important;
   height: 80px !important;
