@@ -8280,7 +8280,7 @@ h5 {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.content-bottom button btn-dark {
+.content-bottom .btn-dark {
   background: #22283B;
 }
 .signup-sheet button {
