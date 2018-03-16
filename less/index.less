@@ -7,6 +7,55 @@
 // @main-color: dark grey header 
 // @secondary-color: #22283B; blue button
 // @accent-color: light grey footer
+@x: 1px solid black;
 
 //@string
 //@radius: 5px;
+
+.container {
+    border: @x;
+}
+
+//              Row 1  
+.row1 {
+    background-color: @accent-color !important; 
+    
+    .header {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+//              Row 2
+.row2 {
+    display: flex;
+    justify-content: center;
+    background-color: @accent-color !important;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20rem !important;
+        padding-right: 20rem !important;
+    }
+    
+    a {
+        color: black;
+    } 
+}
+//              Row 3
+.row3 {
+    margin-bottom: 2rem;
+
+    .carrousel {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+//              Row 4
+
+//              Row 5
+//              Row 6
+//              Row 7
+//              Row 8

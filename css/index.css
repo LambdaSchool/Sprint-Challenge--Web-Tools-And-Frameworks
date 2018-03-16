@@ -8249,3 +8249,34 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  border: 1px solid black;
+}
+.row1 {
+  background-color: #e0e0e0 !important;
+}
+.row1 .header {
+  display: flex !important;
+  justify-content: center !important;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0 !important;
+}
+.row2 .nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20rem !important;
+  padding-right: 20rem !important;
+}
+.row2 a {
+  color: black;
+}
+.row3 {
+  margin-bottom: 2rem;
+}
+.row3 .carrousel {
+  display: flex;
+  justify-content: center;
+}
