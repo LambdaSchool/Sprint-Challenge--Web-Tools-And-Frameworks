@@ -2,7 +2,32 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.container {
+    padding: 0 10% 0;
+}
+
+.container-fluid {
+    background-color: @main-color;//variable
+    .opacity(@opacity: .9);//opacity-mixin
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
-    color: @secondary-color;
+    color: @secondary-color;//variable
 }
+
+a {
+    color: @secondary-color;//variable
+}
+
+.img-walk {
+    .rotate(180deg); //rotate-mixin
+}
+
+.btn {
+    background-color: grey;
+}
+
+.footer {
+    background-color:@accent-color;
+    }
