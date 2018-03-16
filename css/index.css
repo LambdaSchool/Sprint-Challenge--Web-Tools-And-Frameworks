@@ -8258,3 +8258,7 @@ h5 {
   text-decoration: none;
   padding: 0 10px;
 }
+.flex-images img {
+  width: 30%;
+  height: 180px;
+}
