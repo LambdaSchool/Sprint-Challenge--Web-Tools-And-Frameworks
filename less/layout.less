@@ -6,3 +6,57 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+    background-color: @accent-color;
+    border-bottom: 3px solid lightgray;
+
+
+    @media (max-width: 576px) {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.container {
+    max-width: 800px;
+
+    @media (max-width: 576px) { 
+    //    padding: 0;
+    }
+
+    .nav { 
+        @media (max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+    
+
+            .nav-link {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                border-top: 1px solid gray;
+                &:hover {
+                    background-color: gray;
+                    color: white !important;
+                }
+            }
+        }   
+    }
+}
+
+
+.registration-btn {
+    background-color: @secondary-color;
+    
+    .opacity(0.8);
+    .box-shadow(10px 10px 10px gray);
+}
+
+.footer {
+    background-color: @main-color;
+    height: 70px;
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>SpaceWalkers</title>
-
+ 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
@@ -16,13 +16,179 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
-      </div>
-    </div>
-  </div>
+    <div class="container-fluid"> <!--Fluid Container for Nav and Heading Starts Here-->
+        <div class="container">
+          <div class="row mt-3 mt-sm-0"> <!--Heading Starts Here-->
+            <div class="col-12 d-flex justify-content-center">
+             <h1>SpaceWalker</h1>
+            </div>
+          </div> <!--Heading Ends Here-->
+          <div class="row">  <!--Nav Starts Here-->
+            <div class="col-12 d-flex justify-content-center">
+                <nav class="nav">
+                  <a class="nav-link active text-dark" href="#">Home</a>
+                  <a class="nav-link text-dark" href="#">About Us</a>
+                  <a class="nav-link text-dark" href="#">Blog</a>
+                  <a class="nav-link text-dark" href="#">Contact</a>
+                  <a class="nav-link text-dark" href="#">Sign In</a>
+                </nav>
+            </div> 
+          </div> <!--Nav Ends Here-->
+        </div>
+    </div> <!--Container for Nav and Heading Ends Here-->
+      <div class="container"> <!--Container for Main Content Starts Here-->
+        <div class="row"> <!--Carousel Starts Here-->
+          <div class="col-12"> 
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="./img/slider-1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="./img/slider-2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="./img/slider-3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/slider-4.jpg" alt="Fourth slide">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+          </div> 
+        </div> <!--Carousel Ends Here -->
+        <div class="row justify-content-center mt-5"> <!--Middle Content Starts Here-->
+          <div class="col-12">
+            <h3>Lift Off</h3> 
+            <p>
+              As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between mt-2">
+          <div class="col-4">
+              <img src="./img/blast.jpg" class="img-fluid rounded" alt="blast off">
+          </div>
+          <div class="col-4">
+              <img src="./img/launch.jpg" class="img-fluid rounded" alt="launch">
+          </div>
+          <div class="col-4">
+              <img src="./img/sky.jpg" class="img-fluid rounded" alt="sky">
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <h3>Can We Visit Planets?</h3>
+            <p>
+              Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
+            </p>
+            <p>
+which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.
+            </p>
+          </div>
+        </div> <!--Middle Content End here-->
+        <div class="row my-5"> <!--Table Starts Here-->
+          <div class="col-12">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Planet</th>
+                  <th scope="col">Distance</th>
+                  <th scope="col">Survivability</th>
+                  <th scope="col">How Long To Travel</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mars</th>
+                  <td>54.6 million km</td>
+                  <td>Maybe</td>
+                  <td>300 Days</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jupiter</th>
+                  <td>588 million km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 Years)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Saturn</th>
+                  <td>1.2 billion km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 Years)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> <!--Table Ends Here-->
+        <div class="row justify-content-center my-5 py-5 border-top border-bottom"> <!--Bottom Content Starts Here-->
+          <div class="col-sm-5">
+            <h3>Let's Go For A Walk</h3>
+            <p>
+              The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
+            </p>
+            <p>
+              It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
+            </p>
+          </div>
+          <div class="col-sm-5">
+            <img src="./img/space-walk.jpg" class="img-fluid rounded" alt="space-walk">
+          </div>
+        </div> <!--Bottom Content Ends Here-->
+        <div class="row mb-5"> 
+          <div class="col-md-8">
+            <h4>Ready To Go?</h4>
+            <form> <!--Form Starts Here-->
+              <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Phone</label>
+              <input id="email" type="phone" class="form-control" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <label for="phone">Email</label>
+              <input id="phone" type="email" class="form-control" placeholder="Email">
+            </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Please don’t send me emails</label>
+              </div>
+              <!--Button looks different than desktop.png because I used opacity and box-shadow mixins and tooltip-->
+              <button type="submit" class="btn btn-dark mt-2 registration-btn" data-toggle="tooltip" data-placement="right" title="GET EXCITED!!!">Ready For Launch</button>
+            </form> <!--Form Ends Here-->
+          </div>
+          <div class="col-md-4 mt-5 mt-md-0"> <!--List Starts Here-->
+            <h4>Space Stuff</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Space Helmet</li>
+              <li class="list-group-item">Rocket Boosters</li>
+              <li class="list-group-item">Shuttle</li>
+              <li class="list-group-item">Training for Launch</li>
+              <li class="list-group-item">Heat resistant plating</li>
+              <li class="list-group-item">Space Suit</li>
+            </ul>
+          </div> <!--List Ends Here-->
+        </div>
+        <div class="row footer"> <!--Footer Starts Here-->
+            <div class="col-12 d-flex justify-content-center pt-3">
+                Copyright SpaceWalkers 2018
+            </div>
+          </div> <!--Footer Ends Here-->
+      </div> <!--Container for Main Content Ends Here-->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
