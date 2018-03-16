@@ -8260,18 +8260,71 @@ h5 {
   -moz-box-shadow: 6px 6px 2px 1px #e0e0e0;
   box-shadow: 6px 6px 2px 1px #e0e0e0;
 }
-#headMainId,
-.headerMain {
+.headNav {
   color: #22283B !important;
   background-color: #e0e0e0 !important;
+}
+nav {
+  background-color: #e0e0e0 !important;
+}
+nav a {
+  color: #22283B !important;
 }
 #letsGo {
   padding-top: 40px;
   margin-top: 40px;
   border-top: 1px solid #e0e0e0;
 }
+#letsGo img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#astro {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 #readyTo {
   padding-top: 30px;
   margin-top: 30px;
   border-top: 1px solid #e0e0e0;
+}
+#img1Ja {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#img2Ja {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#img3Ja {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#img4Ja {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
