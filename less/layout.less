@@ -1,3 +1,17 @@
+
+.button-creator(@width, @height, @background){
+	width: @width;
+	height: @height;
+    background: @background;
+    color: @main-color;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+
 html, body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -5,4 +19,28 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+.container-fluid {
+    max-width: 800px;
+    .nav {
+         a {
+             color: @secondary-color; 
+         } 
+    }
+}
+.container {
+    max-width: 800px; 
+    .planet {
+        font-size: 25px;
+    }
+    .walk {
+        font-size: 30px;
+    }
+    .go {
+        font-size: 20px;
+    }
+    .ready {
+     .button-creator(150px, 40px, @secondary-color);
+     .opacity(0.5);
+    }
 }
