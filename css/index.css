@@ -8283,3 +8283,8 @@ h5 {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+.footer {
+  background-color: #f4f4f4 !important;
+  height: 80px !important;
+  padding-top: 20px !important;
+}
