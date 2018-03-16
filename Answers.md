@@ -4,7 +4,7 @@
 2. npm install -g less
 
 
-3. 
+3. parametric mixins
 
 
 4. 
