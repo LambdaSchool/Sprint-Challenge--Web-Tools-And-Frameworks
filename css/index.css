@@ -8256,8 +8256,21 @@ h5 {
 .mid-section img {
   zoom: 50%;
 }
+img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .footer {
   background: lightgrey;
   padding: 20px 0;
   text-align: center;
+}
+.footer {
+  -webkit-box-shadow: 5px 10px;
+  -moz-box-shadow: 5px 10px;
+  box-shadow: 5px 10px;
 }
