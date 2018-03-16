@@ -107,7 +107,7 @@
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
           <br> 
           <br>
-           which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+           In which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
       </div>
     </div>
 
@@ -151,7 +151,19 @@
           <br>
           <br>
           It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
-      </div>
+
+        <!-- DROPDOWN -->
+         <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Where would you like to go?
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Mars</a>
+            <a class="dropdown-item" href="#">Jupiter</a>
+            <a class="dropdown-item" href="#">Saturn</a>
+          </div>
+        </div>
+      </div> 
 
       <!-- space-walk img -->
       <div class="col-sm-5">
@@ -160,7 +172,7 @@
     </div>
 
     <!-- Custom "Who's Done It?" Section -->
-    <div class="row text-center mt-5">
+    <div class="row text-center mt-5 pb-5 border-bottom">
       <div class="col-sm-12">
         <h3>Who's Done It?</h3>
         <p>Click the buttons below to learn about previous Space Walkers!</p>
@@ -184,6 +196,7 @@
                     </button>
                   </div>
                   <div class="modal-body text-left">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/1024px-Neil_Armstrong_pose.jpg" class="img-fluid" alt="Neil Armstrong">
                       Neil Alden Armstrong (August 5, 1930 – August 25, 2012) was an American astronaut and aeronautical engineer, and the first person to walk on the Moon. He was also a naval aviator, test pilot, and university professor. When he stepped onto the lunar surface on July 21, 1969, he said: "That's one small step for [a] man, one giant leap for mankind."
                   </div>
                   <div class="modal-footer">
@@ -211,7 +224,7 @@
                   </button>
                 </div>
                 <div class="modal-body text-left">
-                  
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Aleksey_Leonov_ASTP_-_cropped.jpg/1024px-Aleksey_Leonov_ASTP_-_cropped.jpg" class="img-fluid" alt="Alexey Leonov">
                     Alexey Arkhipovich Leonov (born 30 May 1934 in Listvyanka, West Siberian Krai, Soviet Union) is a retired Soviet/Russian cosmonaut, Air Force Major general, writer and artist. On 18 March 1965, he became the first human to conduct extravehicular activity (EVA), exiting the capsule during the Voskhod 2 mission for a 12-minute spacewalk.
                 </div>
                 <div class="modal-footer">
@@ -239,6 +252,7 @@
                   </button>
                 </div>
                 <div class="modal-body text-left">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Claude_Nicollier.jpg/1280px-Claude_Nicollier.jpg" class="img-fluid" alt="Claude Nicollier">
                     Claude Nicollier (born 2 September 1944 in Vevey, Switzerland[1]) is the first astronaut from Switzerland. He has flown on four Space Shuttle missions. His first spaceflight (STS-46) was in 1992, and his final spaceflight (STS-103) was in 1999. He took part in two servicing missions to the Hubble Space Telescope (called STS-61 and STS-103). During his final spaceflight he participated in a spacewalk, becoming the first European Space Agency astronaut to do so during a Space Shuttle mission (previous ESA astronauts conducted spacewalks aboard Mir, see List of spacewalks and moonwalks 1965–1999). In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston. Nicollier retired from ESA in April 2007.
                 </div>
                 <div class="modal-footer">
@@ -280,16 +294,16 @@
         </form>
       </div>
 
-      <!-- Space Stuff list group -->
+      <!-- Space Stuff list group  // also TOOLTIPS-->
       <div class="col-sm-4">
         <h4>Space Stuff</h4>
           <ul class="list-group">
-              <li class="list-group-item">Space Helmet</li>
-              <li class="list-group-item">Rocket Boosters</li>
-              <li class="list-group-item">Shuttle</li>
-              <li class="list-group-item">Training for Launch</li>
-              <li class="list-group-item">Heat resistant plating</li>
-              <li class="list-group-item">Space Suit</li>
+              <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Don't hit your head!">Space Helmet</li>
+              <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Go fast!">Rocket Boosters</li>
+              <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Reliable transportation.">Shuttle</li>
+              <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Survival 101.">Training for Launch</li>
+              <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="It gets hot out there!">Heat resistant plating</li>
+              <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="They really are comfy.">Space Suit</li>
             </ul>
       </div>
     </div>
