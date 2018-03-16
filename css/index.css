@@ -8252,9 +8252,27 @@ h5 {
 .container {
   max-width: 800px;
 }
-.border-5 {
-  border-width: 5px !important;
-}
 hr {
   border: 1px solid #e0e0e0;
+}
+.btn-light {
+  background-color: #fff !important ;
+  height: 30px;
+  width: 100%;
+}
+.btn-light:hover {
+  background-color: none;
+  border: none;
+}
+.btn-light:focus {
+  background-color: none;
+  border: none;
+}
+.btn-light:active {
+  background-color: none;
+  border: none;
+}
+.btn-light:focus {
+  background-color: none;
+  border: none;
 }

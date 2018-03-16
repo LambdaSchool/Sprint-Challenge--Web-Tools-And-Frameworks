@@ -72,7 +72,7 @@
 
     <div class="row">
       <div class="col-sm-12 mt-1 mb-1">
-        <h2>Lift Off</h2>
+        <h2 id="#lift">Lift Off</h2>
         <p>
             As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
         </p>
@@ -80,13 +80,13 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-4 mt-2 mb-4">
+      <div class="col-12 ml-auto mr-auto col-sm-4 mt-2 mb-4">
         <img src="img/blast.jpg" class="img-fluid rounded" alt="Space ship in the air">
       </div>
-      <div class="col-sm-4 mt-2 mb-4">
+      <div class="col-12 ml-auto mr-auto col-sm-4 mt-2 mb-4">
         <img src="img/sky.jpg" class="img-fluid rounded" alt="Space ship launched in to the sky with left trail">
       </div>
-      <div class="col-sm-4 mt-2 mb-4">
+      <div class="col-12 ml-auto mr-auto col-sm-4 mt-2 mb-4">
         <img src="img/launch.jpg" class="img-fluid rounded" alt="Spac ship launches into space">
       </div>
     </div>
@@ -142,19 +142,19 @@
     <hr>
 
     <div class="row mt-1 p-1">
-      <div class="col-sm-5 ml-5 pt-4 pb-3">
+      <div class="col-12 ml-auto mr-auto col-sm-5 ml-5 pt-4 pb-3">
         <h3>Let's Go For A Walk</h3>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p> 
         <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       </div>
-      <div class="col-sm-5 pt-4 pb-3">
+      <div class="col-12 ml-auto mr-auto col-sm-5 mt-1 pt-4 pb-3">
           <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Cosmo suit in space">
       </div>
     </div>
 
     <hr>
 
-    <div class="row mt-3">
+    <div class="row mt-5">
       <div class="col-sm-8">
         <form class="needs-validation" novalidate>
           <div class="form-group">
@@ -192,22 +192,141 @@
             </label>
           </div>
         </div>
-          <button type="submit" class="btn btn-black">Let's Launch</button>
+          <button type="submit" class="btn btn-dark">Ready for Launch</button>
         </form>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 mt-2">
         <h4>Space Stuff</h4>
         <ul class="list-group">
-          <li class="list-group-item">Space Helmet</li>
-          <li class="list-group-item">Rocket Boosters</li>
-          <li class="list-group-item">Shuttle</li>
-          <li class="list-group-item">Training for Launch</li>
-          <li class="list-group-item">Heat resistant plating</li>
-          <li class="list-group-item">Space Suit</li>
+          <li class="list-group-item"><button class="btn btn-light" data-toggle="modal" data-target="#item1Modal">Space Helmet</button></li>
+          <li class="list-group-item" data-toggle="modal" data-target="#item2Modal" ><button class="btn btn-light">Rocket Boosters</button></li>
+          <li class="list-group-item" data-toggle="modal" data-target="#item3Modal" ><button class="btn btn-light">Shuttle</button></li>
+          <li class="list-group-item" data-toggle="modal" data-target="#item4Modal" ><button class="btn btn-light">Training for Launch</button></li>
+          <li class="list-group-item" data-toggle="modal" data-target="#item5Modal" ><button class="btn btn-light">Heat resistant plating</button></li>
+          <li class="list-group-item" data-toggle="modal" data-target="#item6Modal" ><button class="btn btn-light">Space Suit</button></li>
         </ul>
       </div>
     </div>
+
+    <!-- Modals for Space Stuff section -->
+
+    <div class="modal fade" id="item1Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Soace Helmet</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Cupim shank tongue tenderloin bacon picanha ground round. Pig ham alcatra pork loin. Alcatra kevin short ribs, doner pork loin turkey strip steak buffalo landjaeger burgdoggen. Burgdoggen spare ribs brisket, strip steak boudin ball tip beef ribs sausage pork meatloaf. Frankfurter shank fatback, flank sausage shoulder chuck ham pastrami turkey. Jowl flank chuck picanha pork sirloin pancetta ribeye.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="modal fade" id="item2Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Rocket Boosters</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Bacon ipsum dolor amet strip steak shank ribeye kevin brisket bacon andouille pork pancetta salami meatball hamburger ham chuck swine. Ham hock strip steak rump beef ribs, prosciutto tail meatloaf spare ribs ground round beef tri-tip. Beef ball tip picanha, flank brisket cow filet mignon buffalo jerky. T-bone ground round burgdoggen, jowl kevin cupim ham hock leberkas short loin fatback shoulder meatball chuck. Spare ribs alcatra cupim cow tenderloin ground round meatloaf. Chuck shankle shoulder short loin, ball tip tongue porchetta bacon flank.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="item3Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Shuttle</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Porchetta beef ribs pork loin capicola. Corned beef shankle picanha turkey sirloin filet mignon drumstick fatback swine. Brisket filet mignon leberkas, venison kevin sausage boudin swine cow shank kielbasa prosciutto pastrami pork short ribs. Doner alcatra kevin, swine strip steak ham ham hock flank capicola cupim turducken spare ribs pork chop. Doner chuck pork turducken filet mignon, meatloaf cow shank.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="item4Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Training for Launch</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Cupim shank tongue tenderloin bacon picanha ground round. Pig ham alcatra pork loin. Alcatra kevin short ribs, doner pork loin turkey strip steak buffalo landjaeger burgdoggen. Burgdoggen spare ribs brisket, strip steak boudin ball tip beef ribs sausage pork meatloaf. Frankfurter shank fatback, flank sausage shoulder chuck ham pastrami turkey. Jowl flank chuck picanha pork sirloin pancetta ribeye.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="item5Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Heat resistant plating</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Bacon ipsum dolor amet strip steak shank ribeye kevin brisket bacon andouille pork pancetta salami meatball hamburger ham chuck swine. Ham hock strip steak rump beef ribs, prosciutto tail meatloaf spare ribs ground round beef tri-tip. Beef ball tip picanha, flank brisket cow filet mignon buffalo jerky. T-bone ground round burgdoggen, jowl kevin cupim ham hock leberkas short loin fatback shoulder meatball chuck. Spare ribs alcatra cupim cow tenderloin ground round meatloaf. Chuck shankle shoulder short loin, ball tip tongue porchetta bacon flank.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="item6Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Space Suit</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Porchetta beef ribs pork loin capicola. Corned beef shankle picanha turkey sirloin filet mignon drumstick fatback swine. Brisket filet mignon leberkas, venison kevin sausage boudin swine cow shank kielbasa prosciutto pastrami pork short ribs. Doner alcatra kevin, swine strip steak ham ham hock flank capicola cupim turducken spare ribs pork chop. Doner chuck pork turducken filet mignon, meatloaf cow shank.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <div class="row mt-4 footer bg-light pt-3 pb-4">
       <div class="col-sm-12 text-center">
         Copyright SpaceWalkers 2018
