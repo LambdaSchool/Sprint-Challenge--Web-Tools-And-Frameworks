@@ -8257,6 +8257,14 @@ h5 {
 .title {
   margin: 20px 0;
 }
+.nav {
+  width: 100%;
+}
+.nav a {
+  margin: 0.5% 2%;
+  color: #22283B;
+  text-decoration: none;
+}
 .content-top img {
   width: 100%;
   -webkit-border-radius: 5px;
@@ -8283,8 +8291,15 @@ h5 {
 .content-bottom .btn-dark {
   background: #22283B;
 }
-.signup-sheet button {
+.signup-sheet .btn-dark {
   background: #22283B;
+}
+.signup-sheet .card .btn {
+  color: #22283B;
+  text-decoration-line: none;
+}
+.signup-sheet .card .btn:hover {
+  text-decoration-line: none;
 }
 .footer {
   width: 100%;

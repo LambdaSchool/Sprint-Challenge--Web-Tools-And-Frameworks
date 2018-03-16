@@ -17,7 +17,13 @@ h1, h2, h3, h4, h5 {
     margin: 20px 0;
 }
 .nav {
-// fill
+    width: 100%;
+    a { 
+        margin: 0.5% 2%;
+        color: @secondary-color;
+        text-decoration: none;
+    }
+
 }
 
 .content-top {
@@ -44,8 +50,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .signup-sheet {
-    button {
+    .btn-dark {
         background: @secondary-color;
+    }
+
+    .card {
+        .btn {
+            color: #22283B;
+            text-decoration-line: none;
+            
+            &:hover {
+                text-decoration-line: none;
+            }
+        }
     }
 }
 
