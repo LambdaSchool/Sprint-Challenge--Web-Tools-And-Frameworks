@@ -8249,14 +8249,31 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.spacenav {
+  background-color: #f4f4f4;
+}
 a {
   color: #22283B;
+}
+.img-fluid {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .btn-primary {
   background-color: #22283B;
 }
 .footer {
   color: #22283B;
-  background: #e0e0e0;
+  background: #f4f4f4;
   padding: 20px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }

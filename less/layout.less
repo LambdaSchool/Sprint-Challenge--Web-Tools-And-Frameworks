@@ -7,18 +7,31 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
+//header styling
+.spacenav {
+    background-color: @main-color;
+}
+
 //Change nav links to black
 a {
     color: @secondary-color;
 }
 
+//border radius MIXIN on imgs
+.img-fluid {
+    .border-radius;
+}
+
+//Change btn text to black
 .btn-primary {
     background-color: @secondary-color;
 }
 
+//footer styling + border-radius MIXIN
 .footer {
     color: @secondary-color;
-    background: @accent-color;
+    background: @main-color;
     padding: 20px 0;
+    .border-radius;
 }
 
