@@ -6,3 +6,28 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container {
+    max-width: 800px; 
+    }
+
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px solid lightgray;
+}
+
+form {
+    .btn-primary {
+        background-color: @secondary-color;
+        &:hover {
+            background-color: @secondary-color;
+        }
+    }
+}
+
+.footer {
+    background-color: @main-color;
+    height: 80px;
+    border: 1px solid @accent-color;
+}
+
