@@ -8251,8 +8251,30 @@ h5 {
 }
 .container .row-container {
   background-color: #e0e0e0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .container .nav-a {
   color: #22283B;
   font-weight: bold;
+}
+.container .custom-btn {
+  background: #22283B;
+  -webkit-opacity: 50;
+  -moz-opacity: 50;
+  opacity: 50;
+}
+.container .custom-footer {
+  background: #e0e0e0;
+  height: 70px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
