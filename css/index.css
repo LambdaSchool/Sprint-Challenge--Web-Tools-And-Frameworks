@@ -8249,6 +8249,12 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.jumbotron {
+  padding: 5px 0 5px 0;
+  -webkit-box-shadow: 3px 3px 3px #e0e0e0;
+  -moz-box-shadow: 3px 3px 3px #e0e0e0;
+  box-shadow: 3px 3px 3px #e0e0e0;
+}
 .row .col-4 .card img {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
