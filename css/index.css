@@ -8249,3 +8249,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.row .col-4 .card img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
