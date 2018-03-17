@@ -8267,6 +8267,16 @@ h5 {
   color: black;
   margin: 0 10px;
 }
+.myCarousel {
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+.imgSpaceWalk {
+  -webkit-box-shadow: 10px 10px;
+  -moz-box-shadow: 10px 10px;
+  box-shadow: 10px 10px;
+}
 form button {
   color: white;
   background: #22283B;
@@ -8277,6 +8287,12 @@ form button {
   border: 1px solid #e0e0e0;
   display: flex;
   flex-direction: column;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .mySpaceStuff ul a {
   padding: 10px 0 10px 10px;
