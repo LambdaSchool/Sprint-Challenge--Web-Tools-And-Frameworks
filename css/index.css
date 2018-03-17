@@ -1938,7 +1938,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: .375rem;
   margin-bottom: 0;
   line-height: 1.5;
-  background-color: transparent;
+  background-color: transparent; 
   border: solid transparent;
   border-width: 1px 0;
 }
@@ -8248,4 +8248,17 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+
+.sticky-top {
+  background-color: lightgray;
+}
+
+.moon-content {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.footer {
+  background-color: lightgrey;
 }
