@@ -2,7 +2,36 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+
+
+body {
+	max-width: 800px;
+	width: 100%;
+	margin: auto;
+}
+
+#navbar {
+	nav {
+		ul > li > a {
+			color: black;
+
+			&:hover {
+				background: black;
+				color: white;
+				.border-radius(10px);
+			}
+		}
+	}
+}
+
+.container > #space-walk {
+	.card > img {
+		.opacity(0.75);
+	}
 }
