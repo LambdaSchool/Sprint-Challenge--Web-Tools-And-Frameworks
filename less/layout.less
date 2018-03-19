@@ -1,8 +1,41 @@
-html, body {
-    font-family: 'Ubuntu', sans-serif;
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
-    color: @secondary-color;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: @secondary-color;
 }
+.container {
+  .row-container {
+    background-color: @main-color;
+    .border-radius(5px);
+
+    //first mixin
+    .opacity ();
+  }
+  .nav-a {
+    color: @secondary-color;
+    font-weight: bold;
+  }
+  .row-text {
+    border-top: 1px solid @main-color;
+    border-bottom: 1px solid @main-color;
+  }
+  .custom-btn {
+    background: @secondary-color;
+  }
+
+  .custom-footer {
+    background: @main-color;
+    height: 70px;
+
+    //second mixin
+    .border-radius(50px);
+  }
+} //container
