@@ -46,7 +46,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 * When you have the general layout complete, move on to utilities for fine tuning the spacing.
 
 ## Task 3: Utilities
-* Use the spacing utilities to match the layout design. 
+* Use the spacing utilities to match the layout design.
 * Use any flexbox utilities you may need to match the design.
 
 ## Task 4: Components

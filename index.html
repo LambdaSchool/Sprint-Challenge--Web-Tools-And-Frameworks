@@ -16,12 +16,195 @@
 </head>
 
 <body>
+  <div class="container-fluid sticky-top">
+    <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="logo-heading text-center">SpaceWalkers</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="nav justify-content-center">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Sign In</a>
+              </nav>
+            </div>
+          </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        Good Luck!
+        <div id="ExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-4.jpg" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        <h2>Lift Off</h2>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful image you can imagine. That beautiful, warm, living objet looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/blast.jpg" class="img-fluid rounded" alt="Rocket blasting off into space">
+      </div>
+      <div class="col-sm-4">
+        <img src="img/sky.jpg" class="img-fluid rounded" alt="Sky with streak of light">
+      </div>
+      <div class="col-sm-4">
+        <img src="img/launch.jpg" class="img-fluid rounded" alt="Rocket launch">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        <h2>Can We Visit Planets?</h2>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+        <p>which there is no center because every point, or none, is center --- an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mars</th>
+              <td>54.6 million km</td>
+              <td>Maybe</td>
+              <td>300 Days</td>
+            </tr>
+            <tr>
+              <th scope="row">Jupiter</th>
+              <td>588 million km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturn</th>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row mt-5 p-5 border-bottom border-top">
+      <div class="col-sm-6">
+        <h2>Let's Go For A Walk</h2>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Astronaut floating above Earth">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-8">
+        <h4>Ready To Go?</h4>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadio1" value="promotional" checked>
+            <label class="form-check-label" for="exampleRadio1">I would like to receive promotional emails</label>
+            <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadio2" value="non-promotional">
+            <label class="form-check-label" for="exampleRadio2">Please don't send me emails</label>
+          </div>
+          <button type="button" class="btn btn-custom mt-2" data-toggle="modal" data-target="#confirmation">Ready for Launch</button>
+        </form>
+        <!--- Modal component starts--->
+        <div class="modal fade" id="confirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Sucess!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Application received, Cadet. We'll ping you back shortly.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--- Modal component ends --->
+      </div>
+      <div class="col-sm-4 mt-5 mt-sm-0">
+        <h5>Space Stuff</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Heat Resistant plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="row footer mt-5 rounded text-center">
+      <div class="col-sm-12">
+        <p class="text-center">Copyright SpaceWalk 2018</p>
+      </div>
+    </div>
+
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
