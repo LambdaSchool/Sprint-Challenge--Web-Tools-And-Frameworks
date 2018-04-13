@@ -8266,3 +8266,11 @@ hr {
 .jumbotron {
   margin-bottom: 5px!important;
 }
+.container-fluid {
+  margin-left: -15px !important;
+}
+
+.bg-light {
+	margin-right: -30px !important;
+}
+	
