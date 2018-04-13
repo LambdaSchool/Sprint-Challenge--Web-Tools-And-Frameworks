@@ -8249,10 +8249,17 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-header {
+.header {
   background: #e0e0e0;
 }
 .container-for-layout {
   max-width: 768px;
   margin: auto;
+}
+a {
+  color: #22283B;
+}
+.footer {
+  padding: 20px;
+  background: #e0e0e0;
 }
