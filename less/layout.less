@@ -6,3 +6,20 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.navbar .nav-link {
+    font-family: 'Russo One', sans-serif;
+    color: @secondary-color;
+    &:hover {
+        color: @main-color;
+        background-color: @secondary-color;
+    }
+}
+
+.img-shadow {
+    .box-shadow(20px 30px 10px);
+}
+
+.img-rounded {
+    .border-radius(55px);
+}

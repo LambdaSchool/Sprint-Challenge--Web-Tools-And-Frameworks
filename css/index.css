@@ -8249,3 +8249,24 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navbar .nav-link {
+  font-family: 'Russo One', sans-serif;
+  color: #22283B;
+}
+.navbar .nav-link:hover {
+  color: #f4f4f4;
+  background-color: #22283B;
+}
+.img-shadow {
+  -webkit-box-shadow: 20px 30px 10px;
+  -moz-box-shadow: 20px 30px 10px;
+  box-shadow: 20px 30px 10px;
+}
+.img-rounded {
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  border-radius: 55px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
