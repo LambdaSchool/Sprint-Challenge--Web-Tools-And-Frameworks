@@ -8267,3 +8267,6 @@ form button {
   -ms-transform: rotate(3deg);
   -o-transform: rotate(3deg);
 }
+#footer {
+  height: 5%;
+}
