@@ -140,25 +140,28 @@
     <div class="row mt-5">
       <div class="col-sm-8">
         <h2>Ready To Go?</h2>
-        <form class="myForm">
+        <form class="myForm needs-validation">
           <div class="form-group">
             <label for="inputName1">Name</label>
-            <input type="name" class="form-control" id="inputName1" placeholder="Name">
+            <input type="name" class="form-control" id="inputName1" placeholder="Name" required>
+            <div class="invalid-feedback">Please enter your name</div>
           </div>
           <div class="form-group">
             <label for="inputPhone1">Phone</label>
-            <input type="phone" class="form-control" id="inputPhone1" placeholder="Phone">
+            <input type="phone" class="form-control" id="inputPhone1" placeholder="Phone" required>
+            <div class="invalid-feedback">Please enter a valid phone number</div>
           </div>
           <div class="form-group">
             <label for="inputEmail1">Email address</label>
-            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            <div class="invalid-feedback">Please enter a valid email address</div>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="check1">
+            <input type="checkbox" class="form-check-input" id="check1" required>
             <label class="form-check-label" for="check1">I would like to receive promotional emails</label>
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="check2">
+            <input type="checkbox" class="form-check-input" id="check2" required>
             <label class="form-check-label" for="check2">Please don't send me emails</label>
           </div>
           <button type="submit" class="btn" data-toggle="modal" data-target="#submitModal">Ready for Launch</button>
