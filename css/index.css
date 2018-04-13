@@ -8264,6 +8264,10 @@ img:hover {
   -moz-box-shadow: 0 1px;
   box-shadow: 0 1px;
 }
+button.btn.btn-primary.btn-dark-bg {
+  background-color: #22283B;
+  border-color: #22283B;
+}
 .footer {
   background: #e0e0e0;
 }
