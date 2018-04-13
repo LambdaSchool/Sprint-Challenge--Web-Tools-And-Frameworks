@@ -8288,3 +8288,10 @@ h5 {
   -moz-opacity: 0.8;
   opacity: 0.8;
 }
+.footer {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 5px;
+}
