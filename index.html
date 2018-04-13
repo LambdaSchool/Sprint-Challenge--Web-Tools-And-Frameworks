@@ -85,38 +85,60 @@
       </p>
     </div>
 
-<!-- Table -->
+<!-- Modal-->
 
-    <table class="table table-striped mb-5 main-table">
-      <thead>
-        <tr>
-          <th scope="col">Planet</th>
-          <th scope="col">Distance</th>
-          <th scope="col">Survivability</th>
-          <th scope="col">How Long To Travel</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Mars</th>
-          <td>54.6 Million km</td>
-          <td>Maybe</td>
-          <td>300 Days</td>
-        </tr>
-        <tr>
-          <th scope="row">Jupiter</th>
-          <td>588 million km</td>
-          <td>No</td>
-          <td>Depends On Orbit (3-6 years)</td>
-        </tr>
-        <tr>
-          <th scope="row">Saturn</th>
-          <td>1.2 billion km</td>
-          <td>No</td>
-          <td>Depends On Orbit (3-6 years)</td>
-        </tr>
-      </tbody>
-    </table>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Launch An Expedition!
+    </button>
+
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Where To Next?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+<!-- Table -->
+            <table class="table table-striped mb-5 main-table">
+              <thead>
+                <tr>
+                  <th scope="col">Planet</th>
+                  <th scope="col">Distance</th>
+                  <th scope="col">Survivability</th>
+                  <th scope="col">How Long To Travel</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mars</th>
+                  <td>54.6 Million km</td>
+                  <td>Maybe</td>
+                  <td>300 Days</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jupiter</th>
+                  <td>588 million km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 years)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Saturn</th>
+                  <td>1.2 billion km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 years)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
     <div class="walk container mb-5 border-top pt-5 pb-5 d-flex justify-content-between border-bottom">
       <div class="row col-12 col-sm-12 col-md-6">
@@ -183,5 +205,11 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
+  <script type="text/javascript">
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+  </script>
+
 </body>
 </html>
