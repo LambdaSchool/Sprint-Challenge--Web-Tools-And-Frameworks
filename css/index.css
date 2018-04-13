@@ -8273,6 +8273,22 @@ hr {
     font-size: 2.4rem;
   }
 }
+.main__img-gallery img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.main__img-gallery img:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
 footer {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
