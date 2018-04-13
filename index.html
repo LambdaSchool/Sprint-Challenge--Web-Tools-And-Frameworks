@@ -10,10 +10,10 @@
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
 </head>
 
 <body>
@@ -176,7 +176,9 @@
             and my thumb blotted out the planet Earth</p>
         </div>
         <div class="col-6 cp-img">
-          <img src="./img/space-walk.jpg" alt="Astronaut spacewalking" class="img-fluid rounded">
+          <!-- Tooltip included -->
+          <img src="./img/space-walk.jpg" alt="Astronaut spacewalking" class="img-fluid rounded" data-toggle="tooltip" data-placement="top"
+            title="The Facmous Spacewalk!">
         </div>
       </div>
     </div>
@@ -185,7 +187,7 @@
     <!-- form -->
     <div class="row mt-4 mb-1 row-form">
       <div class="col-sm-9 col-12">
-        <h2>Ready To Go?</h2>
+        <h2 data-toggle="tooltip">Ready To Go?</h2>
         <form>
           <div class="form-group">
             <label for="Name">Name</label>
@@ -266,6 +268,11 @@
   <script src=" js/jquery-3.3.1.min.js "></script>
   <script src="js/bootstrap.bundle.min.js "></script>
   <script src="js/index.js "></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </body>
 
 </html>
