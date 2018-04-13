@@ -8249,3 +8249,27 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.btn-primary {
+  background-color: #22283B;
+  border-color: #22283B;
+}
+.nav {
+  background-color: #f4f4f4;
+}
+.nav a {
+  color: #22283B;
+}
+hr {
+  border-color: #e0e0e0;
+}
+.images {
+  -webkit-box-shadow: 10px 5px 5px #000221;
+  -moz-box-shadow: 10px 5px 5px #000221;
+  box-shadow: 10px 5px 5px #000221;
+}
+.images:hover {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}

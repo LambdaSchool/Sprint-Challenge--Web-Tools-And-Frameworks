@@ -17,12 +17,10 @@
 
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row sticky-top nav">
       <div class="col-12 d-flex justify-content-center">
         <h1>SpaceWalkers</h1>
       </div>
-    </div>
-    <div class="row">
       <div class="col-12">
         <ul class="nav justify-content-center">
           <li class="nav-item">
@@ -43,6 +41,7 @@
         </ul>
       </div>
     </div>
+    <!--    Task 4: Components-: carousel -->
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -74,6 +73,7 @@
       </div>
     </div>
     <div class="row mt-4">
+      <!-- Task 3: spacing utilities -->
       <div class="col-12">
         <h4>Lift Off</h4>
       </div>
@@ -85,13 +85,13 @@
     </div>
     <div class="row">
       <div class="col-4">
-        <img src="img/blast.jpg" alt="Blast" class="img-fluid rounded">
+        <img src="img/blast.jpg" alt="Blast" class="img-fluid rounded images">
       </div>
       <div class="col-4">
-        <img src="img/sky.jpg" alt="Sky" class="img-fluid rounded">
+        <img src="img/sky.jpg" alt="Sky" class="img-fluid rounded images">
       </div>
       <div class="col-4">
-        <img src="img/launch.jpg" alt="Launch" class="img-fluid rounded">
+        <img src="img/launch.jpg" alt="Launch" class="img-fluid rounded images">
       </div>
     </div>
     <div class="row mt-4">
@@ -141,17 +141,23 @@
       </div>
     </div>
     <div class="row  mt-5 mb-5">
+      <!-- Task 3: spacing utilities -->
       <div class="col-12">
         <hr>
       </div>
     </div>
     <div class="row d-flex justify-content-center">
+      <!-- Task 3: flexbox utilities -->
       <div class="col-5">
         <h4>Let's Go For A Walk</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita minima nostrum facilis quod, alias similique numquam debitis, id aliquam natus voluptatibus repellat accusantium porro adipisci. Maxime, suscipit illo.</p>
+        <!-- Task 4: Components - Modals -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo
+        </button>
       </div>
       <div class="col-5">
-        <img src="img/space-walk.jpg" alt="Space-walk" class="img-fluid rounded">
+        <img src="img/space-walk.jpg" alt="Space-walk" class="img-fluid rounded images">
       </div>
     </div>
     <div class="row  mt-5 mb-5">
@@ -199,17 +205,39 @@
       </div>
     </div>
     <div class="row  mt-5 mb-2">
+      <!-- Task 3: spacing utilities -->
       <div class="col-12">
         <hr>
       </div>
     </div>
     <div class="row text-center mb-4">
+      <!-- Task 3: spacing utilities -->
       <div class="col-12">
         <p>Copyright SpaceWalkers 2018</p>
       </div>
     </div>
   </div>
   <!--  container-->
+
+  <!-- Task 4: Components-Modals -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/PG6JmKUpTsw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
