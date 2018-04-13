@@ -8240,6 +8240,7 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  background: #f4f4f4;
 }
 h1,
 h2,
@@ -8262,4 +8263,12 @@ a {
 .footer {
   padding: 20px;
   background: #e0e0e0;
+}
+.photo-to-round {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
