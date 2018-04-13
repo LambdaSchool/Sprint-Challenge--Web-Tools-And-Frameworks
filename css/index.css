@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  max-width: 900px;
+}
 footer {
   color: black;
   background: #f3f3f2;
