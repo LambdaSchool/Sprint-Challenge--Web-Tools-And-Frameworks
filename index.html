@@ -18,12 +18,12 @@
 <body>
   <div class="container">
     <div class="row">
-
       <div class="col-sm-12 d-flex justify-content-center">
         <h1 class="logo">SpaceWalker</h1>
       </div>
 
-      <div class="col-sml-12 d-flex justify-content-center">
+    <div class="row d-flex justify-content-center">
+      <div class="col-sml-12">
         <nav class="nav">
           <a class="nav-link" href="#">Home</a>
           <a class="nav-link" href="#">About Us</a>
@@ -32,11 +32,13 @@
           <a class="nav-link" href="#">Sign In</a>
         </nav>
       </div>
-
     </div>
+  </div>
+
+
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"><!--Carousel section-->
-        <div class="carousel-inner">
+        <div class="carousel-inner mb-5">
           <div class="carousel-item active">
             <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
           </div>
@@ -63,13 +65,13 @@
     
     <div class="main-content">
       
-      <div class="col-sm-12">
+      <div class="col-sm-12 mb-5">
         <h1>Lift Off</h1>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
           </p>
       </div>
 
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-sm-4">
          <img src="img/blast.jpg" class="img-fluid" alt="blast">
         </div>
@@ -81,7 +83,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12">
+      <div class="col-sm-12 mb-5">
           <h1>Can We Visit Planets?</h1>
           <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
 
@@ -89,7 +91,7 @@
       </div>
 
       
-      <table class="table">
+      <table class="table mb-5">
           <thead>
             <tr>
               <th scope="col">Planet</th>
@@ -124,12 +126,12 @@
       <div class="lower-content">
         <div class="row">
 
-          <div class="col-sm-6">
+          <div class="col-sm-6 mb-5">
               <h1>Let's Go For A Walk</h1>
               <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
               <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 mb-5">
               <img src="img/space-walk.jpg" class="img-fluid" alt="astronaut">
              </div>
         </div>
@@ -137,51 +139,91 @@
     
     <div class="bottom-content">
       <div class="row">
-        <div class="col-sm-6">
-          <form>
-            <h1>Ready To Go?</h1>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Name</label>
-                <input type="Name" class="form-control" id="Put Your Name Here" aria-describedby="Name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Phone</label>
-                <input type="Phone" class="form-control" id="Phone" placeholder="Phone">
-              </div>
-              <div class="form-group">
-                  <label for="exampleInputPassword1">Email</label>
-                  <input type="Email" class="form-control" id="Enter Email Here" placeholder="Email">
-                </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">I would like to recieve promotional emails</label>
-              </div>
-              <div class="form-check mb-3">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
-              </div>
-              <button type="submit" class="btn btn-dark">Ready for Launch</button>
-          </form>
+        <div class="col-sm-2">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+    Let's Go!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-        <div class="col-sm-6">
-            <ul class="list-group">
-              <h1>Space Stuff</h1>
-                <li class="list-group-item">Space Helmet</li>
-                <li class="list-group-item">Rocket Boosters</li>
-                <li class="list-group-item">Shuttle</li>
-                <li class="list-group-item">Training for Launch</li>
-                <li class="list-group-item">Heat resistant plating</li>
-                <li class="list-group-item">Space Suit</li>
-              </ul>
+        <div class="modal-body">
+            <form>
+                <h1>Ready To Go?</h1>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="Name" class="form-control" id="Put Your Name Here" aria-describedby="Name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Phone</label>
+                    <input type="Phone" class="form-control" id="Phone" placeholder="Phone">
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleInputPassword1">Email</label>
+                      <input type="Email" class="form-control" id="Enter Email Here" placeholder="Email">
+                    </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I would like to recieve promotional emails</label>
+                  </div>
+                  <div class="form-check mb-3">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
+                  </div>
+                  <button type="submit" class="btn btn-dark">Ready for Launch</button>
+              </form>
         </div>
       </div>
     </div>
+  </div>
+        </div>
+        <div class="col-sm-2">
 
-    <div class="row footer">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
+    Things You'll Need For The Trip
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group">
+                <h1>Space Stuff</h1>
+                  <li class="list-group-item">Space Helmet</li>
+                  <li class="list-group-item">Rocket Boosters</li>
+                  <li class="list-group-item">Shuttle</li>
+                  <li class="list-group-item">Training for Launch</li>
+                  <li class="list-group-item">Heat resistant plating</li>
+                  <li class="list-group-item">Space Suit</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="row footer mt-5 justify-content-center">
         <div class="col-sm-12">
           Copyright SpaceWalkers 2018
         </div>
       </div>
+  </div>
   
   
   </div><!--end of container-->
