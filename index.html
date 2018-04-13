@@ -20,7 +20,7 @@
 
     <!-- Header -->
 
-    <div class="header row d-flex justify-content-center">
+    <div class="header row d-flex justify-content-center pt-3">
       <div class="col-sm-12 d-flex justify-content-center">
         <h1>SpaceWalkers</h1>
       </div>
@@ -72,9 +72,9 @@
     </div>
 
     <div class="images mb-5 d-flex justify-content-between">
-      <img class="col-12 col-sm-12 col-md-4 img-fluid" src="img/blast.jpg" alt="">
-      <img class="col-12 col-sm-12 col-md-4 img-fluid" src="img/launch.jpg" alt="">
-      <img class="col-12 col-sm-12 col-md-4 img-fluid" src="img/sky.jpg" alt="">
+      <img class="col-12 col-sm-12 col-md-4 img-fluid pb-4" src="img/blast.jpg" alt="">
+      <img class="col-12 col-sm-12 col-md-4 img-fluid pb-4" src="img/launch.jpg" alt="">
+      <img class="col-12 col-sm-12 col-md-4 img-fluid pb-4" src="img/sky.jpg" alt="">
     </div>
 
     <div class="container mb-5">
@@ -84,6 +84,99 @@
         <br><br>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.
       </p>
     </div>
+
+<!-- Table -->
+
+    <table class="table table-striped mb-5 main-table">
+      <thead>
+        <tr>
+          <th scope="col">Planet</th>
+          <th scope="col">Distance</th>
+          <th scope="col">Survivability</th>
+          <th scope="col">How Long To Travel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Mars</th>
+          <td>54.6 Million km</td>
+          <td>Maybe</td>
+          <td>300 Days</td>
+        </tr>
+        <tr>
+          <th scope="row">Jupiter</th>
+          <td>588 million km</td>
+          <td>No</td>
+          <td>Depends On Orbit (3-6 years)</td>
+        </tr>
+        <tr>
+          <th scope="row">Saturn</th>
+          <td>1.2 billion km</td>
+          <td>No</td>
+          <td>Depends On Orbit (3-6 years)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="walk container mb-5 border-top pt-5 pb-5 d-flex justify-content-between border-bottom">
+      <div class="row col-12 col-sm-12 col-md-6">
+        <h1>Let's Go For A Walk</h1>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
+          <br><br>
+          It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+      <img class="img-fluid col-12 col-sm-12 col-md-6"src="img/space-walk.jpg" alt="Asronaut in Space Suit in Space">
+    </div>
+
+    <!-- Form -->
+
+    <div class="container d-flex form-cont mb-5">
+      <form class="mb-5 col-12 col-sm-12 col-md-8">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="name" class="form-control" id="nameInput" aria-describedby="Name" placeholder="Name">
+          <small id="Name" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+          <label for="phoneInput">Phone</label>
+          <input type="phone" class="form-control" id="phoneInput" placeholder="Phone">
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Email">
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            I would like to receive promotional emails
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Please don’t send me emails
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Ready For Launch</button>
+      </form>
+
+      <div class="col-12 col-sm-12 col-md-4">
+        <h4>Space Stuff</h4>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training For Launch</li>
+          <li class="list-group-item">Heat Resistant Plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="d-flex justify-content-center align-items-center">
+      <span>&copy SpaceWalkers 2018</span>
+    </footer>
+
 
   </div>
 

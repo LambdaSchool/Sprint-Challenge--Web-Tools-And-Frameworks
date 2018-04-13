@@ -14,6 +14,13 @@ h1, h2, h3, h4, h5 {
 .header{
   background: @main-color;
 
+  div{
+    h1{
+      .box-shadow(3px 3px 5px);
+      padding: 0 5px;
+    }
+  }
+
   nav{
     width: 70%;
 
@@ -22,3 +29,31 @@ h1, h2, h3, h4, h5 {
     }//a
   }//nav
 }//header
+
+.images{
+  flex-wrap: wrap;
+
+}
+
+.walk{
+  flex-wrap: wrap;
+
+  img{
+    border-radius: 100%;
+  }
+}
+
+
+.btn{
+  background: @secondary-color;
+}
+
+.form-cont{
+  flex-wrap: wrap;
+}
+
+footer{
+  background: @accent-color;
+  width: 100%;
+  height: 80px;
+}
