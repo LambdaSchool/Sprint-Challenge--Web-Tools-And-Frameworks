@@ -73,6 +73,7 @@
                   </form>
                 </div>
               </li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -122,14 +123,14 @@
     </div>
 
     <div class="row">
-      <div class="col-4">
-        <img class="img-fluid d-block rounded" src="/img/blast.jpg" alt="Space Shuttle during ascent into space, diagonally in the frame from top-left to the bottom-right.">
+      <div class="col-12 col-sm-4 py-3 py-sm-0">
+        <img class="img-fluid d-block" src="/img/blast.jpg" alt="Space Shuttle during ascent into space, diagonally in the frame from top-left to the bottom-right.">
       </div>
-      <div class="col-4">
-        <img class="img-fluid d-block rounded" src="/img/sky.jpg" alt="Space Shuttle during ascent into space, long-exposure arcing through night sky.">
+      <div class="col-12 col-sm-4 py-3 py-sm-0">
+        <img class="img-fluid d-block" src="/img/sky.jpg" alt="Space Shuttle during ascent into space, long-exposure arcing through night sky.">
       </div>
-      <div class="col-4">
-        <img class="img-fluid d-block rounded" src="/img/launch.jpg" alt="Space Shuttle during takeoff at Cape Canaveral, with engines recently started and just slightly off the ground.">
+      <div class="col-12 col-sm-4 py-3 py-sm-0">
+        <img class="img-fluid d-block" src="/img/launch.jpg" alt="Space Shuttle during takeoff at Cape Canaveral, with engines recently started and just slightly off the ground.">
       </div>
     </div>
 
@@ -143,37 +144,37 @@
     </div>
 
     <!-- Begin Table -->
-    <div class="row">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th scope="col">Planet</th>
-          <th scope="col">Distance</th>
-          <th scope="col">Survivability</th>
-          <th scope="col">How Long To Travel</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Mars</th>
-          <td>54.6 million km</td>
-          <td>Maybe</td>
-          <td>@300 Days</td>
-        </tr>
-        <tr>
-          <th scope="row">Jupiter</th>
-          <td>588 million km</td>
-          <td>No</td>
-          <td>Depends On Orbit (3-6 Years)</td>
-        </tr>
-        <tr>
-          <th scope="row">Saturn</th>
-          <td>.2 billion km</td>
-          <td>No</td>
-          <td>Depends On Orbit (3-6 Years)</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="row justify-content-center">
+      <table class="table-responsive-md table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Planet</th>
+            <th scope="col">Distance</th>
+            <th scope="col">Survivability</th>
+            <th scope="col">How Long To Travel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Mars</th>
+            <td>54.6 million km</td>
+            <td>Maybe</td>
+            <td>@300 Days</td>
+          </tr>
+          <tr>
+            <th scope="row">Jupiter</th>
+            <td>588 million km</td>
+            <td>No</td>
+            <td>Depends On Orbit (3-6 Years)</td>
+          </tr>
+          <tr>
+            <th scope="row">Saturn</th>
+            <td>.2 billion km</td>
+            <td>No</td>
+            <td>Depends On Orbit (3-6 Years)</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <!-- End Table -->
 
@@ -181,7 +182,7 @@
     <div class="jumbotron border-left-0 border-right-0 pb-2">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-6 align-items-center">
+          <div class="col-12 col-sm-6 order-2 order-sm-1 align-items-center">
             <h3>Let's Go For A Walk</h3>
             <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The
               Earth was absolutely round.
@@ -190,7 +191,7 @@
               and my thumb blotted out the planet Earth.
             </p>
           </div>
-          <div class="col-6 d-flex align-items-center">
+          <div class="col-12 col-sm-6 order-1 order-sm-2 pb-3 pb-sm-0 d-flex align-items-center">
             <img class="img-fluid d-block rounded" src="/img/space-walk.jpg" alt="Astronaut floating diagonally from bottom left to right upper third in space with the edge of Earth in sunlight behind him ">
           </div>
         </div>
@@ -206,7 +207,7 @@
   <div class="container mb-5" id="contact">
     <div class="row">
       <!-- Begin Form -->
-      <div class="col-12 col-sm-8 align-items-center">
+      <div class="col-12 col-sm-8 order-2 order-sm-1 align-items-center">
         <h3>Ready To Go?</h3>
         <form>
           <div class="form-group">
@@ -222,32 +223,32 @@
             <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
           </div>
           <div class="form-group">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="promoEmails">
-            <label class="form-check-label" for="promoEmails">I would like to receive promotional emails
-            </label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="noEmails">
-            <label class="form-check-label" for="noEmails">Please don’t send me emails
-            </label>
-          </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="promoEmails">
+              <label class="form-check-label" for="promoEmails">I would like to receive promotional emails
+              </label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="noEmails">
+              <label class="form-check-label" for="noEmails">Please don’t send me emails
+              </label>
+            </div>
           </div>
           <button type="submit" class="btn btn-primary">Ready For Launch
           </button>
         </form>
       </div>
       <!-- End Form -->
-      <div class="col-12 col-sm-4">
-        <h4 class="mt-2">Space Stuff</h2>
-          <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">Space Helmet</a>
-            <a href="#" class="list-group-item list-group-item-action">Rocket Boosters</a>
-            <a href="#" class="list-group-item list-group-item-action">Shuttle</a>
-            <a href="#" class="list-group-item list-group-item-action">Training for Launch</a>
-            <a href="#" class="list-group-item list-group-item-action">Heat resistant plating</a>
-            <a href="#" class="list-group-item list-group-item-action">Space Suit</a>
-          </div>
+      <div class="col-12 col-sm-4 order-1 order-sm-2 mb-5">
+        <h4 class="mt-2">Space Stuff</h4>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Space Helmet</a>
+          <a href="#" class="list-group-item list-group-item-action">Rocket Boosters</a>
+          <a href="#" class="list-group-item list-group-item-action">Shuttle</a>
+          <a href="#" class="list-group-item list-group-item-action">Training for Launch</a>
+          <a href="#" class="list-group-item list-group-item-action">Heat resistant plating</a>
+          <a href="#" class="list-group-item list-group-item-action">Space Suit</a>
+        </div>
       </div>
     </div>
   </div>

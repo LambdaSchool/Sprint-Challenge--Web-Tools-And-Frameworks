@@ -31,7 +31,7 @@ header {
         &:hover {
             color: @accent-color;
             background: @secondary-color;
-            .box-shadow(-2px 2px 0 0 darkred);
+            .box-shadow(-2px 2px 0 0 darkred);//mixin
         }
     }
     .dropdown-menu {
@@ -47,23 +47,28 @@ header {
     .row {
         margin: 0 0 5vh;
     }
+    img {
+        .border-radius; //mixin
+    }
     .jumbotron {
         border: 2px solid @accent-color;
         background: lighten(@secondary-color, 75%);
-        .box-shadow(-4px 4px 0 0 @secondary-color);
+        .box-shadow(-4px 4px 0 0 @secondary-color); //mixin
     }
     thead {
         background: @main-color;
     }
-    .table-striped > tbody > tr:nth-of-type(odd){
+    .table-striped > tbody > tr:nth-of-type(odd) {
         background: @secondary-color !important;
         color: white !important;
     }
 }
+
 
 footer {
     background: @secondary-color;
     color: white;
     border: 1px solid @accent-color;
     border-bottom: none;
+    .opacity; //mixin
 }
