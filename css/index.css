@@ -8269,7 +8269,7 @@ nav .custom-link {
   opacity: .5;
 }
 .spacewalk {
-  border-radius: 15px;
+  border-radius: 50%;
   max-width: 100%;
   height: auto;
 }
