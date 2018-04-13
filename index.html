@@ -170,8 +170,44 @@
 
     <!--Contact and Others-->
     <aside class="row">
-      <div id="contact" class="col-9"></div>
-      <div id="stuff" class="col-3"></div>
+      <!--Form-->
+      <div id="contact" class="col-9">
+          <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" class="form-control" id="phone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" ariadescribedby="emailHelp" placeholder="Email">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="form-subscribe-to-promotions">
+                <label class="form-check-label" for="form-subscribe-to-newsletter">I would like to receive pormotional emails</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="form-no-send-emails">
+                <label class="form-check-label" for="form-no-send-emails">Please don't send me emails</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Ready For Launch</button>
+            </form>
+      </div>
+      <!--Aside : List Group-->
+      <div id="stuff" class="col-3">
+        <h1>Space Stuff</h1>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Booster</li>
+          <li class="list-group-item">Shutle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Heat resistant plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div>
     </aside>
 
     <!--Footer-->
