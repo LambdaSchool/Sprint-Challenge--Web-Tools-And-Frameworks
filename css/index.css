@@ -8237,6 +8237,13 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.lambda-button {
+  background-color: #22283B;
+  border-color: black;
+}
+.text-black {
+  color: black;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
