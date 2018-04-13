@@ -21,7 +21,7 @@
        <Header>
          <div class="container-fluid">
          <div class="col-12 d-flex justify-content-center pt-4">
-          <h1>SpaceWalker</h1>
+          <h1 class="pagetitle">SpaceWalker</h1>
         </div>
           <nav> <!-- nav -->
             <div class="row justify-content-center mt-3">
@@ -184,7 +184,16 @@
                         Please don’t send me emails
                     </label>
                   </div> 
-                    <button type="submit" class="btn btn-info mt-3">Ready For Launch</button>
+                  <p> <!-- start JS component: collapse -->
+                    <button class="btn btn-info mt-3 mb-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                     Ready For Launch
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                     Thanks for your submission!
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
