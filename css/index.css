@@ -8263,6 +8263,19 @@ h5 {
 .form button {
   background-color: #22283B;
 }
+.dropdown {
+  padding-top: 7rem;
+}
+.dropdown .modal-button button {
+  background-color: #22283B;
+  margin-top: 4rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .dropdown .dropdown-toggle {
   background-color: #22283B;
 }

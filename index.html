@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid sticky-top">
     <div class="container"> <!-- Logo -->
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center">
@@ -102,13 +102,13 @@
 
   <div class="container"> <!-- First 3 images -->
     <div class="row">
-      <div class="col-sm-4 mt-5">
+      <div class="col-sm-4 d-flex justify-content-center mt-5">
         <img src="img/blast.jpg" class="img-fluid rounded" alt="a shuttle in sky">
       </div>
-      <div class="col-sm-4 mt-5">
+      <div class="col-sm-4 d-flex justify-content-center mt-5">
         <img src="img/sky.jpg" class="img-fluid rounded" alt="silver line of shuttle">
       </div>
-      <div class="col-sm-4 mt-5">
+      <div class="col-sm-4 d-flex justify-content-center mt-5">
         <img src="img/launch.jpg" class="img-fluid rounded" alt="a shuttle lauching">
       </div>    
     </div>
@@ -175,9 +175,10 @@
             The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
             
             It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
-        </p>
+        </p>        
       </div> 
-      <div class="col-sm-6 mt-5 pr-0">
+
+      <div class="col-sm-6 d-flex justify-content-center mt-5">
         <img src="img/space-walk.jpg" class="img-fluid rounded" alt="an astraunant">
       </div> 
     </div> 
@@ -194,8 +195,8 @@
                 <input type="text" class="form-control" id="name" aria-describedby="username" placeholder="Name">
               </div>
               <div class="form-group">
-                <label for="phone">Password</label>
-                <input type="number" class="form-control" id="phone" placeholder="Phone">
+                <label for="phone">Phone</label>
+                <input type="number" class="form-control" id="phone" aria-describedby="phonenumber" placeholder="Phone">
               </div>
               <div class="form-group">
                   <label for="email">Email</label>
@@ -214,7 +215,7 @@
         </div>
       </div>
 
-      <div class="col-sm-4 d-flex justify-content-center d-flex align-items-center"> <!-- Dropdowns-->
+      <div class="col-sm-4 d-flex justify-content-center"> <!-- Dropdowns-->
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Space Stuff
@@ -227,7 +228,47 @@
               <button class="dropdown-item" type="button">Heat resistant plating</button>
               <button class="dropdown-item" type="button">Space Suit</button>
             </div>
+            
+            <!-- Term of Service Modal -->
+            <!-- Button trigger modal -->
+            <div class="modal-button">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                Term of Service
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Term of Service</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <p>Here are a few terms to get you started:</p>
+
+                  <p>adjective law (or procedural law): That area of the law that deals with procedural rules of evidence, pleadings and practice.</p>
+
+                  <p>administrative law: The area of law that concerns government agencies.</p>
+
+                  <p>cause of action: The reason for which a plaintiff files a complaint or suit against someone. This can be negligence, breach of contract, malpractice or defamation, to name a few. A cause of action is divided into elements, and each element must be proved to win the case.</p>
+
+                  <p>compensatory damages: Damages that are recovered for injury or economic loss. For instance, if someone is injured in a car accident and the party who injures them has to pay compensatory damages, the party at fault must cover cost of things such as the ambulance, doctors’ bills, hospital stays, medicine, physical therapy and lost wages.</p>
+
+                  <p>constitutional law: Law prescribed by the written federal and state constitutions, as well as the interpretation and implementation of this law.</p>
+
+                  <p>contract: An agreement between two or more parties to do or refrain from doing something; this often involves a promise of something in return for something of value. There are both written and oral contracts, though in some states oral contracts have little or no standing.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div> <!-- Modal -->
           </div>
+        </div>
       </div> <!-- Dropdowns -->
     </div>
   </div> <!-- Form and Dropdowns -->
