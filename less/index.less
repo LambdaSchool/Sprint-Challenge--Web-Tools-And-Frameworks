@@ -6,26 +6,61 @@
 @import "layout";
 
 .container-fluid {
-  background-color: @accent-color;
-  border-bottom: 1px solid @secondary-color;
+  background-color: @main-color;
+  border-bottom: 1px solid @accent-color;
 
   header {
     width: 100%;
 
     nav {
       width: 100%;
+
+      a {
+        color: @secondary-color;
+      }
     }
   }
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .carousel-item img {
   width: 100%;
+  .border-radius(10px); // mixin border radius used here
+}
+
+#walk-img {
+  border-bottom: 1px solid @accent-color;
+}
+
+#walk {
+  border-bottom: 1px solid @accent-color;
+}
+
+.walk-space-img {
+  .rotate(5deg); // mixin rotate used here
+}
+
+form button {
+  background-color: @secondary-color;
+  color: white;
+}
+
+#accordion .card .card-header .btn-link {
+  color: @secondary-color;
 }
 
 footer {
   text-align: center;
   background-color: @accent-color;
   width: 100%;
+
+  #terms-button {
+    background-color: @accent-color;
+  }
 
   p {
     padding: 20px 0;

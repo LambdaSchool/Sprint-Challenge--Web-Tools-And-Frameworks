@@ -8250,8 +8250,8 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  background-color: #e0e0e0;
-  border-bottom: 1px solid #22283B;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e0e0e0;
 }
 .container-fluid header {
   width: 100%;
@@ -8259,13 +8259,48 @@ h5 {
 .container-fluid header nav {
   width: 100%;
 }
+.container-fluid header nav a {
+  color: #22283B;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .carousel-item img {
   width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#walk-img {
+  border-bottom: 1px solid #e0e0e0;
+}
+#walk {
+  border-bottom: 1px solid #e0e0e0;
+}
+.walk-space-img {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+}
+form button {
+  background-color: #22283B;
+  color: white;
+}
+#accordion .card .card-header .btn-link {
+  color: #22283B;
 }
 footer {
   text-align: center;
   background-color: #e0e0e0;
   width: 100%;
+}
+footer #terms-button {
+  background-color: #e0e0e0;
 }
 footer p {
   padding: 20px 0;

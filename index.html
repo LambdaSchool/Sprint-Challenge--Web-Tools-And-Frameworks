@@ -16,7 +16,8 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+
+  <div class="container-fluid pb-3">
     <div class="container">
       <div class="row">
         <header class="d-flex flex-column justify-content-center">
@@ -60,7 +61,7 @@
     </a>
     </div> <!-- carousel -->
 
-    <div class="row">
+    <div class="row mt-5">
       <h2>Lift Off</h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -69,17 +70,17 @@
 
     <div class="row">
       <div class="col-md-4">
-        <img src="img/blast.jpg" class="img-fluid">
+        <img src="img/blast.jpg" class="img-fluid img3s">
       </div>
       <div class="col-md-4">
-        <img src="img/launch.jpg" class="img-fluid">
+        <img src="img/launch.jpg" class="img-fluid img3s">
       </div>
       <div class="col-md-4">
-        <img src="img/sky.jpg" class="img-fluid">
+        <img src="img/sky.jpg" class="img-fluid img3s">
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-5">
       <h2>Can We Visit Planets?</h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -89,7 +90,7 @@
       </p>
     </div>
 
-    <div class="row">
+    <div class="row mt-5 pt-3 pb-5" id="walk-img">
       <table class="table table-striped">
         <thead>
           <tr>
@@ -122,7 +123,7 @@
       </table>
     </div><!-- end table row -->
 
-    <div class="row">
+    <div class="row mt-5 pb-3" id="walk">
       <div class="col-md-6">
         <h2>Let's Go For A Walk</h2>
         <p>
@@ -133,11 +134,11 @@
       </div>
 
       <div class="col-md-6">
-        <img src="img/space-walk.jpg" class="img-fluid">
+        <img src="img/space-walk.jpg" class="img-fluid walk-space-img">
       </div>
     </div><!-- end row img and description -->
 
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-md-8">
         <h2>Ready To Go?</h2>
         <form>
@@ -163,12 +164,12 @@
             <label class="form-check-label" for="exampleCheck2">Pleas don't send me emails</label>
           </div>
 
-          <button type="submit" class="btn btn-primary">Ready For Launch</button>
+          <button type="submit" class="btn mt-2">Ready For Launch</button>
 
         </form>
       </div>
       <div class="col-md-4">
-        <h3>Space Stuff</h3>
+        <!-- <h3>Space Stuff</h3>
         <ul class="list-group">
           <li class="list-group-item">Space Helmet</li>
           <li class="list-group-item">Rocket Boosters</li>
@@ -176,13 +177,144 @@
           <li class="list-group-item">Training for Launch</li>
           <li class="list-group-item">Heat resistant plating</li>
           <li class="list-group-item">Space Suit</li>
-        </ul>
+        </ul> -->
+
+        <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Space Helmet
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Rocket Boosters
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo">
+          Shuttle
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid
+      </div>
+    </div>
+  </div>
+  <!--- fd -->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+          Training For Lunch
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo">
+         Heat resistant plating
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree">
+          Space Suit
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree4" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </div> <!-- end row with form and list -->
 
-    <div class="row">
-      <footer class="col-12">
-        <p>Copyright SpaceWalkers 2018</p>
+    <div class="row mt-5">
+      <footer class="col-md-12">
+        <!-- Button trigger modal -->
+        <div class="row align-items-center">
+          <button type="button" class="btn col-md-6" data-toggle="modal" data-target="#exampleModalLong" id="terms-button">
+            Terms and Conditions
+          </button> <!-- my Modal button -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Please Read</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                 </p><p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                 </p><p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                 </p><p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                 </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+                  <p class="col-md-6 mt-1">Copyright SpaceWalkers 2018</p>
+          </div>
       </footer>
     </div>
 
