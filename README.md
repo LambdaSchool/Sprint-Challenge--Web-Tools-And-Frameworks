@@ -16,7 +16,7 @@
 2. What is the yarn command to globally install LESS?
 3. What is the most useful mixin you have used this week?
 4. What are the names of the 5 breakpoints used in bootstrap?
-5. What is the utility class name that turns an element into a flexbox?
+5. What is the utility class name that turns an element into a flexbox? 
 
 ## Lets get started on the project
 For this sprint challenge you will be building a web page from scratch for a space themed magazine called SpaceWalker.  
