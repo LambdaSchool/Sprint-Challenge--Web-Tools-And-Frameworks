@@ -4,6 +4,6 @@
 
 3. Escaping and variables
 
-4. xl lg md sm
+4. xl lg md sm xm
 
 5. d-flex

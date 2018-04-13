@@ -8250,8 +8250,8 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  max-width: 800px;
   background: #f3f1f1;
+  opacity: 0.9;
 }
 .container {
   max-width: 800px;

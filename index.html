@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid sticky-top">
   <div class="container">
     <div class="row">
         <div class="col-12 d-flex justify-content-center mt-3">
@@ -39,7 +39,7 @@
     </div>
         <div class="container">
         <div class="row">
-            <div class="col-12 mt-3"> <!-- Carousel starts here -->
+            <div class="col-12"> <!-- Carousel starts here -->
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -159,8 +159,31 @@
                           <label class="form-check-label" for="exampleRadios2">
                               Please don’t send me emails
                           </label>
-                        </div>                        
-                        <button type="submit" class="btn btn-info btn-dark">Ready For Launch</button>
+                        </div>    <!--button-->                    
+                        <!-- <button type="submit" class="btn btn-info btn-dark">Ready For Launch</button>  -->
+                        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+                            Ready For Launch
+                          </button>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalCenterTitle">Houston-GH1FS23</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                Yeehaw!
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-dark" data-dismiss="modal">Welcome!</button>                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>                       
                       </form>
                     </div>
                     <div class="col-sm-4 mt-3">
