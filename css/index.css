@@ -8249,3 +8249,15 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.header {
+  background: #f4f4f4;
+  border-bottom: 1px solid #c1c1c1;
+}
+.header a {
+  color: #22283B;
+}
+.header a:hover {
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
