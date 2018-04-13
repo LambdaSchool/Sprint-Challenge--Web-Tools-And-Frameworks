@@ -16,20 +16,16 @@
 </head>
 
 <body>
-  <div class="container">
-
-    <!--nav-->
-
-   <div class="container-fluid sticky-top">
-
-   
-    <div class="container">
+  <div class="container-fluid sticky-top"> <!--main container-->
+    <!--nav container-->
+  
+    <div class="container-fluid">
       <div class="row bg-light">
         <div class="col-sm-12 d-flex justify-content-center">
           <h1>SpaceWalkers</h1>
         </div>
 
-        <div class="col-sm-12 d-flex justify-content-center">
+        <div class="col-sm-12 d-flex justify-content-center pb-3">
           <nav class="nav">
             <a class="nav-link active text-dark" href="#">Home</a>
             <a class="nav-link text-dark" href="#">About Us</a>
@@ -51,11 +47,12 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div>
     <!--nav-->
 
    
 <!--carousel-->
+  <div class="container">
     <div class="row">
       <div id="carouselExampleIndicators" class="carousel slide col-sm-12" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -87,23 +84,37 @@
           </a>
         </div>
     </div>
+    
     <!--carousel-->
 
     <!--top content-->
+  <div class="container"> <!--top content container for copy-->
     <div class="row">
-      <div class="col-sm-12 top-content mt-5">
+      <div class="col-sm-12 mt-5">
         <h1>Lift Off</h1>
         <p>
             As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
         </p>
       </div>
+    </div>
+  </div> <!--top content container for copy-->
 
-      <div class="col-sm-12 d-flex mx-auto">
-        <img src="img/blast.jpg" class="col-sm-4 img-fluid img-thumbnail" alt="spaceship blastoff">
-        <img src="img/sky.jpg" class="col-sm-4 img-fluid img-thumbnail" alt="sky shot">
-        <img src="img/launch.jpg" class="col-sm-4 img-fluid img-thumbnail" alt="spaceship launch">
+
+    <div class="row"> <!--first three images-->
+      <div class="col-sm-4 d-flex m-auto">
+          <img src="img/blast.jpg" class="img-fluid rounded" alt="spaceship blastoff">
       </div>
-     
+
+      <div class="col-sm-4 d-flex m-auto">
+          <img src="img/sky.jpg" class="img-fluid rounded" alt="sky shot">
+      </div>
+
+      <div class="col-sm-4 d-flex m-auto">
+          <img src="img/launch.jpg" class="img-fluid rounded" alt="spaceship launch">
+      </div>
+    </div>
+  
+
       <div class="col-sm-12 top-content mt-5">
           <h1>Can We Vist Planets</h1>
           <p>
@@ -113,6 +124,7 @@
               which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.
           </p>
         </div>
+    <!-- </div> -->
 
         <!--table-->
         <div class="col-sm-12 mt-5">
@@ -151,7 +163,7 @@
         <!--content break line-->
         <div class="col-sm-12 border-bottom border-dark mt-5"></div>
          <!--content break line-->
-    </div>
+    <!-- </div> -->
     <!--top content-->
 
     <!--middle content-->
@@ -168,7 +180,7 @@
       </div>
 
       <div class="col-sm-4"> 
-        <img src="img/space-walk.jpg" class="img-fluid img-thumbnail rounded">
+        <img src="img/space-walk.jpg" class="img-fluid rounded">
       </div>
         
       <!--content break line-->
@@ -297,8 +309,9 @@
               </div>
           </div>
         <!--footer-->
-
-  </div>
+      </div>
+<!-- 
+  </div> post nav container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
