@@ -8279,15 +8279,14 @@ header #Title nav a {
 .bottom-content {
   flex-flow: row wrap;
   width: 100%;
-  justify-content: center;
-  border: 1px solid #dee2e6 !important;
-  border: solid red 5px;
+  justify-content: flex-start;
+  align-items: center;
 }
 .paragraph {
-  border: 1px solid #dee2e6 !important;
-  border: solid red 5px;
-  width: 100%;
+  width: 75%;
 }
-#mc-container {
-  justify-content: flex-start;
+.BC-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
