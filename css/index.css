@@ -8269,6 +8269,11 @@ footer {
 .table {
   margin: 0;
 }
+@media (min-width: 991px) {
+  .nav-button {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .container {
     text-align: center;
