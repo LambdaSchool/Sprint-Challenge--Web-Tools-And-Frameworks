@@ -1,1 +1,33 @@
 // Make your imports here!
+@import "bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+@import "layout.less";
+
+.custom-top {
+    background: @accent-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 500px;
+        a {
+            color: @secondary-color;
+        }
+    }
+}
+
+.custom-container {
+    background: @main-color;
+    max-width: 1000px;
+}
+
+.custom-footer {
+    background: @accent-color;
+    max-width: 1000px;
+}
