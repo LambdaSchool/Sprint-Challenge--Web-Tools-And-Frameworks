@@ -16,13 +16,191 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid bg-light nav-container">
     <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
-      </div>
-    </div>
-  </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-1 text-center">SpaceWalkers</h1>
+          </div><!-- col12 -->
+        </div><!-- row -->
+        
+        <div class="row mb-3">
+          <div class="col-12">
+            <ul class="nav d-flex justify-content-center">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+            </ul><!-- nav -->
+          </div><!-- col-12 -->
+        </div><!-- row -->
+      </div><!-- col12 -->
+    </div><!-- row -->
+  </div><!-- container-fluid -->
+  
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <img class="w-100" src="img/slider-1.jpg" alt="The earths atmosphere from space">
+      </div><!-- col-12 -->
+    </div><!-- row -->
+    
+    <div class="row">
+      <div class="col-12">
+        <h2 class="display-5">Lift off</h2>
+        <p class="lead">
+          As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
+        </p>
+      </div><!-- col-12 -->
+    </div><!-- row -->
+    
+    <div class="row mb-5">
+      <div class="col-4">
+        <img class="w-100 rounded" src="img/blast.jpg" alt="Space shuttle blasting off into space">
+      </div><!-- col-4 -->
+      <div class="col-4">
+        <img class="w-100 rounded" src="img/sky.jpg" alt="I'm not sure how to describe this">
+      </div><!-- col-4 -->
+      <div class="col-4">
+        <img class="w-100 rounded" src="img/launch.jpg" alt="Space shuttle blasting off into space">
+      </div><!-- col-4 -->
+    </div><!-- row -->
+    
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 class="display-5">Can We Visit Planets?</h2>
+        <p class="lead">
+          Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
+        </p>
+        <p class="lead">
+          which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.
+        </p>
+      </div><!-- col-12 -->
+    </div><!-- row -->
+    
+    <div class="row pb-5">
+      <div class="col-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody class="font-weight-bold">
+            <tr>
+              <td>Mars</td>
+              <td>54.6 Million km</td>
+              <td>Maybe</td>
+              <td>300 Days</td>
+            </tr>
+            <tr>
+              <td>Jupiter</td>
+              <td>588 million km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+              <td>Saturn</td>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+          </tbody>
+        </table><!-- table -->
+      </div><!-- col-12 -->
+    </div><!-- row -->
+    
+    <div class="row mb-5 py-5 border-top border-bottom">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-6 d-flex flex-column justify-content-center">
+            <h2>Let's Go For A Walk</h2>
+            <p class="lead">
+              The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
+            </p>
+            <p class="lead">
+              It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
+            </p>
+          </div><!-- col-6 -->
+
+          <div class="col-6 text-center">
+            <img class="rounded" src="img/space-walk.jpg" alt="Martian man from outter spaaaaaace!">
+          </div><!-- col-6 -->
+        </div><!-- row -->
+      </div><!-- col-12 -->
+    </div><!-- row -->
+    
+    <div class="row mb-5 form-container">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="display-5">Ready To Go?</h2>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Name">
+              </div><!-- form-group -->
+              
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="phone" class="form-control" id="phone" placeholder="Phone">
+              </div><!-- form-group -->
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div><!-- form-group -->
+              
+              <div class="form-check mb-1">
+                <input type="checkbox" class="form-check-input" id="receive-emails" name="receive-emails">
+                <label class="form-check-label" for="receive-emails">I would like to receive promotional emails</label>
+              </div><!-- form-group -->
+              
+              <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="no-emails" name="no-emails">
+                <label class="form-check-label" for="no-mails">Please don’t send me emails</label>
+              </div><!-- form-group -->
+              
+              <button type="submit" class="btn btn-lg">Ready For Launch</button>
+            </form><!-- form -->
+          </div><!-- col-6 -->
+          
+          <div class="col-4">
+            <h2 class="display-5">Space Stuff</h2>
+            <ul class="list-group">
+              <li class="list-group-item">Space Helmet</li>
+              <li class="list-group-item">Rocket Boosters</li>
+              <li class="list-group-item">Shuttle</li>
+              <li class="list-group-item">Training for Launch</li>
+              <li class="list-group-item">Heat resistant plating</li>
+              <li class="list-group-item">Space Suit</li>
+            </ul>
+          </div><!-- col-6 -->
+        </div><!-- row -->
+      </div><!-- col-12 -->
+    </div><!-- row -->
+    
+    <div class="row bg-light pt-3 border border-bottom-0">
+      <footer class="col-12 text-center">
+        <p class="lead">Copyright SpaceWalkers 2018</p>
+      </footer><!-- col-12 -->
+    </div><!-- row -->
+  </div><!-- container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
