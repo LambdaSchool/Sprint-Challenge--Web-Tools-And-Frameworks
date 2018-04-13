@@ -8240,7 +8240,6 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #f4f4f4;
 }
 h1,
 h2,
@@ -8251,7 +8250,7 @@ h5 {
   color: #22283B;
 }
 .header {
-  background: #e0e0e0;
+  background: #f4f4f4;
 }
 .container-for-layout {
   max-width: 768px;
@@ -8262,7 +8261,7 @@ a {
 }
 .footer {
   padding: 20px;
-  background: #e0e0e0;
+  background: #f4f4f4;
 }
 .photo-to-round {
   -webkit-border-radius: 5px;
