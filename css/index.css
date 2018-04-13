@@ -8259,6 +8259,16 @@ header {
   background: #f4f4f4;
   border-bottom: 2px solid #e0e0e0;
 }
+header h4 {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  header h4 {
+    font-size: 2rem !important;
+    position: absolute !important;
+    text-align: right;
+  }
+}
 header a.nav-link {
   margin: 0 1rem;
   color: #22283B;
@@ -8271,8 +8281,8 @@ header a.nav-link {
   /* mixin */
 }
 header a.nav-link:hover {
-  color: #e0e0e0;
-  background: #22283B;
+  color: #e0e0e0 !important;
+  background: #22283B !important;
   -webkit-box-shadow: -2px 2px 0 0 darkred;
   -moz-box-shadow: -2px 2px 0 0 darkred;
   box-shadow: -2px 2px 0 0 darkred;

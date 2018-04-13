@@ -23,14 +23,22 @@ h5 {
 header {
     background: @main-color;
     border-bottom: 2px solid @accent-color;
+    h4 {
+        text-align: center;
+        @media (max-width: 576px) {
+            font-size: 2rem !important;
+            position: absolute !important;
+            text-align: right;
+        }
+    }
     a.nav-link {
         margin: 0 1rem;
         color: @secondary-color;
         .border-radius;
         /* mixin */
         &:hover {
-            color: @accent-color;
-            background: @secondary-color;
+            color: @accent-color !important;
+            background: @secondary-color !important;
             .box-shadow(-2px 2px 0 0 darkred);//mixin
         }
     }
