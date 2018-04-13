@@ -8249,6 +8249,14 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+h2 {
+  font-size: 6vw;
+}
+@media (min-width: 576px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
 hr {
   display: block;
   margin-top: 0.5em;
@@ -8288,6 +8296,14 @@ hr {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
+}
+.my-form .my-form__list {
+  order: -1;
+}
+@media (min-width: 576px) {
+  .my-form .my-form__list {
+    order: 0;
+  }
 }
 footer {
   border-top-right-radius: 5px;
