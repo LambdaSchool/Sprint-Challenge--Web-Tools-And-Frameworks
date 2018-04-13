@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container-fluid topbar">
+  <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-sm-12 text-center">
         <h1>SpaceWalker</h1>
@@ -32,8 +32,7 @@
         </div>
         </div>
       </div>
-    </div>
-    <div class ="container">
+
       <div class="row justify-content-center"><!-- JavaScript Component: Carousel -->
       <div class="col-sm-10 mt-4">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -64,6 +63,7 @@
             </div>
       </div>
     </div>
+
     <div class = "row d-flex justify-content-center">
     <div class="col-sm-8 mt-4">
     <h2>Lift Off</h2>
@@ -72,11 +72,19 @@
     that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
     </div>
   </div>
+
     <div class ="row">
-        <div class="col-sm-12">
-          <!--add images-->
+        <div class="col-sm-4">
+          <img src="img/blast.jpg" id="image-fluid"alt="blast off">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/launch.jpg" id="image-fluid" alt="rocket launch">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/sky.jpg" id="image-fluid" alt="spaceship in sky">
         </div>
       </div>
+
   <div class = "row d-flex justify-content-center">
     <div class="col-sm-8 mt-4">
     <h2>Can We Visit Planets?</h2>
@@ -86,9 +94,38 @@
         The airman's earth, if free men make it.</p>
       </div>
     </div>
-    <div class ="row">
-        <div class="col-sm-12">
-          <!--add table-->
+    <div class ="row d-flex justify-content-center mt-5">
+        <div class="col-sm-8">
+          <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Planet</th>
+        <th scope="col">Distance</th>
+        <th scope="col">Survivability</th>
+        <th scope="col">How long To Travel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mars</td>
+        <td>Distance</td>
+        <td>Maybe</td>
+        <td>300 days</td>
+      </tr>
+      <tr>
+        <td>Jupiter</td>
+        <td>588 million km</td>
+        <td>No</td>
+        <td>Depends On Orbit (3-6 years)</td>
+      </tr>
+      <tr>
+        <td>Saturn</td>
+        <td>1.2 billion km</td>
+        <td>No</td>
+        <td>Depends on Orbit (3-6 years)</td>
+      </tr>
+    </tbody>
+  </table>
         </div>
       </div>
       <div class = "row d-flex justify-content-center">
@@ -100,8 +137,13 @@
          <!--add image-->
     </div>
   </div>
-</div>
   </div>
+</div>
+  <div class="row d-flex text-center justify-content-center">
+<div class= "footer col-sm-6">
+<p>Copyright 2018</p>
+</div>
+</div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
