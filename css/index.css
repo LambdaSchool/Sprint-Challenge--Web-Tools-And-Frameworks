@@ -8254,14 +8254,10 @@ h5 {
   margin: 0 auto;
 }
 .nav {
-  border: 1px solid red;
-  width: 100%;
-  height: 100%;
   border-bottom: 1px solid black;
   background: #f4f4f4;
   padding: 10px;
 }
 .logo-heading {
-  border: 1px solid red;
   width: 100%;
 }
