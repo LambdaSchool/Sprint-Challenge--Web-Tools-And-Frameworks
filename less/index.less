@@ -18,16 +18,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     background-color: @main-color;
-    border-bottom: solid thin @accent-color;
+    border-bottom: solid medium @accent-color;
 
     a {
         color: black;
+        font-size: 14px;
 
         &:hover {
             text-decoration: none;
             .box-shadow (-2px -2px); //mixin 2
         }
     }
+}
+
+.lets-go {
+    border-top: solid thin @main-color;
+    border-bottom: solid thin @main-color;
 }
 
 .btn-primary {

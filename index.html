@@ -18,7 +18,7 @@
 <body>
   <div class="container">
     
-    <div class="row header mt-1">
+    <div class="row header py-2">
       
       <div class="col-12">
         <div class="row justify-content-center">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-6 d-flex justify-content-around">
+          <div class="col-12 col-md-8 d-flex justify-content-around">
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Blog</a>
@@ -78,14 +78,15 @@
     </div>
 
     <div class="row lift-off-pics">
+      <!--Component: Tooltip-->
       <div class="col-4">
-        <img class="img-fluid" src="img/blast.jpg" alt="blast">
+        <img class="img-fluid" src="img/blast.jpg" alt="blast" data-toggle="tooltip" data-placement="top" title="Opollo 12 Launch">
       </div>
       <div class="col-4">
-        <img class="img-fluid" src="img/sky.jpg" alt="sky">
+        <img class="img-fluid" src="img/sky.jpg" alt="sky" data-toggle="tooltip" data-placement="top" title="Experimental Little Rocket Long Exposure">
       </div>
       <div class="col-4">
-        <img class="img-fluid" src="img/launch.jpg" alt="launch">
+        <img class="img-fluid" src="img/launch.jpg" alt="launch" data-toggle="tooltip" data-placement="top" title="Opollo 11 Launch">
       </div>
     </div>
 
@@ -134,7 +135,7 @@
       </table>
     </div>
 
-    <div class="row lets-go py-3 justify-content-center">
+    <div class="row lets-go pt-4 justify-content-center">
 
       <div class="col-5">
         <h4>Let's Go For A Walk</h4>
@@ -147,12 +148,13 @@
       </div>
 
       <div class="col-5">
-        <img class="img-fluid" src="img/space-walk.jpg" alt="space-walk">
+        <!--Component: Tooltip-->
+        <img class="img-fluid" src="img/space-walk.jpg" alt="space-walk" data-toggle="tooltip" data-placement="top" title="Braden Walker 2021 Space Walk">
       </div>
 
     </div>
 
-    <div class="row form-and-stuff mt-4">
+    <div class="row form-and-stuff mt-5">
 
       <div class="col-8 form">
         <h5>Ready To Go?</h5>
@@ -208,5 +210,10 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </body>
 </html>
