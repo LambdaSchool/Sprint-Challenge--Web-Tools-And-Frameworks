@@ -8260,6 +8260,30 @@ h5 {
   -moz-opacity: 0.6;
   opacity: 0.6;
 }
+#space-stuff .card {
+  margin-bottom: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#space-stuff .card .card-header {
+  background: #FFF;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#space-stuff .card .card-header a {
+  color: #22283B;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+}
 .footer {
   background: #f4f4f4;
 }
