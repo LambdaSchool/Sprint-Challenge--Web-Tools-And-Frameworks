@@ -8262,6 +8262,9 @@ a {
 .footer {
   padding: 20px;
   background: #f4f4f4;
+  -webkit-box-shadow: 5px 5px;
+  -moz-box-shadow: 5px 5px;
+  box-shadow: 5px 5px;
 }
 .photo-to-round {
   -webkit-border-radius: 5px;
