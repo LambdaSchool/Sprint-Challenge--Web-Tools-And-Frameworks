@@ -8257,6 +8257,12 @@ h5 {
   color: #f4f4f4;
   background-color: #22283B;
 }
+.container-fluid {
+  background-color: #f4f4f4;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
 .img-shadow {
   -webkit-box-shadow: 20px 30px 10px;
   -moz-box-shadow: 20px 30px 10px;
@@ -8269,4 +8275,7 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.footer {
+  background: #f4f4f4;
 }
