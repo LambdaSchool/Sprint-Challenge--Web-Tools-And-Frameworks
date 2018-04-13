@@ -8252,6 +8252,14 @@ h5 {
 .container {
   max-width: 900px;
 }
+.nav-link {
+  color: black;
+}
+@media (max-width: 423px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}
 footer {
   color: black;
   background: #f3f3f2;
