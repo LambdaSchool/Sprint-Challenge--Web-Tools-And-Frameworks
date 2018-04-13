@@ -18,36 +18,35 @@
 
 <body>
   <div class="container-fluid">
-    <div class="p-3 mb-2 bg-light text-dark">
-      <div class="container">
-        <div class="row mt-3">
-          <div class="col-sm-12 d-flex justify-content-center">
-            <h1>SpaceWalkers</h1>
-          </div>
-        </div>
-        <div class='row'>
-          <div class="col-sm-12 d-flex justify-content-center">
-            <ul class="nav ml-10">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign In</a>
-              </li>
-            </ul>
-          </div>
+    <header class="container">
+      <div class="row
+       mb-2">
+        <div class="col-sm-12 d-flex justify-content-center">
+          <h1>SpaceWalkers</h1>
         </div>
       </div>
-    </div>
+      <div class='row'>
+        <div class="col-sm-12 d-flex justify-content-center">
+          <ul class="nav ml-10">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
     <div class="container">
       <div class="row mt-0">
@@ -179,6 +178,7 @@
 
       <div class="row mt-4 mb-4">
         <div class="col-sm-7">
+          <h2>Ready To Go?</h2>
           <form class="needs-validation" novalidate>
             <div class="form-group">
               <label for="name">Name</label>
@@ -224,7 +224,7 @@
               </div>
             </div>
             <div class="form-group">
-              <button type="submit" class="btn btn-info">Let's Travel</button>
+              <button type="submit" class="btn btn-dark">Let's Launch</button>
             </div>
           </form>
         </div>
@@ -242,11 +242,11 @@
         </div>
       </div>
 
-      <div class="row footer mt-4 mb-4">
-        <div class="col-sm-12 d-flex justify-content-center">
-          Copyright SpaceWalkers 2018
+      <footer class="container rounded">
+        <div class="row justify-content-center">
+          <p>&copy; SpaceWalkers 2018</p>
         </div>
-      </div>
+      </footer>
     </div>
   </div>
   </div>
@@ -254,6 +254,25 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+
+        var forms = document.getElementsByClassName('needs-validation');
+
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
 </body>
 
 </html>

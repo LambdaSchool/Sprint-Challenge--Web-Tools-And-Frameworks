@@ -8264,6 +8264,12 @@ img {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.border-top {
-  border-top: solid 2px black !important;
+header {
+  background: #f4f4f4;
+  border-bottom: 2px solid #e0e0e0;
+}
+footer {
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
 }
