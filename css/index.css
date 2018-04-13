@@ -8251,6 +8251,9 @@ h5 {
 }
 .navbarx {
   background: #e0e0e0;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
 }
 .footer {
   background: #e0e0e0;
@@ -8258,4 +8261,16 @@ h5 {
 }
 .titles {
   font-size: 20px;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.test3 {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
