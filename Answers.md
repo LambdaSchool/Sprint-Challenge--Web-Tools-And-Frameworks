@@ -14,7 +14,7 @@ yarn global add less
 
 4. What are the names of the 5 breakpoints used in bootstrap?
 
-col-xs(as default)- / col-sm- / col-md- / col-xl-
+col-xs(as default)- / col-sm- / col-md- / col-lg- / col-xl-
 
 5. What is the utility class name that turns an element into a flexbox? 
 
