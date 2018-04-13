@@ -8276,6 +8276,9 @@ h6 {
 .header {
   background-color: #f4f4f4;
   border-bottom: solid medium #e0e0e0;
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
 }
 .header a {
   color: black;
