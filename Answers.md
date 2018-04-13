@@ -2,15 +2,11 @@
 
 2. yarn global add less
 
-3. .button-template {
-	display: block;
-	padding: 10px;
-	width: 150px;
-	background:blue;
-	color: white;
-	margin: 20px auto;
-	border: 1px solid black;
-	box-shadow: 3px 3px 4px black;
+3. .btn-tmplt {
+	background: @secondary-color;
+	text-align: center;
+	font-size: 16px;
+	color: @main-color;
 }
 
 4. xs sm md lg xl
