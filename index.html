@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container-fluid sticky-top">
+    <div class="container-fluid">
   <div class="container">
     <div class="row">
         <div class="col-12 d-flex justify-content-center mt-3">
@@ -35,6 +35,9 @@
             </nav>               
           </div>
         </div>
+  </div>
+    </div>
+        <div class="container">
         <div class="row">
             <div class="col-12 mt-3"> <!-- Carousel starts here -->
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -117,8 +120,65 @@
                   </table>
                 </div>
               </div>
+              <div class="row">
+                  <div class="col-6 mt-3">
+                    <h4>Lift Off</h4>
+                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+                  </div>
+                  <div class="col-6 mt-3">
+                      <img  src="img/space-walk.jpg" class="img-fluid rounded" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h4>Ready To Go?</h4>
+                      <form>
+                        <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" class="form-control" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="phone" class="form-control" placeholder="Phone">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input id="email" type="text" class="form-control" placeholder="Email">
+                      </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                              I would like to receive promotional emails
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          <label class="form-check-label" for="exampleRadios2">
+                              Please don’t send me emails
+                          </label>
+                        </div>                        
+                        <button type="submit" class="btn btn-info btn-dark">Ready For Launch</button>
+                      </form>
+                    </div>
+                    <div class="col-sm-4 mt-3">
+                        <h4>Space Stuff</h4>
+                        <ul class="list-group">
+                          <li class="list-group-item">Space Helmet</li>
+                          <li class="list-group-item">Rocket Boosters</li>
+                          <li class="list-group-item">Shuttle</li>
+                          <li class="list-group-item">Training for Launch</li>
+                          <li class="list-group-item">Heat resistant plating</li>
+                          <li class="list-group-item">Space Suit</li>
+                        </ul>
+                      </div>
+                  </div> 
+                  <div class="row footer">
+                      <div class="col-sm-12 d-flex justify-content-center">
+                          Copyright SpaceWalkers 2018
+                      </div>
+                    </div>               
   </div><!--container-->
-  </div> 
+  
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
