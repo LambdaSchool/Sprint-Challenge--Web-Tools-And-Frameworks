@@ -8237,12 +8237,29 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
-.colorScreen {
-  background: lightgray;
+.roundedImg {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
-.navClass {
-  color: darkslategray;
-  text-decoration: none;
+.opaqueImg {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.footerColor {
+  background-color: #e0e0e0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  color: #22283B;
 }
 html,
 body {
@@ -8255,12 +8272,4 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-a {
-  color: darkslategray;
 }

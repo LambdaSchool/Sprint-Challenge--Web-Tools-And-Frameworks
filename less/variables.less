@@ -4,12 +4,18 @@
 @secondary-color: #22283B;
 @accent-color: #e0e0e0;
 
-.colorScreen {
-    background: lightgray;
-    // border-bottom: 2px solid gray;
+.roundedImg {
+    .border-radius(30px);
 }
 
-.navClass {
-    color: darkslategray;
-    text-decoration: none;
+.opaqueImg {
+    .opacity(@opacity: .5);
+}
+
+.footerColor {
+    background-color: @accent-color;
+}
+
+h1, h2, h3, h4, h5, a {
+    color: @secondary-color;
 }
