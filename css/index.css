@@ -8249,3 +8249,32 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  background-color: #e0e0e0;
+}
+.table {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.last-content {
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.form button {
+  background-color: #22283B;
+}
+.dropdown .dropdown-toggle {
+  background-color: #22283B;
+}
+.footer {
+  color: black;
+  background: #e0e0e0;
+  padding-top: 1.5rem;
+  Padding-bottom: 3rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}

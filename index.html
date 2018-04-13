@@ -27,14 +27,30 @@
 
     <div class="container"> <!-- nav -->
       <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-          <nav class="nav">
+        <div class="col-12 d-flex justify-content-center border-bottom">
+          <!-- <nav class="nav">
             <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="#">About Us</a>
             <a class="nav-link" href="#">Blog</a>
             <a class="nav-link" href="#">Contact</a>
             <a class="nav-link" href="#">Sign In</a>
-          </nav>
+          </nav> -->
+          <!-- NavBar -->
+          <nav class="navbar navbar-expand-lg navbar-light">              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">About</a>
+                  <a class="nav-item nav-link" href="#">Blog</a>
+                  <a class="nav-item nav-link" href="#">Contact</a>
+                  <a class="nav-item nav-link" href="#">Sign In</a>
+                </div>
+              </div>
+            </nav>
+
         </div>
       </div>
     </div>
@@ -74,7 +90,7 @@
 
   <div class="container"> <!-- Top Content -->
     <div class="row"> 
-      <div class="col-12">
+      <div class="col-sm-12 mt-5">
         <h2>Lift Off</h2>
         <p>
             As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
@@ -85,21 +101,21 @@
 
   <div class="container"> <!-- First 3 images -->
     <div class="row">
-      <div class="col-4">
-        <img src="img/blast.jpg" class="img-fluid" alt="a shuttle in sky">
+      <div class="col-sm-4 mt-5">
+        <img src="img/blast.jpg" class="img-fluid rounded" alt="a shuttle in sky">
       </div>
-      <div class="col-4">
-        <img src="img/sky.jpg" class="img-fluid" alt="silver line of shuttle">
+      <div class="col-sm-4 mt-5">
+        <img src="img/sky.jpg" class="img-fluid rounded" alt="silver line of shuttle">
       </div>
-      <div class="col-4">
-        <img src="img/launch.jpg" class="img-fluid" alt="a shuttle lauching">
+      <div class="col-sm-4 mt-5">
+        <img src="img/launch.jpg" class="img-fluid rounded" alt="a shuttle lauching">
       </div>    
     </div>
   </div> <!-- images -->
 
   <div class="container"> <!-- Second Content -->
     <div class="row"> 
-      <div class="col-12">
+      <div class="col-sm-12 mt-5">
         <h2>Can We Visit Planets?</h2>
         <p>
             Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
@@ -111,9 +127,10 @@
   </div> <!-- Second Content -->
 
   <div class="container"> <!-- Table -->
+    <div class="table">
     <div class="row">
-      <div class="col-12">
-          <table class="table table-striped">
+      <div class="col-12 mt-4">
+         <table class="table table-striped">
               <thead>
                 <tr>
                     <td scope="row">Planet</td>
@@ -143,13 +160,15 @@
                 </tr>
               </tbody>
             </table>
+          </div> 
       </div>
     </div>
   </div> <!-- Table -->
 
   <div class="container"> <!-- Last Content -->
+    <div class="last-content">
     <div class="row"> 
-      <div class="col-6">
+      <div class="col-sm-6 mt-5 pl-5">
         <h2>Let's Go For A Walk</h2>
         <p>
             The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
@@ -157,15 +176,17 @@
             It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
         </p>
       </div> 
-      <div class="col-6">
-        <img src="img/space-walk.jpg" class="img-fluid" alt="an astraunant">
+      <div class="col-sm-6 mt-5 pr-0">
+        <img src="img/space-walk.jpg" class="img-fluid rounded" alt="an astraunant">
       </div> 
     </div> 
+  </div>
   </div> <!-- Last Content -->
 
   <div class="container"> <!-- Form -->
     <div class="row">
-      <div class="col-8">
+      <div class="col-sm-8 mt-5">
+        <div class="form">
           <form>
               <div class="form-group">
                 <label for="name">Name</label>
@@ -189,9 +210,10 @@
                 </div>
               <button type="submit" class="btn btn-primary">Ready For Launch</button>
           </form> <!-- Form -->
+        </div>
       </div>
 
-      <div class="col-4"> <!-- Dropdowns-->
+      <div class="col-sm-4 d-flex justify-content-center d-flex align-items-center"> <!-- Dropdowns-->
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Space Stuff
@@ -210,7 +232,7 @@
   </div> <!-- Form and Dropdowns -->
 
   <div class="container"> <!-- Footer -->
-    <div class="row footer">
+    <div class="row footer mt-5">
         <div class="col-sm-12 text-center">
           Copyright SpaceWalkers 2018
         </div>
