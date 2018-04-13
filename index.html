@@ -16,14 +16,13 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container first-container">
     <div class="row">
       <div class="col-12 d-flex justify-content-center">
         <h2>SpaceWalkers</h2>
       </div> 
     </div>
-  
-    <!-- <div class="row"> -->
+
       <div class="col-12">
         <header>
           <ul class="nav justify-content-center">
@@ -45,10 +44,9 @@
           </ul>
         </header>
       </div>   
-    <!-- </div> -->
   </div>
 
-  <div class="container">
+  <div class="container second-container">
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -158,8 +156,26 @@
 
       <hr class="my-4 mt-5">
 
-      <div class="row mt-5">
-          <div class="col-9">
+      <div class="row flex-row-reverse mt-5">
+        <div class="col-12 col-sm-3">
+          <h4 class="mb-3">Space Stuff</h4>
+          <!-- Dropdown component -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mb-5" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Item List:
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Space Helmet</a>
+              <a class="dropdown-item" href="#">Rocket Boosters</a>
+              <a class="dropdown-item" href="#">Shuttle</a>
+              <a class="dropdown-item" href="#">Training for Launch</a>
+              <a class="dropdown-item" href="#">Heat resistant plating</a>
+              <a class="dropdown-item" href="#">Space Suit</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-sm-9">
             <h4>Ready To Go?</h4>
             <form>
               <div class="form-group">
@@ -187,35 +203,9 @@
               </div>
             </form>
           </div> 
-       
-          <div class="col-3">
-            <h4>Space Stuff</h4>
-            <!-- Dropdown component -->
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Item List:
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Space Helmet</a>
-                <a class="dropdown-item" href="#">Rocket Boosters</a>
-                <a class="dropdown-item" href="#">Shuttle</a>
-                <a class="dropdown-item" href="#">Training for Launch</a>
-                <a class="dropdown-item" href="#">Heat resistant plating</a>
-                <a class="dropdown-item" href="#">Space Suit</a>
-              </div>
-            </div>
-            <!-- <ul class="list-group">
-              <li class="list-group-item">Space Helmet</li>
-              <li class="list-group-item">Rocket Boosters</li>
-              <li class="list-group-item">Shuttle</li>
-              <li class="list-group-item">Training for Launch</li>
-              <li class="list-group-item">Heat resistant plating</li>
-              <li class="list-group-item">Space Suit</li>
-            </ul> -->
-          </div> 
         </div>
 
-      <div class="container my-5">
+      <div class="container third-container mt-5">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
             <footer>

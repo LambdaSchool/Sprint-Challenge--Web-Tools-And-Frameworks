@@ -6,3 +6,32 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.first-container{
+    background-color: @main-color;
+    .box-shadow(4px 5px); //Mixin# 1
+    .nav-item{
+        a{
+            color: @secondary-color;
+            font-weight: bolder;
+            .skew(10deg,3deg) //Mixin #2
+        }
+    }
+}
+
+img {
+    .border-radius; //mixin #3
+}
+
+.third-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: @main-color;
+    .border-radius;
+
+    h6{
+        font-weight: bold;
+    }
+}

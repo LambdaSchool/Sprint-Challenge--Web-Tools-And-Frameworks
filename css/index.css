@@ -8249,3 +8249,41 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.first-container {
+  background-color: #f4f4f4;
+  -webkit-box-shadow: 4px 5px;
+  -moz-box-shadow: 4px 5px;
+  box-shadow: 4px 5px;
+}
+.first-container .nav-item a {
+  color: #22283B;
+  font-weight: bolder;
+  -webkit-transform: skew(10deg, 3deg);
+  -moz-transform: skew(10deg, 3deg);
+  -ms-transform: skew(10deg, 3deg);
+  -o-transform: skew(10deg, 3deg);
+}
+img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.third-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #f4f4f4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.third-container h6 {
+  font-weight: bold;
+}
