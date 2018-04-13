@@ -1,17 +1,53 @@
-html, body {
+html,
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.btn-primary {
+    background: @secondary-color  !important;
+}
+
+.container {
+    max-width: 800px;
 }
 
 header {
     background: @main-color;
     border-bottom: 2px solid @accent-color;
-    .container {
-        max-width: 800px;
+    a.nav-link {
+        margin: 0 1rem;
+        color: @secondary-color;
+        .border-radius; /* mixin */
+        &:hover {
+            color: @accent-color;
+            background: @secondary-color;
+            .box-shadow(-2px 2px 0 0 darkred);
+        }
+    }
+    .dropdown-menu {
+        padding: 2rem 1rem 1rem;
+    }
+}
+
+#carousel {
+    margin-bottom: 4vh;
+}
+
+.main {
+    .row {
+        margin: 0 0 5vh;
+    }
+    .jumbotron {
+        border: 2px solid @accent-color;
     }
 }
 

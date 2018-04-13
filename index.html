@@ -22,12 +22,58 @@
     <div class="container">
       <div class="row justify-content-center">
         <h4 class="col-12 display-4 text-center">SpaceWalkers</h4>
-        <nav class="col-12 d-flex justify-content-center nav">
-          <a class="nav-item" href="#">Home</a>
-          <a class="nav-item" href="#">About Us</a>
-          <a class="nav-item" href="#">Blog</a>
-          <a class="nav-item" href="#">Contact</a>
-          <a class="nav-item" href="#">Sign In</a>
+        <nav class="navbar navbar-expand-lg">
+          <!-- Begin Navbar -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Astronauts</a>
+                  <a class="dropdown-item" href="#">Space Tech</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Archive</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown align-self-end">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Sign In
+                </a>
+                <!-- Sign In Form -->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="Password" aria-describedby="passwordHelp" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Beam Me Up, Scotty
+                    </button>
+                  </form>
+                </div>
+              </li>
+          </div>
         </nav>
       </div>
     </div>
@@ -35,7 +81,7 @@
   <!-- End Header -->
 
   <!-- Begin Carousel -->
-  <div class="container">
+  <div class="container" id="carousel">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -97,6 +143,7 @@
     </div>
 
     <!-- Begin Table -->
+    <div class="row">
     <table class="table table-striped">
       <thead>
         <tr>
@@ -127,10 +174,11 @@
         </tr>
       </tbody>
     </table>
+    </div>
     <!-- End Table -->
 
     <!-- Start Jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbotron border-left-0 border-right-0">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-6 align-items-center">
@@ -155,7 +203,7 @@
 
   <!-- Start Contact Section -->
 
-  <div class="container">
+  <div class="container" id="contact">
     <div class="row">
       <!-- Begin Form -->
       <div class="col-12 col-sm-8 align-items-center">
@@ -164,7 +212,6 @@
           <div class="form-group">
             <label for="Name">Name</label>
             <input type="name" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter name">
-            <small id="nameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
             <label for="Phone">Phone</label>
@@ -173,7 +220,6 @@
           <div class="form-group">
             <label for="Email">Email</label>
             <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="promoEmails">
@@ -192,14 +238,14 @@
       <!-- End Form -->
       <div class="col-12 col-sm-4">
         <h4>Space Stuff</h2>
-        <div class="list-group">
-          <a href="#" class="list-group-item list-group-item-action">Space Helmet</a>
-          <a href="#" class="list-group-item list-group-item-action">Rocket Boosters</a>
-          <a href="#" class="list-group-item list-group-item-action">Shuttle</a>
-          <a href="#" class="list-group-item list-group-item-action">Training for Launch</a>
-          <a href="#" class="list-group-item list-group-item-action">Heat resistant plating</a>
-          <a href="#" class="list-group-item list-group-item-action">Space Suit</a>
-        </div>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Space Helmet</a>
+            <a href="#" class="list-group-item list-group-item-action">Rocket Boosters</a>
+            <a href="#" class="list-group-item list-group-item-action">Shuttle</a>
+            <a href="#" class="list-group-item list-group-item-action">Training for Launch</a>
+            <a href="#" class="list-group-item list-group-item-action">Heat resistant plating</a>
+            <a href="#" class="list-group-item list-group-item-action">Space Suit</a>
+          </div>
       </div>
     </div>
   </div>

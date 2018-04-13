@@ -8249,12 +8249,45 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.btn-primary {
+  background: #22283B !important;
+}
+.container {
+  max-width: 800px;
+}
 header {
   background: #f4f4f4;
   border-bottom: 2px solid #e0e0e0;
 }
-header .container {
-  max-width: 800px;
+header a.nav-link {
+  margin: 0 1rem;
+  color: #22283B;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* mixin */
+}
+header a.nav-link:hover {
+  color: #e0e0e0;
+  background: #22283B;
+  -webkit-box-shadow: -2px 2px 0 0 darkred;
+  -moz-box-shadow: -2px 2px 0 0 darkred;
+  box-shadow: -2px 2px 0 0 darkred;
+}
+header .dropdown-menu {
+  padding: 2rem 1rem 1rem;
+}
+#carousel {
+  margin-bottom: 4vh;
+}
+.main .row {
+  margin: 0 0 5vh;
+}
+.main .jumbotron {
+  border: 2px solid #e0e0e0;
 }
 footer {
   background: #f4f4f4;
