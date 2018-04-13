@@ -8269,6 +8269,19 @@ h5 {
   background: #f4f4f4;
   max-width: 1000px;
 }
+.custom-container img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.custom-container .custom-table {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
 .custom-footer {
   background: #e0e0e0;
   max-width: 1000px;
