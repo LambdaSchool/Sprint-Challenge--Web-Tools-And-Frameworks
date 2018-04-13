@@ -8266,6 +8266,8 @@ h5 {
 }
 .spacewalk {
   border-radius: 15px;
+  max-width: 100%;
+  height: auto;
 }
 .submit-1 {
   padding: 0;
@@ -8274,4 +8276,7 @@ h5 {
   background-color: #22283B;
   color: #e0e0e0;
   border: #e0e0e0;
+}
+.custom-footer {
+  background-color: #e0e0e0;
 }
