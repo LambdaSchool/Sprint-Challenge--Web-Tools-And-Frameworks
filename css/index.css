@@ -8288,9 +8288,21 @@ header .dropdown-menu {
 }
 .main .jumbotron {
   border: 2px solid #e0e0e0;
+  background: #e9ebf2;
+  -webkit-box-shadow: -4px 4px 0 0 #22283B;
+  -moz-box-shadow: -4px 4px 0 0 #22283B;
+  box-shadow: -4px 4px 0 0 #22283B;
+}
+.main thead {
+  background: #f4f4f4;
+}
+.main .table-striped > tbody > tr:nth-of-type(odd) {
+  background: #22283B !important;
+  color: white !important;
 }
 footer {
-  background: #f4f4f4;
+  background: #22283B;
+  color: white;
   border: 1px solid #e0e0e0;
   border-bottom: none;
 }

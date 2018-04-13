@@ -26,7 +26,8 @@ header {
     a.nav-link {
         margin: 0 1rem;
         color: @secondary-color;
-        .border-radius; /* mixin */
+        .border-radius;
+        /* mixin */
         &:hover {
             color: @accent-color;
             background: @secondary-color;
@@ -48,11 +49,21 @@ header {
     }
     .jumbotron {
         border: 2px solid @accent-color;
+        background: lighten(@secondary-color, 75%);
+        .box-shadow(-4px 4px 0 0 @secondary-color);
+    }
+    thead {
+        background: @main-color;
+    }
+    .table-striped > tbody > tr:nth-of-type(odd){
+        background: @secondary-color !important;
+        color: white !important;
     }
 }
 
 footer {
-    background: @main-color;
+    background: @secondary-color;
+    color: white;
     border: 1px solid @accent-color;
     border-bottom: none;
 }
