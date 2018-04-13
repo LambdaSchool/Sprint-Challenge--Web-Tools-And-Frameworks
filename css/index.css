@@ -8264,9 +8264,18 @@ h5 {
   color: black;
   padding-right: 30px;
 }
+.kelnav a:hover {
+  background: #4d4d4d;
+}
 .liftoffimg img {
   max-height: 100%;
   max-width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .planettable {
   margin: 0 auto !important;
