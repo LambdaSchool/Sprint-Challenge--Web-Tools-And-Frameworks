@@ -8257,6 +8257,7 @@ h5 {
 }
 .kelnav {
   background: #e0e0e0;
+  border-bottom: 2px solid #cccccc;
 }
 .kelnav a {
   text-decoration: none;

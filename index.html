@@ -27,7 +27,11 @@
 	  <div class="col-sm-12">
  	      <nav class="kelnav d-flex justify-content-center">
 		      <a href="#">Home</a>
-		      <a href="#">About Us</a>
+		      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+		      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			  <a class="dropdown-item" href="#">Space</a>
+			  <a class="dropdown-item" href="#">The Final Frontier</a>
+		      </div><!-- dropdown-menu -->
 		      <a href="#">Blog</a>
 		      <a href="#">Contact</a>
 		      <a href="#">Sign In</a>
@@ -158,7 +162,26 @@
 		  </label>
 	      </div><!-- no emails -->
 		  
-	      <button type="submit" class="btn btn-info">Ready For Launch</button>
+	      <button type="button" class="btn btn-info btn-primary" data-toggle="modal" data-target="#mymodal">Ready For Launch</button>
+	      <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		      <div class="modal-content">
+			  <div class="modal-header">
+			      <h5 class="modal-title" id="myModalLabel">Fun Modal Box</h5>
+			      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+			      </button>
+			  </div><!-- modal header -->
+			  <div class="modal-body">
+			      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			  </div><!-- modal body -->
+			  <div class="modal-footer">
+			      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      <button type="button" class="btn btn-primary">Save changes</button>
+			  </div><!-- modal footer -->
+		      </div><!-- modal content -->
+		  </div><!-- modal-dialog -->
+	      </div><!-- modal fade -->
           </form> <!--end of form -->
 	  
 	  <div class="col-4">
@@ -195,6 +218,7 @@
  
 
   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
