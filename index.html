@@ -110,44 +110,62 @@
     <!-- /Content -->
 
     <!-- Table -->
+    <!-- Accordion -->
     <div class="row mt-4 mb-4">
       <div class="col-12">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th class="custom-th">Planet</th>
-              <th class="custom-th">Distance</th>
-              <th class="custom-th">Survivability</th>
-              <th class="custom-th">How Long To Travel</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th class="custom-th">Mars</th>
-              <th class="custom-th">54.6 million km</th>
-              <th class="custom-th">Maybe</th>
-              <th class="custom-th">300 Days</th>
-            </tr>
-            <tr>
-              <th class="custom-th">Jupiter</th>
-              <th class="custom-th">588 million km</th>
-              <th class="custom-th">No</th>
-              <th class="custom-th">Depends On Orbit (3-6 Years)</th>
-            </tr>
-            <tr>
-              <th class="custom-th">Saturn</th>
-              <th class="custom-th">1.2 billion km</th>
-              <th class="custom-th">No</th>
-              <th class="custom-th">Depends On Orbit (3-6 Years)</th>
-            </tr>
-          </tbody>
-        </table>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h4>Planets by Distance</h4>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body col-12 card-custom">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="custom-th">Planet</th>
+                      <th class="custom-th">Distance</th>
+                      <th class="custom-th">Survivability</th>
+                      <th class="custom-th">How Long To Travel</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="custom-th">Mars</th>
+                      <th class="custom-th">54.6 million km</th>
+                      <th class="custom-th">Maybe</th>
+                      <th class="custom-th">300 Days</th>
+                    </tr>
+                    <tr>
+                      <th class="custom-th">Jupiter</th>
+                      <th class="custom-th">588 million km</th>
+                      <th class="custom-th">No</th>
+                      <th class="custom-th">Depends On Orbit (3-6 Years)</th>
+                    </tr>
+                    <tr>
+                      <th class="custom-th">Saturn</th>
+                      <th class="custom-th">1.2 billion km</th>
+                      <th class="custom-th">No</th>
+                      <th class="custom-th">Depends On Orbit (3-6 Years)</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- /Accordion-->
     <!-- /Table -->
 
     <!-- Centerpiece -->
-    <div class="row border-top border-bottom">
+    <div class="row border-top border-bottom mt-5">
       <div class="col-12 d-flex justify-content-around cp">
         <div class="col-sm-6 col-12 cp-content">
           <h2>Let's Go For A Walk</h2>
@@ -227,9 +245,8 @@
           <li class="list-group-item">Space Suit</li>
         </ul>
       </div>
+      <!-- /List -->
     </div>
-    <!-- /List -->
-
     <!-- /Form -->
 
     <!-- Footer -->

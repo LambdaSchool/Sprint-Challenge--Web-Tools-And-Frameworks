@@ -8266,6 +8266,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.table {
+  margin: 0;
+}
 @media (max-width: 500px) {
   .container {
     text-align: center;
@@ -8286,6 +8289,9 @@ footer {
     margin: 0;
   }
   .custom-th {
-    padding: 12px 8px !important;
+    padding: 12px 5px !important;
+  }
+  .card-custom {
+    padding: 0;
   }
 }
