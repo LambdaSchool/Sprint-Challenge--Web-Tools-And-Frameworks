@@ -2,12 +2,7 @@
 
 2. yarn global add less
 
-3. .btn-tmplt {
-	background: @secondary-color;
-	text-align: center;
-	font-size: 16px;
-	color: @main-color;
-}
+3. box-shadow
 
 4. xs sm md lg xl
 
