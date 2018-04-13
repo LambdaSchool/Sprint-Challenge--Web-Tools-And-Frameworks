@@ -8253,8 +8253,16 @@ a {
   text-decoration: none;
   color: #22283B;
 }
+img:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
 .header {
   background: #e0e0e0;
+  -webkit-box-shadow: 0 1px;
+  -moz-box-shadow: 0 1px;
+  box-shadow: 0 1px;
 }
 .footer {
   background: #e0e0e0;
