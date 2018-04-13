@@ -8256,3 +8256,14 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+form button {
+  -webkit-box-shadow: 5px 5px #e0e0e0;
+  -moz-box-shadow: 5px 5px #e0e0e0;
+  box-shadow: 5px 5px #e0e0e0;
+}
+#ready {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+}
