@@ -8254,8 +8254,11 @@ h5 {
 }
 .header {
   background: #f4f4f4;
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
 }
-.header div h1 {
+.header h1 {
   -webkit-box-shadow: 3px 3px 5px;
   -moz-box-shadow: 3px 3px 5px;
   box-shadow: 3px 3px 5px;
