@@ -15,11 +15,11 @@
   <![endif]-->
 </head>
 
-<body>
-  <div class="container-fluid sticky-top bg-secondary"> <!--Nav container-->
+<body data-spy="scroll" data-target="#nav-bar-scrollspy" data-offset="0"><!-- JavaScript Component: scrollspy -->
+  <div class="container-fluid sticky-top"> <!--Nav container-->
 
     <div class="container">
-        <nav id="nav-bar-scrollspy" class="navbar navbar-expand-lg navbar-dark">
+        <nav id="nav-bar-scrollspy" class="navbar navbar-expand-lg navbar-light">
 
           <a class="navbar-brand" href="#">SpaceWalkers</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +58,7 @@
   </div><!--Nav container-->
 
   <div class="container"><!--Main content container-->
+    <span class="anchor" id="Home"></span>
     <div><!--Carousel -->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -94,16 +95,17 @@
         </p>
       </div>
       <div class="col-sm-4">
-        <img src="img/blast.jpg" class="img-fluid rounded" alt="Shuttle in flight">
+        <img src="img/blast.jpg" class="img-fluid boarderbox" alt="Shuttle in flight">
       </div>
       <div class="col-sm-4">
-        <img src="img/sky.jpg" class="img-fluid rounded" alt="sky">
+        <img src="img/sky.jpg" class="img-fluid boarderbox" alt="sky">
       </div>
       <div class="col-sm-4">
-          <img src="img/launch.jpg" class="img-fluid rounded" alt="lift off">
+          <img src="img/launch.jpg" class="img-fluid boarderbox" alt="lift off">
       </div>
 
       <div class="col-sm-12 mt-4">
+          <span class="anchor" id="Planets"></span>
         <h4>Can We Visit Planets?</h4>
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
         <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
@@ -147,17 +149,19 @@
 
     <div class="row space-walk mt-4 p-4"><!--Middle content div--> <!--Needs top boarder, center, and margin-->
       <div class="col-sm-5">
+          <span class="anchor" id="Walk"></span>
         <h4>Let's Go For A Walk</h4>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
         <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       </div>
       <div class="col-sm-5">
-        <img src="img/space-walk.jpg" alt="" class="img-fluid rounded">
+        <img src="img/space-walk.jpg" alt="" class="img-fluid rounded spaceman">
       </div>
     </div><!--Middle content div-->
 
     <div class="row mt-4"><!--Bottom Content Div-->
       <div class="col-sm-8"><!--form-->
+        <span class="anchor" id="Contact"></span>
         <h4>Ready To Go?</h4>
         <form>
           <div class="form-group">

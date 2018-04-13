@@ -8247,6 +8247,9 @@ body {
 .container {
   max-width: 880px;
 }
+.container-fluid {
+  background-color: #e0e0e0;
+}
 .anchor {
   display: block;
   height: 60px;
@@ -8263,9 +8266,25 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.boarderbox {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 8px #e0e0e0;
+  -moz-box-shadow: 10px 10px 8px #e0e0e0;
+  box-shadow: 10px 10px 8px #e0e0e0;
+}
 .space-walk {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   display: flex;
   justify-content: center;
+}
+.space-walk .spaceman {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
 }

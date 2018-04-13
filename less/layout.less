@@ -10,6 +10,10 @@ body {
     max-width: 880px;
 }
 
+.container-fluid {
+    background-color: @accent-color;
+}
+
 .anchor{ //needed to align navbar with spy
     display: block;
     height: 60px; /*same height as header*/
@@ -22,9 +26,18 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
+.boarderbox { //mixin and variable
+    .border-radius(100px);
+    .box-shadow(10px 10px 8px @accent-color);
+}
+
 .space-walk {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     display: flex;
     justify-content: center;
+
+    .spaceman{ //this is a mixin
+        .opacity(0.8);
+    }
 }
