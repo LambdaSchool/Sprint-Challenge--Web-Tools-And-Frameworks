@@ -8252,9 +8252,13 @@ h5 {
 .title-of-page {
   text-align: center;
 }
+.custom-link {
+  color: #f4f4f4;
+}
 .container-fluid {
   max-width: 1200px;
   width: 880px;
+  background-color: #f4f4f4;
 }
 .fluid-custom-1 {
   max-width: 100%;
