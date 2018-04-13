@@ -15,8 +15,31 @@
 footer {
     background: @accent-color;
     text-align: center;
-    height: 75px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .cp-img {
+        display: none;
+    }
+    .row-form {
+        flex-direction: column;
+    }
+    .space-stuff {
+        margin-top: 30px;
+    }
+    .nav-custom {
+        padding: 8px 4px;
+    }
+    .custom-nav-container {
+        margin: 0;
+    }
+    .custom-th {
+        padding: 12px 8px !important;
+    }
 }

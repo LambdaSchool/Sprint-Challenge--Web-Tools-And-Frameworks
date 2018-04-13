@@ -27,12 +27,12 @@
     <!-- /Title -->
 
     <!--Navbar-->
-    <div class="row col-12 d-flex justify-content-around">
-      <a href="#" class="nav-link">Home</a>
-      <a href="#" class="nav-link">About Us</a>
-      <a href="#" class="nav-link">Blog</a>
-      <a href="#" class="nav-link">Contact</a>
-      <a href="#" class="nav-link">Sign In</a>
+    <div class="row col-12 d-flex justify-content-center custom-nav-container">
+      <a href="#" class="nav-link nav-custom">Home</a>
+      <a href="#" class="nav-link nav-custom">About Us</a>
+      <a href="#" class="nav-link nav-custom">Blog</a>
+      <a href="#" class="nav-link nav-custom">Contact</a>
+      <a href="#" class="nav-link nav-custom">Sign In</a>
     </div>
     <!-- /Navbar -->
 
@@ -115,30 +115,30 @@
         <table class="table table-striped">
           <thead>
             <tr>
-              <th>Planet</th>
-              <th>Distance</th>
-              <th>Survivability</th>
-              <th>How Long To Travel</th>
+              <th class="custom-th">Planet</th>
+              <th class="custom-th">Distance</th>
+              <th class="custom-th">Survivability</th>
+              <th class="custom-th">How Long To Travel</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>Mars</th>
-              <th>54.6 million km</th>
-              <th>Maybe</th>
-              <th>300 Days</th>
+              <th class="custom-th">Mars</th>
+              <th class="custom-th">54.6 million km</th>
+              <th class="custom-th">Maybe</th>
+              <th class="custom-th">300 Days</th>
             </tr>
             <tr>
-              <th>Jupiter</th>
-              <th>588 million km</th>
-              <th>No</th>
-              <th>Depends On Orbit (3-6 Years)</th>
+              <th class="custom-th">Jupiter</th>
+              <th class="custom-th">588 million km</th>
+              <th class="custom-th">No</th>
+              <th class="custom-th">Depends On Orbit (3-6 Years)</th>
             </tr>
             <tr>
-              <th>Saturn</th>
-              <th>1.2 billion km</th>
-              <th>No</th>
-              <th>Depends On Orbit (3-6 Years)</th>
+              <th class="custom-th">Saturn</th>
+              <th class="custom-th">1.2 billion km</th>
+              <th class="custom-th">No</th>
+              <th class="custom-th">Depends On Orbit (3-6 Years)</th>
             </tr>
           </tbody>
         </table>
@@ -149,7 +149,7 @@
     <!-- Centerpiece -->
     <div class="row border-top border-bottom">
       <div class="col-12 d-flex justify-content-around cp">
-        <div class="col-6 cp-content">
+        <div class="col-sm-6 col-12 cp-content">
           <h2>Let's Go For A Walk</h2>
           <p>The Earth was small, light blue, and so touchingly alone, our hame that must be defended like a holy relic. The
             Earth was absolutely round.
@@ -165,8 +165,8 @@
     <!-- /Centerpiece -->
 
     <!-- form -->
-    <div class="row mt-4 mb-1">
-      <div class="col-9">
+    <div class="row mt-4 mb-1 row-form">
+      <div class="col-sm-9 col-12">
         <h2>Ready To Go?</h2>
         <form>
           <div class="form-group">
@@ -189,10 +189,34 @@
             <input type="checkbox" class="form-check-input" id="noMails">
             <label class="form-check-label" for="noMails">Please don't send me emails</label>
           </div>
-          <button type="submit" class="btn btn-dark mt-1">Ready For Launch!</button>
+          <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#liftOffModal">Ready For Launch!</button>
+
+          <!-- Modal -->
+
+          <div class="modal fade" id="liftOffModal" tabindex="-1" role="dialog" aria-labelledby="liftOffModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="liftOffModalLabel">We Have Lift Off!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/launch.jpg" class="img-fluid" alt="Lift off!">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">On To Mars!</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </form>
       </div>
-      <div class="col-3">
+      <!-- /Modal -->
+
+      <!-- List -->
+      <div class="col-sm-3 col-12 space-stuff">
         <h3>Space Stuff</h3>
         <ul class="list-group">
           <li class="list-group-item">Space Helmet</li>
@@ -204,6 +228,7 @@
         </ul>
       </div>
     </div>
+    <!-- /List -->
 
     <!-- /Form -->
 
@@ -213,9 +238,9 @@
         <footer>
           <p>Copyright SpaceWalkers 2018</p>
         </footer>
-
       </div>
     </div>
+    <!-- /Footer -->
 
   </div>
   <!-- /Container -->
