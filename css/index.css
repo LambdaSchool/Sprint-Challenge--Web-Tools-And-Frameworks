@@ -8254,29 +8254,40 @@ header {
   width: 100%;
   height: auto;
 }
-header #Title {
-  border: 1px solid #dee2e6 !important;
-  border: solid red 5px;
-}
 header #Title nav a {
-  border: 1px solid #dee2e6 !important;
-  border: solid red 5px;
   flex-direction: column;
 }
 .main-content {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 1% 5%;
 }
 .main-content #block {
-  width: 75%;
+  width: 100%;
   margin: 1% 5%;
 }
 .main-content #img-content {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  border-bottom: 1px solid black;
+  margin: 5% 1%;
+}
+.bottom-content {
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
   border: 1px solid #dee2e6 !important;
   border: solid red 5px;
-  margin: 5%;
 }
-.main-content img {
-  max-width: 100%;
-  height: auto;
-  margin: 1%;
+.paragraph {
+  border: 1px solid #dee2e6 !important;
+  border: solid red 5px;
+  width: 100%;
+}
+#mc-container {
+  justify-content: flex-start;
 }

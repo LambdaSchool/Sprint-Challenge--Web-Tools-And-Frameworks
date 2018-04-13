@@ -8,36 +8,57 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-  //.border();
   flex-flow: column nowrap;
   width: 100%;
   height: auto;
     #Title{
-    //justify-content: center;
-    //width: 100%;
-    .border();
+    //.border();
       nav a {
-    .border();
+    //.border();
     flex-direction: column;
     }
   }
 }
 
 .main-content {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 1% 5%;
+  //max-width: 100%;
+
      #block {
-      width: 75%;
+      width: 100%;
       margin: 1% 5%;
     }
       #img-content {
-          .border();
-          margin: 5%;
+          margin: 1%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+
+          // .border();
+            }
         }
-          img{
-        //flex-flow: row wrap;
-        max-width: 100%;
-        height: auto;
-        margin: 1%;
-        // .border();
-    }
+}
+
+.table {
+  border-bottom: 1px solid black;
+  margin: 5% 1%;
+}
+
+.bottom-content {
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+  .border();
+}
+
+.paragraph {
+  .border();
+  width: 100%;
+}
+
+#mc-container {
+  justify-content: flex-start;
 }
