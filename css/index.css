@@ -8251,5 +8251,7 @@ h5 {
 }
 .nav a {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  color: black;
 }
