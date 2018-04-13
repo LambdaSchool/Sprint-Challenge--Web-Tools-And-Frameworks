@@ -8252,8 +8252,13 @@ h5 {
 .title-of-page {
   text-align: center;
 }
+.container-fluid {
+  max-width: 1200px;
+  width: 880px;
+}
 .fluid-custom-1 {
-  width: 30%;
+  max-width: 100%;
+  height: auto;
 }
 .submit-1 {
   padding: 0;
