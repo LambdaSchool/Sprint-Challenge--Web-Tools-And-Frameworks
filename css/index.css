@@ -8239,7 +8239,10 @@ a.text-dark:hover {
 /*# sourceMappingURL=bootstrap.min.css.map */
 .colorScreen {
   background: lightgray;
-  border-bottom: 2px solid gray;
+}
+.navClass {
+  color: darkslategray;
+  text-decoration: none;
 }
 html,
 body {
@@ -8252,4 +8255,12 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  color: darkslategray;
 }
