@@ -8297,14 +8297,6 @@ hr {
   -moz-opacity: 1;
   opacity: 1;
 }
-.my-form .my-form__list {
-  order: -1;
-}
-@media (min-width: 576px) {
-  .my-form .my-form__list {
-    order: 0;
-  }
-}
 footer {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
