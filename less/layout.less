@@ -1,8 +1,41 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
+
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: @accent-color;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: @accent-color;
+        
+        a {
+            color: black;
+        }
+    }
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+footer {
+    margin-top: 75px;
+    width: 100%;
+    height: 75px;
+    background-color: @accent-color;
+    padding-top: 25px;
+    
+
+        p {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
 }
