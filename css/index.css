@@ -8249,7 +8249,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.stick-top {
+  background-color: white;
+}
 header {
+  background-color: white;
   flex-flow: column nowrap;
   width: 100%;
   height: auto;
@@ -8289,4 +8293,11 @@ header #Title nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border-top: solid black 2px;
 }
