@@ -2,7 +2,29 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    position: relative;
+}
+
+.container {
+    max-width: 880px;
+}
+
+.anchor{ //needed to align navbar with spy
+    display: block;
+    height: 60px; /*same height as header*/
+    margin-top: -60px; /*same height as header*/
+    display: hidden;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.space-walk {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
 }
