@@ -8252,8 +8252,8 @@ h5 {
 .title-of-page {
   text-align: center;
 }
-.custom-link {
-  color: #f4f4f4;
+nav .custom-link {
+  color: #22283B;
 }
 .container-fluid {
   max-width: 1200px;
