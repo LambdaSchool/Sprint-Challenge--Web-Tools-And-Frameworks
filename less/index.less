@@ -3,3 +3,38 @@
 @import "variables.less";
 @import "mixins.less";
 @import "layout.less";
+
+img {
+    .border-radius(10px); //mixin 1
+}
+
+.d-block {
+    .border-radius(0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: @secondary-color;
+}
+
+.header {
+    background-color: @main-color;
+    border-bottom: solid thin @accent-color;
+
+    a {
+        color: black;
+
+        &:hover {
+            text-decoration: none;
+            .box-shadow (-2px -2px); //mixin 2
+        }
+    }
+}
+
+.btn-primary {
+    background-color: @secondary-color;
+    border: none;
+}
+
+.footer {
+    background-color: @main-color;
+}
