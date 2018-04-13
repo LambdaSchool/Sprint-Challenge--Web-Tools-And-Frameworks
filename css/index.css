@@ -8237,13 +8237,22 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
-.walk img {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+section.walk img {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+section.lift-off img {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
 }
 html,
 body {
@@ -8259,6 +8268,9 @@ h5 {
 }
 header {
   background: #e0e0e0;
+}
+section.ready button {
+  background: #22283B;
 }
 footer div {
   background-color: #f4f4f4;
