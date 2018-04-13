@@ -1,1 +1,33 @@
 // Make your imports here!
+
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.container-fluid {
+  background-color: @accent-color;
+  border-bottom: 1px solid @secondary-color;
+
+  header {
+    width: 100%;
+
+    nav {
+      width: 100%;
+    }
+  }
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  background-color: @accent-color;
+  width: 100%;
+
+  p {
+    padding: 20px 0;
+  }
+}
