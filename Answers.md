@@ -1,0 +1,5 @@
+1. To teach the basic ideas behind preprocessing, I would start with css, and talk about some of the annoying things about coding with css, like repetition, especially in larger projects. If you had a big design project and only used css, it would be really cumbersome to maintain the code. So preprocessors were made to break the task down into more manageable parts that allow for one block of code to apply to different parts of the page. The code is then "preprocessed" into css, which then processes the site design.
+2. yarn global add less
+3. Honestly, I didn't find the mixins to be particularly useful when compared to the other features and had to kind of stretch to find a use for them. Like, I'm not sure I really need the corners of my pictures to be rounded or have buttons get lighter or darker on hover, but I guess if I did, I'd use mixins for that.
+4. xs,sm,md,lg,xl
+5. d-flex

@@ -8264,9 +8264,7 @@ h5 {
   color: black;
   padding-right: 30px;
 }
-.klift-off {
-  background: #f4f4f4;
-}
-.klift-off img {
-  max-width: 20%;
+.liftoffimg img {
+  max-height: 100%;
+  max-width: 100%;
 }

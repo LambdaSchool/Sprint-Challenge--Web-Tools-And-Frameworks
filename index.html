@@ -23,7 +23,7 @@
               <header class="kelheader d-flex justify-content-center">
 		  <h1>SpaceWalkers</h1>
 	      </header>
-	  </div><!-- end col-sm-12 -->
+	  </div><!-- end col-sm-12 header -->
 	  <div class="col-sm-12">
  	      <nav class="kelnav d-flex justify-content-center">
 		      <a href="#">Home</a>
@@ -32,7 +32,7 @@
 		      <a href="#">Contact</a>
 		      <a href="#">Sign In</a>
 	      </nav>
-	  </div><!-- end col-sm-12 -->
+	  </div><!-- end col-sm-12 nav -->
       </div><!-- end row with header -->
 
       <div class="row kcarousel justify-content-center"><!-- carousel -->
@@ -56,25 +56,36 @@
       </div><!-- end carousel -->
 
       
-      <div class="row klift-off col-10"><!-- lift off -->
+      <div class="row mt-5"><!-- lift off -->
+	  <div class="col-1"></div>
+	  <div class="col-10">
 	  <h2>Lift Off</h2>
 	  <p class="justify-content-center">As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marbel, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+	  </div><!-- col-10 -->
+      </div><!-- liftoff text row -->
       
+      <div class="row mt-3 liftoffimg"><!-- lift off images -->
+	  <div class="col-1"></div>
+	  <div class="col-10 d-flex justify-content-center">
 	  <img class="img img-fluid rounded" src="img/blast.jpg" alt="blast">
 	  <img class="img img-fluid rounded" src="img/sky.jpg" alt="sky">
 	  <img class="img img-fluid rounded" src="img/launch.jpg" alt="launch">
-      </div>
+	  </div><!--col-10>
+      </div><!-- end liftoff images -->
 
-      <div class="row"><!-- can we visit planets -->
+      <div class="row mt-5"><!-- can we visit planets -->
+	  <div class="col-1"></div>
+	  <div class="col-10 planets">
 	  <h2>Can We Visit Planets?</h2>
 	  <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
 	  <p>which there is no center because every point, or none, is center -- an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
-      </div>
+	  </div><!-- planets -->
+      </div><!-- end visit planets row -->
 
-      <div class="row"><!-- planet table -->
-	  <div class="col-12">
-	      <div class="planets">
-		  <table class="table table-striped">
+      <div class="row mt-5"><!-- planet table -->
+	  <div class="col-1"></div>
+	  <div class="col-10">
+	    <table class="table table-striped">
 		      <thead>
 			      <tr>
 				  <th scope="col">Planet</th>
@@ -103,30 +114,32 @@
 				  <td>Depends on Orbit (3-6 Years)</td>
 			      </tr>
 		      </tbody>
-		  </table>
-	      </div><!--planets-->
-	  </div><!--col-12-->
+	    </table>
+	  </div><!--col-10-->
        </div><!--row-->
 
 
 
-      </div>
+      <div class="row mt-5"><!-- let's go for a walk -->
+	  <div class="col-1"></div>
+	  <div class="col-10 d-flex justify-content-center">
+	    <div class="col">
+	      <h2>Let's Go For A Walk</h2>
+	      <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+	      <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+	    </div><!-- end first col -->
+	    <div class="col">
+	      <img class="img-fluid" src="img/space-walk.jpg" alt="spacewalk">
+	    </div><!-- end second col -->
+	  </div><!-- end col-10 -->
+      </div><!-- walk row -->
 
-      <div class="row"><!-- let's go for a walk -->
-	  <h2>Let's Go For A Walk</h2>
-	  <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
-	  <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
-	  <img src="img/space-walk.jpg" alt="spacewalk"
-      </div>
-
-
-<!-- FORM -->
       
-      <div class="row">
-	  <div class="col-sm-12">
-              <form>
-		  
-		  <label class="form-group" for="name">Name</label>
+      <div class="row mt-5">
+	  <div class="col-1"></div>
+	  <div class="col-10">
+              <form class="col-6">
+ 		  <label class="form-group" for="name">Name</label>
 		  <input id="name" type="text" class="form-control form-group" placeholder="Name">
 
 		  <label class="form-group" for="phone">Phone</label>
@@ -151,8 +164,36 @@
 		  
 		  <button type="submit" class="btn btn-info">Ready For Launch</button>
               </form> <!--end of form -->
-	  </div><!-- div col-sm-12 -->
-      </div><!-- div form row -->
+	  
+	  <div class="col-4">
+	       <h2>Space Stuff</h2>
+	       <table class="table table-bordered">
+		      <thead>
+			  <tr>
+			      <th scope="col">Space Helmet</th>
+			  </tr>
+		      </thead>
+		      <tbody>
+			  <tr>
+			      <th scope="row">Rocket Boosters</th>
+			  </tr>
+			  <tr>
+			      <th scope="row">Shuttle</th>
+			  </tr>
+			  <tr>
+			      <th scope="row">Training for Launch</th>
+			  </tr>
+			  <tr>
+			      <th scope="row">Heat resistant plating</th>
+			  </tr>
+			  <tr>
+			      <th scope="row">Space Suit</th>
+			  </tr>
+		      </tbody>
+		  </table>
+	  </div><!-- end col-4-->
+
+	  </div><!-- end row form-table -->
 
   </div><!-- close container -->
  
