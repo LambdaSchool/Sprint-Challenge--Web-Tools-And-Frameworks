@@ -23,7 +23,7 @@
       </div> 
     </div>
   
-    <div class="row">
+    <!-- <div class="row"> -->
       <div class="col-12">
         <header>
           <ul class="nav justify-content-center">
@@ -45,8 +45,10 @@
           </ul>
         </header>
       </div>   
-    </div>
+    <!-- </div> -->
+  </div>
 
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -58,16 +60,16 @@
           </ol>
             <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
+              <img class="d-block w-100 rounded" src="img/slider-1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
+              <img class="d-block w-100 rounded" src="img/slider-2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+              <img class="d-block w-100 rounded" src="img/slider-3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/slider-4.jpg" alt="Fourth slide">
+              <img class="d-block w-100 rounded" src="img/slider-4.jpg" alt="Fourth slide">
             </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -82,23 +84,23 @@
       </div>  
     </div>
     
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-12">
         <h3>Lift Off</h3>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
       </div> 
       <div class="col-4">
-        <img src="img/blast.jpg" alt="A Space shuttle blasting off into space" class="img-fluid">
+        <img src="img/blast.jpg" alt="A Space shuttle blasting off into space" class="img-fluid rounded">
       </div>
       <div class="col-4">
-        <img src="img/sky.jpg" alt="After effects of spacecraft takeoff" class="img-fluid">
+        <img src="img/sky.jpg" alt="After effects of spacecraft takeoff" class="img-fluid rounded">
       </div>
       <div class="col-4">
-        <img src="img/launch.jpg" alt="Space Shuttle on launch" class="img-fluid">
+        <img src="img/launch.jpg" alt="Space Shuttle on launch" class="img-fluid rounded">
       </div>  
     </div>
 
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-12">
         <h4>Can We Visit Planets?</h4>
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
@@ -106,7 +108,7 @@
       </div> 
     </div>
     
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-12">
           <table class="table table-striped">
             <thead>
@@ -141,23 +143,23 @@
         </div> 
       </div>
 
-      <hr class="my-4">
+      <hr class="my-4 mt-5">
 
-      <div class="row">
+      <div class="row mt-5 px-4">
         <div class="col-6">
           <h4>Let's Go For A Walk</h4>
           <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
           <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
         </div> 
         <div class="col-6">
-          <img src="img/space-walk.jpg" alt="Astronaut with Earth in the background" class="img-fluid">
+          <img src="img/space-walk.jpg" alt="Astronaut with Earth in the background" class="img-fluid rounded">
         </div> 
       </div>
 
-      <hr class="my-4">
+      <hr class="my-4 mt-5">
 
-      <div class="row">
-          <div class="col-8">
+      <div class="row mt-5">
+          <div class="col-9">
             <h4>Ready To Go?</h4>
             <form>
               <div class="form-group">
@@ -186,32 +188,42 @@
             </form>
           </div> 
        
-          <div class="col-4">
+          <div class="col-3">
             <h4>Space Stuff</h4>
-            <ul class="list-group">
+            <!-- Dropdown component -->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Item List:
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Space Helmet</a>
+                <a class="dropdown-item" href="#">Rocket Boosters</a>
+                <a class="dropdown-item" href="#">Shuttle</a>
+                <a class="dropdown-item" href="#">Training for Launch</a>
+                <a class="dropdown-item" href="#">Heat resistant plating</a>
+                <a class="dropdown-item" href="#">Space Suit</a>
+              </div>
+            </div>
+            <!-- <ul class="list-group">
               <li class="list-group-item">Space Helmet</li>
               <li class="list-group-item">Rocket Boosters</li>
               <li class="list-group-item">Shuttle</li>
               <li class="list-group-item">Training for Launch</li>
               <li class="list-group-item">Heat resistant plating</li>
               <li class="list-group-item">Space Suit</li>
-            </ul>
+            </ul> -->
           </div> 
         </div>
 
+      <div class="container my-5">
         <div class="row">
-          <div class="jumbotron col-12 d-flex justify-content-center">
+          <div class="col-12 d-flex justify-content-center">
             <footer>
               <h6>Copyright SpaceWalkers 2018</h6>
             </footer>
           </div>
-          <!-- <div class="col-12 d-flex justify-content-center">
-            <footer>
-              <h6>Copyright SpaceWalkers 2018</h6>
-            </footer>
-          </div>  -->
         </div>
-
+      </div>
   </div> <!--Container-->
 
   <script src="js/jquery-3.3.1.min.js"></script>
