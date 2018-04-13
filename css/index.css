@@ -8249,6 +8249,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
 .container {
   max-width: 900px;
 }
@@ -8269,13 +8274,11 @@ footer {
   color: black;
   background: #f3f3f2;
 }
-h4 {
-  -webkit-box-shadow: '10px 10px 10px 10px red';
-  -moz-box-shadow: '10px 10px 10px 10px red';
-  box-shadow: '10px 10px 10px 10px red';
-}
-#moonwalk {
-  -webkit-opacity: 5;
-  -moz-opacity: 5;
-  opacity: 5;
+.picture-row {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
