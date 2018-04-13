@@ -8259,8 +8259,13 @@ h5 {
 .custom-top nav {
   display: flex;
   justify-content: space-between;
-  width: 20%;
+  width: 100%;
+  max-width: 500px;
 }
 .custom-top nav a {
   color: #22283B;
+}
+.custom-container {
+  background: #f4f4f4;
+  max-width: 1000px;
 }
