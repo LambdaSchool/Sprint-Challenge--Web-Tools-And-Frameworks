@@ -27,7 +27,32 @@
             <a class="nav-link" href="#">About Us</a>
             <a class="nav-link" href="#">Blog</a>
             <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Sign In</a>
+            <!-- JavaScript Component: Dropdown -->
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Sign In</a>
+              <div class="dropdown-menu">
+                <form class="px-4 py-3">
+                  <div class="form-group">
+                    <label for="sign-in-user">User</label>
+                    <input type="text" name="sign-in-user" id="sign-in-user" class="form-control" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <label for="sign-in-password">Password</label>
+                    <input type="password" name="sign-in-password" id="sign-in-password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="sign-in-remember" id="sign-in-remember" value="checkedValue" checked>
+                      Remember Me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary mt-2">Sign In</button>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">New around here? Sign up</a>
+                  <a class="dropdown-item" href="#">Forgot password?</a>
+                </form>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
