@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +17,184 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
+  <!-- Begin Header -->
+  <header class="container-fluid">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h4 class="col-12 display-4 text-center">SpaceWalkers</h4>
+        <nav class="col-12 d-flex justify-content-center nav">
+          <a class="nav-item" href="#">Home</a>
+          <a class="nav-item" href="#">About Us</a>
+          <a class="nav-item" href="#">Blog</a>
+          <a class="nav-item" href="#">Contact</a>
+          <a class="nav-item" href="#">Sign In</a>
+        </nav>
       </div>
     </div>
-  </div>
+  </header>
+  <!-- End Header -->
 
+  <!-- Begin Carousel -->
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/img/slider-1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/slider-2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/slider-3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/slider-4.jpg" alt="Fourth slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Begin Main Content -->
+  <div class="container main">
+    <div class="row">
+      <div class="col-12">
+        <h3>Lift Off</h3>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble,
+          the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if
+          you touched it with a finger it would fall apart. Seeing this has to change a man.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img class="img-fluid d-block rounded" src="/img/blast.jpg" alt="Space Shuttle during ascent into space, diagonally in the frame from top-left to the bottom-right.">
+      </div>
+      <div class="col-4">
+        <img class="img-fluid d-block rounded" src="/img/sky.jpg" alt="Space Shuttle during ascent into space, long-exposure arcing through night sky.">
+      </div>
+      <div class="col-4">
+        <img class="img-fluid d-block rounded" src="/img/launch.jpg" alt="Space Shuttle during takeoff at Cape Canaveral, with engines recently started and just slightly off the ground.">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h3>Can We Visit Planets?</h3>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having
+          the qualities of a globe, a round earth in which all the directions eventually meet.
+        </p>
+      </div>
+    </div>
+
+    <!-- Begin Table -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Planet</th>
+          <th scope="col">Distance</th>
+          <th scope="col">Survivability</th>
+          <th scope="col">How Long To Travel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Mars</th>
+          <td>54.6 million km</td>
+          <td>Maybe</td>
+          <td>@300 Days</td>
+        </tr>
+        <tr>
+          <th scope="row">Jupiter</th>
+          <td>588 million km</td>
+          <td>No</td>
+          <td>Depends On Orbit (3-6 Years)</td>
+        </tr>
+        <tr>
+          <th scope="row">Saturn</th>
+          <td>.2 billion km</td>
+          <td>No</td>
+          <td>Depends On Orbit (3-6 Years)</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End Table -->
+
+    <!-- Start Jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6 d-flex align-items-center">
+            <h3>Let's Go For A Walk</h3>
+            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The
+              Earth was absolutely round.
+            </p>
+            <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye,
+              and my thumb blotted out the planet Earth.
+            </p>
+          </div>
+          <div class="col-6 d-flex align-items-center">
+            <img class="img-fluid d-block rounded" src="/img/space-walk.jpg" alt="Astronaut floating diagonally from bottom left to right upper third in space with the edge of Earth in sunlight behind him ">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Jumbotron -->
+
+  </div>
+  <!-- End Main Content -->
+
+  <!-- Start Contact Section -->
+
+  <div class="container">
+    <div class="row">
+      <!-- Begin Form -->
+      <div class="col-12 col-sm-8 d-flex align-items-center">
+        <h3>Ready To Go?</h3>
+        <form>
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="name" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter name">
+            <small id="nameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="Phone">Phone</label>
+            <input type="password" class="form-control" id="Phone" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="promoEmails">
+            <label class="form-check-label" for="promoEmails">I would like to receive promotional emails
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="noEmails">
+            <label class="form-check-label" for="noEmails">Please don’t send me emails
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Ready For Launch
+          </button>
+        </form>
+      </div>
+      <!-- End Form -->
+    </div>
+  </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
+
 </html>
