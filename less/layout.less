@@ -10,10 +10,16 @@ h1, h2, h3, h4, h5 {
 .header {
     background: @main-color;
 
-    a {
-        color: @secondary-color;
-        &:hover {
-            .opacity(.6);
+    .navigation {
+        .logo {
+            font-size: 2rem;
+        }
+
+        .header-link {
+            color: @secondary-color;
+            &:hover {
+                .opacity(.6);
+            }
         }
     }
 }

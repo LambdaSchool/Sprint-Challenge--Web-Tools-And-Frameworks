@@ -8252,10 +8252,13 @@ h5 {
 .header {
   background: #f4f4f4;
 }
-.header a {
+.header .navigation .logo {
+  font-size: 2rem;
+}
+.header .navigation .header-link {
   color: #22283B;
 }
-.header a:hover {
+.header .navigation .header-link:hover {
   -webkit-opacity: 0.6;
   -moz-opacity: 0.6;
   opacity: 0.6;

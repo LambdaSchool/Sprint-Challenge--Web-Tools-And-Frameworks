@@ -20,37 +20,45 @@
   <div class="container-fluid header border-bottom sticky-top">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1 class="logo text-center">SpaceWalkers</h1>
-          <nav class="nav justify-content-center">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="#">Contact</a>
-            <!-- JavaScript Component: Dropdown -->
-            <div class="dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Sign In</a>
-              <div class="dropdown-menu">
-                <form class="px-4 py-3">
-                  <div class="form-group">
-                    <label for="sign-in-user">User</label>
-                    <input type="text" name="sign-in-user" id="sign-in-user" class="form-control" placeholder="Username">
+        <div class="col-12 px-0">
+          <h1 class="logo text-center d-none d-sm-block">SpaceWalkers</h1>
+          <!-- JavaScript Component: Navbar -->
+          <nav class="navbar navbar-expand-sm navbar-light px-0 navigation">
+            <h1 class="navbar-brand logo m-0 p-0 d-sm-none">SpaceWalkers</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbar-content">
+              <div class="nav navbar-nav">
+                <li class="nav-item mx-sm-2"><a class="nav-link header-link" href="#">Home</a></li>
+                <li class="nav-item mx-sm-2"><a class="nav-link header-link" href="#">About Us</a></li>
+                <li class="nav-item mx-sm-2"><a class="nav-link header-link" href="#">Blog</a></li>
+                <li class="nav-item mx-sm-2"><a class="nav-link header-link" href="#">Contact</a></li>
+                <!-- JavaScript Component: Dropdown -->
+                <li class="nav-item mx-sm-2 dropdown">
+                  <a class="nav-link dropdown-toggle header-link" href="#" data-toggle="dropdown">Sign In</a>
+                  <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                      <div class="form-group">
+                        <label for="sign-in-user">User</label>
+                        <input type="text" name="sign-in-user" id="sign-in-user" class="form-control" placeholder="Username">
+                      </div>
+                      <div class="form-group">
+                        <label for="sign-in-password">Password</label>
+                        <input type="password" name="sign-in-password" id="sign-in-password" class="form-control" placeholder="Password">
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="sign-in-remember" id="sign-in-remember" value="checkedValue" checked> Remember Me
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary mt-2">Sign In</button>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">New around here? Sign up</a>
+                      <a class="dropdown-item" href="#">Forgot password?</a>
+                    </form>
                   </div>
-                  <div class="form-group">
-                    <label for="sign-in-password">Password</label>
-                    <input type="password" name="sign-in-password" id="sign-in-password" class="form-control" placeholder="Password">
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" name="sign-in-remember" id="sign-in-remember" value="checkedValue" checked>
-                      Remember Me
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-primary mt-2">Sign In</button>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">New around here? Sign up</a>
-                  <a class="dropdown-item" href="#">Forgot password?</a>
-                </form>
+                </li>
               </div>
             </div>
           </nav>
