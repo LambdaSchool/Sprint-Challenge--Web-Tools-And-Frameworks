@@ -8256,4 +8256,17 @@ nav {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
+  background-color: #f4f4f4;
+}
+.custom-img {
+  padding: 2rem;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+p {
+  color: #22283B;
 }
