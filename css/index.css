@@ -1,18 +1,28 @@
-/* @main-color: #f4f4f4;
-@secondary-color: #22283B;
-@accent-color: #e0e0e0; */
+/* 
+    @main-color: #f4f4f4;
+    @secondary-color: #22283B;
+    @accent-color: #e0e0e0;
+*/
 
 html, body {
     font-family: 'Ubuntu', sans-serif;
+    color: #f4f4f4;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
-    color: #22283B;
+    /* color: #22283B; */
+    color: #f4f4f4;
+}
+
+body {
+    /* background-color: #f4f4f4; */
+    background-color: #22283B;
 }
 
 body .container .row {
-    background-color: #f4f4f4;;
+    /* background-color: #f4f4f4; */
+    background-color: #22283B;
 }
 
 body .container h1 {
@@ -20,5 +30,5 @@ body .container h1 {
 }
 
 body .container a {
-    color: black;
+    color: #f4f4f4;
 }
