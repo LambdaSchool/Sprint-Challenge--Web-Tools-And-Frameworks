@@ -8273,6 +8273,9 @@ nav .custom-link {
   max-width: 100%;
   height: auto;
 }
+.spacewalk:hover {
+  opacity: .5;
+}
 .submit-1 {
   padding: 0;
 }
