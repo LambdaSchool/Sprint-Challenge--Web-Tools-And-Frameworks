@@ -193,21 +193,28 @@
     </div>
 
     <div class="row w-50 ml-0 mr-0 mt-5 d-flex justify-content-start stuff">
-      <div class="col-8 ml-5 mt-4 d-flex flex-column stuff-list">
-        <h2>Space stuff</h2>
-        <a class="p-3" href="#">Space Helmet</a>
-        <a class="p-3" href="#">Rocket Boosters</a>
-        <a class="p-3" href="#">Shuttle</a>
-        <a class="p-3" href="#">Training for Launch</a>
-        <a class="p-3" href="#">Heat resistant plating</a>
-        <a class="p-3 last-a" href="#">Space Suit</a>
+      <div class="col-11 ml-5 mt-4 d-flex flex-column">
+        <a class="btn custom-class" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse">
+          Click for more space stuff
+        </a>
+        <div class="collapse" id="collapse">
+          <div class="card card-body stuff-list">
+            <a class="p-3" href="#">Space Helmet</a>
+            <a class="p-3" href="#">Rocket Boosters</a>
+            <a class="p-3" href="#">Shuttle</a>
+            <a class="p-3" href="#">Training for Launch</a>
+            <a class="p-3" href="#">Heat resistant plating</a>
+            <a class="p-3 last-a" href="#">Space Suit</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
+  
   <footer class="mt-5 d-flex justify-content-center">
-    <div class="row rounded ml-0 mr-0 mt-5 d-flex justify-content-center custom-class">
+    <div class="row ml-0 mr-0 mt-5 d-flex justify-content-center custom-class">
       <div class="col-12 p-0 d-flex justify-content-center">
         <p class="p-3">Copyright SpaceWalkers 2018</p>
       </div>

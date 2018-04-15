@@ -8301,6 +8301,12 @@ h5 {
 .container .bottom-content p {
   font-size: 1.5rem;
 }
+.container .bottom-content img:hover {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
 .container .form {
   width: 100%;
 }
@@ -8311,6 +8317,11 @@ h5 {
 }
 .container .form button {
   background: #22283B;
+  color: white;
+}
+.container .form .stuff .custom-class {
+  background-color: #22283B;
+  font-size: 1.5rem;
   color: white;
 }
 .container .form .stuff .stuff-list a {
@@ -8328,4 +8339,10 @@ h5 {
   width: 100%;
   font-size: 1.5rem;
   background: #f4f4f4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
