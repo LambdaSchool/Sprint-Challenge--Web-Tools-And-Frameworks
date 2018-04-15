@@ -20,10 +20,10 @@ body {
     background-color: #22283B;
 }
 
-body .container .row {
-    /* background-color: #f4f4f4; */
+/* body .container .row {
+    background-color: #f4f4f4;
     background-color: #22283B;
-}
+} */
 
 body .container h1 {
     font-size: 2.5rem;
@@ -31,4 +31,13 @@ body .container h1 {
 
 body .container a {
     color: #f4f4f4;
+}
+
+.custom-background {
+    background-color: #22283B !important;
+}
+
+.transparent {
+    background-color: #22283B !important;
+    opacity: .85 !important;
 }

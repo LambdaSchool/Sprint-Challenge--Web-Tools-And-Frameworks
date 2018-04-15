@@ -21,10 +21,10 @@
   <!-- navigation bar -->
   <div class="container">
     <div class="row sticky-top">
-      <div class="col-12 d-flex justify-content-center flex-wrap">
+      <div class="col-12 d-flex justify-content-center flex-wrap transparent">
         <h1>SpaceWalkers</h1>
       </div>
-      <div class="col-12 d-flex justify-content-center align-items-center">
+      <div class="col-12 d-flex justify-content-center align-items-center border-bottom transparent">
         <nav class="nav">
           <a class="nav-link active" href="#">Home</a>
           <a class="nav-link" href="#">About Us</a>
@@ -33,7 +33,8 @@
           <a class="nav-link" href="#">Sign In</a>
         </nav>
       </div>
-    </div> <!-- navigation bar -->
+    </div>
+    <!-- navigation bar -->
 
     <!-- carousel -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -63,9 +64,9 @@
     <!-- carousel -->
 
     <!-- lift off, 3 images, can we visit planets? -->
-    <div class="container">
+    <div class="container pt-5">
       <div class="row">
-        <div class="col-sm-12 pt-3">
+        <div class="col-sm-12">
           <h2>Lift Off</h2>
           <p>
              As we got further and further away, it [the Earth] dimished in size. Finally it shrank to the size of a marble, 
@@ -76,17 +77,17 @@
       </div>
       <div class="row">
         <div class="col-md-4 pt-1 d-flex justify-content-center">
-          <img src="img/blast.jpg"  class="img-responsive rounded" width="65%" height="95%" alt="Space shuttle after launch">
+          <img src="img/blast.jpg"  class="img-responsive rounded" width="80%" height="95%" alt="Space shuttle after launch">
         </div>
         <div class="col-md-4 pt-1 d-flex justify-content-center">
-          <img src="img/sky.jpg" class="img-responsive rounded" width="65%" height="95%" alt="Launch trail and sky">
+          <img src="img/sky.jpg" class="img-responsive rounded" width="80%" height="95%" alt="Launch trail and sky">
         </div>
         <div class="col-md-4 pt-1 d-flex justify-content-center">
-          <img src="img/launch.jpg" class="img-responsive rounded" width="65%" height="95%" alt="Space shuttle launching">
+          <img src="img/launch.jpg" class="img-responsive rounded" width="80%" height="95%" alt="Space shuttle launching">
         </div>
       </div>
-      <div class="row">
-          <div class="col-sm-12 pt-3">
+      <div class="row pt-5">
+          <div class="col-sm-12">
             <h2>Can We Visit Planets?</h2>
             <p>
                Never in all their history have men been able to truly conceive of the world as one: a single, sphere, a globe,
@@ -94,7 +95,7 @@
             </p>
             <p>
                <!-- Which --> There is no center because every point, or none, is center - an equal earth which all men occupy as equals.
-               The ariman's earth, if free men make it.
+               The airman's earth, if free men make it.
             </p>
           </div>
         </div>
@@ -102,7 +103,7 @@
     <!-- lift off, 3 images, can we visit planets? -->
 
     <!-- list group -->
-    <div class="container">
+    <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-sm-12">
           <h2>Destinations</h2>
@@ -124,13 +125,13 @@
                 </tr>
                 <tr>
                   <th scope="row">Jupiter</th>
-                  <td>53.6 million km</td>
+                  <td>588 million km</td>
                   <td>No</td>
                   <td>Depends On Orbit (3-6 Years)</td>
                 </tr>
                 <tr>
                   <th scope="row">Saturn</th>
-                  <td>53.6 million km</td>
+                  <td>1.2 billion km</td>
                   <td>No</td>
                   <td>Depends On Orbit (3-6 Years)</td>
                 </tr>
@@ -142,38 +143,90 @@
     <!-- list group -->
 
     <!-- let's go for a walk -->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
+    <div class="container border-top border-bottom">
+      <div class="row pt-5">
+        <div class="col-sm-12">
           <h2>Let's Go For A Walk</h2>
-            <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure.
-               Expedition colorful design simple excursion blogger blogger design WordPress design, design organized
+            <p>
+              Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure.
+              Expedition colorful design simple excursion blogger blogger design WordPress design, design organized
               website theme.
             </p> 
-            <p>Pretty simple traveling fun WordPress wanderlust darn simple organized. WordPress travelblogger simple
-               WordPress cute whimsical organized. Traveling expedition modern, clean webdesign blogger clean website
+            <p>
+              Pretty simple traveling fun WordPress wanderlust darn simple organized. WordPress travelblogger simple
+              WordPress cute whimsical organized. Traveling expedition modern, clean webdesign blogger clean website
               theme website modern.
             </p>
-          </div>
-          <div class="col-sm-6">
-            <img src="img/space-walk.jpg" class="rounded" alt="Astronaut on a space walk">
-          </div>
         </div>
+        <div class="col-sm-12 d-flex justify-content-center pt-3">
+          <img src="img/space-walk.jpg" class="rounded img-responsive" width="40%" height="80%" alt="Astronaut on a space walk">
+        </div>
+      </div>
     </div>
+  </div>
     <!-- let's go for a walk -->
 
     <!-- ready to go (contact form) and space stuff (list group) -->
-
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-sm-8 pt-3 pb-5">
+          <h2>Ready To Go?</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input id="phone" type="phone" class="form-control" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I would like to receive promotion emails</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-secondary">Ready For Launch</button>
+          </form>
+        </div>
+        <div class="col-sm-4 pt-3 pb-5">
+          <h2>Don't Forget These!</h2>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Necessary Equipment
+            </button>
+            <div class="dropdown-menu custom-background" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Space Helmet</a>
+              <a class="dropdown-item" href="#">Rocket Boosters</a>
+              <a class="dropdown-item" href="#">Shuttle</a>
+              <a class="dropdown-item" href="#">Training for Launch</a>
+              <a class="dropdown-item" href="#">Heat Resistant Plating</a>
+              <a class="dropdown-item" href="#">Space Suit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- ready to go (contact form) and space stuff (list group) -->
 
     <!-- footer -->
-    <div class="row footer pt-3 pb-5 rounded">
-      <div class="col-sm-12 d-flex justify-content-center">
-        Copyright SpaceWalkers 2018
+    <div class="container border rounded">
+      <div class="row footer pt-4 pb-4">
+        <div class="col-sm-12 d-flex justify-content-center">
+          Copyright SpaceWalkers 2018
+        </div>
       </div>
-    </div>
+    </div>  
     <!-- footer -->
-  </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
