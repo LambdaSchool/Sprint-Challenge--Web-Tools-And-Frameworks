@@ -8,9 +8,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    max-width: 800px;
+    height: 10rem;
     .header {
         background: @accent-color;
+        h1 {
+            font-size: 5rem;
+        }
         .nav a{
             color:black;
         }
@@ -19,9 +22,31 @@ h1, h2, h3, h4, h5 {
 
 .btn-secondary {
     background: @secondary-color;
+    @media (max-width: 767px) {
+        align-self: flex-end;
+    }
 }
 
 footer {
     height:100px;
     background: @accent-color;
+}
+
+.Carousel__img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.List {
+    @media (max-width:767px) {
+        order: -1;
+    }
+}
+
+.List__item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }

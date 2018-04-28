@@ -8250,10 +8250,13 @@ h5 {
   color: #22283B;
 }
 .container {
-  max-width: 800px;
+  height: 10rem;
 }
 .container .header {
   background: #e0e0e0;
+}
+.container .header h1 {
+  font-size: 5rem;
 }
 .container .header .nav a {
   color: black;
@@ -8261,7 +8264,28 @@ h5 {
 .btn-secondary {
   background: #22283B;
 }
+@media (max-width: 767px) {
+  .btn-secondary {
+    align-self: flex-end;
+  }
+}
 footer {
   height: 100px;
   background: #e0e0e0;
+}
+.Carousel__img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .List {
+    order: -1;
+  }
+}
+.List__item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
