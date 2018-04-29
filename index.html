@@ -15,16 +15,16 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row justify-content-center sticky-top header Header>
-      <h1 class="col-12 text-center">SpaceWalkers</h1>
-      <div class="nav col-12 justify-content-between">
-        <a class="nav-link" col-3 href="#">Home</a>
-        <a class="nav-link" col-3 href="#">About Us</a>
-        <a class="nav-link" col-3 href="#">Blog</a>
-        <a class="nav-link" col-3 href="#">Contact</a>
-        <a class="nav-link" col-3 href="#">Sign In</a>
-      </div>
+  <div class="container Container">
+    <div class="row justify-content-center header Header>
+      <h1 class="col-12">SpaceWalkers</h1>
+      <nav id="nav" class="nav col-12 justify-content-around">
+        <a class="nav-link col" href="#">Home</a>
+        <a class="nav-link col" href="#">About Us</a>
+        <a class="nav-link col" href="#">Blog</a>
+        <a class="nav-link col" href="#">Contact</a>
+        <a class="nav-link col" href="#">Sign In</a>
+      </nav>
     </div>
     <!--  Carousel  -->
     <div class="row justify-content-center mt-3">
@@ -167,6 +167,21 @@
       <a>Copyright Spacewalkers 2018</a>
     </footer>
   </div>
+  <script>
+      window.onscroll = function() {myFunction()};
+      
+      var nav = document.getElementById("nav");
+      var sticky = nav.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+      </script>
+      
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>

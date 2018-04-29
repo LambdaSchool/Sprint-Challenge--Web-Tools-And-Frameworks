@@ -8,23 +8,39 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    height: 10rem;
     .header {
+        align-self: center;
+        margin: 0;
+        padding: 0;
         background: @accent-color;
-        h1 {
-            font-size: 5rem;
-        }
-        .nav a{
-            color:black;
+        font-size: 3em;
+        .nav {
+            align-content: center;
+            background: @accent-color;
+            ul {
+                align-items: center;
+            }
+            a {
+                text-align: center;
+                font-size: 1rem;
+                color:black;
+            }
+            .nav-link:hover{
+                background: @highlight-color;
+            }
         }
     }
 }
 
+.sticky {
+    position: fixed;
+    z-index: 5;
+}
+
+
 .btn-secondary {
     background: @secondary-color;
-    @media (max-width: 767px) {
-        align-self: flex-end;
-    }
+    max-height: 4rem;
 }
 
 footer {
@@ -48,5 +64,4 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
 }

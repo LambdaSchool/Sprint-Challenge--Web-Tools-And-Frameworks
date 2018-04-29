@@ -8249,25 +8249,35 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  height: 10rem;
-}
 .container .header {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  background: #e0e0e0;
+  font-size: 3em;
+}
+.container .header .nav {
+  align-content: center;
   background: #e0e0e0;
 }
-.container .header h1 {
-  font-size: 5rem;
+.container .header .nav ul {
+  align-items: center;
 }
 .container .header .nav a {
+  text-align: center;
+  font-size: 1rem;
   color: black;
+}
+.container .header .nav .nav-link:hover {
+  background: #959db4;
+}
+.sticky {
+  position: fixed;
+  z-index: 5;
 }
 .btn-secondary {
   background: #22283B;
-}
-@media (max-width: 767px) {
-  .btn-secondary {
-    align-self: flex-end;
-  }
+  max-height: 4rem;
 }
 footer {
   height: 100px;
@@ -8287,5 +8297,4 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
 }
