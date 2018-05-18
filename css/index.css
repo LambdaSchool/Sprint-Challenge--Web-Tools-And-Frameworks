@@ -8260,18 +8260,25 @@ h5 {
   max-width: 800px;
   width: 100%;
 }
+.border-bottom {
+  border-color: #e0e0e0;
+}
 .footer {
   background-color: #f4f4f4;
 }
-.btn {
+.btn-custom {
   background: #22283B;
   -webkit-box-shadow: 5px 5px 5px black;
   -moz-box-shadow: 5px 5px 5px black;
   box-shadow: 5px 5px 5px black;
 }
 .space-stuff {
-  background: #e0e0e0;
+  background: white;
   color: black;
+  font-family: 'Russo One', sans-serif;
+  -webkit-box-shadow: 5px 5px 5px black;
+  -moz-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
 }
 .space-walk:hover {
   -webkit-transform: rotate(180deg);
