@@ -8,15 +8,27 @@ h1, h2, h3, h4, h5 {
 }
 
 .container-fluid{
-    border: 1px solid red;
+    .header{
+        background-color: lightgray;
+        opacity: .9;
+    }
+
+    .nav-link{
+        color: black;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
 }
 
 .container{
-    border: 1px solid red;
+    
     max-width: 880px;
-    margin-top: 100px;
+    margin-top: 96px;
 }
 
-// .rocket-img{
-//     display: flex;
-// }
+.footer{
+    background-color: lightgray;
+}
