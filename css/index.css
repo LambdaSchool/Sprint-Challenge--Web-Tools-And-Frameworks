@@ -8261,3 +8261,8 @@ h5 {
 .container {
   max-width: 800px;
 }
+.footer {
+  color: black;
+  background: #f4f4f4;
+  padding: 20px 0;
+}
