@@ -8247,6 +8247,9 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+body {
+  min-width: 350px;
+}
 h1,
 h2,
 h3,
@@ -8256,7 +8259,13 @@ h6 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.main-content {
+  max-width: 850px;
+}
 .header {
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
   background-color: #f4f4f4;
   color: #22283B;
   text-decoration: none;

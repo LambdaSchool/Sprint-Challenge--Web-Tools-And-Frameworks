@@ -18,7 +18,7 @@
 
 <body>
   <div class="container">
-    <div class="container">
+    <div class="sticky-top">
       <div class="row header">
         <div class="col-12 d-flex justify-content-center">
           <h1>SpaceWalkers</h1>
@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container main-content">
 
       <!-- Carousel Start -->
       <div class="row">
@@ -74,7 +74,7 @@
       </div>
       <!-- Carousel End -->
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mt-5">
           <h2>Lift Off
           </h2>
           <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble,
@@ -87,7 +87,7 @@
           <img class="img-fluid" src="img/blast.jpg" alt="Shuttle blast">
         </div>
         <div class="col-4">
-          <img  class="img-fluid" src="img/sky.jpg" alt="Sky shot" id="bbb">
+          <img class="img-fluid" src="img/sky.jpg" alt="Sky shot" id="bbb">
         </div>
         <div class="col-4">
           <img class="img-fluid" src="img/launch.jpg" alt="Shuttle launch">
@@ -104,7 +104,7 @@
           </p>
         </div>
         <!-- Can We Visit Planets? Chart Start -->
-        <div class="col-12 mt-4">
+        <div class="col-12 mt-4 table-responsive-md">
           <table class="table table-striped">
             <thead>
               <tr>
@@ -143,21 +143,45 @@
       <!-- Can we visit planets? End -->
       <!-- Start Section: Let's Go For A Walk -->
       <div class="row mt-5 border-top border-bottom pt-5 pb-5 pl-3 pr-3">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h2>Let's Go For A Walk</h2>
           <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The
             Earth was absolutely round. It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up
             my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <img class="img-fluid" src="img/space-walk.jpg" alt="Space Walk">
         </div>
       </div>
       <!-- End Section: Let's Go For A Walk -->
+
       <!-- Start Section: Final Content -->
       <div class="row mt-5">
+        <!-- Start Space Stuff List -->
+        <div class="col-12 col-md-4 mb-5 dropdown order-md-last">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <h4>Space Stuff</h4>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="list-group ">
+              <li class="list-group-item">Space Helment</li>
+              <li class="list-group-item">Rocket Boosters</li>
+              <li class="list-group-item">Shuttle</li>
+              <li class="list-group-item">Training for Launch</li>
+              <li class="list-group-item">Heat resistant plating</li>
+              <li class="list-group-item">Space Suit</li>
+            </ul>
+          </div>
+
+
+
+        </div>
+        <!-- End Space Stuff List -->
+
+
         <!-- Start Form Content -->
-        <div class="col-8">
+        <div class="col-12 col-md-8">
           <h2>Ready To Go?</h2>
           <form>
             <div class="form-row">
@@ -169,47 +193,32 @@
                 <label for="inputPhone">Phone</label>
                 <input type="phone" class="form-control" id="inputPhone" placeholder="Phone">
               </div>
-            <div class="form-group col-12">
-              <label for="inputEmail">Email</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-            </div>
-            <div class="form-group col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="promoCheck">
-                <label class="form-check-label" for="promoCheck">
-                  I would like to receive promotional emails.
-                </label>
+              <div class="form-group col-12">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
               </div>
-            </div>
-            <div class="form-group col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="noEmailCheck">
-                <label class="form-check-label" for="noEmailCheck">
-                  Please don't send me emails
-                </label>
+              <div class="form-group col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="promoCheck">
+                  <label class="form-check-label" for="promoCheck">
+                    I would like to receive promotional emails.
+                  </label>
+                </div>
               </div>
+              <div class="form-group col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="noEmailCheck">
+                  <label class="form-check-label" for="noEmailCheck">
+                    Please don't send me emails
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Ready For Launch</button>
             </div>
-            <button type="submit" class="btn btn-primary">Ready For Launch</button>
-          </div>
           </form>
         </div>
         <!-- End Form Content -->
 
-        <!-- Start Space Stuff List -->
-        <div class="col-4">
-          <h4>Space Stuff</h4>
-          <ul class="list-group">
-            <li class="list-group-item">Space Helment</li>
-            <li class="list-group-item">Rocket Boosters</li>
-            <li class="list-group-item">Shuttle</li>
-            <li class="list-group-item">Training for Launch</li>
-            <li class="list-group-item">Heat resistant plating</li>
-            <li class="list-group-item">Space Suit</li>
-
-          </ul>
-
-        </div>
-        <!-- End Space Stuff List -->
 
 
 
@@ -223,9 +232,9 @@
         <div class="col-12 ">
           <footer>
             <div>
-                <p class="text-justify">
-                    Copyright SpaceWalkers 2018
-                </p>
+              <p class="text-justify">
+                Copyright SpaceWalkers 2018
+              </p>
             </div>
 
           </footer>
