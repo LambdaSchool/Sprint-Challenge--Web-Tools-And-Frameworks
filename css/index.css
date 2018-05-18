@@ -8250,7 +8250,6 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  border: 1px solid red;
   background: #f4f4f4;
   color: black;
   -webkit-opacity: 0.5;
@@ -8259,4 +8258,17 @@ h5 {
 }
 .container-fluid a {
   color: black;
+}
+.footer {
+  background: #f4f4f4;
+  height: 100px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: black;
+}
+.badge-primary {
+  color: #fff;
+  background-color: red;
 }
