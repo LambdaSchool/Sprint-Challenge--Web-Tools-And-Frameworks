@@ -8241,6 +8241,7 @@ a.text-dark:hover {
   background-color: #f4f4f4;
   color: #22283B;
   text-decoration: none;
+  border: 1px solid #c1c1c1;
 }
 html,
 body {
@@ -8255,13 +8256,11 @@ h6 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  max-width: 960px;
-}
 .header {
   background-color: #f4f4f4;
   color: #22283B;
   text-decoration: none;
+  border: 1px solid #c1c1c1;
 }
 .header .nav li {
   margin: 0px 1.5%;
@@ -8271,13 +8270,38 @@ h6 {
   font-weight: bold;
 }
 footer {
+  height: 85px;
+  width: 100%;
   background-color: #f4f4f4;
   color: #22283B;
   text-decoration: none;
+  border: 1px solid #c1c1c1;
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin: auto;
 }
 form .btn {
   background-color: black;
+}
+form label {
+  font-weight: bold;
+}
+.list-group-item {
+  font-weight: bold;
+}
+img,
+div {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
