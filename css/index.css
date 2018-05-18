@@ -8302,7 +8302,8 @@ h5 {
 }
 .bottom-content ul li {
   border: 1px solid #e0e0e0;
-  line-height: 4;
+  line-height: 3;
+  padding-left: 1rem;
 }
 footer {
   background: #e0e0e0;
