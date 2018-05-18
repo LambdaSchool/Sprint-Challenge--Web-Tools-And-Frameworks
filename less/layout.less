@@ -6,3 +6,37 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.nav-pills {
+    li {
+        a.active {
+            background-color: @secondary-color!important;
+            color: @accent-color!important;
+        }
+    }
+}
+
+li {
+    a.link{
+        color: @secondary-color!important;
+    }
+}
+
+.mid-img {
+    .box-shadow(5px 5px 5px black);
+}
+
+.custom-head {
+    font-size: 1.8rem;
+}
+.custom-text-1 {
+    background: rgba(255, 255, 255, 0.5);
+}
+.custom-btn {
+    background: @secondary-color;
+    border: none;
+    
+    &:hover {
+        background: lighten(@secondary-color, 20%);
+    }
+}
