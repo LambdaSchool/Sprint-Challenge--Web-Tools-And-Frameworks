@@ -8249,6 +8249,30 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container1 {
+  background-color: whitesmoke;
+}
+.nav a {
+  color: black;
+}
+.border-row {
+  border-top: 1px whitesmoke;
+  border-bottom: 1px whitesmoke;
+}
+img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.btn {
+  background: black;
+  -webkit-box-shadow: 5px 5px red;
+  -moz-box-shadow: 5px 5px red;
+  box-shadow: 5px 5px red;
+}
 .footer {
   background-color: whitesmoke;
   padding: 20px 0;
