@@ -8268,6 +8268,9 @@ h5 {
   height: auto;
   width: 100%;
   background: white;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
 }
 .spacewalk {
   background: white;
