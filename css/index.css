@@ -8241,6 +8241,12 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 h1,
 h2,
 h3,
@@ -8253,6 +8259,7 @@ h5 {
   max-width: 900px;
   height: auto;
   width: 100%;
+  background: white;
 }
 .spacewalk {
   background: white;
@@ -8262,8 +8269,10 @@ h5 {
   padding-bottom: 20px;
 }
 .twopic {
-  border-bottom: 1px solid lightgray;
   padding-bottom: 25px;
+}
+.btn-link {
+  color: darkgray;
 }
 .btn-primary {
   background: black;
