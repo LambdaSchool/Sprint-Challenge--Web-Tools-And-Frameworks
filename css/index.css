@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  font-weight: 550;
+}
 .container .header .header-text nav a {
   color: black;
 }
@@ -8256,7 +8259,31 @@ h5 {
   display: flex;
   justify-content: center;
 }
+.container .main-content .img {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container .side-content {
+  border-top: 1px solid #e0e0e0;
+}
+.container .end-form {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+.container .end-form .form form .checkboxes {
+  margin-bottom: 5px;
+}
+.container .end-form .form button {
+  background: #22283B;
+  border: none;
+}
 .container .footer {
-  background: #e0e0e0;
+  background: #e8e8e8;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
   text-align: center;
+  padding: 20px;
+  margin-top: 30px;
 }
