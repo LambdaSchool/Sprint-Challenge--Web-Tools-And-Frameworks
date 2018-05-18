@@ -8250,7 +8250,7 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  background-color: silver;
+  background-color: #e0e0e0;
   border-bottom: 2px solid silver;
 }
 .logo-heading {
@@ -8264,6 +8264,6 @@ h5 {
 }
 .footer {
   color: black;
-  background: blanchedalmond;
+  background: #e0e0e0;
   padding: 20px 0;
 }
