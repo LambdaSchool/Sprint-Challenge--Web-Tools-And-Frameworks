@@ -8240,6 +8240,7 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 100%;
 }
 h1,
 h2,

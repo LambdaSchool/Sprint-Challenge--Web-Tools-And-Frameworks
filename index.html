@@ -17,12 +17,12 @@
 </head>
 
 <body>
-  <div class="container d-flex justify-content-center">
-    <div class="row">
+  <div class="container">
+    <div class="row justify-content-center">
       <div class="col-12">
-        <h1 class="logo-heading">Space Walkers</h1>
+        <h1 class="logo-heading text-center">Space Walkers</h1>
       </div>
-      <div class="col-9">
+      <div class="col-7">
         <nav class="nav">
           <a class="nav-link active" href="#">Home</a>
           <a class="nav-link" href="#">About Us</a>
@@ -92,7 +92,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-12 mt-3">
+      <div class="col-sm-12 mt-5 mb-5">
         <h3>Can We Visit Planets</h3>
         <p>
           Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the
@@ -140,7 +140,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="row mb-5">
+      <div class="row mb-5 mt-5 justify-content-center">
         <div class="col-sm-5">
           <h3>Lets Go For A Walk</h3>
           <p>
@@ -155,18 +155,47 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-5">
+    <div class="row  justify-content-end mb-5">
+      <div class="col-sm-5 mr-5">
         <h3>Ready To Go?</h3>
+        <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Name">             
+            </div>
+            <div class="form-group">
+              <label for="Phone">Phone</label>
+              <input type="text" class="form-control" id="phone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Ready For Launch</button>
+          </form>
       </div>
       <div class="col-sm-5">
         <h4>Space Stuff</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Space Helmet</li>
+            <li class="list-group-item">Rocket Boosters</li>
+            <li class="list-group-item">Shuttle</li>
+            <li class="list-group-item">Training for Launch</li>
+            <li class="list-group-item">Heat resistant plating</li>
+            <li class="list-group-item">Space Suit</li>
+          </ul>
       </div>
     </div>
 
 
     <div class="row footer">
-        <div class="col-sm-12">
+        <div class="col-sm-12 text-center mt-5 mb-">
           Copyright SpaceWalkers 2018
         </div>
       </div>
