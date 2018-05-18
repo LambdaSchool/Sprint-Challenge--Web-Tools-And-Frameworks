@@ -8262,6 +8262,7 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  cursor: zoom-in;
 }
 .container .bottom_text {
   border-top: 1px solid rgba(220, 220, 220, 0.5);
@@ -8274,4 +8275,7 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.container .footer {
+  background-color: #e0e0e0;
 }

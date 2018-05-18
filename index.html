@@ -18,7 +18,7 @@
 <body>
 
     <div class="container-fluid w-100 sticky-top">
-      <div class="row">
+      <div class="row navbar">
           <div class="col-sm-12 d-flex justify-content-center">
             <h1>Space Walkers</h1>
           </div>
@@ -78,9 +78,66 @@
     <div class="row mt-3">
       <div class="col-sm-12 images">
         <div class="image-row d-flex justify-content-around">
-          <img class="w-25 h-25" src="img/blast.jpg" alt="Spaceship taking off">
-          <img class="w-25 h-25" src="img/sky.jpg" alt="Ship flying through the sky">
-          <img class="w-25 h-25" src="img/launch.jpg" alt="Spaceship launching">
+          <img class="w-25 h-25" data-toggle="modal" data-target="#modal1" src="img/blast.jpg" alt="Spaceship taking off">
+              <!-- Modal -->
+              <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Natural Resources</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    This rocket uses over 5 tons of highly refined rocket fuel, just so you can float around a little bit!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+          <img class="w-25 h-25" data-toggle="modal" data-target="#modal2" src="img/sky.jpg" alt="Ship flying through the sky">
+            <!-- Modal -->
+              <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Pollution</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Every time we launch, we emit thousands of cubic meters of greenhouse gasses, injected directly into our fragile atmosphere!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+          <img class="w-25 h-25" data-toggle="modal" data-target="#modal3" src="img/launch.jpg" alt="Spaceship launching">
+            <!-- Modal -->
+              <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">And It's Pretty Dangerous!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    We assume no liability for your safety and well being while traveling aboard one of our hastily built spacecraft!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
         </div>
       </div>
     </div>
@@ -155,21 +212,21 @@
               <small id="nameHelp" class="form-text text-muted">Please YOUR name, we can't accidently send any more innocent people to space.</small>
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <label for="phone1">Password</label>
+              <input type="phone" class="form-control" id="phone1" placeholder="Phone Number">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <label for="Email1">Password</label>
+              <input type="email" class="form-control" id="email1" placeholder="Email">
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary mt-3 mb-2">Ready for Launch</button>
         </form>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 h-100">
         <h2>Space Stuff</h2>
         <ul class="list-group">
             <li class="list-group-item">Space Helmet</li>
@@ -177,9 +234,15 @@
             <li class="list-group-item">Shuttle</li>
             <li class="list-group-item">Training for Launch</li>
             <li class="list-group-item">Heat resistant plating</li>
+            <li class="list-group-item">Space Suit</li>
         </ul>
       </div>
+    </div>
 
+    <div class="footer row mt-5 p-3">
+      <div class="col-sm-12 d-flex justify-content-center align-items-center">
+        <p><b>Copyright SpaceWalkers 2018</b></p>
+      </div>
     </div>
 
   </div> <!--Container Bottom-->
