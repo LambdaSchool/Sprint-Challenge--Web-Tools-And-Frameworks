@@ -19,13 +19,13 @@
 <body>
   <div class="container-fluid sticky-top">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-sm-12 d-flex justify-content-center">
           <h1>SpaceWalkers</h1>
         </div>
-      </div>
+      </div> -->
       <!-- 1 -->
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-sm-12 d-flex justify-content-center pb-2">
           <nav>
             <a href="#">Home</a>
@@ -34,12 +34,35 @@
             <a href="#">Contact</a>
             <a href="#">Sign In</a>
           </nav>
-          <!-- Nav -->
+        </div>
+      </div> Merged into NavBar -->
+      <div class="row">
+        <div class="col-sm-12 pb-2">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">SpaceWalkers</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="#">About Us</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#">Sign In</a>
+              </div>
+            </div>
+          </nav>
+          <!-- NavBar -->
         </div>
       </div>
       <!-- 2 -->
     </div>
-  </div><!-- container 1 -->
+  </div>
+  <!-- container 1 -->
 
 
   <div class="container">
@@ -82,7 +105,7 @@
     <!-- 3 -->
     <div class="row my-2">
       <div class="col-sm-12">
-        <h2>Lift Off</h2>
+        <h3>Lift Off</h3>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble,
           the most beautiful yu can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if
           you touched it with a finger it would fall apart. Seeing this has to change a man.
@@ -92,19 +115,19 @@
     <!-- 4 -->
     <div class="row mb-5">
       <div class="col-sm-4">
-        <img src="img/blast.jpg" class="image-fluid mw-100 rounded" alt="Blast image">
+        <img src="img/blast.jpg" class="image-fluid mw-100 rounded my-1" alt="Blast image">
       </div>
       <div class="col-sm-4">
-        <img src="img/sky.jpg" class="image-fluid mw-100 rounded my-2" alt="Sky image">
+        <img src="img/sky.jpg" class="image-fluid mw-100 rounded my-1" alt="Sky image">
       </div>
       <div class="col-sm-4">
-        <img src="img/launch.jpg" class="image-fluid mw-100 rounded" alt="Launch image">
+        <img src="img/launch.jpg" class="image-fluid mw-100 rounded my-1" alt="Launch image">
       </div>
     </div>
     <!-- 5 -->
     <div class="row mb-5">
       <div class="col-sm-12">
-        <h2>Can We Visit Planets?</h2>
+        <h3>Can We Visit Planets?</h3>
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having
           the qualities of a globe, a round earth in which all the directions eventually meet.</p>
         <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals.
@@ -150,7 +173,7 @@
     <!-- 7 -->
     <div class="row my-5 p-5 border-top border-bottom">
       <div class="col-sm-6">
-        <h2>Let's Go For A Walk</h2>
+        <h3>Let's Go For A Walk</h3>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth
           was absolutely round.
         </p>
@@ -159,13 +182,13 @@
         </p>
       </div>
       <div class="col-sm-6">
-        <img src="img/space-walk.jpg" class="image-fluid mw-100 rounded" alt="Space-walk image">
+        <img src="img/space-walk.jpg" class="image-fluid rounded mw-100" alt="Space-walk image">
       </div>
     </div>
     <!-- 8 -->
-    <div class="row mb-5">
-      <div class="col-sm-8 mb-3">
-        <h2>Ready To Go?</h2>
+    <div class="row mb-4">
+      <div class="col-sm-8 mb-5">
+        <h3>Ready To Go?</h3>
         <form>
           <div class="form-group">
             <label for="exampleInputName1">Name</label>
@@ -187,24 +210,29 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck2">
             <label class="form-check-label" for="exampleCheck2">Please don't send me emails</label>
           </div>
-          <button type="submit" class="btn btn-primary">Ready For Launch</button>
+          <button type="submit" class="btn btn-dark">Ready For Launch</button>
         </form>
         <!-- Form -->
       </div>
       <div class="col-sm-4">
-        <h2>Space Stuff</h2>
-        <ul class="list-group">
-          <li class="list-group-item">Space Helmet</li>
-          <li class="list-group-item">Rocket Boosters</li>
-          <li class="list-group-item">Shuttle</li>
-          <li class="list-group-item">Training for Launch</li>
-          <li class="list-group-item">Heat resistant plating</li>
-          <li class="list-group-item">Space Suit</li>
-        </ul>
+        <h3 class="btn btn-dark btn-lg" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Space Stuff
+        </h3>
+        <div class="collapse" id="collapseExample">
+          <ul class="list-group">
+            <li class="list-group-item">Space Helmet</li>
+            <li class="list-group-item">Rocket Boosters</li>
+            <li class="list-group-item">Shuttle</li>
+            <li class="list-group-item">Training for Launch</li>
+            <li class="list-group-item">Heat resistant plating</li>
+            <li class="list-group-item">Space Suit</li>
+          </ul>
+        </div>
       </div>
+      <!-- Collapse -->
     </div>
     <!-- 9 -->
-    <div class="row mt-4">
+    <div class="row">
       <div class="col-sm-12">
         <footer class="w-100 d-flex justify-content-center pt-3">
           <p>Copyright SpaceWalkers 2018</p>

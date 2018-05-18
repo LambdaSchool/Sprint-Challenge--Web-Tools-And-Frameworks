@@ -8260,6 +8260,9 @@ nav a {
   color: black;
   margin: 0 2px;
 }
+.navbar-brand {
+  font-size: 28px;
+}
 footer {
   background-color: #dbdbdb;
   height: 75px;
