@@ -14,9 +14,13 @@
             if (form.checkValidity() === false) {
               event.preventDefault();
               event.stopPropagation();
+              $('.badForm').modal('show');
+            }
+            if (form.checkValidity() === true) {
+              event.preventDefault();
+              $('.launchModal').modal('show');
             }
             form.classList.add('was-validated');
-            // $('.launchModal').modal('show');
           },
           false,
         );
