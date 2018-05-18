@@ -8269,6 +8269,10 @@ h5 {
   -moz-box-shadow: 5px 5px 5px black;
   box-shadow: 5px 5px 5px black;
 }
+.space-stuff {
+  background: #e0e0e0;
+  color: black;
+}
 .space-walk:hover {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
