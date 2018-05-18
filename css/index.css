@@ -8249,6 +8249,10 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navbar a {
+  color: inherit;
+  font-family: inherit;
+}
 .top-content-pictures {
   display: flex;
   justify-content: space-between;
@@ -8260,4 +8264,18 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.center-content img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.footer .jumbotron {
+  height: 50%;
 }
