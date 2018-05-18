@@ -8259,3 +8259,13 @@ h5 {
   width: 30%;
   height: 100%;
 }
+.middle-content1 table {
+  margin-bottom: 4rem;
+}
+.bottom-content form button {
+  background: #22283B;
+  margin-top: .5rem;
+}
+footer {
+  background: #e0e0e0;
+}
