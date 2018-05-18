@@ -8264,3 +8264,13 @@ h5 {
 .list-items {
   color: #22283B;
 }
+.footer {
+  background: #e0e0e0;
+  padding: 30px 0;
+}
+.modal-button {
+  -webkit-transform: skew(5deg, 5deg);
+  -moz-transform: skew(5deg, 5deg);
+  -ms-transform: skew(5deg, 5deg);
+  -o-transform: skew(5deg, 5deg);
+}
