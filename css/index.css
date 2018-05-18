@@ -8248,6 +8248,7 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+  text-transform: capitalize;
 }
 .container-fluid {
   position: fixed;
