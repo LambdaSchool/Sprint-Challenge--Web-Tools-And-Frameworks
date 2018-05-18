@@ -8249,3 +8249,7 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.footer {
+  background-color: whitesmoke;
+  padding: 20px 0;
+}
