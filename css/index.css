@@ -8249,3 +8249,17 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  width: 100%;
+  background: #f4f4f4;
+}
+.container-space {
+  background: #e0e0e0;
+  border-bottom: 2px solid gray;
+}
+.container {
+  width: 880px;
+}
+h1 {
+  text-align: center;
+}
