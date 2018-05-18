@@ -17,12 +17,160 @@
 
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
+    <div class="container text-center navgroup">
+      <div class="row">
+      </div>
+      <div class="col">
+          <h1>SpaceWalkers</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+          <a href="#">Sign In</a>
+        </nav>
       </div>
     </div>
-  </div>
+  </div> <!-- container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Lift Off</h3>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most
+        beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with
+        a finger it would fall apart. Seeing this has to change a man.</p>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./img/blast.jpg" class="img-fluid" alt="Blastoff!">
+          </div>
+          <div class="col-sm-4">
+            <img src="./img/sky.jpg" class="img-fluid" alt="Flying">
+          </div>
+          <div class="col-sm-4">
+            <img src="./img/launch.jpg" class="img-fluid" alt="Lift off!">
+          </div>
+        </div> <!-- row -->
+      </div> <!-- col -->
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Can We Visit Planets?</h3>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the
+        qualities of a globe, a round earth in which all the directions eventually meet.</p>
+        <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+      </div> <!-- col -->
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mars</th>
+              <td>54.6 million km</td>
+              <td>Maybe</td>
+              <td>300 Days</td>
+            </tr>
+            <tr>
+              <th scope="row">Jupiter</th>
+              <td>588 million km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturn</th>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- col -->
+    </div> <!-- row -->
+    <hr>
+    <div class="row">
+      <div class="col-5 offset-1">
+        <h4>Let's Go For A Walk</h4>
+        <p class="walk-font">The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was
+          absolutely round.</p>
+        <p class="walk-font">It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb
+        blotted out the planet Earth.</p>
+      </div>
+      <div class="col-5">
+        <img src="./img/space-walk.jpg" class="img-fluid" alt="Space Walk">
+      </div>
+    </div> <!-- row -->
+    <hr>
+    <div class="row">
+      <div class="col-8">
+        <h5>Ready to Go?</h5>
+        <form class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" placeholder="Name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" type="phone" class="form-control" placeholder="Phone" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please enter your phone number.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="text" class="form-control" placeholder="Email" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please enter your email.
+            </div>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="wantEmails">
+            <label class="form-check-label" for="wantEmails">I would like to receive promotional emails</label>
+            <br>
+            <input type="checkbox" class="form-check-input" id="noEmails">
+            <label class="form-check-label" for="noEmails">Please don’t send me emails</label>
+          </div>
+          <button type="submit" class="btn launchButton">Ready For Launch</button>
+        </form>
+      </div> <!-- col -->
+      <div class="col-4">
+        <h5>Space Stuff</h5>
+        <ul class="list-group space-list-font">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Heat resistant plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div> <!-- col-4 -->
+    </div> <!-- row -->
+    <div class="row footer mt-5 text-center">
+      <div class="col-sm-12">
+        <br>
+         Copyright SpaceWalkers 2018
+      </div>
+    </div>
+  </div> <!-- container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

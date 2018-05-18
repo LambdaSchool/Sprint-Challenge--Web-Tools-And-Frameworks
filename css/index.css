@@ -8249,3 +8249,28 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navgroup {
+  background-color: #e0e0e0;
+}
+nav {
+  margin-left: -60px;
+}
+nav a {
+  color: #22283B;
+  padding-left: 30px;
+}
+.walk-font {
+  font-size: .8rem;
+}
+.space-list-font {
+  font-size: .9rem;
+}
+.launchButton {
+  background-color: #22283B;
+  color: #f4f4f4;
+}
+.footer {
+  background-color: #e0e0e0;
+  height: 60px;
+  font-size: .8rem;
+}
