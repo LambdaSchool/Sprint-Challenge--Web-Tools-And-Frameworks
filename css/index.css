@@ -8249,8 +8249,15 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  position: fixed;
+  z-index: 100;
+}
 .main-nav .nav-link {
   color: black;
+}
+.carousel-row {
+  padding-top: 95px;
 }
 .main-nav-bg {
   background: #f4f4f4;
