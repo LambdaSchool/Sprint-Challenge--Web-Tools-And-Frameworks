@@ -15,12 +15,12 @@
   <![endif]-->
 </head>
 <body>
-  <div class="container ">
+  <div class="container-fluid sticky-top bg-light border-bottom border-secondary">
     <div class="row">
-    <div class='col-12'>
+    <div class="col-sm-12 d-flex align-items-center flex-column">
       <h1>SpaceWalkers</h1>
     </div>
-      <ul class="col-12 nav justify-content-center">
+      <ul class="col-12 nav justify-content-center ">
         <li class="nav-item">
           <a class="nav-link Home" href="#">Home</a>
         </li>
@@ -37,17 +37,30 @@
           <a class="nav-link Sign-In" href="#">Sign In</a>
         </li>
       </ul>
+    </div>
     </div> <!--row-->
   </div> <!--container-->
-<div class="container col-3 justify-content-start">
+<!-- <div class="row pt-5 pb-5 border-bottom"> -->
+    <div class="row pt-5 pb-5">
+  <div class="border-bottom border-top">
+  <div class="col-sm-6 pl-5 pr-5 pt-5 pb-5">
   <h2> Let's Go For A Walk</h2>
   <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
-
+  <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+  <!-- <div class="col-sm-6 pl-5 pr-5"> -->
+  <img src="img/space-walk.jpg">
+  </div>
+  <!-- </div> -->
 </div>
-
-<div class="container">
+</div>
+<div class="row pt-5 pb-5">
+<div class="col-lg-6 pl-5 pr-5">
   <h1>Ready to Go?</h1>
     <form>
+        <div class="form-group">
+            <label for="exampleInputName1">Name</label>
+            <input type="Name" class="form-control" id="exampleInputName1" placeholder="Name">
+          </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -59,11 +72,23 @@
         </div>
         <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">Please don’t send me emails</label>
+          </div>
+        <button type="submit" class="btn btn-primary">Ready For Launch</button>
       </form>
 </div>
+      <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+</div> <!--main container -->
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
