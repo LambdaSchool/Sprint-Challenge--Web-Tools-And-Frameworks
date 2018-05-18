@@ -8276,7 +8276,7 @@ h5 {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-@media ((max-width:768px)) {
+@media (max-width:768px) {
   .lift-off .img-lift-off {
     margin-top: 20px;
   }
