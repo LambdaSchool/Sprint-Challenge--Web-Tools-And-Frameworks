@@ -8253,6 +8253,7 @@ h5 {
   border: 1px solid red;
   background: #F2F2F2;
   color: black;
+  opacity: 0.8;
 }
 .container-fluid a {
   color: black;
