@@ -6,3 +6,96 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+
+.container {
+    max-width: 800px;
+}
+
+.container-fluid{
+   border-bottom: 1px solid #e0e0e0;
+
+}
+
+
+.header-style{
+    justify-content: center;
+}
+
+nav{
+	a{
+	color: #22283B;
+	}
+}
+
+.custom-header{
+	background-color: #f4f4f4;
+	/*border: 1px solid #e0e0e0;*/
+}
+
+.image-style{
+	.border-radius (@radius: 5px);
+	@media(max-width: 400px){
+	margin-bottom: 6%;
+}
+
+}
+
+.op-style{
+	.opacity (@opacity: 0.5);
+
+}
+
+
+.mt-1{
+    margin-left: -4%;
+   
+     @media(max-width: 768px){
+      margin-left: -1%;
+	margin-right: -1%;
+}
+}
+
+.mt-5{
+    @media(max-width: 768px){
+    padding-left: 3%;
+}
+    @media(max-width: 400px){
+    padding-left: 6%;
+    padding-right: 3%;
+}
+}
+
+.col-sm-4{
+	 @media(max-width: 400px){
+	margin-top: 5%;
+}
+}
+
+
+
+.col-12{
+    margin-left: -2%;
+    @media(max-width: 768px){
+    margin-left: 0%;
+}
+}
+
+
+
+.btn-primary{
+	background-color: #22283B;
+	border: 1px solid #22283B;
+}
+
+.custom-footer{
+	background-color: #f4f4f4;
+	color: #22283B;
+	.border-radius (@radius: 5px);
+	border: 1px solid #e0e0e0;
+}
+
+.btn-custom{
+        background-color: #22283B;
+        border: 1px solid #22283B;
+}
