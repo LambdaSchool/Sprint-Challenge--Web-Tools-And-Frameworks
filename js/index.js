@@ -19,6 +19,10 @@
             if (form.checkValidity() === true) {
               event.preventDefault();
               $('.launchModal').modal('show');
+              // refresh the page when close the modal
+              $('.needs-validation').on('hidden.bs.modal', function() {
+                location.reload();
+              });
             }
             form.classList.add('was-validated');
           },

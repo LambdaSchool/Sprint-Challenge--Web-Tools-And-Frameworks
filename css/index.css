@@ -8266,6 +8266,7 @@ nav a {
   -webkit-box-shadow: 5px 10px #888888;
   -moz-box-shadow: 5px 10px #888888;
   box-shadow: 5px 10px #888888;
+  border: 1px solid black;
 }
 .midImage {
   -webkit-border-radius: 10px;
