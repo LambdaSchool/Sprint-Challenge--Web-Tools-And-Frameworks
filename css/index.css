@@ -8259,6 +8259,11 @@ h5 {
 .carousel-row {
   padding-top: 95px;
 }
+@media (max-width:768px) {
+  .carousel-row {
+    padding-top: 125px;
+  }
+}
 .main-nav-bg {
   background: #f4f4f4;
   border-bottom: 1px solid #e0e0e0;
@@ -8270,6 +8275,11 @@ h5 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+@media ((max-width:768px)) {
+  .lift-off .img-lift-off {
+    margin-top: 20px;
+  }
 }
 .go-walking .img-space-walk {
   -webkit-border-radius: 5px;
