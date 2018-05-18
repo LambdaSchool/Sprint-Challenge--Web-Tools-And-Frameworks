@@ -1,8 +1,85 @@
-html, body {
-    font-family: 'Ubuntu', sans-serif;
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Russo One", sans-serif;
+  color: @secondary-color;
+}
+
+.carousel-item img {
+  height: 250px;
+  width: 500px;
+}
+
+.nav-bg {
+  border-bottom: 1.5px solid @accent-color;
+  background: @main-color;
+  width: 100%;
+}
+
+nav {
+  margin-left: -15%;
+  margin-right: -15%;
+  a {
     color: @secondary-color;
+  }
+}
+
+.lift-off img {
+  .border-radius(20px);
+  height: 250px;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.border {
+  border-bottom: 1px solid @accent-color;
+}
+
+.walk {
+  margin-bottom: 50px;
+}
+
+.space-walk {
+  height: 210px;
+  width: 275px;
+  margin-top: -210px;
+  margin-right: 70px;
+  margin-left: 50px;
+  .border-radius;
+}
+
+.btn {
+  background: @secondary-color;
+  color: @main-color;
+  &:hover {
+    .skew(20deg, 0);
+  }
+}
+
+.space-stuff {
+  margin-top: -395px;
+}
+
+.footer {
+  border-top: 1.5px solid @accent-color;
+  border-right: 1.5px solid @accent-color;
+  .border-radius(10px);
+  border-left: 1.5px solid @accent-color;
+  height: 90px;
+  background: @main-color;
+  width: 75%;
+  text-align: center;
+  margin-left: 15%;
+
+  p {
+    margin-top: 35px;
+  }
 }
