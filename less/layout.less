@@ -1,8 +1,86 @@
-html, body {
+html,
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+    text-transform: capitalize;
+}
+
+// Custom General Styles
+
+
+
+// Navbar
+.container-fluid {
+    position: fixed;
+        z-index: 100;
+}
+
+.main-nav {
+    .nav-link {
+        color: black;
+    }
+}
+
+.carousel-row {
+    padding-top: 95px;
+    @media @tablet {
+        padding-top: 125px;
+    }
+}
+
+.main-nav-bg {
+    background: @main-color;
+    border-bottom: 1px solid @accent-color;
+}
+
+//Lift Off Section
+.lift-off {
+    .img-lift-off {
+        .border-radius();
+        @media @tablet {
+            margin-top: 20px;
+        }
+    }
+}
+
+// Go Walking Section
+.go-walking {
+    .img-space-walk {
+        .border-radius();
+    }
+}
+
+//Contact Section
+.contact {
+    .btn-launch {
+        color: white;
+        background: @secondary-color;
+        .box-shadow(@standard-box-shadow);
+    }
+}
+
+.second-column {
+    @media @tablet {
+    margin-top: 40px;
+    }
+}
+
+
+// Footer
+footer {
+    background: @main-color;
+    height: 100px;
+    padding: 20px 0 50px;
+    margin-top: 70px;
+    .copyright-text {
+        text-align: center;
+    }
 }
