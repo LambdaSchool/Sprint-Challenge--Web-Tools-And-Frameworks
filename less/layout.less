@@ -6,3 +6,31 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+.container-fluid {
+    background-color: @main-color;
+}
+.nav-link {
+    text-decoration: none;
+    color:black;
+}
+
+.container-main {
+    max-width: 800px;
+    width:100%;
+}
+
+.footer {
+    background-color: @main-color;
+}
+
+.btn {
+    background: @secondary-color;
+    .box-shadow(5px 5px 5px black); //box-shadow Mixin
+}
+
+.space-walk {
+
+    &:hover {
+        .rotate(180deg); //rotate Mixin
+    }
+}
