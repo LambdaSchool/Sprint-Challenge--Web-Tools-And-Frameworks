@@ -6,3 +6,41 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+    background-color:@accent-color;
+    border-bottom: 2px silver;    
+}
+
+.container {
+    max-width: 800px;
+}
+
+
+img {
+    .border-radius();
+    // .box-shadow(0px 5px 5px red)
+    .opacity(0.5);
+}
+
+.not-rounded {
+    .border-radius(0px);
+    .opacity(1);
+}
+
+.custom1 {
+    text-align: center;
+}
+
+.custom-border-1 {
+    border: 2px solid red !important;
+}
+
+
+
+.footer {
+    color: black;
+    background: @accent-color;
+    padding: 20px 0;
+    text-align: center;
+}
