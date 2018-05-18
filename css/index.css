@@ -8249,11 +8249,14 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.navgroup {
+.container-fluid {
   background-color: #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  height: 90px;
 }
 nav {
   margin-left: -60px;
+  border-bottom: 1px #e0e0e0 solid;
 }
 nav a {
   color: #22283B;
