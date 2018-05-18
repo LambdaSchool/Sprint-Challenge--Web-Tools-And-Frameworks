@@ -8252,3 +8252,15 @@ h5 {
 .container {
   max-width: 800px;
 }
+.container-fluid {
+  background: #f4f4f4;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+.container-fluid nav a {
+  color: #22283B;
+}
+.list-items {
+  color: #22283B;
+}
