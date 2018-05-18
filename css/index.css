@@ -8252,8 +8252,16 @@ h5 {
 hr {
   padding: 0;
 }
+img {
+  -webkit-box-shadow: 4px 4px #f4f4f4;
+  -moz-box-shadow: 4px 4px #f4f4f4;
+  box-shadow: 4px 4px #f4f4f4;
+}
 .container-fluid {
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid #e0e0e0;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
 }
 .container {
   width: 100%;
@@ -8265,5 +8273,5 @@ hr {
   height: 100px;
 }
 .border-secondary {
-  border-color: lightgray !important;
+  border-color: #e0e0e0 !important;
 }

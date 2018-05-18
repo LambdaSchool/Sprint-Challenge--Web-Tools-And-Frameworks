@@ -11,12 +11,17 @@ hr {
   padding: 0;
 }
 
+img {
+  .box-shadow(4px 4px @main-color);
+}
+
 * {
   // border: 1px solid red;
 }
 
 .container-fluid {
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid @accent-color;
+  .opacity(0.90);
 }
 
 .container {
@@ -32,5 +37,5 @@ hr {
 }
 
 .border-secondary {
-  border-color: lightgray !important;
+  border-color: @accent-color !important;
 }
