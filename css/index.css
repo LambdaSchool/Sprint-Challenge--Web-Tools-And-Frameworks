@@ -8296,6 +8296,11 @@ h5 {
   -moz-box-shadow: 2px 2px #888888;
   box-shadow: 2px 2px #888888;
 }
+@media (max-width:768px) {
+  .second-column {
+    margin-top: 40px;
+  }
+}
 footer {
   background: #f4f4f4;
   height: 100px;
