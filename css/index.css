@@ -8256,3 +8256,6 @@ h5 {
 .nav {
   justify-content: space-between;
 }
+.modal .modal-header {
+  background-color: blue;
+}
