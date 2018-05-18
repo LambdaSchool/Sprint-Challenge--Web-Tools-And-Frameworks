@@ -8237,6 +8237,11 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.navigation {
+  background-color: #f4f4f4;
+  color: #22283B;
+  text-decoration: none;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8245,7 +8250,35 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.container {
+  max-width: 960px;
+}
+.header {
+  background-color: #f4f4f4;
+  color: #22283B;
+  text-decoration: none;
+}
+.header .nav li {
+  margin: 0px 1.5%;
+}
+.header .nav li a {
+  color: inherit;
+  font-weight: bold;
+}
+footer {
+  background-color: #f4f4f4;
+  color: #22283B;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+form .btn {
+  background-color: black;
+  height: 300px;
 }
