@@ -8249,6 +8249,13 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.nav a {
+  color: #22283B;
+}
 .container {
   max-width: 800px;
+}
+.footer {
+  color: black;
+  padding: 20px 0;
 }
