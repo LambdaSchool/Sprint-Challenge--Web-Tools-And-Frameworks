@@ -8253,3 +8253,6 @@ h5 {
 .container {
   max-width: 900px;
 }
+.container-fluid {
+  background: rgba(255, 255, 255, 0.5);
+}
