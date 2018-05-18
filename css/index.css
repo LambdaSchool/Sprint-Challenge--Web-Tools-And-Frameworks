@@ -8265,6 +8265,9 @@ h5 {
 .custom-container .rocket-pictures {
   max-width: 250px;
 }
+.custom-container .modal-button-text {
+  color: #f4f4f4;
+}
 .footer {
   color: #22283B;
   background: #f4f4f4;
