@@ -8252,3 +8252,6 @@ h5 {
 .container {
   max-width: 800px;
 }
+.footer {
+  text-align: center;
+}
