@@ -1,1 +1,52 @@
 // Make your imports here!
+@import 'bootstrap';
+
+@import 'variables';
+
+@import 'mixins';
+
+@import 'mixins';
+
+@import 'layout';
+
+header {
+    background: @accent-color;
+    border-bottom: 1px solid #d9d9d9;
+    h1 {
+        text-align: center;    
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        color: black;
+        a {
+            padding: 0 15px;
+        }
+    }
+}
+
+.rocket-imgs {
+    .border-radius(5px);  // why won't this work????
+}
+
+.go-for-walk {
+    padding: 40px 50px 60px;
+    .astronaut {
+        .opacity;
+        .border-radius(10px);  // why won't this work????
+    } 
+}
+
+.readyToGo {
+    padding-top: 40px;
+
+}
+
+.footer {
+    text-align: center;
+    background: @accent-color;
+    height: 70px;
+    padding-top: 20px;
+    font-size: 12px;
+}
