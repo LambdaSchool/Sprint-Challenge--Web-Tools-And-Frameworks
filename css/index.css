@@ -8255,6 +8255,11 @@ h5 {
 .nav a {
   color: #22283B;
 }
+.img-fluid:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
 .btn-primary {
   background-color: #22283B;
   border-color: #22283B;
@@ -8262,4 +8267,12 @@ h5 {
 .btn-info {
   background-color: #22283B;
   border-color: #22283B;
+}
+.border {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
