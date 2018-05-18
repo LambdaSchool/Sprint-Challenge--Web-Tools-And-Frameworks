@@ -8266,7 +8266,12 @@ nav a {
   color: #22283B;
 }
 .lift-off img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   height: 250px;
   width: 300px;
   margin-left: 15px;
@@ -8284,5 +8289,32 @@ nav a {
   margin-top: -210px;
   margin-right: 70px;
   margin-left: 50px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
   border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.btn {
+  background: #22283B;
+  color: #f4f4f4;
+}
+.btn:hover {
+  -webkit-transform: skew(20deg, 0);
+  -moz-transform: skew(20deg, 0);
+  -ms-transform: skew(20deg, 0);
+  -o-transform: skew(20deg, 0);
+}
+.space-stuff {
+  margin-top: -395px;
+}
+.footer {
+  border-top: 1.5px solid #e0e0e0;
+  border-right: 1.5px solid #e0e0e0;
+  border-left: 1.5px solid #e0e0e0;
+  height: 90px;
+  background: #f4f4f4;
+  width: 100%;
+  text-align: center;
 }
