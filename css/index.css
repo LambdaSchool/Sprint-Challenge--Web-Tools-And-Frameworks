@@ -8249,3 +8249,23 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+h2 {
+  margin-top: 3rem;
+}
+.my-header {
+  background: #e0e0e0;
+  text-align: center;
+}
+.my-nav {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.my-nav a:link,
+.my-nav a:visited,
+.my-nav a:hover,
+.my-nav a:active {
+  color: black;
+}
+.my-nav a {
+  padding: 0 20px;
+}
