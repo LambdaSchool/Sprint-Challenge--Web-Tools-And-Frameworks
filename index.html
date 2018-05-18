@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +17,233 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
+  <div class="container-fluid sticky-top">
+    <div class="contianer custom-nav mx-auto">
+      <div class="row header">
+        <div class="col-12">
+          <h1>SpaceWalkers</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
   </div>
+
+
+  <div class="container custom-container">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-4.jpg" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h1 class="mt-3">Lift Off</h1>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
+    </div>
+
+    <div class="row my-3 d-flex justify-content-between">
+      <div class="col-3">
+        <img src="img/blast.jpg" alt="A rocket ship in flight" class= "rocket-pictures">
+      </div>
+      <div class="col-3">
+        <img src="img/sky.jpg" alt="An glowing arc in the night sky" class= "rocket-pictures">
+      </div>
+      <div class="col-3">
+        <img src="img/launch.jpg" alt="A rocket ship taking off" class= "rocket-pictures">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h2>Can we visit Planets?</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <p class="my-2">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+
+        <p class="my-2">which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 my-5">
+        <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Planet</th>
+      <th scope="col">Distance</th>
+      <th scope="col">Survivability</th>
+      <th scope="col">How long to travel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Mars</th>
+      <td>54.6 million km</td>
+      <td>Maybe</td>
+      <td>300 days</td>
+    </tr>
+    <tr>
+      <th scope="row">Jupiter</th>
+      <td>588 million km</td>
+      <td>No</td>
+      <td>Depends On Orbit (3-6 Years)</td>
+    </tr>
+    <tr>
+      <th scope="row">Saturn</th>
+      <td>1.2 billion km</td>
+      <td>No</td>
+      <td>Depends On Orbit (3-6 Years)</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 my-3">
+        <h2>Let's Go For A Walk</h2>
+        <p class="my-3">The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        <p class="my-3">It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+
+      <div class="col-6">
+        <img src="img/space-walk.jpg" alt="An astronaut in spacesuit">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-9 my-3">
+        <h2>Ready To Go?</h2>
+        <form class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" placeholder="Name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" type="phone" class="form-control" placeholder="Phone" required>
+            <div class="invalid-feedback">
+              Please enter your phone number.
+            </div>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+          <div class="form-group">
+
+
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" placeholder="Email" required>
+            <div class="invalid-feedback">
+              Please enter your email.
+            </div>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+          <div class="form-group">
+
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="checkboxes" id="checkbox1" value="option1">
+              <label class="form-check-label" for="checkbox1">
+              I would like to receive promotional emails
+            </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="checkboxes" id="checkbox2" value="option2">
+              <label class="form-check-label" for="checkbox2">
+              Please don't send emails
+            </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-dark">Ready For Launch</button>
+          </div>
+        </form>
+      </div>
+    </div>
+      </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
+
 </html>
