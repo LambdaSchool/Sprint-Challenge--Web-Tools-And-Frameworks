@@ -7,7 +7,15 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
-.cs--less {
-  color: red;
-  background-color: red;
+a {
+  color: @secondary-color;
+
+  &:hover {
+    color: lighten(@secondary-color, 30%);
+  }
+}
+
+header {
+  background-color: @main-color;
+  border-bottom: 2px solid @accent-color;
 }

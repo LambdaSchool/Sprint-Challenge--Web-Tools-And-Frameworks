@@ -8249,7 +8249,13 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.cs--less {
-  color: red;
-  background-color: red;
+a {
+  color: #22283B;
+}
+a:hover {
+  color: #5a6a9c;
+}
+header {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #e0e0e0;
 }
