@@ -8256,3 +8256,12 @@ h5 {
   background: #f4f4f4;
   border-bottom: 1px solid #e0e0e0;
 }
+footer {
+  background: #f4f4f4;
+  height: 100px;
+  padding: 20px 0 50px;
+  margin-top: 70px;
+}
+footer .copyright-text {
+  text-align: center;
+}
