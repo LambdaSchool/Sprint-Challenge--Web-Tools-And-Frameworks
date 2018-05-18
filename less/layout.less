@@ -24,16 +24,17 @@ h1, h2, h3, h4, h5 {
 .custom-container {
   max-width: 900px;
 
-  .rocket-pictures {
-    max-width: 250px;
-  }
-
   .modal-button-text {
     color: @main-color
   }
 
   hr {
     border: 1px solid @accent-color;
+  }
+
+  @media (max-width: 768px) {
+    .rocket-pictures {
+    }
   }
 }
 
