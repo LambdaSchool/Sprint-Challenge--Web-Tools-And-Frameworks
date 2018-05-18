@@ -8249,15 +8249,10 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  border: 1px solid black;
-}
-.row {
-  border: 4px solid orange;
-}
 .header {
   display: flex;
   justify-content: center;
+  background-color: #e0e0e0;
 }
 nav {
   display: flex;
@@ -8275,4 +8270,8 @@ nav {
 }
 .walk {
   padding: 20px;
+}
+footer {
+  text-align: center;
+  background-color: #e0e0e0;
 }
