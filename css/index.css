@@ -8257,8 +8257,19 @@ h5 {
 .logo-heading {
   padding: 20px 0 10px;
 }
-.nav a {
-  color: black;
+.black {
+  background-color: #22283B;
+  font-family: 'Russo One', sans-serif;
+  color: #f4f4f4;
+}
+.nav .black a {
+  background-color: #22283B;
+  font-family: 'Russo One', sans-serif;
+  color: #f4f4f4;
+}
+.nav-link a {
+  font-family: 'Russo One', sans-serif;
+  color: #f4f4f4;
 }
 .container {
   max-width: 1000px;

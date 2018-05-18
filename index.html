@@ -9,7 +9,20 @@
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  
+  <script type="text/javascript">
+    $(window).on('scroll', function(){
+      if ($(window).scrollTop()){
+      $('nav').addClass('black');
+    }
+    else
+    {
+      $('nav').removeClass('black');
+    }
+    })
+  </script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -30,13 +43,13 @@
         </div>
 
         <!-- used flexbox utilites on nav -->
-        <div class="col-12  align-items-center">
-          <nav class="nav justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Sign In</a>
+        <div class="col-12 ">
+          <nav class="nav   justify-content-center">
+            <a class="nav nav-link active" href="#">Home</a>
+            <a class="nav nav-link" href="#">About Us</a>
+            <a class="nav nav-link" href="#">Blog</a>
+            <a class="nav nav-link" href="#">Contact</a>
+            <a class="nav nav-link" href="#">Sign In</a>
           </nav>
         </div>
       </div>
