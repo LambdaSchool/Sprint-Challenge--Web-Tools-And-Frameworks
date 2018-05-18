@@ -6,3 +6,83 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.bg-header {
+    background: #EFEFEF;
+    border-bottom: 2px solid #CCCCCC;
+    .opacity(.85);
+}
+
+.nav-color {
+    color: @secondary-color;
+    font-weight: 500;
+	&:hover {
+		color: lighten(@secondary-color, 20%);
+	}
+}
+
+.c-footer {
+    background: @accent-color;
+    .border-radius(20px,20px,0%,0%);
+    color: @secondary-color;
+    text-align: center;
+}
+
+.btn-bg {
+    background: @secondary-color;
+    
+    &:hover {
+        background: darken(@secondary-color, 20%);
+        .box-shadow(0px 30px 75px lighten(@launch-color,5%));
+    }
+}
+
+.border-radius(@tl, @tr, @br, @bl) {
+    border-top-left-radius: @tl;
+    border-top-right-radius: @tr;
+    border-bottom-right-radius: @br;
+    border-bottom-left-radius: @bl;
+}
+
+// specifically for checkbox styling (starts here)
+.checkbox label:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+  }
+  
+  .checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 15%;
+  }
+  
+  .checkbox label input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkbox label input[type="checkbox"]+.cr>.cr-icon {
+    opacity: 0;
+  }
+  
+  .checkbox label input[type="checkbox"]:checked+.cr>.cr-icon {
+    opacity: 1;
+  }
+  
+  .checkbox label input[type="checkbox"]:disabled+.cr {
+    opacity: .5;
+  }
+  //checkbox styling ends here
