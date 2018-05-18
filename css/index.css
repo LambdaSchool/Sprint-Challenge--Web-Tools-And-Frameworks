@@ -8249,37 +8249,69 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
-  font-weight: 550;
+.container-fluid {
+  font-weight: 500;
+  font-size: 20px;
 }
-.container .header .header-text nav a {
-  color: black;
+.container-fluid .header {
+  background: #f4f4f4;
+  border-bottom: 2px solid #e0e0e0;
 }
-.container .carousel {
+.container-fluid .header .header-text h1 {
   display: flex;
   justify-content: center;
 }
-.container .main-content .img {
-  max-width: 100%;
+.container-fluid .header .header-text nav {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
 }
-.container .side-content {
+.container-fluid .header .header-text nav .dropdown .btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.container-fluid .header .header-text nav a {
+  color: black;
+  padding-right: 30px;
+}
+.container-fluid .header .header-text nav a:last-child {
+  padding-right: 0;
+}
+.container-fluid .carousel {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid .main-content .img {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid .main-content .img img {
+  padding-right: 40px;
+  border-radius: 5px;
+}
+.container-fluid .main-content .img img:last-child {
+  padding-right: 0;
+}
+.container-fluid .side-content {
   border-top: 1px solid #e0e0e0;
 }
-.container .end-form {
+.container-fluid .end-form {
   border-top: 1px solid #e0e0e0;
   margin-top: 40px;
   padding-top: 50px;
 }
-.container .end-form .form form .checkboxes {
+.container-fluid .end-form .form form .checkboxes {
   margin-bottom: 5px;
 }
-.container .end-form .form button {
+.container-fluid .end-form .form button {
   background: #22283B;
   border: none;
 }
-.container .footer {
+.container-fluid .footer {
   background: #e8e8e8;
   border: 1px solid #d3d3d3;
   border-radius: 5px;
