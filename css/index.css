@@ -8312,9 +8312,16 @@ nav a {
 .footer {
   border-top: 1.5px solid #e0e0e0;
   border-right: 1.5px solid #e0e0e0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   border-left: 1.5px solid #e0e0e0;
   height: 90px;
   background: #f4f4f4;
-  width: 100%;
+  width: 75%;
   text-align: center;
+  margin-left: 15%;
 }
