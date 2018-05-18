@@ -8260,6 +8260,9 @@ nav a {
   background-color: #22283B;
   border-color: #22283B;
 }
+.now-btn {
+  margin-left: 15px;
+}
 .footer-row {
   background-color: #f4f4f4;
 }
