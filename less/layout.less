@@ -6,3 +6,34 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+    background: @main-color;
+    border-bottom: 1px solid darken(@main-color, 50%);
+    .opacity(0.75);
+}
+
+.container {
+    max-width: 880px;
+}
+
+.navigation {
+    display: block;
+    text-align: center;
+}
+
+.btn-custom {
+    background: @secondary-color
+}
+
+.footer {
+    background: @main-color;
+    border: 1px solid @accent-color;
+    
+    p {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
