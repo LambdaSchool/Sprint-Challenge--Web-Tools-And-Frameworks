@@ -12,14 +12,44 @@
     background-color: @main-color;
 .nav .nav-link {
     color: @secondary-color;
+    &:hover{
+        .opacity;
+    } 
 }
 }
 .container {
     width: 880px;
 }
-.row.lift{  
-    .padding;
+.row.lift h3{
+    &:hover {
+        .skew(5deg,5deg);
+    }
 }
-.row.visit{
-    .padding;
+.row.visit h3 {
+    &:hover {
+        .rotate(2deg);
+    }
+}
+.row.walk {
+    border-top: 1px solid @accent-color;
+    border-bottom: 1px solid @accent-color;
+    h3 {
+        &:hover {
+            .rotate(2deg);
+        }
+    }
+
+}
+.row.form {
+    button {
+        background-color: @secondary-color;
+        border: @secondary-color;
+    }
+    .list-group button {
+        color: @secondary-color;
+        background-color: @accent-color;
+    }
+}
+.row.footer {
+    background-color: @main-color;
 }
