@@ -1,4 +1,9 @@
 <!-- Answers to the Self Study Questions go here -->
+1. Preprocessing enable users to type in a different structure or abbreviate style of the machine/lower level language.
+2. yarn global add less
+3. .border-radius and .box-shadow
+4. xs, sm, md, l and xl
+5. d-flex
 
 1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
 2. What is the yarn command to globally install LESS?
