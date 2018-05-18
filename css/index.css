@@ -8265,3 +8265,9 @@ h5 {
 .custom-container .rocket-pictures {
   max-width: 250px;
 }
+.footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
