@@ -8249,3 +8249,18 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  max-width: 800px;
+}
+.sticky-top {
+  background-color: #e0e0e0;
+}
+header {
+  text-align: center;
+}
+.d-inline-flex {
+  width: 32%;
+}
+footer {
+  background: #e0e0e0;
+}
