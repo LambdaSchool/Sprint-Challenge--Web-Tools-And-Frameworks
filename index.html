@@ -16,9 +16,9 @@
 </head>
 
 <body>
-  <div class="container-fluid sticky-top">
+  <div class="container-fluid sticky-top nav-color">
     <div class="container">
-      <div class="row d-flex justify-content-center">
+      <div class="row text-center pt-2">
         <div class="col-12">
           <h1 class="">Space Walkers</h1>
         </div>
@@ -38,9 +38,9 @@
   </div>
 
   <div class="container">
-
+<!-- Javascript Component: Carousel -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner rounded">
         <div class="carousel-item active">
           <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
         </div>
@@ -66,7 +66,7 @@
 
     <div class="row mt-5">
       <div class="col-sm-12">
-        <h1>Lift Off</h1>
+        <h2>Lift Off</h2>
         <p>As we got further and further away, it [the Earth] diminished
         in size. Finally it shrank to the size of a marble, the most beautiful
         you can imagine. That beautiful warm, living object looked so fragile,
@@ -76,13 +76,13 @@
     </div>
     <div class="row mb-5">
       <div class="col-sm-4">
-        <img src="img/blast.jpg" class="img-fluid" alt="Space shuttle heading to space">
+        <img src="img/blast.jpg" class="img-fluid rounded" alt="Space shuttle heading to space">
       </div>
       <div class="col-sm-4">
-        <img src="img/sky.jpg" class="img-fluid" alt="Dark skies with a streak of light">
+        <img src="img/sky.jpg" class="img-fluid rounded" alt="Dark skies with a streak of light">
       </div>
       <div class="col-sm-4">
-        <img src="img/launch.jpg" class="img-fluid" alt="Space shuttle launching">
+        <img src="img/launch.jpg" class="img-fluid rounded" alt="Space shuttle launching">
       </div>
     </div> <!-- End of Image Group -->
     <div class="row">
@@ -95,7 +95,7 @@
         an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
       </div>
     </div>
-    <div class="row my-5 border-bottom">
+    <div class="row my-5 pb-5 border-bottom">
       <div class="col-sm-12">
         <table class="table table-striped">
           <thead>
@@ -138,7 +138,7 @@
          I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       </div>
       <div class="col-sm-6">
-        <img src="img/space-walk.jpg" class="img-fluid" alt="Astronaut in space">
+        <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Astronaut in space">
       </div>
     </div>
     <div class="row border-top mt-5 mb-5 pt-5">
@@ -157,20 +157,45 @@
             <label for="exampleInputEmail1">Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
           </div>
-          <div class="form-group form-check">
+          <div class="form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
           </div>
-          <div class="form-group form-check">
+          <div class="form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
           </div>
-          <button type="submit" class="btn btn-primary">Ready For Launch</button>
         </form>
+<!-- Javascript Component: Modal (Fake Submit button) -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#exampleModal">
+          Ready For Launch
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Thanks</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Thanks for showing interest in our space program, We will contact you within a few days.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-sm-4">
         <h5>Space Stuff</h5>
-        <ul class="list-group">
+        <ul class="list-group rounded">
           <li class="list-group-item">Space Helmet</li>
           <li class="list-group-item">Rocket Boosters</li>
           <li class="list-group-item">Shuttle</li>
@@ -180,8 +205,8 @@
         </ul>
       </div>
     </div>
-    <div class="row footer">
-      <div class="col-sm-12">
+    <div class="row rounded pb-5 footer">
+      <div class="col-sm-12 text-center">
         Copyright SpaceWalkers 2018
       </div>
     </div>
