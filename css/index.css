@@ -8272,6 +8272,13 @@ h5 {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+.contact .btn-launch {
+  color: white;
+  background: #22283B;
+  -webkit-box-shadow: 2px 2px #888888;
+  -moz-box-shadow: 2px 2px #888888;
+  box-shadow: 2px 2px #888888;
+}
 footer {
   background: #f4f4f4;
   height: 100px;
