@@ -3,6 +3,9 @@ $(function () {
   const $contactForm = $('#contactForm');
   const $contactSuccessModal = $('#contactSuccessModal');
 
+  // Enable tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+
   // Trigger modal on submit, prevent post
   $contactForm.submit(function(e) {
     e.preventDefault(e);
@@ -13,5 +16,5 @@ $(function () {
   $contactSuccessModal.on('hidden.bs.modal', function (e) {
     $contactForm[0].reset();
   })
-  
+
 });
