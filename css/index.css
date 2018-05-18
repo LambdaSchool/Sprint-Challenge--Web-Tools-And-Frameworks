@@ -8269,3 +8269,24 @@ h2 {
 .my-nav a {
   padding: 0 20px;
 }
+.flround {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.remove-margin {
+  margin-top: 0;
+}
+.my-footer {
+  background: #e0e0e0;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
