@@ -1,1 +1,22 @@
 // Make your imports here!
+@import "bootstrap";
+@import "layout";
+@import "mixins";
+@import "variables";
+
+
+.container-fluid {
+    background: @accent-color;
+    .nav a{
+        color: @secondary-color;
+    }
+}
+
+.top-content{
+    .row{
+        img{
+            width: 30%;
+            height: 100%;
+        }
+    }
+}
