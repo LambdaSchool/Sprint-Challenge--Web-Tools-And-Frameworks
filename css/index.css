@@ -8237,6 +8237,9 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.texting {
+  text-shadow: 10px 10px lightgray;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8255,6 +8258,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.topbar {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
 .container {
   max-width: 900px;
   height: auto;
@@ -8264,12 +8272,20 @@ h5 {
 .spacewalk {
   background: white;
 }
+h1 {
+  text-shadow: 10px 10px lightgray;
+}
 .tabler {
   border-bottom: 1px solid lightgray;
   padding-bottom: 20px;
 }
 .twopic {
   padding-bottom: 25px;
+}
+.twopic .spaceman img:hover {
+  -webkit-box-shadow: 10px 10px lightgray;
+  -moz-box-shadow: 10px 10px lightgray;
+  box-shadow: 10px 10px lightgray;
 }
 .btn-link {
   color: darkgray;
