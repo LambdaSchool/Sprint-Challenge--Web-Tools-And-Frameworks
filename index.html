@@ -113,8 +113,8 @@
     </table>
     <div class="border mt-5 mb-5"></div>
 
-    <div class="container col-lg-12 mx-auto mt-5 mb-5 space-walk">
-      <div class="row col-lg-6 space-walk">
+    <div class="container col-lg-12 mx-auto walk">
+      <div class="row col-lg-6">
         <h1>Lets Go For A Walk
         </h1>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth
@@ -123,17 +123,47 @@
         <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and
           my thumb blotted out the planet Earth.
         </p>
-        <div>
-          <img src="img/space-walk.jpg" alt="">
-        </div>
       </div>
+      <div>
+        <img src="img/space-walk.jpg" alt="" class="float-right space-walk">
+      </div>
+    </div>
+
+    <div class="border mt-5 mb-5"></div>
+
+    <form class="col-lg-6">
+      <div class="form-group">
+        <h1>Ready To Go</h1>
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Phone</label>
+        <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Phone">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Email</label>
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails
+        </label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Please don’t send me emails</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Ready For Launch</button>
+    </form>
 
 
 
 
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/index.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
