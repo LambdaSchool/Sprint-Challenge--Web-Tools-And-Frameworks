@@ -15,7 +15,15 @@ h1, h2, h3, h4, h5 {
     background: @main-color;
     .opacity(0.9);
 
-    nav a{
+    @media(max-width: 400px) {
+        .space-heading {
+            h1 {
+                font-size: 2.46rem;
+            }
+        }
+    }
+
+    nav a {
         color: @secondary-color;
     }
 }
@@ -31,4 +39,8 @@ h1, h2, h3, h4, h5 {
 
 .modal-button {
     .skew(5deg, 5deg);
+}
+
+.space-button {
+    color: @secondary-color;
 }
