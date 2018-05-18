@@ -176,7 +176,7 @@
       <div class="col-md-9 mb-5">
         <!-- ready for launch form -->
         <h3>Ready To Go?</h3>
-        <form>
+
           <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
             <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
@@ -203,9 +203,9 @@
     </div>
 
 
-          <button type="submit" class="btn secondary-color text-white my-2">Ready For Launch</button>
+          <button data-toggle="modal" data-target="#spaceModal" type="submit" class="btn secondary-color text-white my-2">Ready For Launch</button>
 
-        </form>
+
 
 
       </div>
@@ -233,6 +233,30 @@
 
   </div>
   <!--  main container -->
+
+  <!-- spaceModal -->
+  <div class="modal fade" id="spaceModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ready For Launch</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center text-nowrap">
+         <h2>Please confirm your trip details</h2>
+      </div>
+      <img src="https://img00.deviantart.net/a597/i/2015/267/3/a/beautiful_cat_in_outer_space_by_vadimsadovski-d9asxcc.jpg" alt="">
+      <p class="text-center">Name: Spacewalker</p>
+      <p class="text-center">Email: DoTheMoonWalk@gmail.com</p>
+      <p class="text-center">Phone: 123-456-7890</p>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Ready, Set, See ya!</button>
+      </div>
+    </div>
+  </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
