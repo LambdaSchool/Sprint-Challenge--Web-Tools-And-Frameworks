@@ -8240,6 +8240,7 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -8248,4 +8249,7 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.container {
+  max-width: 900px;
 }
