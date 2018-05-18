@@ -8250,5 +8250,41 @@ h5 {
   color: #22283B;
 }
 .container {
-  max-width: 800px;
+  max-width: 880 px;
+}
+.sticky-top {
+  background: #f4f4f4;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.carousel-main {
+  width: 100%;
+}
+.middle-image {
+  height: 150px;
+  width: 200px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.btn-secondary {
+  background: #22283B;
+}
+.btn {
+  background: #22283B;
+  color: white;
+}
+.btn-secondary {
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 40px;
+}
+.footer {
+  background: #f4f4f4;
+  padding: 20px;
+  padding-top: 30px;
 }
