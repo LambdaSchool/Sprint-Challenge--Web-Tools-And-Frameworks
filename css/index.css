@@ -8269,3 +8269,35 @@ footer {
 .container {
   background-color: #f4f4f4;
 }
+img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.navbar {
+  width: 1000px;
+}
+.navbar a {
+  margin-right: 30px;
+}
+.blast img {
+  width: 150px;
+  margin-right: 90px;
+}
+.sky img {
+  width: 150px;
+  margin-right: 90px;
+}
+.rocket-launch img {
+  width: 150px;
+  margin-right: 90px;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
