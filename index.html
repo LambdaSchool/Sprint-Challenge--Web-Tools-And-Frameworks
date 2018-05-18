@@ -17,16 +17,15 @@
 
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
 
-        <div class="row my-header-logo"><!-- Header logo-->
-          <div class="col-12">
-            <h1>SpaceWalkers</h1>
+    <div class="row my-header"><!-- header -->
+      <div class="col-12">
+        <div class="row">
+          <div class="col">
+            <h1>SpaceWalker</h1>
           </div>
-        </div><!-- /Header logo -->
-
-        <div class="row my-header-links"><!-- header links -->
+        </div>
+        <div class="row">
           <div class="col">
             <a href="#">Home</a>
             <a href="#">About Us</a>
@@ -34,39 +33,133 @@
             <a href="#">Contact</a>
             <a href="#">Sign In</a>
           </div>
-        </div><!-- /header links -->
+        </div>
+      </div>
+    </div><!-- /header -->
 
-        <div class="row paragraph-one"><!-- paragraph one -->
-          <div class="col">
-            <h2>Lift Off</h2>
-            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+    <div class="row"><!-- paragraph one -->
+      <div class="col">
+        <h2>Lift Off</h2>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
+    </div><!-- /paragraph one -->
+
+    <div class="row"><!-- three images -->
+      <div class="col-4"><img src="img/blast.jpg" class="img-fluid" alt="Responsive image"></div>
+      <div class="col-4"><img src="img/sky.jpg" class="img-fluid" alt="Responsive image"></div>
+      <div class="col-4"><img src="img/launch.jpg" class="img-fluid" alt="Responsive image"></div>
+    </div><!-- /three images -->
+
+    <div class="row"><!-- paragraph two -->
+      <div class="col">
+        <h2>Can We Visit Planets?</h2>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+        <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+      </div>
+    </div><!-- /paragraph two -->
+
+    <div class="row"><!-- table -->
+      <div class="col">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mars</td>
+              <td>54.6 million km</td>
+              <td>Maybe</td>
+              <td>300 Days</td>
+            </tr>
+            <tr>
+              <td>Jupiter</td>
+              <td>588 million km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+              <td>Saturn</td>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+          </tbody>
+        </table>
+      </div>
+    </div><!-- /table -->
+
+    <div class="row"><!-- paragraph and image -->
+      <div class="col">
+        <h2>Let's Go For A Walk</h2>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+      <div class="col">
+        <img src="img/space-walk.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div><!-- /paragraph and image -->
+
+    <div class="row"><!-- form and table -->
+      <div class="col">
+        <h2>Ready To Go?</h2>
+        <form>
+          <div class="form-group">
+            <label for="myformname">Name</label>
+            <input type="name" class="form-control" id="myformname" aria-describedby="emailHelp" placeholder="Name">
           </div>
-        </div><!-- /paragraph one -->
+          <div class="form-group">
+            <label for="myphone">Phone</label>
+            <input type="phone" class="form-control" id="myphone" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="password" class="form-control" id="Email" placeholder="Email">
+          </div>
+          <div class="form-check">
+            <div>
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I would like to recieve promotional emails</label>
+            </div>
 
-        <div class="row"><!-- three-images -->
-          <div class="col">
+            <div>
+              <input type="checkbox" class="form-check-input" id="exampleCheck2">
+              <label class="form-check-label" for="exampleCheck2">Please don't send me emails</label>
+            </div>
             
           </div>
-        </div><!-- /three images -->
-
-        <div class="row"><!-- paragraph two -->  
-        </div><!-- /paragraph two -->
-
-        <div class="row"><!-- table -->
-        </div><!-- table -->
-
-        <div class="row"><!-- go for a walk -->
-        </div><!-- /go for a walk -->
-
-        <div class="row"><!-- form and list -->
-        </div><!-- /form and list -->
-
-        <div class="row"><!-- footer -->
-        </div><!-- /footer -->
-        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
-    </div>
-  </div>
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Heat resistant plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div>
+    </div><!-- /form and table -->
+
+    <div class="row"><!-- footer -->
+      <div class="col">
+        <p>Copyright SpaceWalkers 2018</p>
+      </div>
+    </div><!-- /footer -->
+
+
+
+
+
+
+
+
+  </div><!-- /container -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
