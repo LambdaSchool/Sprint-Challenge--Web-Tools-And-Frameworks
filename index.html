@@ -16,19 +16,19 @@
 </head>
 
 <body>
-<div class="container-fluid sticky-top"> 
+<div class="container-fluid sticky-top bg-light"> 
   <div class="container">
-    <div class="row d-flex flex-column align-content-center">
-        <div class="col-3">
+    <div class="row d-flex flex-column">
+        <div class="col-3 align-items-center">
             <h1 class="logo-heading">SpaceWalkers</h1>
         </div>
         <div class="col-9">
           <nav class="nav d-flex justify-content-end">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Sign In</a>
+            <a class="nav-link active text-dark" href="#">Home</a>
+            <a class="nav-link text-dark" href="#">About Us</a>
+            <a class="nav-link text-dark" href="#">Blog</a>
+            <a class="nav-link text-dark" href="#">Contact</a>
+            <a class="nav-link text-dark" href="#">Sign In</a>
           </nav>
         </div>
     </div>
@@ -66,25 +66,55 @@
               As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
           </p>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <img src="img/blast.jpg" class="img-fluid rounded" alt="Let's go on adventure!">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <img src="img/sky.jpg" class="img-fluid rounded" alt="Let's go on adventure!">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <img src="img/launch.jpg" class="img-fluid rounded" alt="Let's go on adventure!">
         </div>
       </div>
     <div class="row">
-      <div class="col-sm-10">
+      <div class="col-sm-10 mt-3 mb-5">
               <h2>Can We Visit Planets?</h2>
               <p>
                   Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
               <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>    
             </div>
       </div>
-    <div class="row">
+      <table class="table table-striped mb-5">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mars</th>
+              <td>54.6 million km</td>
+              <td>Maybe</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <th scope="row">Jupiter</th>
+              <td>588 million km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturn</th>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+          </tbody>
+        </table>  
+    <div class="row mt-5 mb-5">
         <div class="col-sm-6">
           <h2>Let's Go For A Walk</h2>
           <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p> 
@@ -94,7 +124,7 @@
             <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Let's go on adventure!">
         </div>
       </div>
-    <div class="row">
+    <div class="row mb-5">
           <div class="col-sm-12 d-flex flex-nowrap">
             <form class="col-sm-7">
               <div class="form-group">
@@ -107,42 +137,37 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 
                 <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Beach
-                </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      I would like to receive promotional emails.
+                    </label>
                 </div>
                 <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Mountain
-                </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-                  <label class="form-check-label" for="exampleRadios3">
-                    Island
-                  </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Please don't send me emails.
+                    </label>
                 </div>
               </div>  
                 
-              <button type="submit" class="mb-2 btn btn-info" data-toggle="tooltip" data-placement="top" title="CLICK HERE!!!!">Let's Travel</button> <!-- Tooltip here -->
+              <button type="submit" class="mb-2 btn btn-info" data-toggle="tooltip" data-placement="top" title="CLICK HERE!!!!">Ready For Launch</button> <!-- Tooltip here -->
                 
             </form>
             <div class="col-sm-4">
-                <h4>Don't Forget These!</h4>
+                <h4>Space Stuff</h4>
                 <ul class="list-group">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Morbi leo risus</li>
-                  <li class="list-group-item">Porta ac consectetur ac</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item">Space Helmet</li>
+                  <li class="list-group-item">Rocket Boosters</li>
+                  <li class="list-group-item">Shuttle</li>
+                  <li class="list-group-item">Training for Launch</li>
+                  <li class="list-group-item">Heat Resistant Plating</li>
+                  <li class="list-group-item">Space Suit</li>
                 </ul>
               </div>
           </div>
       </div> 
-    <div class="row footer">
-          <div class="col-sm-12">
+    <div class="row footer bg-light">
+          <div class="col-sm-12 d-flex justify-content-center">
             Copyright SpaceWalkers 2018
           </div>
       </div>
