@@ -8262,6 +8262,19 @@ nav a {
   color: #22283B;
   padding-left: 30px;
 }
+.spaceWalkers {
+  -webkit-box-shadow: 5px 10px #888888;
+  -moz-box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #888888;
+}
+.midImage {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .walk-font {
   font-size: .8rem;
 }
