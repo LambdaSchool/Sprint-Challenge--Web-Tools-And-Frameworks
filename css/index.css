@@ -8258,6 +8258,34 @@ h5 {
 .top-content .row img {
   width: 30%;
   height: 100%;
+  padding: 0;
+  margin: 0 .2rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+@media (min-width: 576px) {
+  .top-content .row img {
+    margin: 0 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .top-content .row img {
+    margin: 0 0.7rem;
+  }
+}
+@media (min-width: 992px) {
+  .top-content .row img {
+    margin: 0 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .top-content .row img {
+    margin: 0 1rem;
+  }
 }
 .middle-content1 table {
   margin-bottom: 4rem;
@@ -8266,6 +8294,28 @@ h5 {
   background: #22283B;
   margin-top: .5rem;
 }
+.bottom-content h4 {
+  width: 100%;
+}
+.bottom-content ul {
+  list-style-type: none;
+}
+.bottom-content ul li {
+  border: 1px solid #e0e0e0;
+  line-height: 4;
+}
 footer {
   background: #e0e0e0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+button {
+  -webkit-box-shadow: 5px 5px 15px #22283B;
+  -moz-box-shadow: 5px 5px 15px #22283B;
+  box-shadow: 5px 5px 15px #22283B;
+  border: none !important;
 }

@@ -17,6 +17,27 @@
         img{
             width: 30%;
             height: 100%;
+            padding: 0;
+            margin: 0 .2rem;
+            .border-radius(10px);
+            @media (min-width: 576px) {
+                margin: 0 0.5rem;
+            }
+
+            // Medium devices (tablets, 768px and up)
+            @media (min-width: 768px) {
+                margin: 0 0.7rem;
+            }
+
+            // Large devices (desktops, 992px and up)
+            @media (min-width: 992px) {
+                margin: 0 1rem;
+            }
+
+            // Extra large devices (large desktops, 1200px and up)
+            @media (min-width: 1200px) {
+                margin: 0 1rem;
+            }
         }
     }
 }
@@ -27,6 +48,7 @@
     }
 }
 
+
 .bottom-content{
     form{
         button{
@@ -34,8 +56,27 @@
             margin-top: .5rem;
         }
     }
+
+    h4{
+        width:100%;
+    }
+
+    ul{
+        list-style-type: none;
+        li{
+            border: 1px solid @accent-color;
+            line-height: 4;
+        }
+    }
 }
 
 footer {
     background: @accent-color;
+    .border-radius(10px);
 }
+
+button{
+    .box-shadow(5px 5px 15px @secondary-color);
+    border: none !important;
+}
+
