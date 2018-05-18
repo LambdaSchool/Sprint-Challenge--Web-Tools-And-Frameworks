@@ -8255,6 +8255,13 @@ a {
 a:hover {
   color: #5a6a9c;
 }
+.btn--launch {
+  background-color: #22283B;
+  border: 0;
+}
+.btn--launch:hover {
+  background-color: #5a6a9c;
+}
 header {
   background-color: #f4f4f4;
   border-bottom: 2px solid #e0e0e0;
