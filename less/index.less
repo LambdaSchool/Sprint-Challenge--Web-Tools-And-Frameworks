@@ -1,1 +1,38 @@
-// Make your imports here!
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.container {
+  max-width: 880px;
+  header {
+    background-color: @accent-color;
+  }
+  nav {
+    a {
+      text-decoration: none;
+      color: black;
+      margin-left: 20px;
+    }
+  }
+  nav::
+}
+.lift-off-imgs {
+  padding: 0;
+  img {
+    width: 40%;
+    max-height: 150px;
+    display: flex;
+  }
+  .img1 {
+    margin-right: 3%;
+  }
+  .img3 {
+    margin-left: 3%;
+  }
+}
+.copyright {
+  text-align: center;
+  height: 75px;
+  background-color: @accent-color;
+}
