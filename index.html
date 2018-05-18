@@ -96,6 +96,132 @@
           The airman's earth, if free men make it.</p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-12 mt-5">
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Planet</th>
+                <th scope="col">Distance</th>
+                <th scope="col">Survivability</th>
+                <th scope="col">How Long To Travel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Mars</th>
+                <td>54.6 million km</td>
+                <td>Maybe</td>
+                <td>300 Days</td>
+              </tr>
+              <tr>
+                <th scope="row">Jupiter</th>
+                <td>588 million km</td>
+                <td>No</td>
+                <td>Depends On Orbit (3-6 Years)</td>
+              </tr>
+              <tr>
+                <th scope="row">Saturn</th>
+                <td>1.2 billion km</td>
+                <td>No</td>
+                <td>Depends On Orbit (3-6 Years)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- table/row -->
+    <div class="row mt-5">
+      <div class="col-6 ">
+        <h2>Let's Go For A Walk</h2>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth
+          was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and
+          my thumb blotted out the planet Earth.</p>
+      </div>
+      <div class="col-6">
+        <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Astronaut space walking!">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-8 col-sm-12 mt-2">
+        <h4>Ready To Go?</h4>
+        <form class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="exampleInputName1">Name</label>
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailName" placeholder="Name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPhone1">Phone</label>
+            <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="Phone" required>
+            <div class="invalid-feedback">
+              Please enter your phone number.
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            <div class="invalid-feedback">
+              This is not a valid email address.
+            </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="defaultCheck1" value="option1">
+            <label class="form-check-label" for="defaultCheck1">
+              I would like to receive promotional emails
+            </label>
+          </div>
+          <div class="form-check mt-1">
+            <input class="form-check-input" type="checkbox" id="defaultCheck2" value="option2">
+            <label class="form-check-label" for="defaultCheck2">
+              Please don’t send me emails
+            </label>
+          </div>
+          <button type="submit" class="btn btn-dark mt-3">Ready For Launch</button>
+        </form>
+        <script>
+          (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+              var forms = document.getElementsByClassName('needs-validation');
+              var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+        </script>
+      </div>
+      <div class="col-4">
+        <h5>Space Stuff</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Heat resistant plating</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div>
+    </div>
+    <!-- row -->
+    <div class="row footer mt-5">
+      <div class="col-sm-12 text-center">
+          Copyright SpaceWalkers 2018
+      </div>
+    </div>
+  </div>
   </div>
   </div>
 
