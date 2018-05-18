@@ -8250,7 +8250,8 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #e0e0e0;
+  background-color: #f4f4f4;
 }
 .custom-nav {
   max-width: 880px;
@@ -8264,9 +8265,13 @@ h5 {
 }
 .custom-container .rocket-pictures {
   max-width: 250px;
+  max-height: 180px;
 }
 .custom-container .modal-button-text {
   color: #f4f4f4;
+}
+.custom-container hr {
+  border: 1px solid #e0e0e0;
 }
 .footer {
   color: #22283B;
