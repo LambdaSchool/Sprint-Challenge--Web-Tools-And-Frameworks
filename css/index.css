@@ -8290,9 +8290,21 @@ h5 {
 .middle-content1 table {
   margin-bottom: 4rem;
 }
+.middle-content2 .btn-primary {
+  background: #22283B;
+  margin-top: .5rem;
+  -webkit-box-shadow: 5px 5px 15px #22283B;
+  -moz-box-shadow: 5px 5px 15px #22283B;
+  box-shadow: 5px 5px 15px #22283B;
+  border: none !important;
+}
 .bottom-content form button {
   background: #22283B;
   margin-top: .5rem;
+  -webkit-box-shadow: 5px 5px 15px #22283B;
+  -moz-box-shadow: 5px 5px 15px #22283B;
+  box-shadow: 5px 5px 15px #22283B;
+  border: none !important;
 }
 .bottom-content h4 {
   width: 100%;
@@ -8313,10 +8325,4 @@ footer {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-}
-button {
-  -webkit-box-shadow: 5px 5px 15px #22283B;
-  -moz-box-shadow: 5px 5px 15px #22283B;
-  box-shadow: 5px 5px 15px #22283B;
-  border: none !important;
 }
