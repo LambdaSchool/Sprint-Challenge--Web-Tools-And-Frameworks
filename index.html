@@ -21,7 +21,7 @@
     <div class="header row sticky-top">
       <div class="header-text col-sm-12">
         <h1>SpaceWalkers</h1>
-        <nav>
+        <nav class="d-flex flex-md-row flex-column justify-content-md-center align-items-center">
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Blog</a>
@@ -38,8 +38,6 @@
       </div>
     </div>
     <div class="container">
-
-
 
       <div class="carousel row">
         <div class="col-sm-12">
@@ -70,70 +68,81 @@
         </div>
       </div>
 
-      <div class="main-content row">
-        <div class="top-content col-sm-12 mt-5 pt-2">
-          <h2>Lift Off</h2>
-          <p>
-            As we got futher and further away, it [Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm living object looked so fragile, so delicate, that if you touched it with a finger it
-            would fall apart. Seeing this has to change a man.
-          </p>
+      <div class="main-content">
+        <div class="row">
+          <div class="top-content col-sm-12 mt-5 pt-2">
+            <h2>Lift Off</h2>
+            <p>
+              As we got futher and further away, it [Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm living object looked so fragile, so delicate, that if you touched it with a finger it
+              would fall apart. Seeing this has to change a man.
+            </p>
 
+          </div>
         </div>
-        <div class="img  col-sm-12 mt-1">
-          <img src="img/blast.jpg" alt="blast" width="370px" height="262.5px">
-          <img src="img/sky.jpg" alt="launch" width="370px" height="262.5px">
-          <img src="img/launch.jpg" alt="sky" width="370px" height="262.5px">
-
+        <div class="row">
+          <div class="img col-sm-4">
+            <img src="img/blast.jpg" class="img-fluid" alt="blast">
+          </div>
+          <div class="img  col-sm-4">
+            <img src="img/sky.jpg" class="img-fluid" alt="launch">
+          </div>
+          <div class="img  col-sm-4">
+            <img src="img/launch.jpg" class="img-fluid" alt="sky">
+          </div>
         </div>
-        <div class="bottom-content mt-5 col-sm-12">
-          <h2>Can We Visit Other Planets?</h2>
-          <p>
-            Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
-          </p>
-          <p>
-            Which there is no center because every point, or none, is center -- an equal earth which all men occupy as equals. The airman's earth, if free men can make it.
-          </p>
+        <div class="row">
+          <div class="bottom-content mt-5 col-sm-12">
+            <h2>Can We Visit Other Planets?</h2>
+            <p>
+              Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
+            </p>
+            <p>
+              Which there is no center because every point, or none, is center -- an equal earth which all men occupy as equals. The airman's earth, if free men can make it.
+            </p>
+          </div>
         </div>
-        <div class="graph mt-4 col-sm-12">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Planet</th>
-                <th scope="col">Distance</th>
-                <th scope="col">Survivability</th>
-                <th scope="col">How Long to Travel</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Mars</th>
-                <td>54.6 million km</td>
-                <td>Maybe</td>
-                <td>300 Days</td>
-              </tr>
-              <tr>
-                <th scope="row">Jupiter</th>
-                <td>588 million km</td>
-                <td>No</td>
-                <td>Depends On Orbit (3-6 Years)</td>
-              </tr>
-              <tr>
-                <th scope="row">Saturn</th>
-                <td>1.2 billion km</td>
-                <td>No</td>
-                <td>Depends On Orbit (3-6 Years)</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="row">
+          <div class="graph mt-lg-4 col-lg-12 col-1">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Planet</th>
+                  <th scope="col">Distance</th>
+                  <th scope="col">Survivability</th>
+                  <th scope="col">How Long to Travel</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mars</th>
+                  <td>54.6 million km</td>
+                  <td>Maybe</td>
+                  <td>300 Days</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jupiter</th>
+                  <td>588 million km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 Years)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Saturn</th>
+                  <td>1.2 billion km</td>
+                  <td>No</td>
+                  <td>Depends On Orbit (3-6 Years)</td>
+                </tr>
+              </tbody>
+            </table>
 
 
+          </div>
         </div>
 
 
       </div>
 
-      <div class="side-content row mt-5 pt-5 pr-5 mr-5 d-flex justify-content-center">
-        <div class="text-content col-sm-5">
+      <div class="side-content row mt-5 pt-5 lg-pr-5 lg-mr-5 d-flex justify-content-center">
+        <div class="text-content col-lg-5 col-12">
           <h3>Let's Go For A Walk</h3>
           <p>
             The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
@@ -142,17 +151,16 @@
             It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
           </p>
         </div>
-        <div class="image-content col-sm-5">
-          <img src="img/space-walk.jpg" alt="space-walk">
+        <div class="image-content col-lg-5 col-12">
+          <img src="img/space-walk.jpg" class="img-fluid" alt="space-walk">
 
         </div>
       </div>
 
       <div class="end-form row">
-        <div class="form col-sm-8">
+        <div class="form col-lg-8">
           <h3>Ready To Go?</h3>
           <form>
-
             <div class="form-group">
               <label for="exampleInputName1">Name</label>
               <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
@@ -180,7 +188,7 @@
             <button type="submit" class="btn btn-primary">Ready for Launch</button>
           </form>
         </div>
-        <div class="list col-sm-4">
+        <div class="list col-lg-4 mt-lg-0 mt-4">
           <h4>Space Stuff</h4>
           <ul class="list-group">
             <li class="list-group-item">Space Helmet</li>

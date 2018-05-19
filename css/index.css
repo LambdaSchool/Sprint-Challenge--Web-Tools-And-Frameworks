@@ -8254,16 +8254,12 @@ h5 {
   font-size: 20px;
 }
 .container-fluid .header {
-  background: #f4f4f4;
+  background: #dbdbdb;
+  opacity: 0.8;
   border-bottom: 2px solid #e0e0e0;
 }
 .container-fluid .header .header-text h1 {
   display: flex;
-  justify-content: center;
-}
-.container-fluid .header .header-text nav {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 .container-fluid .header .header-text nav .dropdown .btn {
@@ -8271,7 +8267,6 @@ h5 {
   border: none;
   font-size: 20px;
   padding: 0;
-  padding-bottom: 10px;
 }
 .container-fluid .header .header-text nav a {
   color: black;
@@ -8283,18 +8278,6 @@ h5 {
 .container-fluid .carousel {
   display: flex;
   justify-content: center;
-}
-.container-fluid .main-content .img {
-  max-width: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-.container-fluid .main-content .img img {
-  padding-right: 40px;
-  border-radius: 5px;
-}
-.container-fluid .main-content .img img:last-child {
-  padding-right: 0;
 }
 .container-fluid .side-content {
   border-top: 1px solid #e0e0e0;
