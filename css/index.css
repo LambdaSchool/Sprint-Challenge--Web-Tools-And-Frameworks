@@ -533,7 +533,6 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  /* justify-content: center; */
 }
 .no-gutters {
   margin-right: 0;
@@ -706,7 +705,6 @@ pre code {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
-  /* justify-content: center; */
 }
 .order-first {
   -webkit-box-ordinal-group: 0;
@@ -8250,4 +8248,15 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.lists {
+  border: solid 1px lightgray;
+}
+#bold {
+  font-weight: bold;
+}
+img {
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 5px;
 }

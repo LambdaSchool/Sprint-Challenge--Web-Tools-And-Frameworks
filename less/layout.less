@@ -6,3 +6,24 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+.lists {
+    border: solid 1px lightgray;
+}
+#bold {
+ font-weight: bold;
+}
+
+#border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+img{
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+}
