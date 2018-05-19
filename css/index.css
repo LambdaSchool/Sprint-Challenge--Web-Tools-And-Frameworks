@@ -8249,3 +8249,18 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.sp-nav {
+  background: #e0e0e0;
+  border-bottom: 1px grey;
+}
+.button {
+  background: #22283B;
+}
+.button .hover {
+  color: #e0e0e0 !important;
+}
+.footer {
+  color: black;
+  background: #e0e0e0;
+  padding: 22px 0;
+}
