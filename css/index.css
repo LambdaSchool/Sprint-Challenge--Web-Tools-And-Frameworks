@@ -8252,6 +8252,9 @@ h5 {
 .sp-nav {
   background: #e0e0e0;
   border-bottom: 1px grey;
+  -webkit-opacity: 0.87;
+  -moz-opacity: 0.87;
+  opacity: 0.87;
 }
 .button {
   background: #22283B;
@@ -8263,4 +8266,7 @@ h5 {
   color: black;
   background: #e0e0e0;
   padding: 22px 0;
+  -webkit-opacity: 0.56;
+  -moz-opacity: 0.56;
+  opacity: 0.56;
 }
