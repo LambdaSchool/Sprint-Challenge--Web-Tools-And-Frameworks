@@ -2,7 +2,74 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+body {
+    min-width: @min-width;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.main-content {
+    max-width: @max-width;
+}
+
+.header {
+    .opacity(.85);
+
+
+    .navigation;
+
+    .nav {
+
+
+        li {
+            margin: 0px 1.5%;
+
+
+            a{
+                color:inherit;
+                font-weight: bold
+            }
+
+        }
+
+    }
+}
+
+
+
+footer {
+    height: 85px;
+    width: 100%;
+    .navigation;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:bold;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin: auto;
+    }
+}
+
+form {
+    .btn {
+    background-color: black;
+    }
+    label {
+        font-weight: bold;
+    }
+}
+
+.list-group-item {
+    font-weight: bold;
+}
+
+
+img, div {
+	.border-radius;
 }
