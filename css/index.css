@@ -8249,3 +8249,24 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.footer-color {
+  background-color: grey;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.btn-info {
+  background: #22283B;
+}
+.d-flex {
+  justify-content: center;
+}
+div.height {
+  height: 100px;
+}
