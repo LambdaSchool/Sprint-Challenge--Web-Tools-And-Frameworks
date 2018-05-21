@@ -1,7 +1,9 @@
 <!-- Answers to the Self Study Questions go here -->
 
-1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
+1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts. I would start with showing them work without a preprocessor and then show them what concepts are introduced with a preprocessor. How we can avoid repeating ourselves and being as DRY as possible. The ways we can easily alter our code and have it all organized.
 2. What is the yarn command to globally install LESS?
+yarn global add less
 3. What is the most useful mixin you have used this week?
-4. What are the names of the 5 breakpoints used in bootstrap?
-5. What is the utility class name that turns an element into a flexbox?
+custom-button-mixin
+4. What are the names of the 5 breakpoints used in bootstrap? xs->sm->md->lg->xl
+5. What is the utility class name that turns an element into a flexbox? .d-flex
