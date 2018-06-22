@@ -8260,6 +8260,16 @@ nav a {
   color: #22283B;
   font-weight: bold;
 }
+.top-content-pics img {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.top-content-2 img {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
 footer {
   background: #f4f4f4;
   font-weight: bold;
