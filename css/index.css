@@ -8249,6 +8249,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.primary-header {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e0e0e0;
+}
 .footer {
-  background: #f4f4f4;
+  background-color: #f4f4f4;
+  border: 1px solid #e0e0e0;
 }
