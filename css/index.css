@@ -8258,6 +8258,9 @@ h5 {
 .container {
   max-width: 800px;
 }
+.container .walk {
+  border-top: 1px solid #e0e0e0;
+}
 .container .form-group .btn-info {
   background: #22283B;
 }
