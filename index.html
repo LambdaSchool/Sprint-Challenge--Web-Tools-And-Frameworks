@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 
 <html lang="en">
 <head>
@@ -16,10 +16,202 @@
 </head>
 
 <body>
+  <div class="container-fluid sticky-top bg-light border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <h1 class="logo-heading">SpaceWalkers</h1>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <nav class="navbar">
+            <a class="nav-link text-dark active" href="#">Home</a>
+            <a class="nav-link text-dark" href="#">About Us</a>
+            <a class="nav-link text-dark" href="#">Blog</a>
+            <a class="nav-link text-dark" href="#">Contact</a>
+            <a class="nav-link text-dark" href="#">Sign in</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
+
+    <!-- Carousel -->
+    <div class="row mb-5">
+      <div id="carouselSpaceSlides" class="carousel slide w-100" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselSpaceSlides" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselSpaceSlides" data-slide-to="1"></li>
+          <li data-target="#carouselSpaceSlides" data-slide-to="2"></li>
+          <li data-target="#carouselSpaceSlides" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/slider-1.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider-2.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider-3.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider-4.jpg" alt="">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselSpaceSlides" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSpaceSlides" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div> <!-- end of carousel -->
+
+    <div class="row mb-5">
+      <div class="col-12">
+        <h4>Lift Off</h4>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid rounded" src="img/blast.jpg" alt="">
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid rounded" src="img/sky.jpg" alt="">
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid rounded" src="img/launch.jpg" alt="">
+      </div>
+    </div>
+
+
+    <div class="row mb-5">
+      <div class="col-12">
+        <h4>Can We Visit Planets?</h4>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+      </div>
+      <div class="col-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Distance</th>
+              <th scope="col">Survivability</th>
+              <th scope="col">How Long To Travel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mars</td>
+              <td>54.6 million km</td>
+              <td>Maybe</td>
+              <td>300 Days</td>
+            </tr>
+            <tr>
+              <td>Jupiter</td>
+              <td>588 million km</td>
+              <td>No</td>
+              <td>Depends On Orbit (3-6 Years)</td>
+            </tr>
+            <tr>
+              <td>Saturn</td>
+              <td>1.2 billion km</td>
+              <td>No</td>
+              <td>Depends on Orbit (3-6 Years)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="row border-top border-bottom mb-5 py-5">
+      <div class="col-sm-6">
+        <h4>Let's Go For A Walk</h4>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="img-fluid rounded" src="img/space-walk.jpg" alt="">
+      </div>
+    </div>
+
+
+    <div class="row mb-5">
+      <div class="col-sm-8">
+        <h5>Ready to Go?</h5>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" type="phone" class="form-control" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" placeholder="Email">
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios1" value="option1" checked>
+            <label class="form-check-label" for="spaceRadios1">
+              I would like to receive promotional emails
+            </label>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios2" value="option2">
+              <label class="form-check-label" for="spaceRadios2">
+                Please don't send me emails
+              </label>
+            </div>
+          </div>
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#spaceModal">Ready For Launch</button>
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <h5>Space Stuff</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
+      </div>
+    </div>
+
+<!-- form submission modal -->
+    <div class="modal fade" id="spaceModal" tabindex="-1" role="dialog" aria-labelledby="spaceModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="spaceModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This is an example modal</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end form submission modal -->
+
+
+    <div class="row bg-light rounded border-top border-left border-right pt-3 pb-4">
+      <div class="col-sm-12 d-flex justify-content-center">
+        Copyright SpaceWalkers 2018
       </div>
     </div>
   </div>
