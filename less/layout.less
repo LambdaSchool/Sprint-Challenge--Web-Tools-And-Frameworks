@@ -9,7 +9,10 @@ h1, h2, h3, h4, h5 {
 
 .container-fluid {    
     background-color: @accent-color;
-    height: 90px;
+    height: 140px;
+    @media (min-width: 485px) {
+        height: 90px;
+    }
     a {
         text-decoration: none;
         color: black;

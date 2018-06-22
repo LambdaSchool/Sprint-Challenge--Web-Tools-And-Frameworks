@@ -17,24 +17,30 @@
 
 <body>
   <div class="container-fluid sticky-top">
-    <div class="container">
-      <!--Header-->
-      <div class="row header-row">   
-        <div class="col-12 d-flex justify-content-center">
-          <h1>SpaceWalkers</h1>
-        </div>
-        <div class="col-12 d-flex justify-content-center">
-          <nav class+"d-flex justify-content-space-around">
-            <a class="mx-3" href="">Home</a>
-            <a class="mx-3" href="">About Us</a>
-            <a class="mx-3" href="">Blog</a>
-            <a class="mx-3" href="">Contact</a>
-            <a class="mx-3" href="">Sign In</a>
-          </nav>
-        </div>
+      <div class="d-flex justify-content-center">
+        <h1>SpaceWalkers</h1>
       </div>
-    </div>
-</div>
+      <div class="col-12">
+          <ul class="nav d-flex justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+            </ul>
+      </div>
+  </div>
+ 
 
   <!--Slider-->
   <div class="container">
@@ -82,13 +88,13 @@
             </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-8 col-md-4 mx-auto my-2">
           <img src="img/blast.jpg" class="img-fluid rounded" alt="Shuttle rocketing into orbit.">
       </div>
-      <div class="col-4">
+      <div class="col-8 col-md-4 mx-auto my-2">
           <img src="img/sky.jpg" class="img-fluid rounded" alt="Long arch of the shuttle flying through the night sky.">
       </div>
-      <div class="col-4">
+      <div class="col-8 col-md-4 mx-auto my-2">
           <img src="img/launch.jpg" class="img-fluid rounded" alt="Space shuttle just starting to take off.">
       </div>
     </div>  
@@ -159,7 +165,7 @@
 
  <!--Contact-->
  <div class="container">  
-    <div class="row my-4 contact-container">
+    <div id="contact" class="row my-4 contact-container">
             <div class="contact-form col-12 col-md-8 my-4 order-2 order-md-1 my-md-2">
               <h2>Ready To Go?</h2>
                 <form>
@@ -192,7 +198,7 @@
                     </div>
                 </form>
             </div>
-            <div class="space-stuff col-12 col-md-4 order-1 order-sm-2">
+            <div class="space-stuff col-12 col-md-4 order-1 order-md-2">
               <h3>Space Stuff</h3>
               <ul class="list-group">
                   <li class="list-group-item">Space Helmet</li>
@@ -217,6 +223,7 @@
           </div>
       </div>  
   </div>
+  
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

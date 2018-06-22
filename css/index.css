@@ -8251,7 +8251,12 @@ h5 {
 }
 .container-fluid {
   background-color: #e0e0e0;
-  height: 90px;
+  height: 140px;
+}
+@media (min-width: 485px) {
+  .container-fluid {
+    height: 90px;
+  }
 }
 .container-fluid a {
   text-decoration: none;
@@ -8260,11 +8265,6 @@ h5 {
 .container .footer-row {
   background-color: #e0e0e0;
   height: 90px;
-}
-@media (max-width: 768px) {
-  .container .contact-container .space-stuff {
-    order: -1;
-  }
 }
 .btn-primary {
   background: #22283B;
