@@ -8249,3 +8249,13 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navigation {
+  background-color: lightgrey;
+  border-bottom: 2px solid grey;
+}
+.logo-heading {
+  text-align: center;
+}
+a {
+  color: black;
+}
