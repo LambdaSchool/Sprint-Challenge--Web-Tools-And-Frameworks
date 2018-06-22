@@ -8248,4 +8248,18 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.container-fluid {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
+}
+.container {
+  max-width: 800px;
+}
+.footer {
+  color: #22283B;
+  background-color: #e0e0e0;
+  padding: 20px 0;
 }
