@@ -8296,3 +8296,18 @@ h5 {
 .container .top-content .lift-off-image-container .blast {
   padding-left: 0px;
 }
+.container .visit-content {
+  margin-top: 5%;
+}
+.container .go-for-walk {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.container .go-for-walk .walk-content {
+  width: 100%;
+}
+.container .ready-to-go .launch-form .launch-btn {
+  margin: 1%;
+}
