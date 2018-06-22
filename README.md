@@ -13,6 +13,7 @@
 ## Questions - Self Study - You can exercise your Google-Fu for this and any other _Sprint Challenge_ in the future. Remember to record your answers in _ANSWERS.md_
 
 1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
+Preprocessing revolves around the idea of code maintainability and not repeating yourself. Preprocessors are handy for writing concise, organized css. You can create different css files to help manage the styles of specific areas of a website - this allows you to better manage your css codebase. This is especially handy for large codebases and codebases that will grow in the future. But, in the end, preprocessors still compile your concise syntax into basic css.
 2. What is the yarn command to globally install LESS?
 yarn global add less
 3. What is the most useful mixin you have used this week?
