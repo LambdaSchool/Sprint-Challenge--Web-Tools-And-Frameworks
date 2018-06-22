@@ -185,7 +185,7 @@
               Please don’t send me emails
             </label>
           </div>
-          <button type="submit" class="btn btn-dark mt-2">Ready For Launch</button>
+          <button type="submit" class="btn btn-dark mt-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Blast Off!!">Ready For Launch</button>
         </form>
       </div>
       <div class="col-md-4">
@@ -213,6 +213,11 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
   <script src="js/index.js"></script>
 </body>
 </html>
