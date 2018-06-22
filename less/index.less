@@ -15,7 +15,13 @@
 }
 
   .custom{
-    margin-top:15%;
+    @media(max-width:1072px){
+      margin-top: 20%;
+    }
+    @media(max-width:667px){
+      margin-top: 80%;
+      }
+    margin-top:10%;
 }
 nav{
 
@@ -26,6 +32,10 @@ nav{
 .customnav{
     background-color: @main-color;
 }
-.customCar{
-  height: ;
+
+.customCol{
+  border: 1px solid @accent-color;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px @main-color;
+  padding: 10px;
 }

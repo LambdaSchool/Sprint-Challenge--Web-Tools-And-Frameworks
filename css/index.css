@@ -8256,7 +8256,17 @@ h5 {
   margin-left: 10%;
 }
 .custom {
-  margin-top: 15%;
+  margin-top: 10%;
+}
+@media (max-width: 1072px) {
+  .custom {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 667px) {
+  .custom {
+    margin-top: 80%;
+  }
 }
 nav a {
   margin-right: -10px;
@@ -8264,6 +8274,9 @@ nav a {
 .customnav {
   background-color: #f4f4f4;
 }
-.customCar {
-  height: ;
+.customCol {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px #f4f4f4;
+  padding: 10px;
 }
