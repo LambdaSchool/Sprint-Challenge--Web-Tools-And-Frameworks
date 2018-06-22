@@ -8252,6 +8252,9 @@ h5 {
 header {
   background-color: #f4f4f4;
   border-bottom: 2px solid #e0e0e0;
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
 }
 .navbar .nav-item {
   color: #22283B;
