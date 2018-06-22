@@ -1,1 +1,43 @@
 // Make your imports here!
+@import 'bootstrap.less';
+@import 'variables.less';
+@import 'mixins.less';
+@import 'layout.less';
+
+.navigation {
+    background-color: @main-color;
+    h1 {
+        text-align: center;
+        .rotate(2deg);
+    }
+    
+    nav {
+        a{ 
+        color: @secondary-color;
+        }
+        a:hover {
+            .opacity;
+        }
+    }
+}
+.carousel-item {
+    img {
+        height:300px;
+    }
+}
+.footer {
+    background: @main-color;
+    height: 100px;
+}
+button {
+    color: @accent-color;
+}
+.bottom-content {
+    border-top: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+}
+.img-container {
+    img {
+        width: 33%;
+    }
+}
