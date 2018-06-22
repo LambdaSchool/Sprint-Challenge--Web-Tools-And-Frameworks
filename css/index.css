@@ -8250,18 +8250,41 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  background: #f4f4f4;
+  background: #e0e0e0;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
 }
-.container-fluid .row {
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
+.container-fluid .row .col {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
 }
 .container-fluid .row nav {
   width: 400px;
 }
+.container-fluid .row nav a {
+  color: #22283B;
+}
+.content-shadow {
+  -webkit-box-shadow: 5px 5px #e0e0e0;
+  -moz-box-shadow: 5px 5px #e0e0e0;
+  box-shadow: 5px 5px #e0e0e0;
+}
+.bordered-row {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
 .container {
   max-width: 800px;
-  width: 100%
+  width: 100%;
   margin: 0 auto;
+  background: #f4f4f4;
+}
+form button {
+  background: #22283B;
+  color: #e0e0e0;
+}
+footer {
+  background: #e0e0e0;
 }

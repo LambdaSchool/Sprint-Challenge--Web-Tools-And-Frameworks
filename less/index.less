@@ -5,18 +5,45 @@
 @import "layout.less";
 
 .container-fluid {
-  background: @main-color;
+  background: @accent-color;
+  .opacity(.8);
+
   .row {
-    .opacity;
+    .col {
+      .opacity(1);
+      }
 
     nav {
       width: 400px;
+
+      a {
+        color: @secondary-color;
+      }
     }
   }
 }
 
+.content-shadow {
+  .box-shadow (5px 5px @accent-color);
+}
+
+.bordered-row {
+  border-top: 1px solid @accent-color;
+  border-bottom: 1px solid @accent-color;
+}
+
 .container {
   max-width: 800px;
-  width: 100%
+  width: 100%;
   margin: 0 auto;
+  background: @main-color;
+}
+
+form button {
+  background: @secondary-color;
+  color: @accent-color;
+}
+
+footer {
+  background: @accent-color;
 }
