@@ -8261,6 +8261,10 @@ h5 {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
