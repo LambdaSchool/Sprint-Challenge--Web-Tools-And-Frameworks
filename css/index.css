@@ -8249,12 +8249,22 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.container {
+.container .main {
   max-width: 800px;
 }
-.container .main {
-  width: 762px;
+.custom-nav {
+  background: lightgray;
+  text-align: center;
+  height: 150px;
+}
+.custom-nav nav {
+  display: flex;
+  justify-content: space-around;
+}
+.custom-nav nav a {
+  color: black;
 }
 .img-fluid {
   width: 100%;
+  heigth: auto;
 }
