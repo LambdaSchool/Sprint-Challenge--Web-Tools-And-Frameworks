@@ -8252,9 +8252,11 @@ h5 {
 .container-fluid {
   background-color: #f4f4f4;
 }
+.container-fluid a {
+  color: black;
+}
 .container-fluid .nav-item {
   text-decoration: none;
-  color: #22283B;
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
@@ -8276,14 +8278,32 @@ h5 {
 form .btn-primary {
   background-color: #22283B;
   border-color: #22283B;
+  margin-top: 10px;
 }
 form .btn-primary:hover {
   background-color: #e0e0e0;
   border-color: #e0e0e0;
+}
+.spacewalk {
+  border-top: 2px solid #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
+  padding: 40px;
+}
+.spacewalk img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  max-width: 100%;
 }
 .footer {
   background-color: #f4f4f4;
   height: 100px;
   display: flex;
   align-items: center;
+}
+.form-check {
+  margin: 0;
 }
