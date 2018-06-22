@@ -8249,7 +8249,27 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.navigation {
+.nav li a {
   text-decoration: none;
-  color: black;
+  color: #22283B;
+}
+.nav li a:hover {
+  color: #97a2c3;
+}
+.chart {
+  border-bottom: 1px dotted #e0e0e0;
+  padding-bottom: 20px;
+}
+.bottom-content {
+  border-top: 1px dotted #e0e0e0;
+  padding-top: 40px;
+}
+.bottom-content .checkboxes {
+  margin-bottom: 0px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0;
+  border: 1px solid #d4d4d4;
 }

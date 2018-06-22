@@ -7,8 +7,35 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
-.navigation {
-  
-        text-decoration: none;
-        color:black;
+.nav {
+    li {
+        a {
+            text-decoration: none;
+            color: @secondary-color;
+            &:hover {
+             color: @lightened;
+            }
+        }
+        }  
+}
+
+.chart {
+    border-bottom: 1px dotted @accent-color;
+    padding-bottom: 20px;
+}
+
+.bottom-content {
+border-top: 1px dotted @accent-color;
+padding-top: 40px;
+.checkboxes {
+    
+    margin-bottom: 0px;
+}
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: @accent-color;
+    border: 1px solid @darkened;
 }
