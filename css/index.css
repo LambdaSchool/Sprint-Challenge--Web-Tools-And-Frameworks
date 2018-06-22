@@ -8270,3 +8270,28 @@ h5 {
 .container {
   width: 100%;
 }
+.container .top-content {
+  margin: 0px;
+}
+.container .top-content .lift-off-title {
+  padding: 1%;
+  width: 100%;
+}
+.container .top-content .lift-off-text {
+  width: 60%;
+  margin-left: 20%;
+}
+.container .top-content .lift-off-image-container {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .top-content .lift-off-image-container img {
+  width: 33%;
+}
+.container .top-content .lift-off-image-container .blast {
+  padding-left: 0px;
+}

@@ -5,7 +5,36 @@
 @import 'mixins.less';
 @import 'layout.less';
 @import 'header.less';
-
 .container {
-    width:100%;
+    width: 100%; // padding-left: -15px;
+    .top-content {
+        margin: 0px; // display: flex;
+        .lift-off-title {
+            padding: 1%;
+            width: 100%;
+        }
+        .lift-off-text {
+            width: 60%;
+            margin-left: 20%;
+        }
+        .lift-off-image-container {
+            margin: 0px;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 33%; // padding: 0px;
+                // margin: 1%;
+                // padding: 15px;
+                // .launch {
+                //     padding-right: 0px;
+                // }
+            }
+            .blast {
+                padding-left: 0px;
+            }
+        }
+    }
 }
