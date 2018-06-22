@@ -15,13 +15,11 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-ul {
-  li {
+nav {
     a{
       color: @secondary-color;
     }
   }
-}
 
 .container-fluid {
   background-color: @main-color;
@@ -33,25 +31,41 @@ ul {
 }
 
 .s-walk {
-  border-top: 1px solid @main-color;
-  border-bottom: 1px solid @main-color;
+  border-top: 1px solid @accent-color;
+  border-bottom: 1px solid @accent-color;
 
   .walk-text {
     padding-right: 40px;
   }
-
-  div {
-
-    img {
-      min-height: 220px;
-      ming-height: 220px;
-    }
-  }
 }
+
+.myImage {
+      min-height: 220px;
+      .border-radius(20px);
+    }
 
 .btn {
   background: @secondary-color;
   color: @main-color;
+}
+
+.navbar {
+
+  .navbar-toggler {
+    background: @accent-color;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.spaceStuff {
+  .opacity(.5);
+
+  &:hover {
+    .opacity(1);
+  }
 }
 
 .footer {

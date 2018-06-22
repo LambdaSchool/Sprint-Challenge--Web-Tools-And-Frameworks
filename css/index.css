@@ -8237,6 +8237,23 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+@keyframes twirl {
+  0% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+  }
+  50% {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+  }
+  100% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+  }
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8255,7 +8272,7 @@ h5 {
 .nav .nav * {
   background: #f4f4f4;
 }
-ul li a {
+nav a {
   color: #22283B;
 }
 .container-fluid {
@@ -8266,19 +8283,40 @@ ul li a {
   max-width: 800px;
 }
 .s-walk {
-  border-top: 1px solid #f4f4f4;
-  border-bottom: 1px solid #f4f4f4;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .s-walk .walk-text {
   padding-right: 40px;
 }
-.s-walk div img {
+.myImage {
   min-height: 220px;
-  ming-height: 220px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .btn {
   background: #22283B;
   color: #f4f4f4;
+}
+.navbar .navbar-toggler {
+  background: #e0e0e0;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.spaceStuff {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.spaceStuff:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
 }
 .footer {
   background: #f4f4f4;

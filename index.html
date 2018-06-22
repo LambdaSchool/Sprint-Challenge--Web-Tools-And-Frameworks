@@ -7,7 +7,6 @@
 
     <title>SpaceWalkers</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -17,29 +16,18 @@
 
   <body>
     <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center">
-            <h1 class="">SpaceWalker</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="container col-12">
-            <nav class="navbar navbar-expand-md">
-              <div class="container">
-                <button class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="collapsy"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
+      <nav class="navbar navbar-expand-md d-flex justify-content-center align-items-center">
+              <a href="#" class="navbar-brand navbar-toggler"
+                            data-toggle="collapse"
+                            data-target="#collapsy"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">SpaceWalk</a>
+
 
               <div class="collapse navbar-collapse" id="collapsy">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav d-flex justify-content-center flex-wrap mx-auto">
+                  <li class="nav-item w-100 d-none d-md-flex justify-content-center"><a href="#" class="navbar-brand"><h1>SpaceWalk</h1></a></li>
                   <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                   </li>
@@ -58,9 +46,6 @@
                 </ul>
               </div>
             </nav>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="container">
       <div class="row">
@@ -103,10 +88,10 @@
             <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
           </div>
         </div>
-      <div class="row imgrow">
-          <div class="col-12 col-md-4"><img src="img/blast.jpg" alt="Blast off!" class="img-fluid rounded"></div>
-          <div class="col-12 col-md-4"><img src="img/sky.jpg" alt="Rocket Trail in the Sky" class="img-fluid rounded"></div>
-          <div class="col-12 col-md-4"><img src="img/launch.jpg" alt="Rocket Launching" class="img-fluid rounded"></div>
+      <div class="row">
+          <div class="col-12 col-md-4"><img src="img/blast.jpg" alt="Blast off!" class="img-fluid mx-auto myImage"></div>
+          <div class="d-none d-md-block col-md-4"><img src="img/sky.jpg" alt="Rocket Trail in the Sky" class="img-fluid myImage"></div>
+          <div class="d-none d-md-block col-md-4"><img src="img/launch.jpg" alt="Rocket Launching" class="img-fluid myImage"></div>
         </div>
       <div class="row mt-5">
           <div class="col-sm-12">
@@ -186,15 +171,15 @@
               <button type="button" class="btn">Ready For Launch</button>
             </form>
           </div>
-          <div class="col-12 col-md-4">
-            <h4>Space Stuff</h4>
+          <div class="d-none d-md-block col-md-4">
+            <h4 onmouseenter="startTwirl();" onmouseout="endTwirl();">Space Stuff</h4>
             <ul class="list-group">
-              <li class="list-group-item">Space Helmet</li>
-              <li class="list-group-item">Rocket Boosters</li>
-              <li class="list-group-item">Shuttle</li>
-              <li class="list-group-item">Training for Launch</li>
-              <li class="list-group-item">Heat resistant plating</li>
-              <li class="list-group-item">Space Suit</li>
+              <li class="list-group-item spaceStuff">Space Helmet</li>
+              <li class="list-group-item spaceStuff">Rocket Boosters</li>
+              <li class="list-group-item spaceStuff">Shuttle</li>
+              <li class="list-group-item spaceStuff">Training for Launch</li>
+              <li class="list-group-item spaceStuff">Heat resistant plating</li>
+              <li class="list-group-item spaceStuff">Space Suit</li>
             </ul>
           </div>
         </div>
