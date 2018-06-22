@@ -8272,18 +8272,18 @@ h5 {
 .spacewalk {
   border-top: 2px solid #e0e0e0;
 }
-.headnav {
-  background-color: #f4f4f4;
-}
-.headnav .navigation {
+.navigation {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.headnav .navbar-nav {
+.navigation .navbar-nav {
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
-.headnav .navbar-nav a {
+.navigation .navbar-nav a {
+  padding: 5px 5px;
   text-decoration: none;
   color: #22283B;
   font-size: 1.1rem;
