@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container-fluid sticky-top">
+  <div class="container-fluid sticky-top bg-light border-bottom">
     <div class="container">
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
@@ -24,11 +24,11 @@
         </div>
         <div class="col-12 d-flex justify-content-center">
           <nav class="navbar">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Sign in</a>
+            <a class="nav-link text-dark active" href="#">Home</a>
+            <a class="nav-link text-dark" href="#">About Us</a>
+            <a class="nav-link text-dark" href="#">Blog</a>
+            <a class="nav-link text-dark" href="#">Contact</a>
+            <a class="nav-link text-dark" href="#">Sign in</a>
           </nav>
         </div>
       </div>
@@ -39,7 +39,7 @@
   <div class="container">
 
     <!-- Carousel -->
-    <div class="row mb-3">
+    <div class="row mb-5">
       <div id="carouselSpaceSlides" class="carousel slide w-100" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselSpaceSlides" data-slide-to="0" class="active"></li>
@@ -72,23 +72,24 @@
       </div>
     </div> <!-- end of carousel -->
 
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-12">
+        <h4>Lift Off</h4>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
       </div>
       <div class="col-sm-4">
         <img class="img-fluid rounded" src="img/blast.jpg" alt="">
       </div>
       <div class="col-sm-4">
-        <img class="img-fluid rounded" src="img/launch.jpg" alt="">
+        <img class="img-fluid rounded" src="img/sky.jpg" alt="">
       </div>
       <div class="col-sm-4">
-        <img class="img-fluid rounded" src="img/sky.jpg" alt="">
+        <img class="img-fluid rounded" src="img/launch.jpg" alt="">
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-12">
         <h4>Can We Visit Planets?</h4>
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
@@ -128,7 +129,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row border-top border-bottom mb-5 py-5">
       <div class="col-sm-6">
         <h4>Let's Go For A Walk</h4>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
@@ -140,7 +141,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-sm-8">
         <h5>Ready to Go?</h5>
         <form>
@@ -157,19 +158,21 @@
             <input id="email" type="email" class="form-control" placeholder="Email">
           </div>
 
-          <div class="form-group form-check">
+          <div class="form-check">
             <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios1" value="option1" checked>
             <label class="form-check-label" for="spaceRadios1">
               I would like to receive promotional emails
             </label>
           </div>
-          <div class="form-group form-check">
-            <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios2" value="option2">
-            <label class="form-check-label" for="spaceRadios2">
-              Please don't send me emails
-            </label>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios2" value="option2">
+              <label class="form-check-label" for="spaceRadios2">
+                Please don't send me emails
+              </label>
+            </div>
           </div>
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#spaceModal">Ready For Launch</button>
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#spaceModal">Ready For Launch</button>
         </form>
       </div>
       <div class="col-sm-4">
@@ -199,14 +202,14 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-dark">Submit</button>
           </div>
         </div>
       </div>
     </div> <!-- end form submission modal -->
 
 
-    <div class="row">
+    <div class="row bg-light rounded border-top border-left border-right pt-3 pb-4">
       <div class="col-sm-12 d-flex justify-content-center">
         Copyright SpaceWalkers 2018
       </div>
