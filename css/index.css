@@ -8304,10 +8304,16 @@ h5 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin-bottom: 3%;
 }
 .container .go-for-walk .walk-content {
   width: 100%;
 }
 .container .ready-to-go .launch-form .launch-btn {
   margin: 1%;
+}
+.container .footer {
+  background-color: #F4F4F4;
+  padding: 2% 0%;
+  margin-top: 2%;
 }
