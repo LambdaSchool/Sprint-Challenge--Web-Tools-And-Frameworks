@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light d-flex flex-column align-items-center justify-content-center border-bottom">
       <nav class="navbar navbar-light bg-light">
@@ -53,8 +54,10 @@
           </li>
         </ul>
       </div>
+      <!--navbar-collapse-->
     </nav>
   </div>
+
   <!--SignIn Modal-->
   <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="signInModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -66,32 +69,40 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form class="needs-validation" novalidate>
             <div class="form-group">
               <label for="inputEmail">Email address</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="name@email.com">
+              <input type="email" class="form-control" id="inputEmail" placeholder="name@email.com" required>
+              <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
             </div>
             <div class="form-group">
               <label for="inputPassword">Password</label>
-              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+              <div class="invalid-feedback">
+                  Please enter your password.
+                </div>
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="rememberCheck">
               <label class="form-check-label" for="rememberCheck">Remember me on this computer</label>
             </div>
-            <button type="submit" class="btn btn-outline-dark mt-2" data-dismiss="modal">Sign In!</button>
+            <button type="submit" class="btn btn-outline-dark mt-2" >Sign In!</button>
           </form>
         </div>
         <div class="modal-footer">
-          <form class="form inline"></form>
-          <label for="signUp">Don't have an account?</label>
-          <button id="signUp" type="button" class="btn btn-dark" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+          <form class="form inline">
+            <label for="signUp">Don't have an account?</label>
+            <button id="signUp" type="button" class="btn btn-dark" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
           </form>
         </div>
       </div>
+      <!--modal-content-->
     </div>
+    <!--modal-dialog-->
   </div>
-  <!--End SignIn-->
+  <!--signIn modal-->
 
   <!--SignUp Modal-->
   <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUp" aria-hidden="true">
@@ -145,13 +156,15 @@
           <button type="submit" class="btn btn-secondary" data-dismiss="modal">Sign Up!</button>
         </div>
       </div>
+      <!--modal-content-->
     </div>
+    <!--modal-dialogue-->
   </div>
-  <!--End SignUp-->
+  <!--signUp modal-->
 
-  <!--Carousel-->
   <div class="container" data-spy="scroll">
-    <div id="carouselExampleControls" class="carousel slide pt-2" data-ride="carousel">
+    <!--Carousel-->
+    <div id="carousel" class="carousel slide pt-2" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
@@ -163,19 +176,19 @@
           <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="img/slider-4.jpg" alt="Third slide">
+          <img class="d-block w-100" src="img/slider-4.jpg" alt="Fourth slide">
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <!--Carousel-->
+    <!--carousel-->
 
     <div id="lift" class="row mt-5">
       <div class="col-sm-12">
@@ -209,11 +222,13 @@
         </p>
       </div>
     </div>
-    <div class="accordion mt-3" id="spaceAccordian">
+
+    <!--accordion dropdown-->
+    <div class="accordion mt-3 closer-look" id="spaceAccordian">
       <div class="card">
         <div class="card-header" id="headingOne">
           <h5 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+            <button class="btn btn-link collapsed text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
               aria-controls="collapseOne">
               Take a Closer Look!
             </button>
@@ -252,9 +267,13 @@
               </tbody>
             </table>
           </div>
+          <!--card-body-->
         </div>
+        <!--collapse-->
       </div>
+      <!--card-->
     </div>
+    <!--accordian-->
     <div id="walk" class="row my-5 py-5 d-flex justify-content-center border-top border-bottom">
       <div class="col-sm-5">
         <h4>Let's Go For A Walk</h4>
@@ -266,11 +285,11 @@
           blotted out the planet Earth.
         </p>
       </div>
-
       <div class="col-sm-5">
-        <img src="img/space-walk.jpg" class="img-fluid my-img" alt="Responsive image">
+        <img src="img/space-walk.jpg" class="img-fluid" alt="Responsive image">
       </div>
     </div>
+    <!--row-->
 
     <div class="row">
       <div class="col-sm-8">
@@ -295,17 +314,14 @@
             I would like to recieve promotional emails
           </label>
         </div>
-
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="gridCheck">
           <label class="form-check-label" for="gridCheck">
             Please don't send me any emails
           </label>
         </div>
-
         <button type="submit" class="btn btn-dark mt-3">Ready For Launch</button>
       </div>
-
       <div class="col-sm-4">
         <h5>Space Stuff</h5>
         <ul class="list-group">
@@ -316,10 +332,9 @@
           <li class="list-group-item">Heat resistant plating</li>
           <li class="list-group-item">Space Suit</li>
         </ul>
-
       </div>
-
     </div>
+
     <div class="card mt-4 footer">
       <div class="card-body pb-10px d-flex justify-content-center">
         Copyright SpaceWalkers 2018

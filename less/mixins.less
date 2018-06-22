@@ -35,3 +35,14 @@
 	-ms-transform: 		 skew(@deg, @deg2);
 	-o-transform: 		 skew(@deg, @deg2);
 }
+
+#click-ns {
+	.click-mixin{
+		cursor: pointer;
+		color: @secondary-color;
+
+		&:hover {
+			color: lighten(@secondary-color, 20%);
+		}
+	}	
+}

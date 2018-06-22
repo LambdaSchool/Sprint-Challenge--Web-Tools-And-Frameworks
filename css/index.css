@@ -8237,6 +8237,13 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+#click-ns .click-mixin {
+  cursor: pointer;
+  color: #22283B;
+}
+#click-ns .click-mixin:hover {
+  color: #47547c;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8259,6 +8266,13 @@ h5 {
   -moz-transform: skew(-10deg, 0);
   -ms-transform: skew(-10deg, 0);
   -o-transform: skew(-10deg, 0);
+}
+.navbar .nav-link {
+  cursor: pointer;
+  color: #22283B;
+}
+.navbar .nav-link:hover {
+  color: #47547c;
 }
 .container {
   max-width: 800px;
