@@ -8242,7 +8242,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 body {
-  padding-top: 70px;
+  padding-top: 120px;
 }
 h1,
 h2,
@@ -8253,17 +8253,38 @@ h5 {
   color: #22283B;
 }
 .container {
-  max-width: 880px;
+  max-width: 800px;
+  border: 1px solid red;
 }
 .footer {
   background-color: #e0e0e0;
   height: 75px;
   align-items: center;
 }
-.btn-submit {
+.btn-submit,
+.submit-btn {
   background-color: #22283B;
   color: #f4f4f4;
 }
+.submit-btn {
+  width: 100%;
+}
 .spacewalk {
-  border-top: 1px solid #e0e0e0;
+  border-top: 2px solid #e0e0e0;
+}
+.headnav {
+  background-color: #f4f4f4;
+}
+.headnav .navigation {
+  display: flex;
+  flex-direction: column;
+}
+.headnav .navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+}
+.headnav .navbar-nav a {
+  text-decoration: none;
+  color: #22283B;
+  font-size: 1.1rem;
 }
