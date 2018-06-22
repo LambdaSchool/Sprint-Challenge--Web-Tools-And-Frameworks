@@ -8258,6 +8258,10 @@ h5 {
 .container {
   max-width: 800px;
 }
+.navbar-nav .nav-item:hover {
+  text-decoration: underline;
+  color: black;
+}
 img {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -8273,6 +8277,7 @@ img {
 }
 .form-group button {
   background-color: #22283B;
+  border-color: black;
 }
 .footer {
   color: #22283B;
