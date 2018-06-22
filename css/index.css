@@ -8255,6 +8255,7 @@ h5 {
 .custom-nav {
   background: #f4f4f4;
   text-align: center;
+  width: 100%
   height: 100px;
 }
 .custom-nav nav {
