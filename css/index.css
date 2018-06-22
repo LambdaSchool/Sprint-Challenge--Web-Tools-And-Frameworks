@@ -8269,9 +8269,19 @@ h5 {
 .container-fluid .title h1 {
   margin-bottom: 0;
 }
+@media (max-width: 576px) {
+  .container-fluid .navbar {
+    padding: 8px 5px;
+  }
+}
 .container-fluid a {
   padding: 10px;
   color: black;
+}
+@media (max-width: 576px) {
+  .container-fluid a {
+    padding: 2px 7px;
+  }
 }
 .container-fluid a:visited {
   text-decoration: none;
@@ -8279,6 +8289,9 @@ h5 {
 }
 .container-fluid a:hover {
   text-decoration: none;
+}
+.container-fluid .nav-link.active {
+  background-color: #636e72 !important;
 }
 .main-content {
   margin-top: 100px;
@@ -8291,4 +8304,10 @@ h5 {
 }
 .footer {
   background-color: #f4f4f4;
+}
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
 }

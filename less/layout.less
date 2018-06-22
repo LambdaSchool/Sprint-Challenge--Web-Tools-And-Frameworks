@@ -25,9 +25,17 @@ h1, h2, h3, h4, h5 {
 			margin-bottom: 0;
 		}
 	}
+	.navbar {
+		@media @phone {
+			padding: 8px 5px;
+		}
+	}
 	a {
 		padding: 10px;
 		color: black;
+		@media @phone {
+			padding:2px 7px;
+		}
 	}
 	a:visited {
 		text-decoration: none;
@@ -35,6 +43,9 @@ h1, h2, h3, h4, h5 {
 	}
 	a:hover {
 		text-decoration: none;
+	}
+	.nav-link.active {
+		background-color: #636e72 !important;
 	}
 }
 
@@ -49,4 +60,11 @@ h1, h2, h3, h4, h5 {
 
 .footer {
 	background-color: @main-color;
+}
+
+.anchor{
+	display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
