@@ -8252,3 +8252,7 @@ h5 {
 .container {
   max-width: 800px;
 }
+.container .footer {
+  background: #f4f4f4;
+  padding: 20px 0;
+}
