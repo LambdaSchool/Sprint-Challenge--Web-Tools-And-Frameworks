@@ -1,8 +1,132 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    
+    @media @mqsm {
+        max-width: 768px;
+    }
+
+    @media @mqmd {
+        max-width: 992px;
+    }
+
+    @media @mqlg {
+        max-width: 1200px;
+    }
+
+    @media @mqxl {
+        min-width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+    border: 1px solid lightgray;
+    .border-radius(10px);
+}
+
+.header {
+    .center;
+    border-bottom: 1px solid lightgrey;
+    width: 75%;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.main-content, .custom-carousel {
+    width: 90%;
+    margin: 0 auto;
+
+    @media @mqsm {
+        width: 80%;
+    }
+    @media @mqlg {
+        width: 65%;
+    }
+}
+
+.custom-nav {
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+
+    @media @mqsm {
+        width: 90vw;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    @media @mqmd {
+        width: 60vw;
+    }
+}
+
+.custom-nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid black;
+
+    &:last-child {
+        border-bottom: 1px solid black;
+
+        @media @mqsm {
+            border: none;
+        }
+    }
+    .center;
+    @media @mqsm {
+        width: 20vw;
+        border: none;
+    }
+}
+
+.custom-navbar {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header a:link, .header a:active, .header a:hover, .header a:visited {
+    color: @secondary-color;
+}
+
+.walking {
+    .center;
+}
+
+footer {
+    .center;
+    border: 1px solid lightgrey;
+    padding: 20px 0;
+}
+
+#custom-dark {
+    background-color: black !important;
+}
+
+.custom-form {
+    border-top: 1px solid lightgrey;
+    padding-top: 30px;
+}
+
+.faded {
+    .opacity(.75);
+}
+
+.custom-scrollspy {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.custom-scrollspy-row {
+    border: 1px solid black;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0;
 }
