@@ -8252,6 +8252,9 @@ h5 {
 .top-content .top-container {
   background: #e9ecef;
 }
+.top-content .top-container nav a {
+  color: black;
+}
 .custom-container2 {
   max-width: 800px;
 }
