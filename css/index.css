@@ -8256,11 +8256,14 @@ h5 {
   margin-left: 10%;
 }
 .custom {
-  margin-top: 50%;
+  margin-top: 15%;
 }
 nav a {
   margin-right: -10px;
 }
 .customnav {
   background-color: #f4f4f4;
+}
+.customCar {
+  height: ;
 }
