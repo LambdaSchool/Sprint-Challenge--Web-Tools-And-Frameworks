@@ -1,31 +1,155 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>SpaceWalkers</title>
+    <title>SpaceWalkers</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <h1 class="">SpaceWalker</h1>
+          </div>
+        </div>
+        <div class="row">
+          <nav class="nav d-flex justify-content-center align-items-center col-12">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid" src="img/slider-1.jpg" alt="header cloud image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4>Lift Off</h4>
+            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/blast.jpg" alt="Blast off!" class="img-fluid col-12 col-md-4">
+          <img src="img/sky.jpg" alt="Rocket Trail in the Sky" class="img-fluid col-12 col-md-4">
+          <img src="img/launch.jpg" alt="Rocket Launching" class="img-fluid col-12 col-md-4">
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>Can We Visit Planets?</h3>
+            <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/index.js"></script>
-</body>
+            <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+          </div>
+        </div>
+        <div class="row">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <thscope="col">Planet</th>
+                <thscope="col">Distance</th>
+                <thscope="col">Survivability</th>
+                <thscope="col">How Long To Travel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mars</td>
+                <td>54.6 million km</td>
+                <td>Maybe</td>
+                <td>300 Days</td>
+              </tr>
+              <tr>
+                <td>Jupiter</td>
+                <td>588 million km</td>
+                <td>No</td>
+                <td>Depends On Orbit (3-6 Years)</td>
+              </tr>
+              <tr>
+                <td>Saturn</td>
+                <td>1.2 billion km</td>
+                <td>No</td>
+                <td>Depends On Orbit (3-6 Years)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h4>Let's Go For A Walk</h4>
+            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+
+            <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="img/space-walk.jpg" alt="Astronaut in Space">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <h4>Ready To Go?</h4>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="phone" id="phone" class="form-control" placeholder="phone">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="email">
+              </div>
+              <div class="form-group">
+                <input type="checkbox" class="form-check-input" id="promotional" value="">
+                <label for="promotional" class="form-check-label">I would like to receive promotional emails</label>
+              </div>
+              <div class="form-group">
+                <input type="checkbox" class="form-check-input" value="" id="noemail">
+                <label for="noemail" class="form-check-label">Please dont' send me emails</label>
+              </div>
+              <button type="button" class="btn btn-dark">Ready For Launch</button>
+            </form>
+          </div>
+          <div class="col-12 col-md-4">
+            <h4>Space Stuff</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Space Helmet</li>
+              <li class="list-group-item">Rocket Boosters</li>
+              <li class="list-group-item">Shuttle</li>
+              <li class="list-group-item">Training for Launch</li>
+              <li class="list-group-item">Heat resistant plating</li>
+              <li class="list-group-item">Space Suit</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer">
+          <div class="col-sm-12">
+            Copyright SpaceWalkers 2018
+          </div>
+        </div>
+      </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
