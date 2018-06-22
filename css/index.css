@@ -8249,3 +8249,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.nav a {
+  color: #22283B;
+}
+.footer {
+  color: black;
+  background: #cccccc;
+  padding: 20px 0;
+}
