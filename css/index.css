@@ -8259,3 +8259,8 @@ h5 {
 a {
   color: black;
 }
+.footer {
+  background: lightgray;
+  padding: 20px 0;
+  text-align: center;
+}
