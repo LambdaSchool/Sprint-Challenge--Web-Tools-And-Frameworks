@@ -8253,7 +8253,7 @@ h5 {
   max-width: 800px;
 }
 .custom-nav {
-  background: lightgray;
+  background: #f4f4f4;
   text-align: center;
   height: 100px;
 }
@@ -8264,7 +8264,26 @@ h5 {
 .custom-nav nav a {
   color: black;
 }
+h2 {
+  -webkit-transform: skew(35deg, 0);
+  -moz-transform: skew(35deg, 0);
+  -ms-transform: skew(35deg, 0);
+  -o-transform: skew(35deg, 0);
+}
+.custom-container {
+  border-top: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+}
+.custom-container .row {
+  margin: 50px 0;
+}
 .img-fluid {
   width: 100%;
   heigth: auto;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.btn-info {
+  background: #22283B;
 }
