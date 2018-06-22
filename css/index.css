@@ -8258,3 +8258,19 @@ h5 {
 .ready {
   border-top: 1px solid gray;
 }
+.opaquer:hover {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+.borderer {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.footer {
+  background-color: #e0e0e0;
+}
