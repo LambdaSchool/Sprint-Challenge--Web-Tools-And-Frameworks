@@ -8237,6 +8237,11 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8248,4 +8253,13 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.container {
+  max-width: 900px;
+  border: 2px solid orange;
+}
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
