@@ -6,3 +6,69 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+//=== My LESS ===//
+.main-container {
+    max-width: 880px;
+	margin: 0 auto;
+}
+
+nav {
+    background: @main-color;
+    a {
+        color: @secondary-color;
+        font-weight: bold;
+    }
+}
+
+.top-content-pics {
+    img {
+        .box-shadow(0 8px 6px -6px black);
+    }
+}
+
+.top-content-2 {
+    img {
+        .box-shadow(0 8px 6px -6px black);
+    }
+    .spacewalk-pic {
+        .border-radius(@radius: 50%) !important;
+    }
+}
+
+footer {
+    background: @main-color;
+    font-weight: bold;
+}
+
+// Popper JS CSS //
+.tooltip-inner {
+    background-color: #00cc00;
+    padding: 25px;
+    font-size: 25px;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #00cc00 !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: #00cc00 !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #00cc00 !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #00cc00 !important;
+}
+
+// //Carousel Fix
+// .carousel, .carousel-item, .active {
+//     height:100%;
+// }
+// .carousel-inner {
+//     height:100%;
+// }
+
+// // Utility Spacer class
+// .p-5 {
+//     padding:($spacer * .5) !important;
+// }
