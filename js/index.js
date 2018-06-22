@@ -10,4 +10,6 @@ $(".navbar li a").click(function(event) {
   scrollBy(0, -offset);
 });
 
-$("#collapseOne").collapse("toggle");
+$("#collapseOne").collapse({
+  toggle: true
+});
