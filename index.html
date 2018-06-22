@@ -141,11 +141,46 @@
 
 
     <div class="row">
-      <div class="col-sm-10">
+      <div class="col-sm-8">
         <h5>Ready to Go?</h5>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" type="phone" class="form-control" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" placeholder="Email">
+          </div>
+
+          <div class="form-group form-check">
+            <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios1" value="option1" checked>
+            <label class="form-check-label" for="spaceRadios1">
+              I would like to receive promotional emails
+            </label>
+          </div>
+          <div class="form-group form-check">
+            <input class="form-check-input" type="checkbox" name="spaceRadios" id="spaceRadios2" value="option2">
+            <label class="form-check-label" for="spaceRadios2">
+              Please don't send me emails
+            </label>
+          </div>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#spaceModal">Ready For Launch</button>
+        </form>
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-4">
         <h5>Space Stuff</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Space Helmet</li>
+          <li class="list-group-item">Rocket Boosters</li>
+          <li class="list-group-item">Shuttle</li>
+          <li class="list-group-item">Training for Launch</li>
+          <li class="list-group-item">Space Suit</li>
+        </ul>
       </div>
     </div>
 
