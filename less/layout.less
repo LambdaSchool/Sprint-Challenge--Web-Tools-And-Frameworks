@@ -2,7 +2,69 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+	position: relative;
+	height: 100%;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+}
+
+.container-fluid {
+	background-color: @main-color;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	height: 100px;
+	.opacity(0.8);
+	.title {
+		width: 100%;
+		h1 {
+			margin-bottom: 0;
+		}
+	}
+	.navbar {
+		@media @phone {
+			padding: 8px 5px;
+		}
+	}
+	a {
+		padding: 10px;
+		color: black;
+		@media @phone {
+			padding:2px 7px;
+		}
+	}
+	a:visited {
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	.nav-link.active {
+		background-color: #636e72 !important;
+	}
+}
+
+.main-content {
+	margin-top: 140px;
+	.three-images {
+		img:hover {
+			.skew(2deg, 2deg);
+		}
+	}
+}
+
+.footer {
+	background-color: @main-color;
+}
+
+.anchor{
+	display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
