@@ -1,5 +1,22 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
+
+    @media @mqsm {
+        max-width: 768px;
+    }
+
+    @media @mqmd {
+        max-width: 992px;
+    }
+
+    @media @mqlg {
+        max-width: 1200px;
+    }
+
+    @media @mqxl {
+        min-width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 h1, h2, h3, h4, h5 {
@@ -20,13 +37,52 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-content, .custom-carousel {
-    width: 55%;
+    width: 90%;
     margin: 0 auto;
+
+    @media @mqsm {
+        width: 80%;
+    }
+    @media @mqlg {
+        width: 65%;
+    }
+}
+
+.custom-nav {
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+
+    @media @mqsm {
+        width: 90vw;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    @media @mqmd {
+        width: 60vw;
+    }
 }
 
 .custom-nav a {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid black;
+
+    &:last-child {
+        border-bottom: 1px solid black;
+
+        @media @mqsm {
+            border: none;
+        }
+    }
+    .center;
+    @media @mqsm {
+        width: 20vw;
+        border: none;
+    }
 }
 
 .header a:link, .header a:active, .header a:hover, .header a:visited {
