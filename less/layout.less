@@ -1,8 +1,79 @@
-html, body {
-    font-family: 'Ubuntu', sans-serif;
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
-    color: @secondary-color;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Russo One", sans-serif;
+  color: @secondary-color;
+}
+
+.container-fluid {
+  background-color: @main-color;
+
+  a {
+    color: black;
+  }
+
+  .nav-item {
+    text-decoration: none;
+    .opacity;
+  }
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.triptych {
+  img {
+    .border-radius;
+    max-width: 100%;
+  }
+}
+
+form .btn-primary {
+  background-color: @secondary-color;
+  border-color: @secondary-color;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: @accent-color;
+    border-color: @accent-color;
+  }
+}
+
+.spacewalk {
+  border-top: 2px solid @main-color;
+  border-bottom: 2px solid @main-color;
+  padding: 40px;
+  // padding-top: 40px;
+  // padding-bottom: 40px;
+
+  img {
+    .border-radius;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  background-color: @main-color;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.form-check {
+  margin: 0;
 }
