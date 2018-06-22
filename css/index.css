@@ -8261,3 +8261,7 @@ h5 {
   background-color: #e0e0e0;
   height: 90px;
 }
+.btn-primary {
+  background: #22283B;
+  color: #f4f4f4;
+}
