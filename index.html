@@ -16,15 +16,29 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-link active" href="#">Home</a>
-      <a class="nav-link" href="#">About Us</a>
-      <a class="nav-link" href="#">Blog</a>
-      <a class="nav-link" href="#">Contact</a>
-      <a class="nav-link" href="#">Sign In</a>
+  <div class="container-fluid">
+    <nav class="nnavbar navbar-expand-lg navbar-light bg-light d-flex flex-column align-items-center justify-content-center">
+      <nav class="navbar navbar-light bg-light">
+        <h1 class="navbar-brand mb-0">SpaceWalkers</h1>
+      </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link pr-4" href="#">About Us</a>
+          <a class="nav-link pr-4" href="#">Blog</a>
+          <a class="nav-link pr-4" href="#">Contact</a>
+          <a class="nav-link" href="#">Sign In</a>
+        </div>
+      </div>
     </nav>
     <!--Carousel-->
+    <div class="container">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -50,15 +64,15 @@
       </a>
     </div><!--Carousel-->
 
-    <div class="card w-75">
-        <div class="card-body">
-          <h5 class="card-title">Lift Off</h5>
-          <p class="card-text">As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
+    <div class="row mt-5">
+        <div class="col-sm-12">
+          <h4>Lift Off</h4>
+          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.
             </p>
         </div>
       </div>
     
-    <div class="row">
+    <div class="row mt-2">
       <div class="col-sm-4">
         <img src="img/blast.jpg" class="img-fluid" alt="Responsive image">
       </div>
@@ -70,17 +84,17 @@
       </div>
     </div>
 
-    <div class="card w-75">
-        <div class="card-body">
-          <h5 class="card-title">Can We Visit Planets?</h5>
-          <p class="card-text">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
+    <div class="row mt-5">
+        <div class="col-sm-12">
+          <h4>Can We Visit Planets?</h4>
+          <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.
 
               which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.
               </p>
         </div>
       </div>
 
-    <table class="table table-striped">
+    <table class="table table-striped mt-5">
       <thead>
         <tr>
           <th scope="col">Planet</th>
@@ -111,25 +125,23 @@
       </tbody>
     </table>
     
-    <div class="row">
-      <div class="col-sm-6">
-          <div class="card w-75">
-              <div class="card-body">
-                <h5 class="card-title">Let's Go For A Walk</h5>
-                <p class="card-text">The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
-
+    <div class="row my-5 py-5 d-flex justify-content-center border-top border-bottom">
+      <div class="col-sm-5">
+                <h5>Let's Go For A Walk</h5>
+                <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
+                    <br><br>
                     It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
                     </p>
               </div>
-            </div>
-      </div>
-      <div class="col-sm-6">
+            
+      <div class="col-sm-5">
         <img src="img/space-walk.jpg" class="img-fluid" alt="Responsive image">
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-8">
+        <h5>Ready To Go?</h5>
         <form>
           <div class="form-group">
             <label for="formGroupExampleInput">Name</label>
@@ -160,11 +172,11 @@
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Ready For Launch</button>
+        <button type="submit" class="btn btn-dark">Ready For Launch</button>
       </div>
     
       <div class="col-sm-4">
-        <h1></h1>
+        <h5>Space Stuff</h5>
         <ul class="list-group">
             <li class="list-group-item">Space Helmet</li>
             <li class="list-group-item">Rocket Boosters</li>
@@ -177,7 +189,12 @@
     </div>
 
   </div>
-
+  <div class="row footer mt-4">
+    <div class="col-sm-12 pb-10px d-flex justify-content-center">
+      Copyright SpaceWalkers 2018
+    </div>
+  </div>
+  </div>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
