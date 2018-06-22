@@ -6,7 +6,7 @@ Preprocessing is doing your css compenents in a seperate file (less) which provi
 
 2. What is the yarn command to globally install LESS?
 
-less-watch-compiler less css index.less
+`yarn global add less`
 
 3. What is the most useful mixin you have used this week?
 
