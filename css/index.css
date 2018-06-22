@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  background-color: #f4f4f4;
+}
 nav a {
   color: #22283B;
 }
