@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+body.modal-open {
+  overflow: visible;
+}
 .nav a {
   color: #22283B;
 }
