@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  max-width: 900px;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -8258,4 +8261,9 @@ header {
 }
 header nav a {
   color: #22283B;
+}
+.footer {
+  background-color: #f4f4f4;
+  height: 80px;
+  margin-top: 20px;
 }
