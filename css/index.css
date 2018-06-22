@@ -8252,6 +8252,20 @@ h5 {
 .navigation {
   background: #f4f4f4;
 }
+.navigation .navbar-toggler-icon {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  padding-top: 1px;
+  border: 3px solid #22283B;
+}
 .navigation a {
   color: #22283B;
 }
