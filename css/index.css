@@ -8249,11 +8249,29 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navbar {
+  background-color: #f4f4f4;
+}
+.navbar .navbar-brand {
+  height: 40px;
+  font-size: xx-large;
+  -webkit-transform: skew(-10deg, 0);
+  -moz-transform: skew(-10deg, 0);
+  -ms-transform: skew(-10deg, 0);
+  -o-transform: skew(-10deg, 0);
+}
 .container {
   max-width: 800px;
   padding-top: 100px;
 }
-.navbar-brand {
-  height: 40px;
-  font-size: xx-large;
+.container .my-img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.footer {
+  background-color: #f4f4f4;
 }
