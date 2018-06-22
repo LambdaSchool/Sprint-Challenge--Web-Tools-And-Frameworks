@@ -7,16 +7,18 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
-.container {
-    .header-row {
-        height: 100px;
-        background: white;
+.container-fluid {    
+    background-color: @accent-color;
+    height: 90px;
+    a {
+        text-decoration: none;
+        color: black;
     }
 }
-.row {
-    border: 1px solid red;
-}
 
-nav {
-    border: 1px solid yellow;
+.container {
+    .footer-row {
+        background-color: @accent-color;
+        height: 90px;
+    }
 }

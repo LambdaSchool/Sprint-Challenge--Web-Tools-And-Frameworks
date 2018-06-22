@@ -16,29 +16,31 @@
 </head>
 
 <body>
-  <div class="container sticky-top">
-    <!--Header-->
-    <div class="row header-row">   
-      <div class="col-12 d-flex justify-contents-center">
-        <h1 class="mx-auto">Spacewalkers</h1>
-      </div>
-      <div class="col-6">
-        <nav class="d-flex justify-contents-center">
-          <a href="">Home</a>
-          <a href="">About Us</a>
-          <a href="">Blog</a>
-          <a href="">Contact</a>
-          <a href="">Sign In</a>
-        </nav>
+  <div class="container-fluid sticky-top">
+    <div class="container">
+      <!--Header-->
+      <div class="row header-row">   
+        <div class="col-12 d-flex justify-content-center">
+          <h1>SpaceWalkers</h1>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <nav class+"d-flex justify-content-space-around">
+            <a class="mx-3" href="">Home</a>
+            <a class="mx-3" href="">About Us</a>
+            <a class="mx-3" href="">Blog</a>
+            <a class="mx-3" href="">Contact</a>
+            <a class="mx-3" href="">Sign In</a>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
+</div>
 
   <!--Slider-->
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="col-12 mb-4">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide: curvature of the earth from orbit.">
@@ -53,6 +55,14 @@
                 <img class="d-block w-100" src="img/slider-4.jpg" alt="Fourth slide: the moon floating in space.">
               </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
       </div>
@@ -60,7 +70,7 @@
 
   <!--Jumbotron-->
   <div class="container">  
-    <div class="row">
+    <div class="row my-4">
       <div class="col-12">
           <h2>Lift Off</h2>
           <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so deilicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p> 
@@ -80,12 +90,12 @@
   <!--Middle Content-->
   <div class="container">  
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 my-4">
           <h2>Can We Visit Planets?</h2>
           <p>Never in all their history have men been able truly to conceive of the worls as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventuallyt meet.</p> 
           <p>Which there is no center because every point, or none, is center &#8212; an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p> 
       </div>
-      <div class="col-12">
+      <div class="col-12 my-4">
           <table class="table table-striped">
               <thead>
                 <tr>
@@ -117,27 +127,33 @@
               </tbody>
           </table>
       </div>
+      <div class="col-12">
+          <hr class="my-4">
+      </div>
     </div>  
   </div>
 
   <!--Bottom Content-->
   <div class="container">  
-      <div class="row">
-          <div class="col-5">
+      <div class="row d-flex justify-content-center">
+          <div class="col-4 mr-4">
               <h2>Let's Go For A Walk</h2>
               <p>The Earth was small, light blue, and so touchingly alonge, our home that must be defended like a holy relic. The Earth was absolutely round.</p> 
               <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p> 
           </div>
-          <div class="col-5">
+          <div class="col-4 ml-4">
               <img src="img/space-walk.jpg" class="img-fluid rounded" alt="Space shuttle just starting to take off.">
+          </div>
+          <div class="col-12 mt-4">
+              <hr class="mt-4">
           </div>
       </div>  
   </div>
 
  <!--Contact-->
  <div class="container">  
-    <div class="row">
-            <div class="col-8">
+    <div class="row my-4">
+            <div class="col-8 mb-4">
               <h2>Ready To Go?</h2>
                 <form>
                     <div class="form-group">
@@ -152,7 +168,7 @@
                       <label for="exampleInputEmail1" required>Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                     </div>
-                    <div class="form-group mt-3 ml-3">
+                    <div class="form-group mt-3">
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1" required>
                         <label class="form-check-label" for="exampleRadios1">
@@ -186,9 +202,11 @@
 
   <!--Footer-->
   <div class="container">  
-      <div class="row">
-          <div class="col-12">
-            Copyright Spacewalkers 2018
+      <div class="row footer-row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <footer>
+              Copyright Spacewalkers 2018
+            </footer>
           </div>
       </div>  
   </div>
