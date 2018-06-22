@@ -8298,10 +8298,6 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.container .car img {
-  width: 100%;
-  height: auto;
-}
 .container .pics img {
   width: 100%;
   height: auto;
@@ -8324,6 +8320,10 @@ h2 {
 .container .space-stuff,
 .container form {
   font-size: 1.3rem;
+}
+.container a:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 footer {
   width: 80%;
