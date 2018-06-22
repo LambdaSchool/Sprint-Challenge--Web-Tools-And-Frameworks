@@ -8255,3 +8255,31 @@ h5 {
 nav a {
   color: #22283B;
 }
+.btn {
+  background: #22283B;
+  -webkit-box-shadow: 5px 5px 5px #e0e0e0;
+  -moz-box-shadow: 5px 5px 5px #e0e0e0;
+  box-shadow: 5px 5px 5px #e0e0e0;
+}
+.btn:hover {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #e0e0e0;
+}
+@media (max-width: 768px) {
+  .block-three {
+    margin: 0 !important;
+  }
+}
+.space-dude:hover {
+  -webkit-transform: skew(10deg, 10deg);
+  -moz-transform: skew(10deg, 10deg);
+  -ms-transform: skew(10deg, 10deg);
+  -o-transform: skew(10deg, 10deg);
+}
