@@ -8255,6 +8255,10 @@ h5 {
 .container {
   max-width: 800px;
 }
+.banner {
+  margin: 0;
+  padding: 15px;
+}
 .rotate {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
