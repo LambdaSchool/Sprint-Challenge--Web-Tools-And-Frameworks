@@ -7,6 +7,31 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
-.row{
+
+.custom-header{
+  background-color: @accent-color;
+
+  .flex-row{
+    justify-content: space-evenly;
+  }
+
+}
+
+.custom-images .flex-row{
+  justify-content: space-evenly;
+}
+
+.custom-footer{
+    background-color: @accent-color;
+}
+
+.btn{
+  background-color: black;
   border: 1px solid black;
+
+  &:hover{
+    background-color: @accent-color;
+    color: black;
+    border: 1px solid @accent-color;
+  }
 }

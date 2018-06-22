@@ -8249,6 +8249,24 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-.row {
+.custom-header {
+  background-color: #e0e0e0;
+}
+.custom-header .flex-row {
+  justify-content: space-evenly;
+}
+.custom-images .flex-row {
+  justify-content: space-evenly;
+}
+.custom-footer {
+  background-color: #e0e0e0;
+}
+.btn {
+  background-color: black;
   border: 1px solid black;
+}
+.btn:hover {
+  background-color: #e0e0e0;
+  color: black;
+  border: 1px solid #e0e0e0;
 }

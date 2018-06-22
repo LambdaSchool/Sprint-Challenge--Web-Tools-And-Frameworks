@@ -18,28 +18,32 @@
 <body>
   <div class="container">
     <div class="custom-header">
-      <div class="row">
-        <div class="col-sm-12">
+      <div class="row d-flex p-2">
+        <div class="col-12 col-sm-12">
+          <div class="mx-auto" style="width: 250px;">
           <h1>SpaceWalkers
           </h1>
+          </div>
+        </div>
+      </div>
+        <div class="col-12 col-sm-12">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse d-flex flex-row" id="navbarNav">
+              <ul class="navbar-nav d-flex flex-row">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                  <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Sign-in</a>
                 </li>
               </ul>
             </div>
@@ -50,13 +54,26 @@
 
     <div class="row">
       <div class="col-sm-12">
-
-          put carousel here
-
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slider-4.jpg" alt="Fourth slide">
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-sm-12">
         <h3>
           Lift Off
@@ -67,19 +84,17 @@
       </div>
     </div>
 
-    <div class="row d-flex">
-      <div class="col-sm-12">
+    <div class="row">
+      <div class="custom-images d-flex flex-row">
+        <img class="img-fluid m-4" src="img/blast.jpg" style="width:auto;height:200px;">
 
-        <img src="img/blast.jpg">
+        <img class="img-fluid m-4" src="img/sky.jpg" style="width:auto;height:200px;">
 
-        <img class="img/sky.jpg">
-
-        <img class="img/launch.jpg">
-
+        <img class="img-fluid m-4" src="img/launch.jpg" style="width:auto;height:200px;">
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-sm-12">
         <h3>
           Can We Visit Planets?
@@ -128,7 +143,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-4">
       <div class="col-6 col-sm-12 col-md-6">
         <h3>
           Let's Go For A Walk
@@ -142,25 +157,30 @@
       </div>
 
       <div class="col-6 col-sm-12 col-md-6">
-        <img src="img/space-walk.jpg">
+        <img class="img-fluid" src="img/space-walk.jpg"style="width:auto;height:200px;">
       </div>
     </div>
 
-
-    <div class="row">
-      <div class="col-8 col-sm-12">
-
+    <div class="row mt-4">
+      <div class="col-8 col-sm-8">
         <form>
           <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-12">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Phone</label>
             <div class="col-sm-12">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Phone">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-12">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
             </div>
           </div>
 
@@ -169,21 +189,28 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck1">
                 <label class="form-check-label" for="gridCheck1">
-                  Example checkbox
+                  I would like to receive promotional emails
                 </label>
               </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Please don't send me emails
+                </label>
+              </div>
+
             </div>
           </div>
           <div class="form-group row">
             <div class="col-sm-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Ready For Launch</button>
             </div>
           </div>
         </form>
 
       </div>
 
-      <div class="col-4 col-sm-12">
+      <div class="col-4 col-sm-4">
         <h3>
           Space Stuff
         </h3>
@@ -194,23 +221,17 @@
           <li class="list-group-item">Porta ac consectetur ac</li>
           <li class="list-group-item">Vestibulum at eros</li>
         </ul>
-
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-12">
-        <p>
+    <div class="custom-footer row mt-5 mb-5">
+      <div class="col-sm-12 pt-3">
+        <p class="text-center">
           Copyright SpaceWalkers 2018
         </p>
       </div>
     </div>
-
-
   </div> <!---Container--->
-
-
-
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
