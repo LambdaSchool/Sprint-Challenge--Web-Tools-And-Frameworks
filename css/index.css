@@ -8237,6 +8237,13 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.custom-border-top {
+  border-top: 1px solid #e0e0e0;
+}
+.custom-button {
+  background: #22283B;
+  color: #f4f4f4;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
