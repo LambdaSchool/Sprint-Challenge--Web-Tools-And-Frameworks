@@ -1,8 +1,42 @@
-html, body {
-    font-family: 'Ubuntu', sans-serif;
+body,
+html {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
-    color: @secondary-color;
+html {
+  font-size: 82.5%;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: @secondary-color;
+}
+
+.jumbotron {
+  padding-bottom: 1.5rem;
+
+  nav {
+    .center;
+    align-items: flex-end;
+
+    .nav {
+      width: 60%;
+      .center;
+      justify-content: space-between;
+    }
+
+    li {
+      margin: 0 3%;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
 }

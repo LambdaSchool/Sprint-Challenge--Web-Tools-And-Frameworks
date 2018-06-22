@@ -8237,9 +8237,18 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
-html,
-body {
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body,
+html {
   font-family: 'Ubuntu', sans-serif;
+}
+html {
+  font-size: 82.5%;
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -8248,4 +8257,27 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+}
+.jumbotron {
+  padding-bottom: 1.5rem;
+}
+.jumbotron nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+}
+.jumbotron nav .nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.jumbotron nav li {
+  margin: 0 3%;
+}
+.jumbotron nav a {
+  color: black;
+  text-decoration: none;
 }
