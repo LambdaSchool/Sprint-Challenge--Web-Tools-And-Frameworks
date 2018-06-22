@@ -8253,6 +8253,10 @@ h5 {
   width: 100%;
   max-width: 800px;
 }
+.nav {
+  width: 100%;
+  max-width: 375px;
+}
 hr {
   width: 100%;
   max-width: 800px;
