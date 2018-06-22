@@ -8253,6 +8253,9 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   max-width: 900px;
