@@ -1,1 +1,58 @@
 // Make your imports here!
+@import "bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+@import "layout.less";
+
+header{
+    background-color: @main-color;
+    border-bottom: 2px solid @accent-color;
+    .opacity(0.75);
+}
+
+.navbar{
+    .nav-item{
+        color:@secondary-color;
+        text-decoration: none;
+        &:hover{
+            background-color:@secondary-color;
+            color: @main-color;
+            padding: .5rem 0;
+            .border-radius(0.5rem);
+        }
+    }
+}//navbar
+
+.lift-off-img{
+    .border-radius(20px);
+}
+
+.walk-img{
+    .border-radius(10px);
+}
+
+.main-btn{
+
+    color: @secondary-color;
+    &:hover{
+    text-decoration:none;
+    }
+}
+
+.btn{
+    background-color: @secondary-color;
+    color: @main-color;
+}
+
+.copyright{
+    background-color:@main-color;
+    .border-radius(10px);
+    height: 10vh;
+}
+
+.list-group-item{
+    &:hover{
+        background-color:@secondary-color;
+        color: @main-color;
+    }
+}
