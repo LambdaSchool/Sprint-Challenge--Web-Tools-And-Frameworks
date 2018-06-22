@@ -6,3 +6,29 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+	background-color: @main-color;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	height: 80px;
+	.title {
+		width: 100%;
+	}
+	a {
+		padding: 10px;
+		color: black;
+	}
+	a:visited {
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+.main-content {
+	margin-top: 100px;
+}
