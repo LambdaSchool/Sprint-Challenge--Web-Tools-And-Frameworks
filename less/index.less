@@ -1,1 +1,70 @@
 // Make your imports here!
+// bootstrap.less variables.less mixins.less layout.less
+@import 'bootstrap.less';
+@import 'variables.less';
+@import 'mixins.less';
+@import 'layout.less';
+@import 'header.less';
+.container {
+    width: 80%; // padding-left: -15px;
+    .top-content {
+        margin: 0px; // display: flex;
+        .lift-off-title {
+            margin-top: 3%;
+            padding-top: 2%;
+            width: 100%;
+        }
+        .lift-off-text {
+            width: 80%;
+            margin: 2% 0;
+        }
+        .lift-off-image-container {
+            margin: 0px;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 30%; // padding: 0px;
+                // margin: 1%;
+                // padding: 15px;
+                // .launch {
+                //     padding-right: 0px;
+                // }
+            }
+            .blast {
+                padding-left: 0px;
+            }
+        }
+    }
+    .visit-content {
+        margin-top: 5%;
+    }
+    .go-for-walk {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-bottom: 3%;
+        .walk-content {
+            width: 100%;
+            .walk-title {}
+            .walk-text {}
+        }
+        .walk-img {}
+    }
+    .ready-to-go {
+        .ready-go-title {}
+        .launch-form {
+            .launch-btn {
+                margin: 1%;
+            }
+        }
+    }
+    .footer {
+        background-color: #F4F4F4;
+        padding: 2% 0%;
+        margin-top: 2%;
+    }
+}
