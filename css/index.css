@@ -8249,3 +8249,40 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.navigation {
+  background: #f4f4f4;
+}
+.navigation a {
+  color: #22283B;
+}
+.section-1 img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.section-3 img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.section-4 button {
+  color: #f4f4f4;
+  border-color: #22283B;
+  background-color: #22283B;
+}
+.footer {
+  background: #f4f4f4;
+  border: 1px solid #e7e7e7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
