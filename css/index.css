@@ -8237,6 +8237,9 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.spacing {
+  margin: 15px 5px 0 5px;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8251,10 +8254,24 @@ h5 {
 }
 .container {
   max-width: 800px;
-  border: 1px solid red;
 }
-.title {
+.top {
+  height: 100px;
+  align-self: center;
+}
+.nav {
   display: flex;
-  justify-content: center;
-  border: 2px solid green;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.0rem;
+  color: black;
+}
+.row {
+  margin: 15px 5px 0 5px;
+}
+.space-walk {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
