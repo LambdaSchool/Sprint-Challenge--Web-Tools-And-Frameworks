@@ -8256,3 +8256,6 @@ h5 {
 .nav-link {
   color: black;
 }
+.container {
+  max-width: 800px;
+}
