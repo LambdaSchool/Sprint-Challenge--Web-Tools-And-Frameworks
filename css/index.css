@@ -8249,3 +8249,23 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.footer {
+  color: black;
+  padding: 20px 0;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+.tag2 {
+  color: black;
+}
+.tag2:hover {
+  text-decoration: underline;
+  -webkit-transform: skew(5deg, 7deg);
+  -moz-transform: skew(5deg, 7deg);
+  -ms-transform: skew(5deg, 7deg);
+  -o-transform: skew(5deg, 7deg);
+  -webkit-box-shadow: 3px 6px 5px 4px;
+  -moz-box-shadow: 3px 6px 5px 4px;
+  box-shadow: 3px 6px 5px 4px;
+}
