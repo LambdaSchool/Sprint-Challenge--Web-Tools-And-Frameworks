@@ -18,19 +18,35 @@ h5 {
   .nav-item {
     text-decoration: none;
     color: @secondary-color;
+    .opacity;
   }
 }
 .container {
   max-width: 800px;
   margin: 0 auto;
+  min-height: 100%;
 }
 
-// .triptych {
-//   img {
-//     .border-radius;
-//   }
-// }
+.triptych {
+  img {
+    .border-radius;
+    max-width: 100%;
+  }
+}
+
+form .btn-primary {
+  background-color: @secondary-color;
+  border-color: @secondary-color;
+
+  &:hover {
+    background-color: @accent-color;
+    border-color: @accent-color;
+  }
+}
 
 .footer {
   background-color: @main-color;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }

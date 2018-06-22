@@ -8255,11 +8255,35 @@ h5 {
 .container-fluid .nav-item {
   text-decoration: none;
   color: #22283B;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 .container {
   max-width: 800px;
   margin: 0 auto;
+  min-height: 100%;
+}
+.triptych img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  max-width: 100%;
+}
+form .btn-primary {
+  background-color: #22283B;
+  border-color: #22283B;
+}
+form .btn-primary:hover {
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
 }
 .footer {
   background-color: #f4f4f4;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
