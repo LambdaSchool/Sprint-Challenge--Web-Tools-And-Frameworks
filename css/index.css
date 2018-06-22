@@ -8249,3 +8249,11 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+hr {
+  width: 100%;
+  max-width: 800px;
+}
