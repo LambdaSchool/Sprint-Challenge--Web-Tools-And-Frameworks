@@ -1,17 +1,18 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
 }
-body {
-    padding-top: 120px;
-}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
 
+body {
+    padding-top: 100px;
+}
+
 .container {
     max-width: 800px;
-    border: 1px solid red;
 }
 
 .footer {
@@ -31,13 +32,18 @@ h1, h2, h3, h4, h5 {
 
 .spacewalk {
     border-top: 2px solid @accent-color;
+    border-bottom: 2px solid @accent-color;
     
 }   
 .navigation {
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
+    width: 100%;
+    background-color: @main-color;
+    .opacity(0.9);
+
 .navbar-nav {
     flex-direction: row;
     justify-content: center;
