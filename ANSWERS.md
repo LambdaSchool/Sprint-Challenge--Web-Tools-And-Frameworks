@@ -10,7 +10,7 @@ A: yarn global add less-watch-compiler
 A: I used border-radius a lot to style my images.
 
 4. What are the names of the 5 breakpoints used in bootstrap?
-xs sm md lg
+xs sm md lg xl
 
 
 5. What is the utility class name that turns an element into a flexbox?
