@@ -17,14 +17,13 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid sticky-top navigation-pane">
     <div class="row">
       <div class="col-sm-12">
         <header>
           <h1 class="d-flex justify-content-center mt-2">SpaceWalkers</h1>
-
-
       </div>
+
     </div>
     <div class="row navigation mb-2">
       <div class="col-12">
@@ -48,6 +47,8 @@
       </div>
     </div>
     </header>
+  </div>
+  <div class="container">
 
     <div class="row">
       <div class="col-12">
@@ -175,39 +176,61 @@
       </div>
     </div>
 
-    <div class="row mt-5 bottom-content">
+    <div class="row mt-5 bottom-content mb-5">
       <div class="col-8">
 
         <h2>Ready To Go?</h2>
 
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="Name" class="form-control" placeholder="Name">
-          </div>
 
-          <div class="form-group">
-            <label for="exampleInputEmail1">Phone</label>
-            <input type="Phone" class="form-control" placeholder="Phone">
-          </div>
+        <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Blasting off in 3...2...1</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+              <div class="modal-body mx-3">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="Name" class="form-control" placeholder="Name">
+                  </div>
 
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-          </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Phone</label>
+                    <input type="Phone" class="form-control" placeholder="Phone">
+                  </div>
 
-          <div class="form-group form-check checkboxes">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" value="option1">
-            <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
-          </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                  </div>
 
-          <div class="form-group form-check checkboxes">
-            <input type="checkbox" class="form-check-input" id="exampleCheck2" value="option2">
-            <label class="form-check-label" for="exampleCheck2">Please don’t send me emails</label>
-          </div>
+                  <div class="form-group form-check checkboxes">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" value="option1">
+                    <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails</label>
+                  </div>
 
-          <button type="submit" class="btn btn-dark mb-5">Ready For Launch</button>
-        </form>
+                  <div class="form-group form-check checkboxes">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck2" value="option2">
+                    <label class="form-check-label" for="exampleCheck2">Please don’t send me emails</label>
+                  </div>
+
+                  <button type="submit" class="btn btn-dark mt-5">Ready For Launch</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalSubscriptionForm">
+            <img src="img/rocket-side2.jpg" alt="">
+          </a>
+        </div>
+
 
       </div>
       <div class="col-4">
@@ -224,7 +247,7 @@
     </div>
 
     <footer>
-      <div class="row mt-4">
+      <div class="row mt-3">
         <div class="col-12">
           <p>Copyright SpaceWalkers 2018</p>
         </div>
