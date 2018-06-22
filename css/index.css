@@ -8255,6 +8255,9 @@ h5 {
   top: 0;
   z-index: 1000;
   height: 80px;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
 }
 .container-fluid .title {
   width: 100%;
@@ -8272,6 +8275,12 @@ h5 {
 }
 .main-content {
   margin-top: 100px;
+}
+.main-content .three-images img:hover {
+  -webkit-transform: skew(2deg, 2deg);
+  -moz-transform: skew(2deg, 2deg);
+  -ms-transform: skew(2deg, 2deg);
+  -o-transform: skew(2deg, 2deg);
 }
 .footer {
   background-color: #f4f4f4;
