@@ -8251,20 +8251,44 @@ h5 {
 }
 .top-content .top-container {
   background: #f8f9fa;
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+  border-bottom: 2px solid lightgray;
 }
-.top-content .top-container nav a {
+.top-content .top-container .my-list .nav-color a {
   color: black;
 }
 .custom-container2 {
   max-width: 880px;
 }
-.bottom-form .checkout-button {
+.custom-container2 .image-layout-container div img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.custom-container2 .space-walk-content {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 50px;
+}
+.custom-container2 .bottom-form .checkout-button {
   color: #fff;
   background-color: #343a40;
   border-color: #343a40;
 }
-.footer {
+.custom-container2 .footer {
   color: black;
   background: #f8f9fa;
   padding: 20px 0;
+  border: 1px solid lightgray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
