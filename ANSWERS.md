@@ -1,6 +1,14 @@
 <!-- Answers to the Self Study Questions go here -->
 <!-- Answers --->
-
+1. I honestly think you guys are doing it the right way, introduce CSS so first, so that when we hit preprocessors,
+we know what the preprocessors are actually doing. When I used to dabble in Rails, I would use preprocessors (SASS) 
+without even knowing what they were. I now understand preprocessors and honestly don't think you guys should change 
+the way you teach it.
+2. yarn global add less
+3. A center mixin I took from Josh. I used it up until bootstraps versions of align and justify, but I was using that
+center mixin quite a bit. A padding and margin mixin to keep things looking uniform was useful too.
+4. xl= 1120+ l= 992+ m= 768+ sm= 576+ xs= 555- (All pixels)
+5. d-flex
 
 
 
