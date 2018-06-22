@@ -35,3 +35,19 @@
 	-ms-transform: 		 skew(@deg, @deg2);
 	-o-transform: 		 skew(@deg, @deg2);
 }
+
+//anim Mixins
+.twirl() {
+	0% {
+		.opacity(0);
+	}
+	50% {
+		.opacity(1);
+	}
+	100% {
+		.opacity(0);
+	}
+}
+
+//@keyframes
+@keyframes twirl {.twirl;}

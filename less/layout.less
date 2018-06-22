@@ -6,3 +6,70 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.nav {
+  background: @main-color;
+
+  .nav * {
+    background: @main-color;
+  }
+}
+
+nav {
+    a{
+      color: @secondary-color;
+    }
+  }
+
+.container-fluid {
+  background-color: @main-color;
+  border-bottom: 1px solid @accent-color;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.s-walk {
+  border-top: 1px solid @accent-color;
+  border-bottom: 1px solid @accent-color;
+
+  .walk-text {
+    padding-right: 40px;
+  }
+}
+
+.myImage {
+      min-height: 220px;
+      .border-radius(20px);
+    }
+
+.btn {
+  background: @secondary-color;
+  color: @main-color;
+}
+
+.navbar {
+
+  .navbar-toggler {
+    background: @accent-color;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.spaceStuff {
+  .opacity(.5);
+
+  &:hover {
+    .opacity(1);
+  }
+}
+
+.footer {
+  background: @main-color;
+  color: black;
+  padding: 20px 0 40px;
+}
