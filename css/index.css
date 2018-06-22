@@ -8255,7 +8255,7 @@ h5 {
 .container {
   max-width: 800px;
 }
-.sky_Img {
+.rotate {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
