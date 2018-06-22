@@ -8255,6 +8255,12 @@ h5 {
 .container {
   max-width: 800px;
 }
+.sky_Img {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+}
 .hr {
   width: 100%;
   display: block;
@@ -8264,4 +8270,12 @@ h5 {
   margin-right: auto;
   border-style: inset;
   border-width: 1em;
+}
+img {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
