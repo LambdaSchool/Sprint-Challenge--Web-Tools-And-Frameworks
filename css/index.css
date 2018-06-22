@@ -8261,3 +8261,17 @@ hr {
   width: 100%;
   max-width: 800px;
 }
+.img-round {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.img-shadow {
+  border: 1px solid black;
+  -webkit-box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.1);
+  -moz-box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.1);
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.1);
+}
