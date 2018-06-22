@@ -8259,6 +8259,10 @@ h5 {
 a {
   color: black;
 }
+.btn-info {
+  background-color: grey;
+  border-color: grey;
+}
 .footer {
   background: lightgray;
   padding: 20px 0;
