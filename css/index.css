@@ -8263,6 +8263,15 @@ h5 {
 .nav-link {
   color: black;
 }
+.nav-link:hover {
+  border: 2px solid #e0e0e0;
+  -webkit-box-shadow: 10px 0px 10px #22283B;
+  -moz-box-shadow: 10px 0px 10px #22283B;
+  box-shadow: 10px 0px 10px #22283B;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
 .container {
   max-width: 800px;
 }
