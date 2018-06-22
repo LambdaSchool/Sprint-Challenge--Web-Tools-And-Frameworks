@@ -8261,6 +8261,11 @@ h5 {
   background-color: #e0e0e0;
   height: 90px;
 }
+@media (max-width: 768px) {
+  .container .contact-container .space-stuff {
+    order: -1;
+  }
+}
 .btn-primary {
   background: #22283B;
   color: #f4f4f4;
