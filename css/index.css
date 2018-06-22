@@ -8249,6 +8249,39 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.nav {
+  background: #f4f4f4;
+}
+.nav .nav * {
+  background: #f4f4f4;
+}
+.nav a {
+  color: #22283B;
+}
+.container-fluid {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e0e0e0;
+}
 .container {
-  max-width: 600px;
+  max-width: 800px;
+}
+.s-walk {
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+}
+.s-walk .walk-text {
+  padding-right: 40px;
+}
+.s-walk div img {
+  min-height: 220px;
+  ming-height: 220px;
+}
+.btn {
+  background: #22283B;
+  color: #f4f4f4;
+}
+.footer {
+  background: #f4f4f4;
+  color: black;
+  padding: 20px 0 40px;
 }

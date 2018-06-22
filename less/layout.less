@@ -7,6 +7,50 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
+.nav {
+  background: @main-color;
+
+  .nav * {
+    background: @main-color;
+  }
+  a {
+    color: @secondary-color;
+  }
+}
+
+.container-fluid {
+  background-color: @main-color;
+  border-bottom: 1px solid @accent-color;
+}
+
 .container {
-  max-width: 600px;
+  max-width: 800px;
+}
+
+.s-walk {
+  border-top: 1px solid @main-color;
+  border-bottom: 1px solid @main-color;
+
+  .walk-text {
+    padding-right: 40px;
+  }
+
+  div {
+
+    img {
+      min-height: 220px;
+      ming-height: 220px;
+    }
+  }
+}
+
+.btn {
+  background: @secondary-color;
+  color: @main-color;
+}
+
+.footer {
+  background: @main-color;
+  color: black;
+  padding: 20px 0 40px;
 }
