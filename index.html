@@ -15,7 +15,7 @@
   <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-space" id="scrolltarget" data-offset="150">
   <div class="container-fluid">
     <div class="container">
       <div class="row">
@@ -23,19 +23,31 @@
           <div class="title d-flex justify-content-center">
             <h1>SpaceWalkers</h1>
           </div>
-          <nav>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">Sign In</a>
+          <nav id="navbar-space" class="navbar">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#signup">Sign Up</a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>  
     </div>
   </div>
   <div class="container main-content">
-    <div class="row">
+    <div class="row" id='home'>
       <div class="col-sm-12">
           <div id="space-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -63,10 +75,20 @@
           </div>
       </div>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4" id="about">
       <div class="col-sm-12">
         <h3>Lift Off</h3>
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+        <div class="dropdown mb-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="planet-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Choose a planet!
+          </button>
+          <div class="dropdown-menu" aria-labelledby="planet-dropdown">
+            <a class="dropdown-item" href="#planet-table">Mars</a>
+            <a class="dropdown-item" href="#planet-table">Jupiter</a>
+            <a class="dropdown-item" href="#planet-table">Saturn</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row three-images">
@@ -80,17 +102,23 @@
         <img src="img/launch.jpg" class="img-fluid rounded">
       </div>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4" id="blog">
       <div class="col-sm-12">
         <h3>Can We Visit Planets?</h3>
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
         <p>
         which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.
         </p>
+        <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#visit-info" aria-expanded="false" aria-controls="visit-info">More Info!</button>
+        <div class="collapse" id="visit-info">
+          <div class="card card-body mt-3">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
       </div>
     </div>
     <div class="row mt-5 mb-5">
-      <div class="col-sm-12">
+      <div class="col-sm-12" id="planet-table">
         <table class="table table-striped">
           <thead>
             <tr>
@@ -124,7 +152,7 @@
       </div>
     </div>
     <hr>
-    <div class="row d-flex justify-content-center mt-5 mb-5">
+    <div class="row d-flex justify-content-center mt-5 mb-5" id="contact">
       <div class="col-sm-5">
         <h3>Let's Go For A Walk</h3>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
@@ -158,7 +186,7 @@
     <hr>
     <div class="row mt-5 flex-sm-row-reverse">
       <div class="col-sm-4 pr-4 mb-3">
-        <h2>Space Stuff</h2>
+        <h4>Space Stuff</h4>
         <ul class="list-group">
           <li class="list-group-item">Space Helmet</li>
           <li class="list-group-item">Rocket Boosters</li>
@@ -168,8 +196,8 @@
           <li class="list-group-item">Space Suit</li>
         </ul>
       </div>
-      <div class="col-sm-8 pl-4">
-        <h3>Ready To Go?</h3>
+      <div class="col-sm-8 pl-4" id="signup">
+        <h4>Ready To Go?</h4>
         <form>
           <div class="form-group">
             <label for="name">Name</label>
@@ -191,10 +219,9 @@
             <input type="checkbox" class="form-check-input" id="emailNo">
             <label class="form-check-label" for="emailNo">Please don't send me emails</label>
           </div>
-          <button type="submit" class="btn btn-dark mt-3">Ready For Launch</button>
+          <button type="submit" class="btn btn-dark mt-3" data-toggle="tooltip" data-placement="top" title="We will contact you with additional information!">Ready For Launch</button>
         </form>
       </div>
-      
     </div>
     <div class="footer rounded mt-5">
       <div class="row">

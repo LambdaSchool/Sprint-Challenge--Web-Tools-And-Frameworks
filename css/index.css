@@ -8241,6 +8241,10 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+body {
+  position: relative;
+  height: 100%;
+}
 h1,
 h2,
 h3,
@@ -8254,13 +8258,16 @@ h5 {
   position: fixed;
   top: 0;
   z-index: 1000;
-  height: 80px;
+  height: 100px;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
 }
 .container-fluid .title {
   width: 100%;
+}
+.container-fluid .title h1 {
+  margin-bottom: 0;
 }
 .container-fluid a {
   padding: 10px;

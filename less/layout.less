@@ -2,6 +2,11 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+	position: relative;
+	height: 100%;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
@@ -12,10 +17,13 @@ h1, h2, h3, h4, h5 {
 	position: fixed;
 	top: 0;
 	z-index: 1000;
-	height: 80px;
+	height: 100px;
 	.opacity(0.8);
 	.title {
 		width: 100%;
+		h1 {
+			margin-bottom: 0;
+		}
 	}
 	a {
 		padding: 10px;
