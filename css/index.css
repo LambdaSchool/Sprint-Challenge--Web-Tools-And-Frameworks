@@ -8255,3 +8255,6 @@ h5 {
 .header {
   max-width: 1000px;
 }
+.ready {
+  border-top: 1px solid gray;
+}
