@@ -16,22 +16,34 @@
 </head>
 
 <body>
+  <div class="container-fluid sticky-top">
+      <div class="row">
+          <div class="col-sm-12">
+            <header class = "pt-3">
+              <h1>SpaceWalkers</h1>
+              <nav class = "nav justify-content-center ">
+                <li class="nav-item">
+                    <a class = "nav-link" href = "#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a  class = "nav-link" href = "#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a  class = "nav-link" href = "#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a  class = "nav-link" href = "#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class = "nav-link" href = "#">Sign In</a>
+                </li>
+              </nav>
+            </header>
+          </div>
+        </div>
+  </div>
+  
   <div class="container">
-    
-    <div class="row">
-      <div class="col-sm-12">
-        <header>
-          <h1>SpaceWalkers</h1>
-          <nav>
-            <a href = "#">Home</a>
-            <a href = "#">About Us</a>
-            <a href = "#">Blog</a>
-            <a href = "#">Contact</a>
-            <a href = "#">Sign In</a>
-          </nav>
-        </header>
-      </div>
-    </div>
     
     <div class= "row">
       <div class = "col-sm-12">
@@ -110,7 +122,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-5">
+      <div class="col-sm-6">
           <form>
               <div class="form-group">
                 <label for="UserName">Name</label>
@@ -123,7 +135,7 @@
               <div class="form-group">
                   <label for="email">Email</label>
                   <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
+              </div>
               <div class = "form-group">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="notifications" id="YesNotifications" value="option1" checked>
@@ -137,10 +149,11 @@
                     Please don't send me emails
                   </label>
                 </div>
+              </div>
               <button type="submit" class="btn btn-primary">Ready For Launch</button>
             </form>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-3">
           <h3>Ready for Launch</h3>
           <ul class="list-group">
             <li class="list-group-item">Space Helmet</li>
