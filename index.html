@@ -63,7 +63,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Sign In to View Exclusive Content!</h5>
+          <h5 class="modal-title" id="signInModal">Sign In to View Exclusive Content!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -75,7 +75,7 @@
               <input type="email" class="form-control" id="inputEmail" placeholder="name@email.com" required>
               <div class="invalid-feedback">
                   Please enter a valid email address.
-                </div>
+              </div>
             </div>
             <div class="form-group">
               <label for="inputPassword">Password</label>
@@ -115,32 +115,40 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form class="needs-validation" novalidate>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputFirstName">First Name</label>
-                <input type="email" class="form-control" id="inputFirstName" placeholder="First Name">
+                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+                <div class="invalid-feedback">
+                    Please enter your first name.
+                </div>
               </div>
               <div class="form-group col-md-6">
                 <label for="inputLastName">Last Name</label>
-                <input type="password" class="form-control" id="inputLastName" placeholder="Last Name">
+                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" required>
+                <div class="invalid-feedback">
+                    Please enter your last name.
+                </div>
               </div>
             </div>
             <div class="form-group">
               <label for="inputEmail">Email</label>
-              <input type="text" class="form-control" id="inputEmail" placeholder="name@email.com">
+              <input type="email" class="form-control" id="inputEmail" placeholder="name@email.com" required>
+              <div class="invalid-feedback">
+                  Please enter a valid email address.
+              </div>
             </div>
             <div class="form-group">
               <label for="choosePassword">Choose Password</label>
-              <input type="password" id="choosePassword" class="form-control" aria-describedby="passwordHelpBlock">
+              <input type="password" id="choose-password" class="form-control" aria-describedby="passwordHelpBlock" required minlength="8">
               <small id="passwordHelpBlock" class="form-text text-muted">
-                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters,
-                or emoji.
+                Your password must be at least 8 characters long.
               </small>
             </div>
             <div class="form-group">
               <label for="reenterPassword">Please Re-Enter Your Password</label>
-              <input type="password" id="reenterPassword" class="form-control">
+              <input type="password" id="confirm-password" class="form-control" oninput="check(this)" required>
             </div>
             <div class="form-group">
               <div class="form-check">
@@ -150,11 +158,12 @@
                 </label>
               </div>
             </div>
+            <button type="submit" class="btn btn-secondary">Sign Up!</button>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-secondary" data-dismiss="modal">Sign Up!</button>
-        </div>
+        <!-- <div class="modal-footer">
+          <button type="submit" class="btn btn-secondary">Sign Up!</button>
+        </div> -->
       </div>
       <!--modal-content-->
     </div>

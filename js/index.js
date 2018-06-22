@@ -4,6 +4,17 @@ $(".navbar li a").click(function(event) {
       $($(this).attr("href"))[0].scrollIntoView();
       scrollBy(0, -offset);
     });
+   
+   
+  function check(input) {
+    if (input.value !== document.getElementById("choose-password").value) {
+      input.setCustomValidity("The passwords do not match.");
+    } else {
+      input.setCustomValidity('');
+    }
+  
+
+  }
 
     (function() {
       'use strict';
