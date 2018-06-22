@@ -173,22 +173,28 @@
             </label>
           </div>
 
-          <button type="submit" class="btn btn-color">Ready For Launch</button>
+          <button type="button" class="btn btn-color"  data-toggle="modal" data-target="#areYouSure">Ready For Launch</button>
         </form>
       </div>
 
       <div class="col-sm-4">
-        <h4>Space Stuff</h4>
-        <ul class="list-group">
-          <li class="list-group-item">Space Helmet</li>
-          <li class="list-group-item">Rocket Boosters</li>
-          <li class="list-group-item">Shuttle</li>
-          <li class="list-group-item">Training for Launch</li>
-          <li class="list-group-item">Heat resistant plating</li>
-          <li class="list-group-item">Space Suit</li>
-        </ul>
+        <h4>
+          <button class="btn btn-color" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Space Stuff</button>
+        </h4>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card">
+          <ul class="list-group">
+            <li class="list-group-item">Space Helmet</li>
+            <li class="list-group-item">Rocket Boosters</li>
+            <li class="list-group-item">Shuttle</li>
+            <li class="list-group-item">Training for Launch</li>
+            <li class="list-group-item">Heat resistant plating</li>
+            <li class="list-group-item">Space Suit</li>
+          </ul>
+        </div>
       </div>
     </div>
+  </div>
 
     <div class="row footer">
       <div class="col-sm-12">
@@ -197,6 +203,27 @@
     </div>
 
   </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="areYouSure" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Last Step</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Are you sure?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+        <button type="submit" class="btn btn-primary" data-dismiss="modal">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
