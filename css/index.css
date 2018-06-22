@@ -8248,6 +8248,13 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+  border: 1px solid lightgray;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .header {
   display: flex;
@@ -8292,4 +8299,9 @@ footer {
 .custom-form {
   border-top: 1px solid lightgrey;
   padding-top: 30px;
+}
+.faded {
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
 }

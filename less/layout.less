@@ -5,6 +5,8 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+    border: 1px solid lightgray;
+    .border-radius(10px);
 }
 
 .header {
@@ -48,4 +50,8 @@ footer {
 .custom-form {
     border-top: 1px solid lightgrey;
     padding-top: 30px;
+}
+
+.faded {
+    .opacity(.75);
 }
