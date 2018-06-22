@@ -8273,3 +8273,10 @@ h5 {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
+.space-footer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
