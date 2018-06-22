@@ -8252,8 +8252,17 @@ h5 {
 .container-fluid {
   background: #f4f4f4;
 }
+.container-fluid .nav a {
+  color: black;
+}
 .container {
   max-width: 800px;
+}
+.container .form-group .btn-info {
+  background: #22283B;
+}
+.container a {
+  color: #22283B;
 }
 .container .footer {
   background: #f4f4f4;

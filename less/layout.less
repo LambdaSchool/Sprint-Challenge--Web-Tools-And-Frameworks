@@ -9,10 +9,27 @@ h1, h2, h3, h4, h5 {
 
 .container-fluid {
     background: @main-color;
+
+    .nav {
+        a {
+            color: black;
+        }
+        
+    }
 }
 
 .container {
     max-width: 800px;
+
+    .form-group {
+        .btn-info {
+            background: @secondary-color;
+        }
+    }
+
+    a {
+        color: @secondary-color;
+    }
 
     .footer {
         background: @main-color;
