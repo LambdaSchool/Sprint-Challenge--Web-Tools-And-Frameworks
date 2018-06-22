@@ -8255,6 +8255,7 @@ h5 {
   color: #22283B;
 }
 .container {
+  max-width: 900px;
   border: 2px solid orange;
 }
 .carousel-inner > .item > img {
