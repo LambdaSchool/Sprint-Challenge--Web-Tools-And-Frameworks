@@ -153,24 +153,24 @@
 </div>
 
 <div class="row mt-5"> 
-    <div class="col-sm-8">
+    <div class="col-7">
       <h4>Ready To Go?</h4>
 <form>
     <div class="form-group row">
         <label for="inputName3" class="col-sm-12 col-form-label">Name</label>
-        <div class="col-sm-11">
+        <div class="col-11">
           <input type="name" class="form-control" id="inputName3" placeholder="Name">
         </div>
       </div>
       <div class="form-group row">
           <label for="inputPhone3" class="col-sm-12 col-form-label">Phone</label>
-          <div class="col-sm-11">
+          <div class="col-11">
             <input type="phone" class="form-control" id="inputPhone3" placeholder="Phone">
           </div>
         </div>
     <div class="form-group row">
       <label for="inputEmail3" class="col-sm-12 col-form-label">Email</label>
-      <div class="col-sm-11">
+      <div class="col-11">
         <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
       </div>
     </div>
@@ -200,12 +200,32 @@
       </div>
     <div class="form-group row">
       <div class="col-sm-10">
-        <button type="submit" class="btn btn-dark">Ready For Launch</button>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Ready For Launch</button>
       </div>
     </div>
   </form>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Attention!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           blahblahblah blah blah?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-4">
+
+  <div class="col-sm-5">
     <h4>Space Stuff</h4>
       <ul class="list-group">
           <li class="list-group-item">Space Helmet</li>
@@ -218,7 +238,7 @@
         </div>
         </div>
         <div class="row mt-5">
-            <div class="col-12 space-footer  pt-3 pb-5 ">
+            <div class="col-12 space-footer pt-3 pb-5 ">
                 Copyright SpaceWalkers 2018
             </div>
           </div>
