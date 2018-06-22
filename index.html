@@ -32,6 +32,36 @@
     </div>
   </div>
 
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-light bg-light mt-2 custom-navbar">
+            <div class="btn-group mr-2">
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Navigation
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#liftoff">Lift Off</a>
+                  <a class="dropdown-item" href="#can-we">Can We Visit Planets?</a>
+                  <a class="dropdown-item" href="#lets-go">Let's Go For A Walk</a>
+                  <a class="dropdown-item" href="#ready-to">Ready To Go?</a>
+                  <div class="dropdown-divider"></div>
+                </div>
+              </div>
+
+
+              
+              <form class="form-inline">
+                
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+          </nav>
+      </div>
+    </div>
+  </div>
+
   <div class="row custom-carousel">
       <div class="col-12">
 
@@ -71,7 +101,7 @@
   <div class="container main-content mt-4">
     <div class="row">
       <div class="col-12">
-        <h2>Lift Off</h2>
+        <h2 id="liftoff">Lift Off</h2>
   
         <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
       </div>
@@ -85,7 +115,7 @@
 
   <div class="row">
       <div class="col-12 mt-5">
-        <h2>Can We Visit Planets?</h2>
+        <h2 id="can-we">Can We Visit Planets?</h2>
         
         <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
         
@@ -93,9 +123,13 @@
       </div>
     </div>
   
+    <p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Toggle planet data
+        </button>
+    </p>
 
-
-  <div class="row mt-5">
+  <div class="row mt-5 collapse" id="collapseExample">
     <div class="col-12">
         <table class="table">
           <thead>
@@ -132,15 +166,39 @@
   </div>
 
   <div class="row walking mt-5">
-    <div class="col-12 col-sm-5">
-        <h3>Let's Go For A Walk</h3>
+
+      <div class="col-12 col-sm-4">
+          <div id="list-example" class="list-group">
+              <a class="list-group-item list-group-item-action" href="#lets-go">Walk</a>
+              <a class="list-group-item list-group-item-action" href="#lets-go-2">Jog</a>
+              <a class="list-group-item list-group-item-action" href="#lets-go-3">Fly</a>
+            </div>
+      </div>
+
+    <div class="col-12 col-sm-4">
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example custom-scrollspy">
+
+        <h3 id="lets-go">Let's Go For A Walk</h3>
 
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
         
         <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+
+        <h3 id="lets-go-2">Let's Go For A Jog</h3>
+
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+
+        <h3 id="lets-go-3">Let's Go For A Fly</h3>
+
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+        </div>
     </div>
 
-    <div class="col-12 col-sm-5">
+    <div class="col-12 col-sm-4">
       <img src="img/space-walk.jpg" class="rounded" width="100%">
     </div>
   </div>
@@ -149,7 +207,7 @@
 
   <div class="row custom-form mt-4">
     <div class="col-12 col-sm-8">
-      <h3>Ready To Go?</h3>
+      <h3 id="ready-to">Ready To Go?</h3>
       <form action="">
         <div class="form-group">
           <label for="name">Name</label>

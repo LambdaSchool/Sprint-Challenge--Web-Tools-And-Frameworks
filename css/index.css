@@ -8240,6 +8240,7 @@ a.text-dark:hover {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  position: relative;
 }
 @media (min-width: 576px) {
   html,
@@ -8349,6 +8350,10 @@ h5 {
     border: none;
   }
 }
+.custom-navbar {
+  width: 60%;
+  margin: 0 auto;
+}
 .header a:link,
 .header a:active,
 .header a:hover,
@@ -8378,4 +8383,15 @@ footer {
   -webkit-opacity: 0.75;
   -moz-opacity: 0.75;
   opacity: 0.75;
+}
+.custom-scrollspy {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+}
+.custom-scrollspy-row {
+  border: 1px solid black;
+  padding: 0;
+  margin-left: 0px;
+  margin-right: 0;
 }
