@@ -7,22 +7,32 @@ h1, h2, h3, h4, h5 {
     color: @secondary-color;
 }
 
+.sticky-top{
+  .opacity();
+  background-color: @accent-color;
+
+}
+
 
 .custom-header{
   background-color: @accent-color;
 
-  .flex-row{
-    justify-content: space-evenly;
-  }
-
+      li{
+        align-self: center;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 1.2rem;
+        color: black;
+    }
 }
 
-.custom-images .flex-row{
-  justify-content: space-evenly;
+img{
+  .border-radius();
 }
 
 .custom-footer{
     background-color: @accent-color;
+    .opacity;
 }
 
 .btn{
