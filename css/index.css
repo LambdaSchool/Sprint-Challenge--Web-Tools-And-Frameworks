@@ -8249,6 +8249,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.container-fluid {
+  background: #f4f4f4;
+}
 .container {
   max-width: 800px;
 }
