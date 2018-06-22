@@ -8249,3 +8249,15 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.sticky-top {
+  background: rgba(244, 244, 244, 0.8);
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+.nav a {
+  color: #22283B;
+}
+.footer {
+  background: #f4f4f4;
+  padding: 20px 0;
+}
