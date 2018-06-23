@@ -8255,3 +8255,6 @@ h5 {
 nav a {
   color: #22283B;
 }
+.container {
+  max-width: 800px;
+}
