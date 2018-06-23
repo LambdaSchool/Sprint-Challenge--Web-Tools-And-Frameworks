@@ -8250,15 +8250,22 @@ h5 {
   color: #22283B;
 }
 body {
-  padding-top: 100px;
+  padding-top: 91px;
 }
 .container {
   max-width: 800px;
 }
 .footer {
-  background-color: #e0e0e0;
+  background-color: #f4f4f4;
   height: 75px;
   align-items: center;
+  border: 1px solid #e0e0e0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .btn-submit,
 .submit-btn {
@@ -8269,28 +8276,35 @@ body {
   width: 100%;
 }
 .spacewalk {
-  border-top: 2px solid #e0e0e0;
-  border-bottom: 2px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   background-color: #f4f4f4;
+  height: 90px;
   -webkit-opacity: 0.9;
   -moz-opacity: 0.9;
   opacity: 0.9;
+  border-bottom: 1px solid #f4f4f4;
 }
 .navigation .navbar-nav {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  padding-bottom: 15px;
 }
 .navigation .navbar-nav a {
-  padding: 5px 5px;
+  padding: 0 8px;
   text-decoration: none;
   color: #22283B;
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+.ninja {
+  -webkit-box-shadow: 10px 5px 5px #22283B;
+  -moz-box-shadow: 10px 5px 5px #22283B;
+  box-shadow: 10px 5px 5px #22283B;
 }
