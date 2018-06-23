@@ -8249,10 +8249,16 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-body .mid-images {
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
+body .each-image {
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body p {
+  font-size: 20px;
 }
 body .carousel {
   -webkit-box-shadow: 10px 5px 5px #e0e0e0;
