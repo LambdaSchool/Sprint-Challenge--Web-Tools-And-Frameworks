@@ -8275,3 +8275,26 @@ hr {
   -moz-box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.1);
   box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.1);
 }
+@media (max-width: 400px) {
+  .d-none-mobile {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  nav a {
+    width: 320px;
+    max-width: 90%;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
