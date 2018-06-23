@@ -6,3 +6,18 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+
+nav{
+  .opacity (@opacity: 0.9);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  color:@main-color;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+  }

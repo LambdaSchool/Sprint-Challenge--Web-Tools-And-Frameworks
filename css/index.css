@@ -8249,3 +8249,17 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+nav {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: #f4f4f4;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+  }
+}
