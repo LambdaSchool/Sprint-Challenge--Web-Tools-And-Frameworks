@@ -8257,6 +8257,9 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+.page-top {
+  background-color: white;
+}
 .container {
   max-width: 900px;
   border: 2px solid orange;
