@@ -8270,7 +8270,7 @@ img {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.col-sm-5 img {
+.col-sm-5 .astronaut {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
