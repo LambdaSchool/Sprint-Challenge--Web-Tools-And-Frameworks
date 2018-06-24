@@ -8,11 +8,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .primary-header {
+    color: red;
+}
+
+header.pb-2.primary-header.opacity.sticky-top {
     background-color: @main-color;
-    border-bottom: 50px solid @accent-color;
-    .container {
-        .opacity(1);
-    }
+    border-bottom: 5px solid @accent-color;
+    .opacity(0.2);
 }
 
 h2 .lift-off {
