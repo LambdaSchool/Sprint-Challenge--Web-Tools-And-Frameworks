@@ -6,3 +6,104 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+#logoNav {
+    max-width: 1050px;
+    border-bottom: 2px solid @accent-color;
+    z-index:1;
+    position: fixed;
+    top: 0;
+    #logo{
+        justify-content: center;
+        background: @main-color;
+        #colLogo{
+            justify-items: center;
+        }
+        }
+    #rowNav {
+    display: flex;
+    justify-content: flex-start;
+        #colNav{
+            background: @main-color;
+            padding-bottom: 10px;
+            nav{
+                justify-content: space-evenly;
+                a {
+                   font-family: 'Ubuntu', sans-serif;
+                   color: @secondary-color;
+                }  
+            }
+        }
+    }
+}
+
+
+#content {
+    
+    max-width: 800px;
+    margin-top: 92px;
+    #containerMain {
+        #carouselrow {
+            padding-bottom: 5%;
+            #carouselCol{
+                max-width: 100%;
+            .img-fluid{
+                width: 800px;
+            }
+        }
+        }
+        #img {
+            justify-content: space-around;
+            margin-bottom: 5%;
+            img {
+                .border-radius;
+                width: 100%;
+            }
+        }
+            #never{
+                p{
+                    margin-bottom: 5%;
+                }
+            }
+            #containerTable{
+                border-bottom: 2px solid @accent-color;
+                #table {
+                    margin-bottom: 8%;
+                }
+        }
+        #walk{
+            margin-top: 8%;
+            padding-bottom: 7%;
+            border-bottom: 2px solid @accent-color;
+        }
+        #space-walk {
+            width: 100%;
+        }
+        }
+    }
+    #containerBottom {
+        padding-top: 7%;
+        #rowForm {
+            padding: 2%;
+        }
+        #formCheck2 {
+            padding-bottom: 2%;
+        }
+        .btn {
+            background: @secondary-color;
+            color: white;
+            font-weight: bold;
+        }
+        #footer {
+            margin-top: 8%;
+            padding-top: 5%;
+            background: @main-color;
+            justify-content: center;
+            border: 1px solid @accent-color;
+
+        }
+    }
