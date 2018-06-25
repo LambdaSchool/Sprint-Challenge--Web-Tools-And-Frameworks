@@ -8249,13 +8249,46 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-#carouselrow {
-  justify-content: center;
+#containerNav {
+  max-width: 1050px;
+  border-bottom: 2px solid #e0e0e0;
 }
-#carouselrow #carouselcol {
-  width: 100%;
+#containerNav #logo {
+  background: #f4f4f4;
+}
+#containerNav #logo #colLogo {
+  justify-items: center;
+}
+#containerNav #colNav nav {
+  justify-content: space-evenly;
+}
+#containerNav #colNav nav a {
+  font-family: 'Ubuntu', sans-serif;
+  color: #22283B;
+}
+#containerMain {
+  max-width: 800px;
+}
+#rowNav {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: flex-start;
+}
+#carousela {
+  background: solid black;
+}
+#carouselrow {
+  border: solid black;
+  justify-content: center;
+  max-width: 100%;
+}
+#carouselrow .img-fluid {
+  max-width: 100%;
 }
 #walk {
+  justify-content: center;
+}
+#logo {
   justify-content: center;
 }
 .nav {

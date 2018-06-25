@@ -6,13 +6,53 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+#containerNav {
+    max-width: 1050px;
+    border-bottom: 2px solid @accent-color;
+    #logo{
+        #colLogo{
+            justify-items: center;
+        }
+        background: @main-color;
 
-#carouselrow {
-    justify-content: center;
-    #carouselcol{
-        width: 100%;
+    }
+    #colNav{
+        nav{
+            justify-content: space-evenly;
+            a {
+                font-family: 'Ubuntu', sans-serif;
+                color: @secondary-color;
+            }
+        }
     }
 }
+#containerMain {
+    max-width: 800px;
+}
+
+#rowNav {
+    background: @main-color;
+    display: flex;
+    justify-content: flex-start;
+
+}
+#carousela{
+    background: solid black;
+}
+#carouselrow{
+    border: solid black;
+    justify-content: center;
+    max-width: 100%;
+    .img-fluid{
+        max-width: 100%;
+    }
+}
+
 #walk {
     justify-content: center;
 }
+
+#logo {
+    justify-content: center;
+}
+
