@@ -6,53 +6,74 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
-#containerNav {
+
+body {
+    display: flex;
+    justify-content: center;
+}
+#logoNav {
     max-width: 1050px;
     border-bottom: 2px solid @accent-color;
+    z-index:1;
+    position: fixed;
+    top: 0;
     #logo{
+        justify-content: center;
+        background: @main-color;
         #colLogo{
             justify-items: center;
         }
-        background: @main-color;
-
-    }
-    #colNav{
-        nav{
-            justify-content: space-evenly;
-            a {
-                font-family: 'Ubuntu', sans-serif;
-                color: @secondary-color;
+        }
+    #rowNav {
+    display: flex;
+    justify-content: flex-start;
+        #colNav{
+            background: @main-color;
+            padding-bottom: 10px;
+            nav{
+                justify-content: space-evenly;
+                a {
+                   font-family: 'Ubuntu', sans-serif;
+                   color: @secondary-color;
+                }  
             }
         }
     }
 }
+
+
 #containerMain {
     max-width: 800px;
-}
-
-#rowNav {
-    background: @main-color;
-    display: flex;
-    justify-content: flex-start;
-
-}
-#carousela{
-    background: solid black;
-}
-#carouselrow{
-    border: solid black;
-    justify-content: center;
-    max-width: 100%;
-    .img-fluid{
-        max-width: 100%;
+    margin-top: 92px;
+    #carouselrow {
+        padding-bottom: 5%;
+        #carouselCol{
+            max-width: 100%;
+        .img-fluid{
+            width: 800px;
+        }
+       }
     }
-}
-
-#walk {
-    justify-content: center;
-}
-
-#logo {
-    justify-content: center;
-}
-
+    #img {
+        justify-content: space-around;
+        margin-bottom: 5%;
+        img {
+            .border-radius;
+            width: 100%;
+        }
+    }
+        #never{
+            p{
+                margin-bottom: 5%;
+            }
+        }
+        #containerTable{
+            border-bottom: 2px solid @accent-color;
+            #table {
+                margin-bottom: 8%;
+            }
+    }
+    #walk{
+        margin-top: 8%;
+    }
+    }

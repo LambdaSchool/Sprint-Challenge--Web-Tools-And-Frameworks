@@ -8249,47 +8249,76 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
-#containerNav {
+body {
+  display: flex;
+  justify-content: center;
+}
+#logoNav {
   max-width: 1050px;
   border-bottom: 2px solid #e0e0e0;
+  z-index: 1;
+  position: fixed;
+  top: 0;
 }
-#containerNav #logo {
+#logoNav #logo {
+  justify-content: center;
   background: #f4f4f4;
 }
-#containerNav #logo #colLogo {
+#logoNav #logo #colLogo {
   justify-items: center;
 }
-#containerNav #colNav nav {
+#logoNav #rowNav {
+  display: flex;
+  justify-content: flex-start;
+}
+#logoNav #rowNav #colNav {
+  background: #f4f4f4;
+  padding-bottom: 10px;
+}
+#logoNav #rowNav #colNav nav {
   justify-content: space-evenly;
 }
-#containerNav #colNav nav a {
+#logoNav #rowNav #colNav nav a {
   font-family: 'Ubuntu', sans-serif;
   color: #22283B;
 }
 #containerMain {
   max-width: 800px;
+  margin-top: 92px;
 }
-#rowNav {
-  background: #f4f4f4;
-  display: flex;
-  justify-content: flex-start;
+#containerMain #carouselrow {
+  padding-bottom: 5%;
 }
-#carousela {
-  background: solid black;
-}
-#carouselrow {
-  border: solid black;
-  justify-content: center;
+#containerMain #carouselrow #carouselCol {
   max-width: 100%;
 }
-#carouselrow .img-fluid {
-  max-width: 100%;
+#containerMain #carouselrow #carouselCol .img-fluid {
+  width: 800px;
 }
-#walk {
-  justify-content: center;
+#containerMain #img {
+  justify-content: space-around;
+  margin-bottom: 5%;
 }
-#logo {
-  justify-content: center;
+#containerMain #img img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 100%;
+}
+#containerMain #never p {
+  margin-bottom: 5%;
+}
+#containerMain #containerTable {
+  border-bottom: 2px solid #e0e0e0;
+}
+#containerMain #containerTable #table {
+  margin-bottom: 8%;
+}
+#containerMain #walk {
+  margin-top: 8%;
 }
 .nav {
   justify-content: space-around;
