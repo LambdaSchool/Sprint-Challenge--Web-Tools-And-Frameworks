@@ -14,6 +14,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
+<!-- <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="formModalLabel">Haha yeah</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
 <body>
   <div class="container float-up" id="logoNav">
@@ -53,6 +72,14 @@
             <img class="img-fluid" src="img/slider-4.jpg" alt="4">
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carousela" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousela" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
       </div>
     </div>
     </div>
@@ -117,14 +144,14 @@
             </table>
           </div>
       <div class="row" id="walk">
-        <div class="col-4">
+        <div class="col-6">
           <h2>Let's Go For A Walk</h2>
           <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.
             It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
           </p>
         </div>
-        <div class="col-4">
-          <img src="img/space-walk.jpg" alt="space walk">
+        <div class="col-6">
+          <img src="img/space-walk.jpg" id="spaceWalk" alt="space walk">
         </div>
       </div>
   </div>
@@ -145,21 +172,22 @@
               <a>Email</a>
                 <input type="text" class="form-control" placeholder="Email">
             </div>
-            <div class="form-check" id="formRadio">
-              <input class="form-check-input" type="radio" name="optIn" id="radio1" value="optIn">
-              <label class="form-check-label" for="radio1">
+            <div class="form-check" id="formCheck">
+              <input class="form-check-input" type="checkbox" name="optIn" id="check1" value="optIn">
+              <label class="form-check-label" for="check1">
                 I would like to receive promotional emails
               </label>
             </div>
-            <div class="form-check" id="formRadio">
-                <input class="form-check-input" type="radio" name="optOut" id="radio2" value="optOut">
-                <label class="form-check-label" for="radio2">
+            <div class="form-check" id="formCheck2">
+                <input class="form-check-input" type="checkbox" name="optOut" id="check2" value="optOut">
+                <label class="form-check-label" for="check2">
                 Please don’t send me emails
                 </label>
             </div>
           </form>
-          <div class="row" id="button">
-              <button type="button" class="btn">Ready For Launch</button>
+          <div class="row">
+              <button type="button" class="btn" data-toggle="modal" data-target="#formModal">Ready For Launch
+              </button>
           </div>
         </div>
         <div class="col-6 col-sm-3 col-md-4 ">

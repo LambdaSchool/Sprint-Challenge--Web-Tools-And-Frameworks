@@ -8319,9 +8319,32 @@ body {
 }
 #content #containerMain #walk {
   margin-top: 8%;
+  padding-bottom: 7%;
+  border-bottom: 2px solid #e0e0e0;
+}
+#content #containerMain #space-walk {
+  width: 100%;
 }
 #containerBottom {
+  padding-top: 7%;
+}
+#containerBottom #rowForm {
+  padding: 2%;
+}
+#containerBottom #formCheck2 {
+  padding-bottom: 2%;
+}
+#containerBottom .btn {
+  background: #22283B;
+  color: white;
+  font-weight: bold;
+}
+#containerBottom #footer {
+  margin-top: 8%;
   padding-top: 5%;
+  background: #f4f4f4;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
 }
 .nav {
   justify-content: space-around;
