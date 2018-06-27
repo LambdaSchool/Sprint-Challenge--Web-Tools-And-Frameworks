@@ -6,3 +6,62 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container {
+    .header {
+        align-self: center;
+        margin: 0;
+        padding: 0;
+        background: @accent-color;
+        font-size: 3em;
+        .nav {
+            align-content: center;
+            background: @accent-color;
+            ul {
+                align-items: center;
+            }
+            a {
+                text-align: center;
+                font-size: 1rem;
+                color:black;
+            }
+            .nav-link:hover{
+                background: @highlight-color;
+            }
+        }
+    }
+}
+
+.sticky {
+    position: fixed;
+    z-index: 5;
+}
+
+
+.btn-secondary {
+    background: @secondary-color;
+    max-height: 4rem;
+}
+
+footer {
+    height:100px;
+    background: @accent-color;
+}
+
+.Carousel__img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.List {
+    @media (max-width:767px) {
+        order: -1;
+    }
+}
+
+.List__item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
