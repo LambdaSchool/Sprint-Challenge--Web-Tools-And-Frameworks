@@ -11,7 +11,7 @@ h5 {
   color: #22283B;
 }
 .container-fluid {
-  background: black;
+  background: white;
   text-align: center;
 }
 .container-fluid .container {
@@ -27,6 +27,12 @@ h5 {
 .container-fluid .container nav a.nav-link {
   color: black;
 }
-.container {
+.main-container {
   width: 800px;
+}
+.main-container .lift-off p {
+  font-size: 0.8rem;
+}
+.main-container .table p {
+  font-size: 0.8rem;
 }
