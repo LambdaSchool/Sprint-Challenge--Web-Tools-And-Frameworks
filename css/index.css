@@ -1,0 +1,33 @@
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #22283B;
+}
+.spacewalkers {
+  text-align: center;
+}
+.top-bar {
+  justify-content: center;
+  color: black;
+}
+.top-bar a {
+  color: black;
+}
+.btn-info {
+  background: #22283B;
+  border-color: none;
+}
+.btn-info:hover {
+  border-color: none;
+}
+footer {
+  text-align: center;
+  background: #f4f4f4;
+}
