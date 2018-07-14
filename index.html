@@ -1,31 +1,200 @@
 <!doctype html>
-
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        Good Luck!
+
+  <div className="container-fluid sticky-top">
+    <div className="container">
+      <div className="row">
+        <div className="col-12 d-flex justify-content-center">
+          <h1 className="logo-heading">SpaceWalkers</h1>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12 d-flex justify-content-center">
+          <nav className="nav">
+            <a className="nav-link active" href="#">Home</a>
+            <a className="nav-link" href="#">About Us</a>
+            <a className="nav-link" href="#">Blog</a>
+            <a className="nav-link" href="#">Contact</a>
+            <a className="nav-link" href="#">Sign In</a>
+          </nav>
+        </div>
       </div>
     </div>
   </div>
+
+  <div className="container">
+    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img className="d-block w-100" src="img/slider-1.jpg" alt="First slide">
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+        </div>
+        <div className="carousel-item">
+          <img className="d-block w-100" src="img/slider-4.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="sr-only">Previous</span>
+      </a>
+      <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div className="row">
+      <div className="col-md-12">
+        <h2>Lift Off</h2>
+        <p>
+          As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most
+          beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched
+          it with a finger it would fall apart. Seeing this has to change a man.
+        </p>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-4">
+        <img src="img/blast.jpg" className="img-fluid" alt="Responsive image">
+      </div>
+      <div className="col-md-4">
+        <img src="img/sky.jpg" className="img-fluid" alt="Responsive image">
+      </div>
+      <div className="col-md-4">
+        <img src="img/launch.jpg" className="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-sm-12 mt-5">
+        <h2>Can We Visit Planets?</h2>
+        <p>
+          Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the
+          qualities of a globe, a round earth in which all the directions eventually meet.
+          <br>
+          <br> which there is no center because every point, or none, is center — an equal earth which all men occupy as equals.
+          The airman's earth, if free men make it.
+
+        </p>
+      </div>
+    </div>
+
+    <table className="table table-striped col-md-5">
+      <thead>
+        <tr>
+          <th scope="col">Planet</th>
+          <th scope="col">Distance</th>
+          <th scope="col">Survivability</th>
+          <th scope="col">How Long To Travel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Mars</th>
+          <td>54.6 million km</td>
+          <td>Maybe</td>
+          <td>300 Days</td>
+        </tr>
+        <tr>
+          <th scope="row">Jupiter</th>
+          <td>588 million km</td>
+          <td>No</td>
+          <td>Depends On Orbit(3-6 Years)</td>
+        </tr>
+        <tr>
+          <th scope="row">Saturn</th>
+          <td>1.2 billion km</td>
+          <td>No</td>
+          <td>Depends On Orbit(3-6 Years)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <div className="row">
+      <div className="col-md-5">
+        <h2>Let's Go For A Walk</h2>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth
+          was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and
+          my thumb blotted out the planet Earth.</p>
+      </div>
+      <div className="col-md-6">
+        <img src="img/space-walk.jpg" className="img-fluid rounded" alt="Lets Go For A Walk!">
+      </div>
+    </div>
+    <hr>
+
+    <div className="row">
+      <div className="col-md-8">
+        <h2>Ready To Go?</h2>
+        <form>
+          <div className="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" className="form-control col-md-2" placeholder="Name">
+            <label for="phone">Phone</label>
+            <input id="phone" type="phone" className="form-control col-md-2" placeholder="Phone">
+            <label for="email">Email</label>
+            <input id="email" type="text" className="form-control col-md-2" placeholder="Email">
+            <div className="form-check my-2">
+              <input className="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label className="form-check-label" for="exampleRadios1">
+                I would like to receive promotional emails.
+              </label>
+            </div>
+            <div className="form-check col-md-2">
+              <input className="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label className="form-check-label" for="exampleRadios2">
+                Please don't send me emails.
+              </label>
+            </div>
+            <button type="submit" className="btn btn-info">Ready for launch</button>
+          </div>
+        </form>
+      </div>
+      <div className="col-md-4">
+        <h4>Space Stuff</h4>
+        <ul className="list-group">
+          <li className="list-group-item">Space Helmet</li>
+          <li className="list-group-item">Rocket Boosters</li>
+          <li className="list-group-item">Shuttle</li>
+          <li className="list-group-item">Training for Launch</li>
+          <li className="list-group-item">Heat resistant plating</li>
+          <li className="list-group-item">Space Suit</li>
+        </ul>
+      </div>
+    </div>
+    <div className="row">
+      <div className="footer col-md-4">
+      <div className="col-sm-12 d-flex justify-content-center">
+        Copyright SpaceWalkers 2018
+      </div>
+    </div>
+    </div>
+  </div>
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
+
 </html>
