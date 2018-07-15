@@ -1,0 +1,19 @@
+{
+  "name": "sprint-challenge--web-tools-and-frameworks",
+  "version": "1.0.0",
+  "description": "Lambda School Sprint Challenge - Week 02 - Web Tools and Frameworks",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarnml/Sprint-Challenge--Web-Tools-And-Frameworks.git"
+  },
+  "author": "Cesar Napoleon Mejia Leiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarnml/Sprint-Challenge--Web-Tools-And-Frameworks/issues"
+  },
+  "homepage": "https://github.com/cesarnml/Sprint-Challenge--Web-Tools-And-Frameworks#readme"
+}

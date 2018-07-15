@@ -1,3 +1,6 @@
+<!-- markdownlint-disable -->
+# Sprint-Challenge: Week 02 - Web Tools and Frameworks
+
 1. How would you teach the basic ideas behind preprocessing to a friend? Please don't copy and paste an answer here, use your own thoughts.
 Preprocessing allows an added level of abstraction when preparing CSS code. A compiler (such as LESS) then
 converts the highler level language back to vanilla CSS.
