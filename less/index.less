@@ -1,30 +1,35 @@
-// Make your imports
-@import "bootstrap";
-@import "variables";
-@import "mixins";
-@import "layout";
+// Make your imports here!
+@import 'bootstrap';
+@import 'variables';
+@import 'mixins';
+@import 'layout';
 
-.container-fluid {
-  background-color:white;
-  border-bottom: 2px dashed silver;
-}
-
-.logo-heading {
-  padding: 20px 0 10px;
-}
-
-.nav {
-  a {
-    color: black;
-  }
+.primary-header {
+  background-color: fade(@main-color, 80%);
+  border-bottom: 1px solid @accent-color;
 }
 
 .container {
-  max-width: 800px;
+  animation: fadein 0.5s ease-in;
 }
 
-.footer {
-  color: black;
-  background: blanchedalmond;
-  padding: 20px 0;
+.rounded-imgs img {
+  .border-radius(5px);
+  .box-shadow(2px 4px 10px rgba(0, 0, 0, 0.3));
+}
+
+footer {
+  background-color: @main-color;
+  border: 1px solid @accent-color;
+  border-bottom: none;
+  .border-radius();
+}
+
+@keyframes fadein {
+  0% {
+    .opacity(0);
+  }
+  100% {
+    .opacity(1);
+  }
 }
