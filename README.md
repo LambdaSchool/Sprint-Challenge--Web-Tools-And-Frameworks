@@ -1,7 +1,7 @@
-# Assessing Your Web Tools and Frameworks Learning
+# Assessing Your Web Tools and UI Frameworks Learning
 
 * The objective of this challenge is test your knowledge on all of the topics surrounding web tools and frameworks you learned this week.
-* Answers to your written questions will be recorded in _Answers.md_
+* Answers to your written questions will be recorded in _ANSWERS.md_
 * This is to be worked on alone but you can use outside resources. You can _reference_ any old code you may have and the training kit content, however, please refrain from copying and pasting any of your answers. Try and understand the question and put your responses in your own words. Be as thorough as possible when explaining something.
 
 * **Just a friendly Reminder** Don't fret or get anxious about this, this is a no-pressure assessment that is only going to help guide you here in the near future. This is NOT a pass/fail situation.
@@ -10,19 +10,19 @@
 * Fork / Clone this project into a directory on your machine.
 * `cd` into the root directory of your local copy.
 
-## Questions - Self Study - You can exercise your Google-Fu for this and any other _Sprint Challenge_ in the future. Remember to record your answers in _Answers.md_
+## Questions - Self Study - You can exercise your Google-Fu for this and any other _Sprint Challenge_ in the future. Remember to record your answers in _ANSWERS.md_
 
 1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
-2. What is the npm command to globally install LESS?
+2. What is the yarn command to globally install LESS?
 3. What is the most useful mixin you have used this week?
 4. What are the names of the 5 breakpoints used in bootstrap?
 5. What is the utility class name that turns an element into a flexbox?
 
 ## Lets get started on the project
-For this sprint challenge you will be building a web page from scratch for a space magazine called SpaceWalker.  
+For this sprint challenge you will be building a web page from scratch for a space themed magazine called SpaceWalker.
 
 * SpaceWalker has provided you a desktop design file that they would like their site to look similar to.  **They are not asking for pixel perfection!**
-* SpaceWalker has asked that you add your own features to it after the layout is complete.  SpaceWalker has provided all the images and content that you see in the design.  
+* SpaceWalker has asked that you add your own features to it after the layout is complete.  SpaceWalker has provided all the images and content that you see in the design.
 * This sprint challenge is broken into four distinct parts: Preprocessing, Layout, Utilities, and Components.  You will need to complete certain tasks before others can be started.
 
 ## Prerequisites
@@ -46,7 +46,7 @@ For this sprint challenge you will be building a web page from scratch for a spa
 * When you have the general layout complete, move on to utilities for fine tuning the spacing.
 
 ## Task 3: Utilities
-* Use the spacing utilities to match the layout design. 
+* Use the spacing utilities to match the layout design.
 * Use any flexbox utilities you may need to match the design.
 
 ## Task 4: Components
