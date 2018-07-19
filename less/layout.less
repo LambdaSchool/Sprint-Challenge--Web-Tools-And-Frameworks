@@ -1,8 +1,38 @@
 html, body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: @secondary-color;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container {
+    max-width: 1000px;
+    padding: 0px 120px;
+    background-color: white;
+}
+
+nav a {
+    color: @secondary-color;
+}
+
+.ruled-section {
+    border-top: 1px solid @accent-color;
+    border-bottom: 1px solid @accent-color;
+}
+
+header, footer {
+    background-color: @main-color;
+    margin: 0 -120px 0 -120px;
+}
+
+header {
+    border-bottom: 2px solid @accent-color;
+}
+
+footer {
+    border-top: 2px solid @accent-color;
+}
+
