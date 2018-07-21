@@ -105,3 +105,13 @@ footer {
   align-items: center;
   text-align: center;
 }
+.btn-inverse {
+  background-color: white;
+  border-color: black;
+  border-style: dashed;
+  border-width: thin;
+}
+.btn-inverse:hover {
+  background-color: #060f2b;
+  color: #dadeec;
+}
