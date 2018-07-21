@@ -53,7 +53,9 @@ nav a {
   padding: 10px;
   margin-top: 10%;
   margin-top: 15px;
-  left: 260px;
+  bottom: 150px;
+  top: 0;
+  left: 250px;
 }
 .customPic {
   margin: 10% 10% 0 30%;
@@ -62,4 +64,20 @@ nav a {
 }
 .center1 {
   margin-left: 510px;
+}
+.customPicture {
+  width: 230px;
+  height: 175px;
+  margin-right: 36px;
+}
+.customCol2 {
+  left: 250px;
+}
+.containerHeight {
+  height: 155px;
+}
+.col {
+  left: 420px;
+  top: 30px;
+  margin-bottom: 50px;
 }
