@@ -57,6 +57,14 @@ nav a {
   top: 0;
   left: 250px;
 }
+.customCol ul li {
+  margin-top: 10px;
+  list-style-type: none;
+}
+.customCol ul li:hover {
+  background-color: blue;
+  color: white;
+}
 .customPic {
   margin: 10% 10% 0 30%;
   margin-top: 105px;
@@ -80,4 +88,20 @@ nav a {
   left: 420px;
   top: 30px;
   margin-bottom: 50px;
+}
+.customContainer {
+  margin-top: -50px;
+}
+.customPicture2 {
+  margin-left: 23px;
+  margin-top: 20px;
+  width: 325px;
+  height: 250px;
+}
+.col2 {
+  left: 290px;
+}
+footer {
+  align-items: center;
+  text-align: center;
 }
