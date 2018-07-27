@@ -10,7 +10,7 @@
     * parametric mixins
 
 4. What are the names of the 5 breakpoints used in bootstrap?
-    * extra small < 576px
+    * call xs < 576px
     * small >= 576px
     * medium >= 768px
     * large >= 992px
