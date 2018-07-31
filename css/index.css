@@ -93,6 +93,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  word-wrap: break-word;
 }
 abbr[data-original-title],
 abbr[title] {
