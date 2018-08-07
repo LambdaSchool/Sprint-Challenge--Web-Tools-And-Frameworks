@@ -18,41 +18,98 @@
 
 <body>
   <div class="container">
-    <!-- Navagation Bar -->
-    <div class="row bg-light">
-      <h1 class="nav-item col-12 d-flex justify-content-center">SpaceWalkers</h1>
-      <ul class="nav col-12 d-flex justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link disabled">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Sign In</a>
-        </li>
-      </ul>
+    <!-- Using Bootstrap This section of code is creating the Navigation Bar -->
+    <div class="row nav-bar border-bottom"> 
+      <div class="col-sm-12 d-flex justify-content-center">
+        <h1 class="mt-3">SpaceWalkers</h1>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
     </div>
-<!-- Lift off Section -->
-    <div class="row justify-content-start">
-          <h1>Lift Off</h1>
+  </div>
+<!-- Carousel (stretch)-->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class"carousel-inner">
+            <div class="carousel-item active">
+              <!--These lines add the carousel images to the carousel-->
+              <img class="d-block w-100" src="img/slider-1.jpg" alt="Earth's atmosphere">
+            </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider-2.jpg" alt="The Milky Way">
+            </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider-3.jpg" alt="Satellite">
+            </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider-4.jpg" alt="The Moon">
+            </div>
+          </div>
+          <!--These lines add the previous and next icons to the carousel-->
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--This next section is the Lift Section-->
+    <div class="row">
+      <div class="col-sm-12">
+          <h1 class="mt-3">Lift Off</h1>
           <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble,
           the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if
           you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
     </div>
 <!-- Images under lift off section -->
-    <div class="row justify-content-start">
-      <img class="img-fluid col-4 rounded"  src="img/blast.jpg" alt="Rocketship blasting off">
-      <img class="img-fluid col-4 rounded"  src="img/sky.jpg" alt="Missile Launching">
-      <img class="img-fluid col-4 rounded"  src="img/launch.jpg" alt="Rocketship leaving launch pad">
+    <div class="row justify-content-between">
+      <div class="col-sm-4">
+      <img class="img-fluid rounded mr-2 mt-3 mb-3" src="img/blast.jpg" alt="Rocketship blasting off">
+      </div>
+      <div>
+      <img class="img-fluid rounded mr-2 mt-3 mb-3"  src="img/sky.jpg" alt="Missile Launching">
+      </div>
+      <div>
+      <img class="img-fluid rounded mr-2 mt-3 mb-3"  src="img/launch.jpg" alt="Rocketship leaving launch pad">
+      </div>
     </div>
-  </div>
+<!--Can we visit planets section-->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="mt-3">Can We Visit Planets?</h2>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+        <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+      </div>
+    </div>
+<!--The Table Section-->
+    <div class="row mt-5 mb-5">
+      <table class="table table-striped"
+    </div>
+</div>
 
 
 
