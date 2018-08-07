@@ -107,9 +107,194 @@
     </div>
 <!--The Table Section-->
     <div class="row mt-5 mb-5">
-      <table class="table table-striped"
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <td>Planet</td>
+            <td>Distance</td>
+            <td>Survivability</td>
+            <td>How Long to Travel</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mars</td>
+            <td>54.6 million km</td>
+            <td>Maybe</td>
+            <td>300 Days</td>
+          </tr>
+          <tr>
+            <td>Jupiter</td>
+            <td>588 million km</td>
+            <td>No</td>
+            <td>Depends On Orbit (3-6 Years)</td>
+          </tr>
+          <tr>
+            <td>Saturn</td>
+            <td>1.2 billion km</td>
+            <td>No</td>
+            <td>Depends On Orbit (3-6 Years)</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-</div>
+<!--Let's Go For A Walk Section-->
+    <div class="row mb-3 mt-3 pt-5 pb-5 border-top border-bottom justify-content-center">
+      <div class="col-sm-6 pl-lg-5">
+        <h2>Let's Go For A Walk</h2>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="img-fluid rounded" src="img/space-walk.jpg" alt="an astronaut floating in space">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-8">
+<!--Form Section-->
+        <h2>Ready To Go?</h2>
+        <form class="myForm needs-validation">
+          <div class="form-group">
+            <label for="inputName1">Name</label>
+            <input type="name" class="form-control" id="inputName1" placeholder="Name" required>
+            <div class="invalid-feedback">Please enter your name</div>
+          </div>
+          <div class="form-group">
+            <label for="inputPhone1">Phone</label>
+            <input type="phone" class="form-control" id="inputPhone1" placeholder="Phone" required>
+            <div class="invalid-feedback">Please enter a valid phone number</div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail1">Email address</label>
+            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            <div class="invalid-feedback">Please enter a valid email address</div>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="check1" required>
+            <label class="form-check-label" for="check1">I would like to receive promotional emails</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="check2" required>
+            <label class="form-check-label" for="check2">Please don't send me emails</label>
+          </div>
+          <button type="submit" class="btn" data-toggle="modal" data-target="#submitModal">Ready for Launch</button>
+        </form>
+<!--Added Modal (Stretch)-->
+        <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="submitModalLabel">Let's go!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. VHS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+<!---Space Stuff Section-->
+        <h3>Space Stuff</h3>
+        <div class="accordion supplies" id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <span class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Space Helmet
+                </button>
+              </span>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Rocket Boosters
+                </button>
+              </span>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Shuttle
+                </button>
+              </span>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Training for Launch
+                </button>
+              </span>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Heat resistant plating
+                </button>
+              </span>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Space Suit
+                </button>
+              </span>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Page Footer Section-->
+    <footer class="mt-5 pb-4 pt-3 rounded-top border">
+      <div class="row justify-content-center">Copyright SpaceWalkers 2018</div> 
+    </footer>
+  </div>
 
 
 
@@ -119,5 +304,4 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
-
 </html>
