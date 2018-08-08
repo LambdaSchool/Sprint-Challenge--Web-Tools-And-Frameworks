@@ -12,11 +12,14 @@
 
 ## Questions - Self Study - You can exercise your Google-Fu for this and any other _Sprint Challenge_ in the future. Remember to record your answers in _ANSWERS.md_
 
-1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
-2. What is the yarn command to globally install LESS?
-3. What is the most useful mixin you have used this week?
-4. What are the names of the 5 breakpoints used in bootstrap?
-5. What is the utility class name that turns an element into a flexbox?
+1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts. Less allows you to code with a similar style to html. instead .class .classChild .classGrandChild you can put everything under each other similar to how it is coded in HTML. 
+class 
+  class child
+    class grandchild
+2. What is the yarn command to globally install LESS? yarn global add less
+3. What is the most useful mixin you have used this week? I created a mixin for flex box before bootsrap. I would say that the bootstrap mixins were the most useful as i believe the default classes are just that a mixin.
+4. What are the names of the 5 breakpoints used in bootstrap? extra small small medium large extra large or xs sm md lg xl
+5. What is the utility class name that turns an element into a flexbox? d-flex  
 
 ## Lets get started on the project
 For this sprint challenge you will be building a web page from scratch for a space themed magazine called SpaceWalker.

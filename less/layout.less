@@ -6,3 +6,19 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.footer {
+    color: black;
+    padding: 20px 0;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.tag2 {
+        color: black;
+        &:hover {
+            text-decoration: underline;
+            .skew(5deg,7deg);
+            .box-shadow(3px 6px 5px 4px);
+            }
+        }
