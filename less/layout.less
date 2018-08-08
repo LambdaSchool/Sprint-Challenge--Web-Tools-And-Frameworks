@@ -6,3 +6,44 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+
+.container-fluid {
+    background: @accent-color;
+}
+
+
+
+nav a {
+    color: @secondary-color;
+}
+
+.btn {
+    background: @secondary-color;
+    .box-shadow(5px 5px 5px @accent-color);
+    // mixin
+
+    &:hover {
+        .rotate(180deg);
+        // mixin
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: @accent-color;
+}
+
+.block-three {
+    @media (max-width: 768px) {
+        margin: 0 !important;
+    }
+}
+
+.space-dude {
+    
+    &:hover {
+        .skew(10deg, 10deg);
+        // mixin
+    }
+}
