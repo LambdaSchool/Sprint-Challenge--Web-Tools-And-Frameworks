@@ -5,4 +5,47 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    background-color: @main-color;
+    border-bottom: 2px solid @main-color;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.navbar-nav {
+    .nav-item {
+        &:hover {
+            text-decoration: underline;
+            color: black;
+        }
+    }
+}
+
+img {
+    .border-radius;
+}
+
+.col-sm-5 {
+    .astronaut {
+        .opacity;
+    } 
+}
+
+.form-group {
+    button {
+        background-color: @secondary-color;
+        border-color: black;
+    }
+}
+
+.footer {
+    color: @secondary-color;
+    background-color: @accent-color;
+    padding: 20px 0;
 }
