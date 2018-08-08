@@ -6,3 +6,41 @@ h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
 }
+.navigation-pane {
+    background-color: @accent-color;
+    border-bottom: 1px solid @darkened;
+    .opacity(.98);
+}
+
+.nav {
+    li {
+        a {
+            text-decoration: none;
+            color: @secondary-color;
+            &:hover {
+             color: @lightened;
+            }
+        }
+        }  
+}
+
+.chart {
+    border-bottom: 1px dotted @accent-color;
+    padding-bottom: 20px;
+}
+
+.bottom-content {
+border-top: 1px dotted @accent-color;
+padding-top: 40px;
+.checkboxes {
+    
+    margin-bottom: 0px;
+}
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: @accent-color;
+    border: 1px solid @darkened;
+}
