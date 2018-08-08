@@ -1,8 +1,35 @@
-html, body {
-    font-family: 'Ubuntu', sans-serif;
+body,
+html {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Russo One', sans-serif;
-    color: @secondary-color;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: @secondary-color;
+}
+
+.sticky-top {
+  background: fade(@main-color, 80%);
+  border-bottom: 1px solid @accent-color;
+  padding-top: 10px;
+
+  header {
+
+    .nav {
+
+      a {
+        color: @secondary-color;
+      }
+    }
+  }
+}
+
+.footer {
+  background: @main-color;
+  padding: 20px 0;
+  .border-radius;
 }
