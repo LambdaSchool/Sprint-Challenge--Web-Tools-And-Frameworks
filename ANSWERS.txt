@@ -1,0 +1,57 @@
+<!-- Answers to the Self Study Questions go here -->
+
+1. How would you teach the basic ideas behind preprocessing to a friend?  Please don't copy and paste an answer here, use your own thoughts.
+		Using LESS as the preprocessor of choice currently( there are others such as SASS), but all take the same approach of modularizing the use of
+		and creation of the "name.css" file
+
+		1 Nested syntax, which more easily and visually mimics the HTML layout
+		2 Ability to define variables, kinda like a function definition plug values into defined placeholders
+		3 Ability to define mixins, collection of often used commands that can be referenced in via a single user defined "command" .e.g. ".center
+		 which would run the commands 
+		4 Mathematical functions.
+		5 Operational functions (such as “lighten” and “darken”)
+		6 Joining of multiple files, goes back to modular statement earlier, eg. you can have named files;
+		that breakdown the HTML structure into self defined files e.g. "Header", "footer" and through the 
+		LESS compiler add to and build the "name.css" defined in the Style section.
+		
+2. What is the yarn command to globally install LESS?
+		yarn global add less
+
+3. What is the most useful mixin you have used this week?
+
+	.center {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  }
+
+  .button-maker(@width, @height, @bg-color) {
+	  width: @width;
+	  height: @height;
+	  background-color: lighten(@bg-color, 5%);
+	  border: 1px solid black;
+	  .border-radius(10px);
+	  .center;
+	  .box-shadow(0 5px 5px -3px red);
+	}
+
+4. What are the names of the 5 breakpoints used in bootstrap?
+
+xs-
+/ Extra small devices (portrait phones, less than 576px)
+ (max-width: 575.98px) { ... }
+sm-
+// Small devices (landscape phones, 576px and up)
+ (min-width: 576px) and (max-width: 767.98px) { ... }
+md-
+// Medium devices (tablets, 768px and up)
+ (min-width: 768px) and (max-width: 991.98px) { ... }
+lg-
+// Large devices (desktops, 992px and up)
+ (min-width: 992px) and (max-width: 1199.98px) { ... }
+xl-
+// Extra large devices (large desktops, 1200px and up)
+ (min-width: 1200px) { ... }
+
+5. What is the utility class name that turns an element into a flexbox?
+.d-flex & d-inline-flex
