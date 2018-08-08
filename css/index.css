@@ -8261,3 +8261,10 @@ h5 {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
+.footer {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 40px;
+}
