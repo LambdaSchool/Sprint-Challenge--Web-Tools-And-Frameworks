@@ -1,1 +1,51 @@
 // Make your imports here!
+@import "bootstrap";
+@import "variables";
+@import "mixins";
+@import "layout";  
+
+.container-fluid {
+    background: @main-color;
+    border-bottom: 2px solid @accent-color;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.custom-nav-class {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-nav-class a{
+    text-decoration: none;
+    padding: 0 2%;
+    color: black;
+}
+
+.custom-img-class {
+    width:33%;
+    padding: 0 1.55%;
+    border-radius: 1rem;
+}
+
+.custom-class-walk {
+    padding-top: 65px;
+    padding-bottom: 35px;
+    border-top: 1px solid @accent-color;
+    border-bottom: 1px solid @accent-color;
+}
+
+.custom-class-h2 {
+    font-size: 1.91rem;
+}
+
+.btn {
+    background: @secondary-color;
+}
+
+.footer {
+    background: @main-color;
+    padding: 20px;
+}
