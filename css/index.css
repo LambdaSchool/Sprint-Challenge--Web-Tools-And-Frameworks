@@ -121,3 +121,6 @@ footer {
 .adjustment {
   top: 50px;
 }
+.not-active-dropdown {
+  display: none;
+}
