@@ -75,18 +75,17 @@ nav a {
   margin-right: 36px;
 }
 .customCol2 {
-  left: 250px;
+  top: 100px;
+  left: 100px;
 }
 .containerHeight {
   height: 155px;
 }
 .col {
-  left: 420px;
-  top: 30px;
-  margin-bottom: 50px;
-}
-.customContainer {
-  margin-top: -50px;
+  top: 150px;
+  bottom: 160px;
+  margin-bottom: 150px;
+  left: 300px;
 }
 .customPicture2 {
   margin-left: 23px;
@@ -115,4 +114,10 @@ footer {
   margin-top: 100px;
   margin-left: 200;
   margin-left: 220px;
+}
+.picture {
+  margin-left: 340px;
+}
+.adjustment {
+  top: 50px;
 }
