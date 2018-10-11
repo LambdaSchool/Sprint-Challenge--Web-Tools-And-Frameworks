@@ -1,1 +1,189 @@
 // Make your imports here!
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+.opacity (@opacity: 0.5) {
+	-webkit-opacity: 	@opacity;
+	-moz-opacity: 		@opacity;
+	opacity: 		@opacity;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+
+.skew (@deg, @deg2) {
+	-webkit-transform:       skew(@deg, @deg2);
+	-moz-transform: 	 skew(@deg, @deg2);
+	-ms-transform: 		 skew(@deg, @deg2);
+	-o-transform: 		 skew(@deg, @deg2);
+}
+@import "variables.less";
+@import "mixins.less";
+@import "layout.less";
+
+.center{
+
+  h1{
+    align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-left: 152px;
+    }
+}
+
+  .custom{
+    @media(max-width:1072px){
+      margin-top: 20%;
+    }
+    @media(max-width:667px){
+      margin-top: 80%;
+      }
+    margin-top:10%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav{
+  margin-bottom: 10px;
+  margin-left: 280px;
+
+  a{
+    padding-right: 70px;
+      color: black;
+  }
+}
+.customnav{
+    background-color: @main-color;
+}
+
+.customCol{
+  border: 1px solid @accent-color;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px @main-color;
+  padding: 10px;
+  margin-top: 10%;
+  margin-top: 15px;
+  bottom: 150px;
+  top:0;
+	//correction
+  left: 180px;
+
+ul{
+	    li{
+				margin-top: 10px;
+			  list-style-type: none;
+
+			}
+li:hover{
+	background-color: blue;
+	color: white;
+}
+
+}
+}
+.customPic{
+
+
+}
+.center1 {
+  margin-left: 510px;
+
+
+}
+.customPicture{
+  width: 230px;
+  height: 175px;
+  margin-right: 36px;
+
+}
+.customCol2{
+	top: 100px;
+	left: 100px;
+
+}
+.containerHeight{
+  height: 155px;
+
+}
+.col{
+top: 150px;
+bottom: 160px;
+margin-bottom: 150px;
+left: 300px;
+
+}
+.customContainer{
+
+}
+.customPicture2{
+
+    margin-left: 23px;
+    margin-top: 20px;
+    width: 325px;
+    height: 250px;
+
+}
+.col2{
+	left: 290px;
+}
+footer{
+	align-items: center;
+	text-align: center;
+}
+.btn-inverse{
+	background-color: white;
+border-color: black;
+border-style: dashed;
+border-width: thin;
+
+
+}
+.btn-inverse:hover{
+	background-color: #060f2b;
+	color: #dadeec;
+}
+//corrections
+
+.customCarousel{
+
+			margin-top: 100px;
+			margin-left: 200;
+			margin-left: 220px;
+}
+.picture{
+	    margin-left: 340px;
+}
+.adjustment{
+	top:50px;
+}
+.not-active-dropdown {
+	display:none;
+}
+#dropdown:hover{
+
+		background-color: blue;
+
+
+}
