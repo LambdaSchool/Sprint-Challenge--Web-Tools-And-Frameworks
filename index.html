@@ -9,13 +9,15 @@
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
+  <div class="overlay">
+    <canvas id="canvas"></canvas>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -132,7 +134,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Please don't send me emails</label>
             </div>
-            <button type="submit" class="btn btn-dark">Ready For Launch</button>
+            <button type="submit" class="btn btn-dark modal-button">Ready For Launch</button>
           </form>
         <div class="col-5">
           <h4> Space Stuff </h4>
