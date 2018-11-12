@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +17,307 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
+  <div class="container-fluid">
+    <!-- Using Bootstrap This section of code is creating the Navigation Bar -->
+    <div class="row nav-bar border-bottom">
+      <div class="col-sm-12 d-flex justify-content-center">
+        <h1 class="mt-3">SpaceWalkers</h1>
+      </div>
       <div class="col-sm-12">
-        Good Luck!
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
+  <!-- Carousel (stretch)-->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--These lines add the carousel images to the carousel-->
+              <img class="d-block w-100" src="img/slider-1.jpg" alt="Earth's atmosphere">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-2.jpg" alt="The Milky Way">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-3.jpg" alt="Satellite">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/slider-4.jpg" alt="The Moon">
+            </div>
+          </div>
+          <!--These lines add the previous and next icons to the carousel-->
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--This next section is the Lift Off Section-->
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="mt-3">Lift Off</h1>
+        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a
+          marble,
+          the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that
+          if
+          you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      </div>
+    </div>
+    <!-- Images under lift off section -->
+    <div class="row justify-content-between">
+      <div class="col-sm-4">
+        <img class="img-fluid rounded mr-2 mt-3 mb-3" src="img/blast.jpg" alt="Rocketship blasting off">
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid rounded mr-2 mt-3 mb-3" src="img/sky.jpg" alt="Missile Launching">
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid rounded mr-2 mt-3 mb-3" src="img/launch.jpg" alt="Rocketship leaving launch pad">
+      </div>
+    </div>
+    <!--Can we visit planets section-->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="mt-3">Can We Visit Planets?</h2>
+        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a
+          globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+        <p>which there is no center because every point, or none, is center — an equal earth which all men occupy as
+          equals. The airman's earth, if free men make it.</p>
+      </div>
+    </div>
+    <!--The Table Section-->
+    <div class="row mt-5 mb-5">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <td>Planet</td>
+            <td>Distance</td>
+            <td>Survivability</td>
+            <td>How Long to Travel</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mars</td>
+            <td>54.6 million km</td>
+            <td>Maybe</td>
+            <td>300 Days</td>
+          </tr>
+          <tr>
+            <td>Jupiter</td>
+            <td>588 million km</td>
+            <td>No</td>
+            <td>Depends On Orbit (3-6 Years)</td>
+          </tr>
+          <tr>
+            <td>Saturn</td>
+            <td>1.2 billion km</td>
+            <td>No</td>
+            <td>Depends On Orbit (3-6 Years)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Let's Go For A Walk Section-->
+    <div class="row mb-3 mt-3 pt-5 pb-5 border-top border-bottom justify-content-center">
+      <div class="col-sm-6 pl-lg-5">
+        <h2>Let's Go For A Walk</h2>
+        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic.
+          The Earth was absolutely round.</p>
+        <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one
+          eye, and my thumb blotted out the planet Earth.</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="img-fluid rounded" src="img/space-walk.jpg" alt="an astronaut floating in space">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-8">
+        <!--Form Section-->
+        <h2>Ready To Go?</h2>
+        <form class="myForm needs-validation">
+          <div class="form-group">
+            <label for="inputName1">Name</label>
+            <input type="name" class="form-control" id="inputName1" placeholder="Name" required>
+            <div class="invalid-feedback">Please enter your name</div>
+          </div>
+          <div class="form-group">
+            <label for="inputPhone1">Phone</label>
+            <input type="phone" class="form-control" id="inputPhone1" placeholder="Phone" required>
+            <div class="invalid-feedback">Please enter a valid phone number</div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail1">Email address</label>
+            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Email"
+              required>
+            <div class="invalid-feedback">Please enter a valid email address</div>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="check1" required>
+            <label class="form-check-label" for="check1">I would like to receive promotional emails</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="check2" required>
+            <label class="form-check-label" for="check2">Please don't send me emails</label>
+          </div>
+          <button type="submit" class="btn" data-toggle="modal" data-target="#submitModal">Ready for Launch</button>
+        </form>
+        <!--Added Modal (Stretch)-->
+        <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="submitModalLabel">Let's go!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. VHS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <!---Space Stuff Section-->
+        <h3>Space Stuff</h3>
+        <div class="accordion supplies" id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <span class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Space Helmet
+                </button>
+              </span>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Rocket Boosters
+                </button>
+              </span>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Shuttle
+                </button>
+              </span>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                  aria-expanded="false" aria-controls="collapseFour">
+                  Training for Launch
+                </button>
+              </span>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                  aria-expanded="false" aria-controls="collapseFive">
+                  Heat resistant plating
+                </button>
+              </span>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <span class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                  aria-expanded="false" aria-controls="collapseSix">
+                  Space Suit
+                </button>
+              </span>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Page Footer Section-->
+    <footer class="mt-5 pb-4 pt-3 rounded-top border">
+      <div class="row justify-content-center">Copyright SpaceWalkers 2018</div>
+    </footer>
+  </div>
+
+
+
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
+
 </html>
